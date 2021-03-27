@@ -1,0 +1,42 @@
+baseURL = "https://maxdesalle.com"
+title = "Maxime Desalle"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Reading, thinking, writing and coding."
+  copyright = "Reading, thinking, writing and coding."
+  dark = "off"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "home"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "books"
+    name = "books"
+    title = "books"
+    url = "/books/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "twitter"
+    name = "twitter"
+    title = "twitter"
+    url = "https://twitter.com/maxdesalle"
+    weight = 30
+
+[permalinks]
+  posts = "/:filename/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true

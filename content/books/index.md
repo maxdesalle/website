@@ -28,6 +28,5 @@ Books which I thought were particularly great are flagged.
 - [The C Programming Langague](https://bookshop.org/books/c-programming-language-9780131103627/9780131103627) - Dennis Ritchie and Brian Kernighan
 - [A Philosophical Walk](https://svenschnieders.com/book/) - Sven Schnieders
 - [The Enchiridion](https://bookshop.org/books/the-enchiridion-9781680921953/9781680921960) - Epictetus
-- [How to Fail at Almost Everything and Still Win Big](https://bookshop.org/books/how-to-fail-at-almost-everything-and-still-win-big-kind-of-the-story-of-my-life-9781491518854/9781591847748) - Scott Adams
 - [Freedom](https://bookshop.org/books/freedom-the-courage-to-be-yourself/9780312320706) - Osho
-
+- [The Little Book of Common Sense Investing](https://bookshop.org/books/the-little-book-of-common-sense-investing-the-only-way-to-guarantee-your-fair-share-of-stock-market-returns-anniversary-revised-updated/9781119404507) - John Bogle

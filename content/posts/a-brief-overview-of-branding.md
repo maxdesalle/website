@@ -1,7 +1,7 @@
 ---
 title: "A Brief Overview of Branding"
 date: 2021-03-27
-summary: "A brief overview of branding."
+summary: "A short, but in-depth introduction to branding."
 author: Maxime Desalle
 authorlink: "https://twitter.com/maxdesalle"
 

@@ -1,7 +1,7 @@
 ---
 title: "A Guide to Online Privacy"
 date: 2021-01-19
-summary: "Privacy is an essential right. It shouldn't be difficult. This guide is an attempt at offering an easy way to maintain your privacy effectively, making it accessible for everybody, whoever you are."
+summary: "Privacy is an essential right. Start protecting your data from scratch using this noob-friendly guide."
 author: Maxime Desalle
 authorlink: "https://twitter.com/maxdesalle"
 

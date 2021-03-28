@@ -24,6 +24,8 @@
         {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
     {{ end -}}
 
+    {{ template "_internal/twitter_cards.html" . }}
+
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
     {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 

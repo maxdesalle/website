@@ -167,7 +167,7 @@ Like on a computer, subtract before you add apps. The less, the better.
 
 **Do not install any Facebook app (Facebook, Messenger, WhatsApp, or Instagram) on your smartphone**. Either do not use these, or use them through your computer's browser in an isolated container.
 
-If you need to install a browser, Firefox Focus** or Puma Browser seems like a great fit.
+If you need to install a browser, Firefox Focus or Puma Browser seems like a great fit.
 
 ## Do not install Zoom (and how)
 

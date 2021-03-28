@@ -3,9 +3,7 @@
 
 ### Books
 
-Here is a brief overview of the books I have read which I thought were great. I don't always read from cover to cover, I may have only read a chapter or two from the books listed below.
-
-Books which I thought were particularly great are flagged.
+Here is a brief overview of the books I have read which I thought were great. I try to limit my reading to foundational books.
 
 - [Sapiens](https://bookshop.org/books/sapiens-a-brief-history-of-humankind/9780062316110) - Yuval Noah Harari
 - [Radical Markets](https://bookshop.org/books/radical-markets-uprooting-capitalism-and-democracy-for-a-just-society/9780691196060) - Glen Weyl and Eric Posner

@@ -11,6 +11,7 @@ pygmentsUseClasses = true
   copyright = "Reading, thinking, writing and coding."
   dark = "off"
   highlight = true
+  images = ["/ressources/_gen/images/thumbnail.jpg"]
 
 [menu]
   [[menu.main]]

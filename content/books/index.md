@@ -1,7 +1,10 @@
 ---
----
+title: "Books"
+summary: "Books read and recommended by Maxime Desalle."
+author: Maxime Desalle
+authorlink: "https://twitter.com/maxdesalle"
 
-### Books
+---
 
 Here is a brief overview of the books I have read which I thought were great. I try to limit my reading to foundational books.
 

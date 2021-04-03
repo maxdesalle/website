@@ -1,6 +1,5 @@
 ---
 title: "A Guide to Wealth"
-date: 2021-03-28
 summary: "This guide is an in-depth but noob-friendly introduction to building wealth through entrepreneurship and investing."
 author: Maxime Desalle
 authorlink: "https://twitter.com/maxdesalle"

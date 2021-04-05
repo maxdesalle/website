@@ -176,3 +176,11 @@ In our times, the use of Zoom as become quite frequent. Frankly, it's pretty dif
 **You will not be able to use Zoom through LibreWolf**, though. This is because of the native privacy measures LibreWolf has put in place. In order to use Zoom you will need to use Brave, a privacy-focused Chromium-based browser. Because it's only used for this purpose, it will not ruin your privacy.
 
 When clicking on a meeting link, Zoom will try to install the Zoom app on your computer. When prompted, do not install it. Then, click on "Download it manually", and do not install it again. Now, a link should have appeared to use Zoom through your browser. Click on it, and you are in.
+
+## Creating a fake identity
+
+Some websites, especially social ones, will require you to have a profile picture. **Never** put a profile picture of your face or any other identifiable information of yourself on an online website if not absolutely necessary. Even if you delete it afterwards, these websites will more than probably still have keep it in their databases. Additionally, the probability of your face being used for machine learning (AI) is very high (and becomes only higher as the technology matures).
+
+If you absolutely do need to have a profile picture, either put a random avatar like a nice background landscape or something else, or use a fake person's image. The [thispersondoesnotexist](https://thispersondoesnotexist.com/) website generates pictures of people who do not exist. It's extremely useful when setting up a fake identity.
+
+Additionally, [Namey](https://namey.muffinlabs.com/) allows you to generate fake names. This is also incredibly useful when setting up a fake online identity.

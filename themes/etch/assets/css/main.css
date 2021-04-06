@@ -241,6 +241,7 @@ main#content blockquote {
 main#content code,
 main#content pre {
     font-family: 'Menlo', monospace;
+    color: #795da3;
 }
 
 main#content code {
@@ -257,6 +258,9 @@ main#content pre {
     margin: 20px 0;
     padding: 1.5rem 1.5rem;
     line-height: 1.4;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: rgba(0,0,0,0.04);
 }
 
 main#content pre code {

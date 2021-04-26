@@ -184,3 +184,21 @@ Some websites, especially social ones, will require you to have a profile pictur
 If you absolutely do need to have a profile picture, either put a random avatar like a nice background landscape or something else, or use a fake person's image. The [thispersondoesnotexist](https://thispersondoesnotexist.com/) website generates pictures of people who do not exist. It's extremely useful when setting up a fake identity.
 
 Additionally, [Namey](https://namey.muffinlabs.com/) allows you to generate fake names. This is also incredibly useful when setting up a fake online identity.
+
+<div style="background-color: #007DFA; border-radius: 10px; margin-top: 3rem; margin-bottom: 3rem;">
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/maxdesalle"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/maxdesalle', 'popupwindow')"
+  class="embeddable-buttondown-form"
+  style="padding: 1em 1em;"
+>
+  <label for="bd-email" style="color: #FFF; justify-content: center; align-items: center; display: flex; margin-bottom: 0.5em;">Subscribe 👇 (no spam, ever)</label>
+  <div style="width: 70%; margin: auto;">
+  <input style="border: 1px solid #ced3d9; border-radius: 4px; padding: 0.75em 1em; margin-bottom: 1em; margin-top: 1em; box-sizing: border-box; font-size: 16px;" type="email" name="email" id="bd-email" placeholder="your best email address"/>
+  <input type="hidden" value="1" name="embed" />
+  <input class="a-hover" style="color: #000; background: #FFF; border: 1px solid #ced3d9; border-radius: 0.25em; margin-left: 0.25em; padding: 0.75em 1em; box-sizing: border-box; font-size: 16px; cursor: pointer;"type="submit" value="Subscribe"/>
+  </div>
+  </form>
+</div>

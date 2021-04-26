@@ -26,3 +26,4 @@ Here is a brief overview of the books I have read which I thought were great. I 
 - [Poor Charlie's Almanack](https://www.amazon.com/Poor-Charlies-Almanack-Charles-Expanded/dp/1578645018) - Charles Munger
 - [Meditations](https://bookshop.org/books/meditations-a-new-translation-revised-089ff110-668a-4161-bd6e-99d50647096c/9780812968255) - Marcus Aurelius
 - [The Bed of Procrustes](https://bookshop.org/books/the-bed-of-procrustes-philosophical-and-practical-aphorisms-9780812982404/9780812982404) - Nassim Nicholas Taleb
+- [Direct Truth](https://bookshop.org/books/direct-truth-uncompromising-non-prescriptive-truths-to-the-enduring-questions-of-life/9781724334411) - Kapil Gupta

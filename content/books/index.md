@@ -6,11 +6,12 @@ authorlink: "https://twitter.com/maxdesalle"
 
 ---
 
-Here is a brief overview of the books I have read which I thought were great. I try to limit my reading to foundational books only.
+Here is a brief overview of the books I have read which I thought were great. I try to limit my reading to old, foundational books only, mainly because their ability to stand the test of time proves they are worthwhile to read. 
+
+### English
 
 - [Sapiens](https://bookshop.org/books/sapiens-a-brief-history-of-humankind/9780062316110) - Yuval Noah Harari
 - [Radical Markets](https://bookshop.org/books/radical-markets-uprooting-capitalism-and-democracy-for-a-just-society/9780691196060) - Glen Weyl and Eric Posner
-- [The Count of Monte Cristo](https://bookshop.org/books/the-count-of-monte-cristo-9780140449266/9780140449266) - Alexandre Dumas
 - [Economics in One Lesson](https://bookshop.org/books/economics-in-one-lesson-the-shortest-and-surest-way-to-understand-basic-economics-9780517548233/9780517548233) - Henry Hazlitt
 - [The Almanack of Naval Ravikant](https://bookshop.org/books/the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happiness-9781544514222/9781544514222) - Eric Jorgensen
 - [The Brand Gap](https://bookshop.org/books/the-brand-gap-revised-edition-rev/9780321348104) - Marty Neuemeier
@@ -27,3 +28,7 @@ Here is a brief overview of the books I have read which I thought were great. I 
 - [Meditations](https://bookshop.org/books/meditations-a-new-translation-revised-089ff110-668a-4161-bd6e-99d50647096c/9780812968255) - Marcus Aurelius
 - [The Bed of Procrustes](https://bookshop.org/books/the-bed-of-procrustes-philosophical-and-practical-aphorisms-9780812982404/9780812982404) - Nassim Nicholas Taleb
 - [Direct Truth](https://bookshop.org/books/direct-truth-uncompromising-non-prescriptive-truths-to-the-enduring-questions-of-life/9781724334411) - Kapil Gupta
+
+### Français
+
+- [Le Comte de Monte-Cristo tome 1](https://www.amazon.fr/Comte-Monte-Cristo-1-Alexandre-Dumas/dp/2070405370), [2](https://www.amazon.fr/Comte-Monte-Cristo-2-Alexandre-Dumas/dp/2070405923) - Alexandre Dumas (père)

@@ -33,7 +33,7 @@ Reading a Netmask may seem difficult, but in fact, it's very simple. The left pa
 
 ```192.168.0.1/31``` for example, indicates that the last digit (**in binary**) isn't significant, meaning this Netmask will match 2 different IP addresses (2^1), and no hosts as there is always 1 network address and 1 broadcast address:
 
-```markdown
+```c
 network: 11000000.10101000.11111111.00000000 (192.168.0.0 in decimal)
 
 broadcast: 11000000.10101000.11111111.00000001 (192.168.0.1 in decimal)
@@ -61,14 +61,14 @@ The ```255.255.255``` come from the fact that these 3 bytes are only made of bit
 
 Now we have our Netmask address, let's convert our IP address and Netmask address to binary:
 
-```markdown
+```c
 107.212.146.212: 01101011.11010100.10010010.11010100
 255.255.255.128: 11111111.11111111.11111111.10000000
 ```
 
 In order to know our network address, we will need to convert the two addresses to a new address, the network address. We will do this by only writing a ```1``` if the two addresses contain a bit equal to ```1``` at that place.
 
-```markdown
+```c
 01101011.11010100.10010010.11010100
 11111111.11111111.11111111.10000000
 -----------------------------------
@@ -79,7 +79,7 @@ Now let's convert that IP address in a decimal value: ```107.212.146.128```. We 
 
 In order to know our broadcast address, we will need to convert the two addresses in a new address, the broadcast address. We will do this by first noting the non-significant digits in the Netmask address, then copying over for all the significant ones the bits of the "regular" IP address (```107.212.146.212```) to the new address. Non-significant bits are all made equal to ```1```.
 
-```markdown
+```c
 01101011.11010100.10010010.11010100
 11111111.11111111.11111111.1XXXXXXX
 -----------------------------------
@@ -109,15 +109,15 @@ There are only three possible ranges for private IP addresses:
 
 ### Classes of IP addresses
 
-**There are 5 different classes available for an IPv4 address**. Three of them (```A```, ```B``` and ```C```) are commonly used and the remaining two have more specific usecases.
+**There are 5 different classes available for an IPv4 address**. Three of them (A, B and C) are commonly used and the remaining two have more specific usecases.
 
 |Class|Address Range|Supports|
 |---|---|---|
-|A|```1.0.0.1``` to ```126.255.255.254```|Supports 16 million hosts on each of 127 networks|
-|B|```128.1.0.1``` to ```191.255.255.254```|Supports 65,000 hosts on each of 16,000 networks|
-|C|```192.0.1.1``` to ```223.255.254.254```|Supports 254 hosts on each of 2 million networks|
-|D|```224.0.0.0``` to ```239.255.255.255```|Reserved for multicast (one sender with multiple receivers) groups|
-|E|```240.0.0.0``` to ```254.255.255.254```|Reserved for future use, or research and development purposes|
+|A|```1.0.0.1``` - ```126.255.255.254```|16 million hosts on 127 networks|
+|B|```128.1.0.1``` - ```191.255.255.254```|65,000 hosts on 16,000 networks|
+|C|```192.0.1.1``` - ```223.255.254.254```|254 hosts on 2 million networks|
+|D|```224.0.0.0``` - ```239.255.255.255```|Reserved for multicast|
+|E|```240.0.0.0``` - ```254.255.255.254```|Reserved for future use, research...|
 
 ### TCP and UDP
 
@@ -172,7 +172,11 @@ A DHCP server dynamically assigns an IP address and other network configuration 
 
 ### Path to make 2 devices communicate using IP addresses
 
-The path to make 2 devices communicate using IP addresses: ```computer --> gateway --> internet --> gateway --> computer```
+The path to make 2 devices communicate using IP addresses: 
+
+```c
+computer --> gateway --> internet --> gateway --> computer
+```
 
 **IP routing is the process where data is transmitted from one computer to another and needs to find the quickest path across the internet to reach the other computer**. Routers refer to internal routing tables to make decisions about how to route packets along network paths.
 

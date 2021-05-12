@@ -9,6 +9,8 @@ Here is a brief overview of the books I have read which I thought were great. I 
 
 ### English
 
+Each of these books majorly changed the way I think about life, society, money... I absolutely highly recommend reading each one of them, in no particular order.
+
 - [Sapiens](https://bookshop.org/books/sapiens-a-brief-history-of-humankind/9780062316110) - Yuval Noah Harari
 - [Radical Markets](https://bookshop.org/books/radical-markets-uprooting-capitalism-and-democracy-for-a-just-society/9780691196060) - Glen Weyl and Eric Posner
 - [Economics in One Lesson](https://bookshop.org/books/economics-in-one-lesson-the-shortest-and-surest-way-to-understand-basic-economics-9780517548233/9780517548233) - Henry Hazlitt
@@ -28,7 +30,8 @@ Here is a brief overview of the books I have read which I thought were great. I 
 - [The Bed of Procrustes](https://bookshop.org/books/the-bed-of-procrustes-philosophical-and-practical-aphorisms-9780812982404/9780812982404) - Nassim Nicholas Taleb
 - [Direct Truth](https://bookshop.org/books/direct-truth-uncompromising-non-prescriptive-truths-to-the-enduring-questions-of-life/9781724334411) - Kapil Gupta
 - [Falling Into Grace](https://bookshop.org/books/falling-into-grace-insights-on-the-end-of-suffering/9781604079371) - Adyashanti
+- [The Black Swan](https://bookshop.org/books/the-black-swan-second-edition-the-impact-of-the-highly-improbable-with-a-new-section-on-robustness-and-fragility/9780812973815) - Nassim Nicholas Taleb
 
 ### Français
 
-- [Le Comte de Monte-Cristo tome 1](https://www.amazon.fr/Comte-Monte-Cristo-1-Alexandre-Dumas/dp/2070405370), [2](https://www.amazon.fr/Comte-Monte-Cristo-2-Alexandre-Dumas/dp/2070405923) - Alexandre Dumas (père)
+- [Le Comte de Monte-Cristo tome 1](https://www.amazon.fr/Comte-Monte-Cristo-Int%C3%A9grale-trois-volumes/dp/1545401055), [2](https://www.amazon.fr/Comte-Monte-Cristo-Int%C3%A9grale-trois-volumes/dp/1545404240), [3](https://www.amazon.fr/Comte-Monte-Cristo-Int%C3%A9grale-trois-volumes/dp/1545407762) - Alexandre Dumas (père)

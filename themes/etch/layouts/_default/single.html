@@ -2,10 +2,13 @@
 <article>
     <header id="post-header">
         <h1>{{ .Title }}</h1>
-        {{- if isset .Params "date" -}}
+	{{- if isset .Params "date" -}}
             <time>{{ .Date.Format "January 2, 2006" }}</time>
-        {{- end -}}
+	    {{- end -}}
     </header>
     {{- .Content -}}
 </article>
+{{- if isset .Params "rss" -}}
+	<a class="rssbutton" href="https://maxdesalle.com/index.xml" target="_blank">Subscribe via RSS</a>
+{{- end -}}
 {{ end }}

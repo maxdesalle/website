@@ -4,8 +4,11 @@ date: 2021-03-31
 summary: "Let's level-up your Twitter game."
 author: Maxime Desalle
 authorlink: "https://twitter.com/maxdesalle"
+rss: yes
 
 ---
+
+## Introduction
 
 I love Twitter. I really do. It's the only social media where you can quickly organically grow that I'm aware of. It's also the only one where the content is truly informative, helpful and interesting, assuming you take the time to curate your feed correctly of course.
 
@@ -58,21 +61,3 @@ Once you start doing so, **you will see a rapid growth in your folowing**. If yo
 I personally added "*Reading, thinking, writing and coding*" because it makes me look smarter than I am, so feel free to experiment with different types of Twitter bios.
 
 You should pin either your most popular tweet, or a tweet most of the people checking out your profile will agree with. It's all about maximizing the chances of that person following you.
-
-<div style="background-color: #007DFA; border-radius: 10px; margin-top: 3rem; margin-bottom: 3rem;">
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/maxdesalle"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/maxdesalle', 'popupwindow')"
-  class="embeddable-buttondown-form"
-  style="padding: 1em 1em;"
->
-  <label for="bd-email" style="color: #FFF; justify-content: center; align-items: center; display: flex; margin-bottom: 0.5em;">Subscribe 👇 (no spam, ever)</label>
-  <div style="width: 70%; margin: auto;">
-  <input style="border: 1px solid #ced3d9; border-radius: 4px; padding: 0.75em 1em; margin-bottom: 1em; margin-top: 1em; box-sizing: border-box; font-size: 16px;" type="email" name="email" id="bd-email" placeholder="your best email address"/>
-  <input type="hidden" value="1" name="embed" />
-  <input class="a-hover" style="color: #000; background: #FFF; border: 1px solid #ced3d9; border-radius: 0.25em; margin-left: 0.25em; padding: 0.75em 1em; box-sizing: border-box; font-size: 16px; cursor: pointer;"type="submit" value="Subscribe"/>
-  </div>
-  </form>
-</div>

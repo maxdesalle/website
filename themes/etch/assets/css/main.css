@@ -4,13 +4,14 @@
 
 html {
     font-size: 62.5%;
+    border-top: 4px solid #007dfa;
 }
 
 body {
     font-size: 16px;
     font-size: 1.6rem;
     font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    color: #313a3d;
+    color: #141e30;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
@@ -22,7 +23,7 @@ header#banner {
 }
 
 header#banner a {
-    color: #313a3d;
+    color: #141e30;
     text-decoration: none;
 }
 
@@ -75,11 +76,27 @@ main#content h5,
 main#content h6 {
     margin-bottom: 0;
     line-height: 1.15;
+    color: #141e30;
+}
+
+main#content h2 {
+	border-bottom: 1px solid #edeae6;
+	margin-top: 2em;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+	font-size: 18px!important;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
 main#content h3 {
-    font-size: 19px;
-    font-size: 1.9rem;
+	border-bottom: 1px solid #edeae6;
+	margin-top: 2em;
+	padding-bottom: 8px;
+	margin-bottom: 16px;
+	font-size: 15px!important;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
 main#content h1 + p,
@@ -92,7 +109,7 @@ main#content h6 + p {
 }
 
 main#content p {
-    color: #394548;
+    color: #141e30;
     margin: 16px 0;
 }
 
@@ -265,6 +282,28 @@ main#content pre {
 
 main#content pre code {
     padding: 0;
+}
+
+.rssbutton:hover {
+	transform: translateY(-8px);
+	text-decoration: none!important;
+}
+
+.rssbutton {
+	margin-top: 20px;
+	box-shadow: 0 8px 30px -7px rgba(0,0,0,1);
+	color: #FFF!important;
+	background-color: #000;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 26px 25px;
+	transition: 250ms;
+	cursor: pointer;
+	text-rendering: optimizeLegibility;
 }
 
 main#content section.footnotes {

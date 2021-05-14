@@ -1,5 +1,5 @@
-<h1 style="font-size: 2rem; margin-bottom: 0; margin-top: 20px;">Posts</h1>
-<ul id="posts">
+<h1 style="font-size: 2.6rem; display: block; line-height: 1.15; box-sizing: border-box; margin-bottom: 0; margin-top: 20px;">Posts</h1>
+<ul style="margin: 16px 0;" id="posts">
 {{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
     <li>
         <a href="{{ .Permalink }}">

@@ -3,7 +3,7 @@ title: Posts
 
 ---
 
-Here is a list of my blog posts, organized by topic. If you prefer to view them by released date, please visit [this](/posts/) page instead.
+Here is a list of my blog posts, organized by topic. If you prefer to view them by release date, please visit [this](/posts/) page instead.
 
 ## Privacy
 

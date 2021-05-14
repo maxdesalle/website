@@ -6,9 +6,6 @@ I'm currently helping [Hifi Finance](https://hifi.finance) on the marketing fron
 
 I value erudition, independent thinking, radical honesty and above all [freedom](https://maxdesalle.com/freedom).
 
----
-[Reach out](https://maxdesalle.com/contact/).
-Subscribe via [RSS](https://maxdesalle.com/index.xml).
-Check out the [analytics](https://plausible.io/maxdesalle.com).
+### Top posts
 
----
+- [A Guide to Online Privacy](/privacy-how-to-get-off-the-radar-with-ease/)

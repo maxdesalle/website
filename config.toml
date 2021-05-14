@@ -8,17 +8,16 @@ pygmentsUseClasses = true
 
 [params]
   description = "Reading, thinking, writing and coding."
-  copyright = "Reading, thinking, writing and coding."
   dark = "off"
   highlight = true
   images = ["https://maxdesalle.com/maxime-desalle.jpg"]
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "home"
-    title = "posts"
-    url = "/"
+    identifier = "blog"
+    name = "blog"
+    title = "blog"
+    url = "/blog/"
     weight = 10
 
   [[menu.main]]
@@ -29,10 +28,10 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.main]]
-    identifier = "twitter"
-    name = "twitter"
-    title = "twitter"
-    url = "https://twitter.com/maxdesalle"
+    identifier = "contact"
+    name = "contact"
+    title = "contact"
+    url = "/contact/"
     weight = 30
 
 [permalinks]

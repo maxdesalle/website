@@ -4,7 +4,6 @@ date: 2021-03-27
 summary: "A short, but in-depth introduction to branding."
 author: Maxime Desalle
 authorlink: "https://twitter.com/maxdesalle"
-rss: yes
 
 ---
 
@@ -25,4 +24,4 @@ The first question is usually pretty easy. The second question can already be so
 
 **If you need to guess the answers for a company, their brand lacks clarity and charisma**. Tesla's branding is clear as day for example. Everyone knows who they are, what they do, and why it matters. Ask yourself the same question for Facebook now, or Amazon, and you will understand why these companies aren't necessarily liked by the public.
 
-Branding is about stories, about narratives and ideas which a company tries to communicate as well as possible to its customers. Finally, **there can only be one company which is the cheapest on the market**. All the other companies need to differentiate themselves through branding.
+Branding is about stories, about narratives and ideas which a company tries to communicate as well as possible to its customers. Finally, **only one company can be the cheapest on the market**. All the other ones need to differentiate themselves through branding.

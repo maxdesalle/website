@@ -11,4 +11,4 @@ I value erudition, independent thinking, radical honesty and above all [freedom]
 - [A Guide to Online Privacy](/privacy-how-to-get-off-the-radar-with-ease/)
 - [Freedom](/freedom/)
 
-I'm not active on any type of social media. If you want to reach out to me, please do so [here](https://maxdesalle.com/contact/).
+I don't use social media. If you want to reach out, please do so [here](https://maxdesalle.com/contact/).

@@ -11,8 +11,6 @@ authorlink: "https://twitter.com/maxdesalle"
 
 I love Twitter. I really do. It's the only social media where you can quickly organically grow that I'm aware of. It's also the only one where a part of the content is truly informative, helpful and interesting, assuming you take the time to curate your feed correctly of course.
 
-*\* As of the 15th of May 2021, I don't use Twitter anymore. This is mainly because of how unnecessarily noisy it is. I do still like playing the Twitter game, which is why I have decided to keep this blog post online so others can play it too.*
-
 **Most people aren't good at Twitter**, though. They don't have the right strategy. And I like to think I do. So here is how I do it.
 
 ## Tweet basics

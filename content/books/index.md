@@ -29,6 +29,7 @@ Here is a brief overview of the books I have read which I thought were great. I 
 - [Direct Truth](https://bookshop.org/books/direct-truth-uncompromising-non-prescriptive-truths-to-the-enduring-questions-of-life/9781724334411) - Kapil Gupta
 - [Falling Into Grace](https://bookshop.org/books/falling-into-grace-insights-on-the-end-of-suffering/9781604079371) - Adyashanti
 - [The Black Swan](https://bookshop.org/books/the-black-swan-second-edition-the-impact-of-the-highly-improbable-with-a-new-section-on-robustness-and-fragility/9780812973815) - Nassim Nicholas Taleb
+- [A History of Private Life I](https://bookshop.org/books/a-history-of-private-life-volume-i-from-pagan-rome-to-byzantium-revised/9780674399747) - Paul Veyne
 
 ### Français
 

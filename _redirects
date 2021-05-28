@@ -1,2 +1,2 @@
-/js/script.js https://plausible.io/js/plausible.js
-/api/event https://plausible.io/api/event
+/something/js/script.js	https://plausible.io/js/plausible.js	200
+/something/api/event	https://plausible.io/api/event		202

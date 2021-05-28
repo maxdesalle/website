@@ -28,3 +28,13 @@ HUGO_VERSION = "0.82.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/something/js/script.js"
+  to = "https://plausible.io/js/plausible.js"
+  status = 200
+
+[[redirects]]
+  from = "/something/api/event"
+  to = "https://plausible.io/api/event"
+  status = 202

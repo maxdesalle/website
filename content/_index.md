@@ -2,7 +2,9 @@
 title: "Maxime Desalle"
 ---
 
-I'm currently helping [Hifi Finance](https://hifi.finance) on the marketing front and learning to code at [19](https://s19.be). Previously, I was the head of marketing at [SimpleLogin](https://simplelogin.io).
+What do you do for the world? Win and help win.
+
+Currently learning C and C++ at [19](https://twitter.com/19network42) and helping [Hifi Finance](https://hifi.finance) on the marketing front.
 
 I value erudition, independent thinking, radical honesty and above all [freedom](https://maxdesalle.com/freedom).
 

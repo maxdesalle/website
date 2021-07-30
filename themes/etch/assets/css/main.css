@@ -258,7 +258,7 @@ main#content blockquote {
 main#content code,
 main#content pre {
     font-family: 'Menlo', monospace;
-    color: #795da3;
+    color: #007dfa;
 }
 
 main#content code {

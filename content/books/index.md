@@ -5,7 +5,7 @@ author: Maxime Desalle
 
 ---
 
-Here is a brief overview of the books I have read which I thought were great. I try to limit my reading to old and foundational books only, mainly because their ability to stand the test of time proves they are worth reading.
+Here is a brief overview of the books (listed in no particular order) I have read which I thought were great. I try to limit my reading to old and foundational books only, mainly because their ability to stand the test of time proves that they are worth reading.
 
 ### English
 
@@ -32,6 +32,7 @@ Here is a brief overview of the books I have read which I thought were great. I 
 - [A History of Private Life I](https://bookshop.org/books/a-history-of-private-life-volume-i-from-pagan-rome-to-byzantium-revised/9780674399747) - Paul Veyne
 - [Hackers & Painters](https://bookshop.org/books/hackers-painters-big-ideas-from-the-computer-age/9781449389550) - Paul Graham
 - [Guns, Germs, and Steel](https://bookshop.org/books/guns-germs-and-steel-the-fates-of-human-societies-revised/9780393061314) - Jared Diamond
+- [The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1627965114&sr=8-1) - James Dale Davidson and William Rees-Mogg
 
 ### Français
 

@@ -30,7 +30,6 @@ Here is a brief overview of the books (listed in no particular order) I have rea
 - [Falling Into Grace](https://bookshop.org/books/falling-into-grace-insights-on-the-end-of-suffering/9781604079371) - Adyashanti
 - [The Black Swan](https://bookshop.org/books/the-black-swan-second-edition-the-impact-of-the-highly-improbable-with-a-new-section-on-robustness-and-fragility/9780812973815) - Nassim Nicholas Taleb
 - [A History of Private Life I](https://bookshop.org/books/a-history-of-private-life-volume-i-from-pagan-rome-to-byzantium-revised/9780674399747) - Paul Veyne
-- [Hackers & Painters](https://bookshop.org/books/hackers-painters-big-ideas-from-the-computer-age/9781449389550) - Paul Graham
 - [Guns, Germs, and Steel](https://bookshop.org/books/guns-germs-and-steel-the-fates-of-human-societies-revised/9780393061314) - Jared Diamond
 - [The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1627965114&sr=8-1) - James Dale Davidson and William Rees-Mogg
 

@@ -4,7 +4,7 @@ title: "Maxime Desalle"
 
 What do you do for the world? Win and help win.
 
-Currently learning C and C++ at [19](https://twitter.com/19network42) and helping [Hifi Finance](https://hifi.finance) on the marketing front. I value erudition, independent thinking, radical honesty and above all [freedom](https://maxdesalle.com/freedom).
+Currently learning C and C++ at [19](https://twitter.com/19network42), helping [Hifi Finance](https://hifi.finance) on the marketing front and investing at [Astrascalla](https://astrascalla.com). I value erudition, independent thinking, radical honesty and above all [freedom](https://maxdesalle.com/freedom).
 
 ### Top posts
 

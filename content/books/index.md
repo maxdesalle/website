@@ -13,7 +13,7 @@ Here is a brief overview of the books (listed in no particular order) I have rea
 - [Radical Markets](https://bookshop.org/books/radical-markets-uprooting-capitalism-and-democracy-for-a-just-society/9780691196060) - Glen Weyl and Eric Posner
 - [Economics in One Lesson](https://bookshop.org/books/economics-in-one-lesson-the-shortest-and-surest-way-to-understand-basic-economics-9780517548233/9780517548233) - Henry Hazlitt
 - [The Almanack of Naval Ravikant](https://bookshop.org/books/the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happiness-9781544514222/9781544514222) - Eric Jorgensen
-- [The Brand Gap](https://bookshop.org/books/the-brand-gap-revised-edition-rev/9780321348104) - Marty Neuemeier
+- [The Brand Gap](https://bookshop.org/books/the-brand-gap-revised-edition-rev/9780321348104) - Marty Neumeier
 - [Influence](https://bookshop.org/books/influence-the-psychology-of-persuasion-revised/9780061241895) - Robert Cialdini
 - [Letters from a Stoic](https://bookshop.org/books/letters-from-a-stoic-epistulae-morales-ad-lucilium/9780140442106) - Seneca
 - [Spiritual Enlightenment: The Damnedest Thing](https://bookshop.org/books/spiritual-enlightenment-the-damnedest-thing/9780980184846) - Jed McKenna
@@ -32,6 +32,10 @@ Here is a brief overview of the books (listed in no particular order) I have rea
 - [A History of Private Life I](https://bookshop.org/books/a-history-of-private-life-volume-i-from-pagan-rome-to-byzantium-revised/9780674399747) - Paul Veyne
 - [Guns, Germs, and Steel](https://bookshop.org/books/guns-germs-and-steel-the-fates-of-human-societies-revised/9780393061314) - Jared Diamond
 - [The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1627965114&sr=8-1) - James Dale Davidson and William Rees-Mogg
+- [The Timeless Way of Building](https://bookshop.org/books/the-timeless-way-of-building/9780195024029) - Christopher Alexander
+- [High Growth Handbook](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100) - Elad Gil
+- [Zag](https://bookshop.org/books/zag-the-1-strategy-of-high-performance-brands/9780321426772) - Marty Neumeier
+- [The Designful Company](https://www.amazon.fr/Designful-Company-culture-nonstop-innovation/dp/0321580060) - Marty Neumeier
 
 ### Français
 

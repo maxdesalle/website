@@ -28,10 +28,10 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.main]]
-    identifier = "reach out"
-    name = "reach out"
-    title = "reach out"
-    url = "https://mmd.link/hey"
+    identifier = "rss"
+    name = "rss"
+    title = "rss"
+    url = "/index.xml/"
     weight = 30
 
 [permalinks]

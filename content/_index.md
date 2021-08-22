@@ -11,4 +11,4 @@ Currently learning C and C++ at [19](https://twitter.com/19network42), helping [
 - [A Guide to Online Privacy](/privacy-how-to-get-off-the-radar-with-ease/)
 - [Freedom](/freedom/)
 
-If you want to reach out, please do so [here](https://maxdesalle.com/contact/).
+If you want to reach out and you are on Twitter, please do so [here](https://mmd.link/hey). If not, feel free to use [old and boring email](https://maxdesalle.com/contact).

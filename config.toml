@@ -28,10 +28,10 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.main]]
-    identifier = "twitter"
-    name = "twitter"
-    title = "twitter"
-    url = "https://twitter.com/maxdesalle"
+    identifier = "reach out"
+    name = "reach out"
+    title = "reach out"
+    url = "https://mmd.link/hey"
     weight = 30
 
 [permalinks]

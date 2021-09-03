@@ -28,10 +28,10 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.main]]
-    identifier = "rss"
-    name = "rss"
-    title = "rss"
-    url = "/index.xml/"
+    identifier = "twitter"
+    name = "twitter"
+    title = "twitter"
+    url = "https://mmd.link/tr"
     weight = 30
 
 [permalinks]

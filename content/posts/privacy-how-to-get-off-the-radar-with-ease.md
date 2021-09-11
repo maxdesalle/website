@@ -8,7 +8,7 @@ rss: yes
 
 ---
 
-*This blog post is regularly updated to maintain its accuracy. Last update: March 27th 2021 (change: cleaned up text, removed Firefox Multi-Containers which is now useless).*
+*This blog post is regularly updated to maintain its accuracy. Last update: September 11th 2021 (change: cleaned up text, replaced Decentralayes with LocalCDN and added links).*
 
 ## Introduction
 
@@ -67,7 +67,7 @@ However, most of them don't provide great search results due to the lack of qual
 
 - [**StartPage**](https://startpage.com): StartPage is a privacy-focused search engine based in the Netherlands using Google's search results. You get quality search results, while keeping your privacy.
 
-If you don't like StartPage feel free to take a look at DuckDuckGo, SearX and Whoogle Search (selfhosting required).
+If you don't like StartPage feel free to take a look at [DuckDuckGo](https://duckduckgo.com), [SearX](https://searx.me/) and [Whoogle Search](https://github.com/benbusby/whoogle-search) (selfhosting / use of public instances required for the latter two).
 
 ### Extensions
 
@@ -76,7 +76,7 @@ Below are the extensions which are recommended in order to enhance your privacy 
 - [**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) (installed by default on LibreWolf): an efficient wide-spectrum content blocker.
 - [**xBrowserSync**](https://addons.mozilla.org/en-US/firefox/addon/xbs/): browser syncing as it should be: secure, anonymous and free! Sync bookmarks across your browsers and devices, no sign up required.
 - [**ClearURLs**](https://addons.mozilla.org/en-US/firefox/addon/clearurls/): removes tracking elements from URLs.
-- [**Decentraleyes**](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/): protects you against tracking through "free", centralized, content delivery.
+- [**LocalCDN**](https://addons.mozilla.org/en-GB/firefox/addon/localcdn-fork-of-decentraleyes/): protects you against tracking through "free", centralized, content delivery.
 
 These are the most important ones, you will probably need to install a password manager as an extension. More on that later.
 
@@ -125,7 +125,7 @@ There are [a lot of encrypted DNS resolvers out there](https://privacytools.io/p
 
 - [**NextDNS**](https://nextdns.io): NextDNS protects you from all kinds of security threats, blocks ads and trackers on websites and in apps and provides a safe and supervised Internet for kids — on all devices and on all networks.
 
-The setup is incredibly easy, they have a generous free plan and a cheap premium plan. You can configure a ton of features as well as blockers. On top of that, if you are into crypto, NextDNS is also a [Handshake](https://handshake.org) resolver, which will allow you to browse decentralized domains.
+The setup is incredibly easy, they have a generous free plan and a cheap premium plan. You can configure a ton of features as well as blockers.
 
 ## VPN
 

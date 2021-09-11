@@ -7,10 +7,10 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "Reading, thinking, writing and coding."
+  description = "What do you do for the world? Win and help win."
   dark = "off"
   highlight = true
-  images = ["https://maxdesalle.com/maxime-desalle.jpg"]
+  images = ["https://maxdesalle.com/social_image.png"]
 
 [menu]
   [[menu.main]]

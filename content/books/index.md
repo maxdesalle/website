@@ -36,6 +36,7 @@ Here is a brief overview of the books (listed in no particular order) I have rea
 - [High Growth Handbook](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100) - Elad Gil
 - [Zag](https://bookshop.org/books/zag-the-1-strategy-of-high-performance-brands/9780321426772) - Marty Neumeier
 - [The Designful Company](https://www.amazon.fr/Designful-Company-culture-nonstop-innovation/dp/0321580060) - Marty Neumeier
+- [A Tour of C++](https://bookshop.org/books/a-tour-of-c/9780134997834) - Bjarne Stroustrup
 
 ### Français
 

@@ -36,7 +36,7 @@ Here is a brief overview of the books (listed in no particular order) I have rea
 - [High Growth Handbook](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100) - Elad Gil
 - [Zag](https://bookshop.org/books/zag-the-1-strategy-of-high-performance-brands/9780321426772) - Marty Neumeier
 - [The Designful Company](https://www.amazon.fr/Designful-Company-culture-nonstop-innovation/dp/0321580060) - Marty Neumeier
-- [Courage to be Disliked](https://bookshop.org/books/the-courage-to-be-disliked-the-japanese-phenomenon-that-shows-you-how-to-change-your-life-and-achieve-real-happiness/9781501197277) - Fumitake Koga and Ichiro Kishimi
+- [The Courage to be Disliked](https://bookshop.org/books/the-courage-to-be-disliked-the-japanese-phenomenon-that-shows-you-how-to-change-your-life-and-achieve-real-happiness/9781501197277) - Fumitake Koga and Ichiro Kishimi
 
 ### Français
 

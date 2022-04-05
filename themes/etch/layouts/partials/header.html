@@ -1,0 +1,29 @@
+<header id="banner">
+	<h2><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h2>
+	<nav>
+		<ul>
+			{{ range .Site.Menus.main.ByWeight -}}
+			<li>
+				{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"
+					>{{- .Name -}}</a
+				>{{ .Post }}
+			</li>
+			{{- end }}
+			<span style="margin-left: 2rem">
+				{{ range .Site.Menus.socials.ByWeight -}}
+				<li>
+					{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"
+						>{{- .Name -}}</a
+					>{{ .Post }}
+				</li>
+				{{- end }}
+			</span>
+		</ul>
+	</nav>
+	<script
+		defer
+		data-domain="maxdesalle.com"
+		data-api="/something/api/event"
+		src="/something/js/script.js"
+	></script>
+</header>

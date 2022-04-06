@@ -1,3 +1,7 @@
+---
+title: "Resources"
+---
+
 A set of unordered lists including my favorite thinkers, books, blogs, podcasts, Youtube channels, Twitter accounts and studies.
 
 > **Note:** I do not necessarily agree with everything listed here. I sometimes consume someone's content precisely because I don't agree with them and find their opposing opinion interesting.

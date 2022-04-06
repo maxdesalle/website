@@ -1,5 +1,6 @@
 ---
 title: "A Brief Overview of Branding"
+description: "An in-depth look into the world of branding."
 date: 2021-03-27
 ---
 

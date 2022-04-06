@@ -1,5 +1,6 @@
 ---
 title: "A Guide to Online Privacy"
+description: "Or how to get off the radar."
 date: 2021-01-19
 ---
 

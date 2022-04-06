@@ -1,5 +1,6 @@
 ---
 title: "Resources"
+description: "Great thinkers, books, blogs, podcasts, YouTube channels, Twitter accounts and studies."
 ---
 
 A set of unordered lists including my favorite thinkers, books, blogs, podcasts, Youtube channels, Twitter accounts and studies.

@@ -1,5 +1,6 @@
 ---
 title: "Maxime Desalle"
+description: "Win and help win."
 ---
 
 Studying math, physics and computers.

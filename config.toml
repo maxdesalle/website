@@ -1,9 +1,9 @@
-baseURL = 'https://maxdesalle.com/'
-languageCode = 'en-us'
-title = 'Maxime Desalle'
+baseURL = "https://maxdesalle.com/"
+languageCode = "en-us"
+title = "Maxime Desalle"
 
 [params]
-  description = "Win and help win. Studying math, physics and computers.\n\n**Life mission**: make the universe better for all of consciousness."
+  description = "Win and help win."
   dark = "off"
   highlight = true
   images = ["https://maxdesalle.com/social_image.jpg"]
@@ -29,3 +29,9 @@ title = 'Maxime Desalle'
     title = "github"
     url = "https://github.com/maxdesalle"
     weight = 40
+
+[permalinks]
+  posts = "/:filename/"
+
+[markup.goldmark.renderer]
+  unsafe = true

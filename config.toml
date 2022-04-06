@@ -1,6 +1,10 @@
 baseURL = "https://maxdesalle.com/"
 languageCode = "en-us"
 title = "Maxime Desalle"
+theme = "etch"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
   description = "Win and help win."

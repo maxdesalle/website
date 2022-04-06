@@ -6,6 +6,7 @@ title = 'Maxime Desalle'
   description = "Win and help win. Studying math, physics and computers.\n\n**Life mission**: make the universe better for all of consciousness."
   dark = "off"
   highlight = true
+  images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]
   [[menu.main]]

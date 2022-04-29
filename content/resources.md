@@ -16,10 +16,12 @@ A set of unordered lists including my favorite thinkers, books, blogs, podcasts,
 -   [Nassim Nicholas Taleb](https://fs.blog/intellectual-giants/nassim-taleb/)
 -   [Sven Schnieders](https://svenschnieders.com/)
 -   [The Davidson and Rees-Mogg duo](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720)
--   [Tómas Pueyo](https://twitter.com/tomaspueyo?lang=en)
+-   [Tómas Pueyo](https://twitter.com/tomaspueyo)
 -   [Elon Musk](https://twitter.com/elonmusk/)
 -   [Marty Neumeier](https://www.martyneumeier.com/)
 -   [Balaji Srinivasan](https://balajis.com/)
+-   [David Deutsch](https://www.daviddeutsch.org.uk/)
+-   [Brett Hall](https://www.bretthall.org/)
 
 **Favorite books:**
 
@@ -50,10 +52,9 @@ All-time favorite books in bold.
 -   [**Spiritual Enlightenment**](https://www.amazon.com/Spiritual-Enlightenment-Damnedest-Thing-Trilogy/dp/0980184843) - Jed McKenna
 -   [The Bed of Procrustes](https://www.amazon.com/Bed-Procrustes-Philosophical-Practical-Aphorisms/dp/0812982401) - Nassim Nicholas Taleb
 -   [The Brand Gap](https://www.amazon.com/Brand-Gap-Distance-Business-Strategy/dp/0321348109) - Marty Neumeier
--   [**Freedom**](https://www.amazon.com/Freedom-Courage-Yourself-Insights-Living/dp/0312320701) - Osho
+-   [Freedom](https://www.amazon.com/Freedom-Courage-Yourself-Insights-Living/dp/0312320701) - Osho
 -   [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) - Brian W. Kernighan and Dennis M. Ritchie
 -   [The Courage To Be Disliked](https://www.amazon.com/Courage-Be-Disliked-yourself-happiness/dp/176063073X) - Ichiro Kishimi and Fumitake Koga
--   [The Power of Now](https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808) - Eckhart Tolle
 -   [**The Sovereign Individual**](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720) - James Dale Davidson and Lord William Rees-Mogg
 -   [The Truth about Carbs](https://www.amazon.com/Truth-about-Carbs-Amount-Year-Round/dp/194276152X) - Nate Miyaki
 -   [Why We Sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324) - Matthew Walker
@@ -65,19 +66,18 @@ All-time favorite books in bold.
 
 **Favorite blogs:**
 
--   [Nonzero Newsletter](https://nonzero.substack.com/)
 -   [Uncharted Territories](https://unchartedterritories.tomaspueyo.com/)
 -   [Nat Eliason](https://www.nateliason.com/blog)
 
 **Favorite podcasts:**
 
+-   [ToKCast](https://www.bretthall.org/tokcast)
 -   [Made You Think](https://madeyouthinkpodcast.com/)
 -   [Lex Fridman Podcast](https://lexfridman.com/podcast/)
 -   [The All-In Podcast](https://www.allinpodcast.co/)
 
 **Favorite YouTube channels:**
 
--   [John Coogan](https://www.youtube.com/c/JohnCooganPlus)
 -   [Professor Leonard](https://www.youtube.com/c/ProfessorLeonard)
 -   [3Blue1Brown](https://www.youtube.com/c/3blue1brown)
 
@@ -90,3 +90,4 @@ All-time favorite books in bold.
 -   [Naval Ravikant](https://twitter.com/naval)
 -   [Amused Chimp](https://twitter.com/AmuseChimp)
 -   [Simon Sarris](https://twitter.com/simonsarris)
+-   [Brett Hall](https://twitter.com/ToKTeacher)

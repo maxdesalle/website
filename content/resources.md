@@ -59,6 +59,7 @@ All-time favorite books in bold.
 -   [The Truth about Carbs](https://www.amazon.com/Truth-about-Carbs-Amount-Year-Round/dp/194276152X) - Nate Miyaki
 -   [Why We Sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324) - Matthew Walker
 -   [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388) - Andreas M. Antonopoulos
+-   [Pitching Hacks](https://www.amazon.com/Pitching-Hacks-pitch-startups-investors/dp/0557235596) - Venture Hacks
 
 **Favorite studies:**
 

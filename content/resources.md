@@ -86,10 +86,7 @@ All-time favorite books in bold.
 **Favorite Twitter accounts:**
 
 - [Him Gajria](https://twitter.com/himgajria)
-- [Sven Schnieders](https://twitter.com/SvenSchnieders)
 - [Balaji Srinivasan](https://twitter.com/balajis)
 - [Paul Razvan Berg](https://twitter.com/PaulRBerg)
 - [Naval Ravikant](https://twitter.com/naval)
 - [Amused Chimp](https://twitter.com/AmuseChimp)
-- [Simon Sarris](https://twitter.com/simonsarris)
-- [Brett Hall](https://twitter.com/ToKTeacher)

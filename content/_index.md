@@ -3,9 +3,6 @@ title: "Maxime Desalle"
 description: "Win and help win."
 ---
 
-Studying math, physics and computers.
+Win and help win.
 
--   **Ethical mindset**: win and help win.
--   **Life mission**: make the universe better for all of consciousness.
-
-Currently helping [Hifi](https://hifi.finance) and [Sablier](https://sablier.finance) with marketing and community engagement.
+Math and physics student by day. Operations at [Sablier](https://sablier.finance) and investments at [Astrascalla](https://astrascalla.com) by night.

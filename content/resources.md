@@ -74,6 +74,7 @@ All-time favorite books in bold.
 
 - [Uncharted Territories](https://unchartedterritories.tomaspueyo.com/)
 - [Nat Eliason](https://www.nateliason.com/blog)
+- [Brett Hall](https://www.bretthall.org/blog)
 
 **Favorite podcasts:**
 
@@ -81,11 +82,14 @@ All-time favorite books in bold.
 - [Made You Think](https://madeyouthinkpodcast.com/)
 - [Lex Fridman Podcast](https://lexfridman.com/podcast/)
 - [The All-In Podcast](https://www.allinpodcast.co/)
+- [My First Million](https://www.mfmpod.com/)
 
 **Favorite YouTube channels:**
 
 - [Professor Leonard](https://www.youtube.com/c/ProfessorLeonard)
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown)
+- [MIT OpenCourseWare](https://www.youtube.com/@mitocw)
+- [Khan Academy](https://www.youtube.com/@khanacademy)
 
 **Favorite Twitter accounts:**
 
@@ -94,3 +98,6 @@ All-time favorite books in bold.
 - [Paul Razvan Berg](https://twitter.com/PaulRBerg)
 - [Naval Ravikant](https://twitter.com/naval)
 - [Amused Chimp](https://twitter.com/AmuseChimp)
+- [Brett Hall](https://twitter.com/tokteacher)
+- [David Deutsch](https://twitter.com/DavidDeutschOxf)
+- [George Hotz](https://twitter.com/realGeorgeHotz)

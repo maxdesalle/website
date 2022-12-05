@@ -22,6 +22,7 @@ A set of unordered lists including my favorite thinkers, books, blogs, podcasts,
 - [Balaji Srinivasan](https://balajis.com/)
 - [David Deutsch](https://www.daviddeutsch.org.uk/)
 - [Brett Hall](https://www.bretthall.org/)
+- [Peter Thiel](https://foundersfund.com/team/peter-thiel/)
 
 **Favorite books:**
 
@@ -29,7 +30,7 @@ All-time favorite books in bold.
 
 - [A Guide to the Good Life](https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/0195374614) - William B. Irvine
 - [A History of Private Life, Volume I](https://www.amazon.com/History-Private-Life-Pagan-Byzantium/dp/0674399749/142-1284140-7612628?psc=1) - Paul Veyne
-- [**A Philosophical Walk**](https://twitter.com/SvenSchnieders/status/1358466385140146177) - Sven Schnieders
+- [A Philosophical Walk](https://twitter.com/SvenSchnieders/status/1358466385140146177) - Sven Schnieders
 - [A Tour of C++](https://www.amazon.com/Tour-2nd-Depth-Bjarne-Stroustrup/dp/0134997832) - Bjarne Stroustrup
 - [The Rust Programming Language](https://www.amazon.com/Rust-Programming-Language-Covers-2018/dp/1718500440) - Steve Klabnik and Carol Nichols
 - [**The Timeless Way of Building**](https://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028) - Christopher Alexander
@@ -39,7 +40,7 @@ All-time favorite books in bold.
 - [Discourses and Selected Writings](https://www.amazon.com/Discourses-Selected-Writings-Penguin-Classics/dp/0140449469) - Epictetus
 - [**The Almanack of Naval Ravikant**](https://www.amazon.com/Almanack-Naval-Ravikant-Wealth-Happiness/dp/1544514212) - Eric Jorgenson
 - [Economics in One Lesson](https://www.amazon.com/Economics-One-Lesson-Shortest-Understand/dp/0517548232) - Henry Hazlitt
-- [**The Enchiridion**](https://www.amazon.com/Enchiridion-Epictetus/dp/152156034X) - Epictetus
+- [The Enchiridion](https://www.amazon.com/Discourses-Selected-Writings-Penguin-Classics/dp/0140449469) - Epictetus
 - [High Growth Handbook](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100) - Elad Gil
 - [Influence](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X) - Robert B. Cialdini
 - [**Le Comte De Monte-Cristo**](https://www.amazon.fr/Comte-Monte-Cristo-Int%C3%A9grale-trois-volumes/dp/1545401055?qsid=261-1227122-5354801&sres=2070405370%2CB09FC6HDDB%2C2072895642%2C2218978458%2CB08HGTJP3D%2C2070405923%2CB01CUZ7TNS%2CB00004VYAZ%2C2218971585%2CB09HJFMQWH%2CB094GY4DD6%2C2266295985%2C2070645134%2CB01NBKNCWD%2CB09FSCDXV9%2CB087G67MPG%2C2373492644%2C2266295993%2CB086FXR296%2C2012031706&srpt=ABIS_BOOK) - Alexandre Dumas (in French)
@@ -61,6 +62,9 @@ All-time favorite books in bold.
 - [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388) - Andreas M. Antonopoulos
 - [Pitching Hacks](https://www.amazon.com/Pitching-Hacks-pitch-startups-investors/dp/0557235596) - Venture Hacks
 - [Without Boundaries](https://www.amazon.com/Without-Boundaries-Jan-Fortune-Wood/dp/1900219174/) - Jane Fortune-Wood
+- [Zero to One](https://www.amazon.com/-/es/Peter-Thiel-Blake-Masters/dp/0753555204) - Peter Thiel
+- [**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359) - David Deutsch
+- [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
 
 **Favorite studies:**
 

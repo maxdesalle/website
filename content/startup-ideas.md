@@ -20,3 +20,13 @@ This is an unordered list of startup ideas I have, and potentially plan to pursu
 	The [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve) would be your first client. Data could come from [ChainLink](https://chain.link) oracles, or a network of incentivized data providers in the region you are initially targetting.
 	
 	Business model is very simple: free users get access to the dashboard, but with a delay of 24 hours for example, and paid users get instant updates in real time with daily or weekly reports and additional metrics.
+
+- **Non-misogynistic, non-incel masculine media:** there is a real gap in the market at the moment regarding content creators teaching men about masculinity, faterhood and marriage while *not* giving misogynistic/incel vibes like most current outlets do. 
+	
+	The content would be a mix of stoicism, chivalry and ethics.
+	
+	It would focus on modernizing these old values and principles.
+	
+	Business model is simple: a subscription for additional content, ads, writing books and promoting them to the audience, and organizing paid meet-ups (once the community is large enough) where the audience can meet and build relationships.
+	
+	It should absolutely avoid the clichés like "how to be a gentleman" or "how to dress like a gentleman" and focus on what really matters: principles, values and moral codes.

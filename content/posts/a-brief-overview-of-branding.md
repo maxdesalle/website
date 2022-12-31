@@ -2,6 +2,7 @@
 title: "A Brief Overview of Branding"
 description: "An in-depth look into the world of branding."
 date: 2021-03-27
+draft: true
 ---
 
 Branding isn’t about graphic design. It’s not about a logo or visual identity. **A brand is a person’s gut feeling about a product or service**. It’s what you feel deep inside yourself when looking at the product.

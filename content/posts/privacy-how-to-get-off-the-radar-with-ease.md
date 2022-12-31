@@ -2,6 +2,7 @@
 title: "A Guide to Online Privacy"
 description: "Or how to get off the radar."
 date: 2021-01-19
+draft: true
 ---
 
 > This blog post is regularly updated to maintain its accuracy. Last update: April 5th 2022 (change: replace [PrivacyTools](https://privacytools.io) links with [PrivacyGuides](https://privacyguides.org).

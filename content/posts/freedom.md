@@ -2,6 +2,7 @@
 title: "Freedom"
 description: "An introduction to the various forms of freedom."
 date: 2021-04-08
+draft: true
 ---
 
 ### Introduction

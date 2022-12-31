@@ -1,7 +1,7 @@
 ---
 title: "Why Is Everyone Bad at Math?"
 date: 2022-04-08T22:53:34+02:00
-draft: false
+draft: true
 ---
 
 We are very much influenced by our childhood experiences. If you lived during a bull market during your young years, chances are high that it will make you a different investor than someone who was born in a recession. The same applies to math. Someone traumatized by math during their childhood will only in very rare cases learn to appreciate the beauty of math later on in life, whereas someone who is able to follow up with math during their student years will have a good perception of math for the rest of their life.

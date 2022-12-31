@@ -2,6 +2,7 @@
 title: "How Immigrants Can Save Europe"
 description: "Or why Europe absolutely needs immigration."
 date: 2022-01-09
+draft: true
 ---
 
 The extreme right is currently gaining a lot of grounds in Western countries. [Marine Le Pen](https://en.wikipedia.org/wiki/Marine_Le_Pen) received [1/3 of the votes](https://en.wikipedia.org/wiki/2017_French_presidential_election) during France's presidential election in 2017. Donald Trump became president in the US. UK politician [Nigel Farage](https://en.wikipedia.org/wiki/Nigel_Farage) got [Brexit](https://www.investopedia.com/terms/b/brexit.asp) to take place.

@@ -66,9 +66,10 @@ All-time favorite books in bold.
 - [**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359) - David Deutsch
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
 
-**Favorite studies:**
+**Favorite studies/research articles/reports:**
 
-- [Drug harms in the UK: a multicriteria decision analysis](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2810%2961462-6)
+- [Drug Harms in the UK: A Multicriteria Decision Analysis](https://www.thelancet.com/action/showPdf?pii=S0140-6736%2810%2961462-6)
+- [Does the Shoe Fit? Real versus Imagined Ecological Footprints](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1001700&type=printable)
 
 **Favorite blogs:**
 

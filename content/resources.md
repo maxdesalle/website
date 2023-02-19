@@ -24,9 +24,9 @@ A set of unordered lists including my favorite thinkers, books, blogs, podcasts,
 - [Brett Hall](https://www.bretthall.org/)
 - [Peter Thiel](https://foundersfund.com/team/peter-thiel/)
 
-**Favorite books:**
+**Great books:**
 
-All-time favorite books in bold.
+Favorite books in bold, with all-time favorite books underlined.
 
 - [A Guide to the Good Life](https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/0195374614) - William B. Irvine
 - [A History of Private Life, Volume I](https://www.amazon.com/History-Private-Life-Pagan-Byzantium/dp/0674399749/142-1284140-7612628?psc=1) - Paul Veyne
@@ -51,7 +51,6 @@ All-time favorite books in bold.
 - [Sapiens](https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316117) - Yuval Noah Harari
 - [Skin in the Game](https://www.amazon.com/Skin-Game-Hidden-Asymmetries-Daily/dp/0425284646) - Nassim Nicholas Taleb
 - [**Spiritual Enlightenment**](https://www.amazon.com/Spiritual-Enlightenment-Damnedest-Thing-Trilogy/dp/0980184843) - Jed McKenna
-- [The Bed of Procrustes](https://www.amazon.com/Bed-Procrustes-Philosophical-Practical-Aphorisms/dp/0812982401) - Nassim Nicholas Taleb
 - [The Brand Gap](https://www.amazon.com/Brand-Gap-Distance-Business-Strategy/dp/0321348109) - Marty Neumeier
 - [Freedom](https://www.amazon.com/Freedom-Courage-Yourself-Insights-Living/dp/0312320701) - Osho
 - [The C Programming Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) - Brian W. Kernighan and Dennis M. Ritchie
@@ -63,7 +62,7 @@ All-time favorite books in bold.
 - [Pitching Hacks](https://www.amazon.com/Pitching-Hacks-pitch-startups-investors/dp/0557235596) - Venture Hacks
 - [Without Boundaries](https://www.amazon.com/Without-Boundaries-Jan-Fortune-Wood/dp/1900219174/) - Jane Fortune-Wood
 - [Zero to One](https://www.amazon.com/-/es/Peter-Thiel-Blake-Masters/dp/0753555204) - Peter Thiel
-- [**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359) - David Deutsch
+- <span style="text-decoration:underline">[**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)</span> - David Deutsch
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
 
 **Favorite studies/research articles/reports:**

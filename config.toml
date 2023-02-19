@@ -21,32 +21,25 @@ pygmentsUseClasses = true
     weight = 10
 
   [[menu.main]]
-    identifier = "poetry"
-    name = "poetry"
-    title = "poetry"
-    url = "/poetry/"
-    weight = 20
-
-  [[menu.main]]
     identifier = "resources"
     name = "resources"
     title = "resources"
     url = "/resources/"
-    weight = 30
+    weight = 20
 
   [[menu.socials]]
     identifier = "twitter"
     name = "twitter"
     title = "twitter"
     url = "https://twitter.com/maxdesalle"
-    weight = 50
+    weight = 30
 
   [[menu.socials]]
     identifier = "github"
     name = "github"
     title = "github"
     url = "https://github.com/maxdesalle"
-    weight = 60
+    weight = 40
 
 [permalinks]
   posts = "/:filename/"

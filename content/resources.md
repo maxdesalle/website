@@ -12,17 +12,8 @@ A set of unordered lists including my favorite thinkers, books, blogs, podcasts,
 - [Naval Ravikant](https://twitter.com/naval)
 - [Christopher Alexander](https://en.wikipedia.org/wiki/Christopher_Alexander)
 - [Jed McKenna](https://www.wisefoolpress.com/)
-- [René Girard](https://iep.utm.edu/girard/)
-- [Nassim Nicholas Taleb](https://fs.blog/intellectual-giants/nassim-taleb/)
-- [Sven Schnieders](https://svenschnieders.com/)
-- [The Davidson and Rees-Mogg duo](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720)
-- [Tómas Pueyo](https://twitter.com/tomaspueyo)
-- [Elon Musk](https://twitter.com/elonmusk/)
-- [Marty Neumeier](https://www.martyneumeier.com/)
-- [Balaji Srinivasan](https://balajis.com/)
 - [David Deutsch](https://www.daviddeutsch.org.uk/)
 - [Brett Hall](https://www.bretthall.org/)
-- [Peter Thiel](https://foundersfund.com/team/peter-thiel/)
 
 **Great books:**
 
@@ -64,6 +55,7 @@ Favorite books in bold, with all-time favorite books underlined.
 - [Zero to One](https://www.amazon.com/-/es/Peter-Thiel-Blake-Masters/dp/0753555204) - Peter Thiel
 - <span style="text-decoration:underline">[**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)</span> - David Deutsch
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
+- [The Science of Can and Can't](https://www.amazon.com/Science-Can-Cant-Physicists-Counterfactuals/dp/0525521925) - Chiara Marletto
 
 **Favorite studies/research articles/reports:**
 
@@ -82,7 +74,6 @@ Favorite books in bold, with all-time favorite books underlined.
 - [Made You Think](https://madeyouthinkpodcast.com/)
 - [Lex Fridman Podcast](https://lexfridman.com/podcast/)
 - [The All-In Podcast](https://www.allinpodcast.co/)
-- [My First Million](https://www.mfmpod.com/)
 
 **Favorite YouTube channels:**
 
@@ -94,10 +85,9 @@ Favorite books in bold, with all-time favorite books underlined.
 **Favorite Twitter accounts:**
 
 - [Him Gajria](https://twitter.com/himgajria)
-- [Balaji Srinivasan](https://twitter.com/balajis)
 - [Paul Razvan Berg](https://twitter.com/PaulRBerg)
 - [Naval Ravikant](https://twitter.com/naval)
-- [Amused Chimp](https://twitter.com/AmuseChimp)
 - [Brett Hall](https://twitter.com/tokteacher)
 - [David Deutsch](https://twitter.com/DavidDeutschOxf)
-- [George Hotz](https://twitter.com/realGeorgeHotz)
+- [Sam Kuypers](https://twitter.com/Sam_kuyp)
+- [Taking Children Seriously](https://twitter.com/TCSparents)

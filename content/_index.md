@@ -5,6 +5,7 @@ description: "Win and help win."
 
 Win and help win.
 
-Math and physics student at [Université de Montréal](https://umontreal.ca/en/). Operations at [Sablier](https://sablier.finance) and investments at [Astrascalla](https://astrascalla.com).
+- Operations at [Sablier](https://sablier.finance).
+- Math and physics student at [Université de Montréal](https://umontreal.ca/en/). 
 
-Interested in science, art and technology.
+Infinite progress, eternal life, limitless horizons.

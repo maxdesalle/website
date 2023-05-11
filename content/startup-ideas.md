@@ -3,7 +3,7 @@ title: "Startup ideas"
 description: "A few startup ideas I have."
 ---
 
-This is an unordered list of startup ideas I have, and potentially plan to pursue if no else pursues them. Feel free to use of any of these ideas for your next startup, it would make the world a much better place!
+This is an unordered list of (sometimes terrible) startup ideas I have, and potentially plan to pursue if no else pursues them. Feel free to use of any of these ideas for your next startup, it would make the world a much better place!
 
 ---
 

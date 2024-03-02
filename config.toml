@@ -7,7 +7,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 
 [params]
-  description = "Win and help win."
+  # description = "Win and help win."
   dark = "off"
   highlight = true
   images = ["https://maxdesalle.com/social_image.jpg"]

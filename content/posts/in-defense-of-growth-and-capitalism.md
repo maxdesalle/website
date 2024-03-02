@@ -2,6 +2,7 @@
 title: "In Defense of Growth and Capitalism"
 description: "Progression, not regression: a complete refutation of Degrowth."
 date: 2023-07-10
+thumbnail: "/wright-first-airplane.jpg"
 ---
 
 <figure>
@@ -124,7 +125,6 @@ Tesla is a great example of that. It's objectively a better product, while also 
 The better user experience is the necessary incentive to attract consumers, who now get the chance of driving a car that is much cleaner environmentally.
 
 Climate change isn't an unsolvable riddle. It's a technological challenge, and we're fully capable of tackling it. We need more companies that will help us solve this problem.
-
 
 ---
 

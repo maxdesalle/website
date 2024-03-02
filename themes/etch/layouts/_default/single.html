@@ -1,13 +1,18 @@
 {{ define "main" }}
 <article>
-    <header id="post-header">
-        <h1>{{ .Title }}</h1>
-        <div>
-        {{- if isset .Params "date" -}}
-			<time>{{ .Date | time.Format (i18n "post.created") }}</time>
-        {{- end -}}
-        </div>
-    </header>
-    {{- .Content -}}
+	<header id="post-header">
+		<h1>{{ .Title }}</h1>
+		<h1 style="color: #808080; font-size: 90%; margin-top: 0">
+			{{ .Description }}
+		</h1>
+		<div>
+			{{- if isset .Params "date" -}}
+			<time style="font-size: 80%; color: #B8B8B8"
+				><strong>{{ .Date | time.Format (i18n "post.created") }}</strong></time
+			>
+			{{- end -}}
+		</div>
+	</header>
+	{{- .Content -}}
 </article>
 {{ end }}

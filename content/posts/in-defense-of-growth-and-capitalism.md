@@ -1,6 +1,6 @@
 ---
 title: "In Defense of Growth and Capitalism"
-description: "Progression, not regression; a complete refutation of Degrowth."
+description: "Progression, not regression: a complete refutation of Degrowth."
 date: 2023-07-10
 ---
 

@@ -41,6 +41,13 @@ pygmentsUseClasses = true
     url = "https://github.com/maxdesalle"
     weight = 40
 
+  [[menu.socials]]
+    identifier = "signal"
+    name = "signal"
+    title = "signal"
+    url = "https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6"
+    weight = 50
+
 [permalinks]
   posts = "/:filename/"
 

@@ -6,10 +6,7 @@
 	{{ end }}
 	<meta property="og:title" content="{{ .Title }}" />
 	<meta property="og:description" content="{{ .Description }}" />
-	<meta
-		property="og:image"
-		content="https://maxdesalle.com/social_image.jpg"
-	/>
+	<meta property="og:image" content="https://maxdesalle.com/social_image.jpg" />
 	<meta property="og:url" content="https://maxdesalle.com" />
 	<meta name="twitter:title" content="{{ .Title }}" />
 	<meta name="twitter:description" content="{{ .Description }}" />
@@ -25,7 +22,10 @@
 	<!-- {{ else }} -->
 	<!-- <meta name="twitter:image" content="https://maxdesalle.com/social_image.jpg'" /> -->
 	<!-- {{ end }} -->
-	<meta name="twitter:image" content="{{ with .Params.thumbnail }}{{ . | absURL }}{{ else }}{{ "/social_image.jpg" | absURL }}{{ end }}" />
+	<meta
+		name="twitter:image"
+		content="{{ if .Params.thumbnail }}https://maxdesalle.com{{ .Params.thumbnail }}{{ else }}https://maxdesalle.com/social_image.jpg{{ end }}"
+	/>
 	<meta name="twitter:card" content="summary_large_image" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -36,18 +36,18 @@
 	<meta name="theme-color" content="#ffffff" />
 	{{ printf `
 	<link rel="shortcut icon" href="%s" />
-	` ("favicon.ico" | absURL) | safeHTML }} {{ with .OutputFormats.Get "rss"
-	-}} {{ printf `
+	` ("favicon.ico" | absURL) | safeHTML }} {{ with .OutputFormats.Get "rss" -}}
+	{{ printf `
 	<link rel="%s" type="%s" href="%s" title="%s" />
 	` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end -}} {{
 	$resources := slice -}} {{ $resources = $resources | append (resources.Get
 	"css/main.css") -}} {{ $resources = $resources | append (resources.Get
-	"css/min770px.css") -}} {{ $dark := .Site.Params.dark | default "auto" -}}
-	{{ if not (eq $dark "off") -}} {{ $resources = $resources | append
-	(resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .)
-	-}} {{ end -}} {{ if .Site.Params.highlight -}} {{ $resources = $resources |
-	append (resources.Get "css/syntax.css") -}} {{ end -}} {{ $css := $resources
-	| resources.Concat "css/style.css" | minify }} {{ printf `
+	"css/min770px.css") -}} {{ $dark := .Site.Params.dark | default "auto" -}} {{
+	if not (eq $dark "off") -}} {{ $resources = $resources | append (resources.Get
+	"css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}} {{ end -}} {{
+	if .Site.Params.highlight -}} {{ $resources = $resources | append
+	(resources.Get "css/syntax.css") -}} {{ end -}} {{ $css := $resources |
+	resources.Concat "css/style.css" | minify }} {{ printf `
 	<link rel="stylesheet" href="%s" />
 	` $css.RelPermalink | safeHTML }}
 

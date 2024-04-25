@@ -1,4 +1,4 @@
-baseURL = "http://maxdesalle.com/"
+baseURL = "https://maxdesalle.com/"
 languageCode = "en-us"
 title = "Maxime Desalle"
 theme = "etch"
@@ -10,7 +10,7 @@ pygmentsUseClasses = true
   # description = "Win and help win."
   dark = "off"
   highlight = true
-  images = ["https://maxdesalle.com/social_image.jpg"]
+  # images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]
   [[menu.main]]

@@ -14,35 +14,37 @@ thumbnail: "/article-cover-in-defense-of-growth-and-capitalism.jpg"
 
 ## Introduction
 
-In the realm of ideas, pessimism is often the enemy of innovation and progress. It's this notion, exemplified by Degrowth, that we should stop in our tracks, turn back the clock, and revert to a time where living conditions were depressingly poor, to somehow 'fix' climate change. It's a perspective that frowns upon progress, even deems it unwelcome.
+The core ideology behind Degrowth is that we should stop in our tracks, turn back the clock, and revert to a time where living conditions were depressingly poor, to somehow 'fix' climate change. It's a perspective that looks down on progress, even deems it unwelcome.
 
 This vision of society celebrates poverty as a badge of honor, and views restrictions on freedom as a positive, essential even. Within this worldview, children, who are nothing short of miracles breathing life into our world, [are viewed as liabilities](https://web.archive.org/web/20230924120151/https://foreignpolicy.com/2015/11/03/a-brutality-born-of-helplessness-china-one-child-policy-western-population-bomb-fearmongering//), exacerbating what they perceive as an overpopulation crisis.
 
 Degrowth calls for a centralized power to dictate where progress can and cannot take place, effectively deciding who receives resources and who does not. It's a system that inherently demands compliance, strongly resembling communism.
 
-Some Degrowth advocates pretend that it's possible to degrow the economy without centralized power and authoritarian tactics, because "everyone would willingly participate". We will go over this argument later in the article, but for now, the fact that I wrote this piece already proves the contrary.
+Some Degrowth advocates pretend that it's possible to degrow the economy without centralized power and authoritarian tactics, because "everyone would willingly participate". We will go over this argument later in this piece, but for now, the fact that I'm writing this already proves the contrary.
 
-Degrowth and authoritarianism, dictatorships, even world government, all seem to be part of the same melody. Because if even one subset of the world's population doesn't participate and continues growing, that could cause sufficient pollution to keep climate change going on.
+Degrowth and authoritarianism, dictatorships, even world government, are all part of the same melody. Because if even one subset of the world's population doesn't participate and continues growing, that could cause sufficient pollution to keep climate change going on.
 
-Advocates of Degrowth dress up their rhetoric with appealing terms like 'harmony', 'well-being', and 'sustainability'. But don't be duped. Their intentions may be well-meaning, but the aftermath of degrowth could be catastrophic.
+Advocates of Degrowth dress up their rhetoric with appealing terms like 'harmony', 'well-being', and 'sustainability'. But don't be duped. Their intentions may be well-meaning, but the aftermath of degrowth would be catastrophic.
 
-When the pie isn't getting larger, my share getting larger means yours is getting smaller, opening the door towards conflict. Corruption, violence, and oppression prevail in zero-sum, or should I say, negative-sum, societies – a far cry from harmony, well-being, and sustainability.
+When the pie isn't getting larger, my share getting larger means yours is getting smaller, opening the door towards conflict. Corruption, violence, and oppression prevail in <s>zero-sum</s> negative-sum societies – a stark contrast with "harmony", "well-being", and "sustainability".
 
 ## No overconsumption or overproduction
 
 A common critique of Capitalism is that it leads to overconsumption and overproduction. But that is evidently wrong.
 
-Of course, there are instances where true overconsumption transpires. Like when you're at a restaurant and you order more than you can eat, resulting in wasted food. But this form of wastage isn't applauded by capitalism, it’s penalized.
+Of course, there are instances where true overconsumption transpires. Like when you're at a restaurant and you order more than you can eat, resulting in wasted food. But this form of wastage isn't applauded by Capitalism, it’s penalized.
 
-You've squandered resources – you've lost money. If you'd been more attuned to your actual appetite, you'd have ordered wisely, saved money, and still been perfectly sated. Hence, capitalism subtly nudges you towards precise consumption - not more, not less.
+You've squandered resources – you've lost money. If you'd been more attuned to your actual appetite, you'd have ordered wisely, saved money, and still been perfectly sated. Hence, Capitalism subtly nudges you towards precise consumption - not more, not less.
 
-The narrative is similar for corporations. If a business overproduces, the surplus stock piles up, unsold. This is a clear cut loss, a monetary penalty, prompting them to match production to the demand. Capitalism, in essence, nudges companies to manufacture what the market necessitates, no more, no less.
+The narrative is similar for corporations. If a business overproduces, the surplus stock piles up, unsold. This is a clear cut loss, a monetary penalty, prompting them to match production to the demand. Capitalism, in essence, incentivizes companies to manufacture what the market necessitates, no more, no less.
 
 Those subscribing to the Degrowth doctrine often misinterpret the utility of products, suggesting that several commodities lack intrinsic value and, hence, shouldn't be produced. But the notion of utility is subjective.
 
 The market responds to consumer demand. If someone is willing to pay money for a product, it is, by definition, useful to them. If the product isn't beneficial to anyone, it won't find a buyer, inflicting financial losses on the company, potentially pushing it to the brink of bankruptcy.
 
-Capitalism denotes 'right-sized' consumption and production. Whenever there's a misstep, a tilt towards the excess or the insufficient, the unforgiving but fair hand of the market steps in to administer a course correction.
+In case of underproduction, meaning when a company is unable to meet the demands of the market in terms of product supply, the market directly incentivizes a competitor to emerge and offer a competing product, through the market's unmet demand.
+
+Because of these reasons, it's fair to conclude that Capitalism denotes 'right-sized' consumption and production. Whenever there's a misstep, a tilt towards the excess or the insufficient, the unforgiving but fair hand of the market steps in to administer a course correction.
 
 ---
 
@@ -59,11 +61,13 @@ A common theme among alternatives to Capitalism is their lack of pragmatism. The
 
 As if nations like China, India, and Nigeria would willingly limit their growth, and settle for poor living conditions, all because of climate change? They wouldn't, and frankly, if we were in their shoes, we would feel exactly the same. Our ancestors lived incredibly poorly compared to how we live now, after all.
 
-But if they aren't in the shoes of third-world countries, the vast majority of people continue living as they have always done. Prior to the pandemic, despite all the climate protests, the number of passengers [flying globally](https://web.archive.org/web/20240204141326/https://www.iea.org/data-and-statistics/charts/world-air-passenger-traffic-evolution-1980-2020) and [travelling on cruises](https://web.archive.org/web/20240301064523/https://cruisemarketwatch.com/growth/) only increased year after year.
+But even if they aren't in the shoes of third-world countries, the vast majority of people continue living as they have always done. Prior to the pandemic, despite all the climate protests, the number of passengers [flying globally](https://web.archive.org/web/20240204141326/https://www.iea.org/data-and-statistics/charts/world-air-passenger-traffic-evolution-1980-2020) and [travelling on cruises](https://web.archive.org/web/20240301064523/https://cruisemarketwatch.com/growth/) only increased year after year.
 
 While some may vocally support Degrowth, it's only rarely reflected in their actions. Degrowth for thee, not for me.
 
-This also applies to governments, who have been attending COP conferences to discuss climate change solutions and virtue signal about their "initiatives" since 1995, while carbon emissions [have only been increasing](https://web.archive.org/web/20240223202841/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL) since then.
+This also applies to governments, who have been attending COP conferences to discuss climate change solutions and virtue signal about their "initiatives" since 1995, while carbon emissions [have only been increasing](https://web.archive.org/web/20240503175507/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL) since then.
+
+Interestingly, in the past ten years, they have [remained stable or very slightly decreased for the USA, a capitalistic country, whereas they have increased for China, a socialist country](https://web.archive.org/web/20240503180641/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?time=2012..latest&country=USA~CHN). And [the USA didn't just outsource its carbon emissions to China](https://web.archive.org/web/20240503180805/https://www.noahpinion.blog/p/no-the-us-didnt-outsource-our-carbon), like it's commonly believed. This proves exactly my point: countries like China are not game theoretically incentivized to care about climate change. They are incentivized to grow as much as possible. We wouldn't behave any different if we were in their shoes, and you can protest as much as you like, China won't stop growing.
 
 ## Happiness is not a valid argument
 
@@ -83,6 +87,8 @@ A hedonist may define happiness as finding pleasure in the little things, while 
 
 The conclusion is simple: happiness is not a valid argument in this debate.
 
+However, what is a valid argument, is that there is [there is absolutely no virtue in poverty](https://twitter.com/arjunkhemani/status/1786327595786875311) and that it inevitably leads to unhappiness.
+
 ---
 
 <figure>
@@ -94,15 +100,13 @@ The conclusion is simple: happiness is not a valid argument in this debate.
 
 ## The overpopulation myth
 
-A popular meme in today's society is that we are too many on the planet. This is apparently so-called "common sense".
-
-Without going over the hypocrisy that it entails (we are too many on the planet, but it's others who are the problem, not me), the argument often used to defend this misconception is that there are supposedly not enough resources for everyone.
+A popular meme in today's society is that we are too many on the planet. This is apparently so-called "common sense". The argument often used to defend this misconception is that there are supposedly not enough resources for everyone.
 
 But that misses the point. The issue isn't a deficit of physical resources; it's a shortage of knowledge.
 
 Consider Uranium, for instance. Before we understood its potential, it was just another raw material buried deep in the earth. The physical resource existed, but our ignorance rendered it useless.
 
-Then, science moved forward. We unlocked the mysteries of the atom, technology evolved, and suddenly we found ourselves with a powerful source of energy. Just like that, Uranium was no longer an inert element but a game-changer for the world.
+Then, science moved forward, technology evolved, and suddenly we found ourselves with a powerful source of energy. Just like that, Uranium was no longer an inert element but a real game-changer for the world.
 
 We're not limited by what we have; we're only limited by what we know. There's a myriad of undiscovered methods to utilize existing resources to generate more energy, food, and other necessities. Similarly, there's an abundance of untapped potential to enhance our present resource utilization strategies.
 
@@ -110,7 +114,7 @@ This is where the population doom-mongers falter, assuming that our usage and ef
 
 In fact, a larger population would result in more demand for food, water, energy, and other basic needs, resulting in an increased incentive to invent new ways to solve these problems (or improve current ones). The market adapts itself to supply and demand in real time, one of the beautiful aspects of our capitalistic system.
 
-More people on the planet means more humans who get the chance of experiencing the beauty of life, more creative minds, more inventions, more technological breakthroughs, etc. This a net positive for the world, it's wonderful.
+More people on the planet means more humans who get the chance of experiencing the beauty of life, more creative minds, more inventions, more technological breakthroughs, etc. This a net positive for the world! It's wonderful.
 
 ## Capitalism isn't burning the planet
 

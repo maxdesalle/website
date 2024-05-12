@@ -39,7 +39,7 @@ Again, the numbers here are just an example. If they disagree, you tell them (be
 
 Congrats! You paid a one-time fee, and got in exchange a reasonable tax rate, for life (of course, part of the deal should include that the country/government should put up a collateral that gets seized if they increase the tax rate subsequently, this could be done using crypto and an oracle system to detect the change and liquidate the country/state's collateral position) for very very very rich people. Kind of unethical as the rest of the population is still forced to pay normal taxes.
 
-But now, you can raise $100,000 from 10,000 people and do the same! Then $10,000 from 100,000. Then $1000 from 1,000,000 people. etc. Force governments to lower their tax rates and become efficient.
+But now, you can raise $100,000 from 10,000 people and do the same! Then $10,000 from 100,000 people. Then $1000 from 1,000,000 people. etc. Force governments to lower their tax rates and become efficient.
 
 ---
 

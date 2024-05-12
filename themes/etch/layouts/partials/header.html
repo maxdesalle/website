@@ -7,9 +7,9 @@
 				{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"
 					>{{- .Name -}}</a
 				>{{ .Post }}
+			<span style="margin-left: 2rem">
 			</li>
 			{{- end }}
-			<span style="margin-left: 2rem">
 				{{ range .Site.Menus.socials.ByWeight -}}
 				<li>
 					{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"
@@ -19,6 +19,7 @@
 				{{- end }}
 			</span>
 		</ul>
+			<hr>
 	</nav>
 	<script
 		defer

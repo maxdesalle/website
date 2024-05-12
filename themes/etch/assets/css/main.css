@@ -21,7 +21,8 @@ body {
 }
 
 header#banner {
-	margin: 25px 0;
+	margin-top: 25px;
+	margin-bottom: -20px;
 }
 
 header#banner a {

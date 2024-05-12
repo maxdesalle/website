@@ -7,11 +7,13 @@
 				{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"
 					>{{- .Name -}}</a
 				>{{ .Post }}
-			<span style="margin-left: 2rem">
+			<span style="margin-left: 1.5rem">
 			</li>
 			{{- end }}
+			<span style="margin-left: 2.5rem">
 				{{ range .Site.Menus.socials.ByWeight -}}
 				<li>
+					<span style="margin-left: 1.5rem">
 					{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"
 						>{{- .Name -}}</a
 					>{{ .Post }}

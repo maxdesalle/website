@@ -87,7 +87,7 @@ A hedonist may define happiness as finding pleasure in the little things, while 
 
 The conclusion is simple: happiness is not a valid argument in this debate.
 
-However, what is a valid argument, is that there is [there is absolutely no virtue in poverty](https://twitter.com/arjunkhemani/status/1786327595786875311) and that it inevitably leads to unhappiness.
+However, what is a valid argument, is that there is [there is absolutely no virtue in poverty](https://web.archive.org/web/20240503182345/https://twitter.com/arjunkhemani/status/1786327595786875311) and that it inevitably leads to unhappiness.
 
 ---
 

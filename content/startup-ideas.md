@@ -35,11 +35,11 @@ Business model is very simple: free users get access to the dashboard, but with 
 
 With your 1 billion dollars, you go knock at the door of each country government in the EU, or if you are in the US for example, each state. You tell them that you are willing to hand them over your money if, and only if, they agree to offer a preferential flat tax rate of, for example, 5%, to all your 1000 members.
 
-Again, the numbers here are just an example. If they disagree, you tell them (because you are polite) that you will be then forced to go knock at the door of the neighbouring country/state and offer them the same proposal. There are 27 countries in the EU and 50 states in the US, intuitively, it's likely at least one of these would agree. So the first governments you are talking to will probably feel and urge to accept, otherwise the money will go to a competing country/state.
+Again, the numbers here are just an example. If they disagree, you tell them (because you are polite) that you will be then forced to go knock at the door of the neighbouring country/state and offer them the same proposal. There are 27 countries in the EU and 50 states in the US, intuitively, it's likely at least one of these would agree. So the first governments you are talking to will probably feel an urge to accept, otherwise the money will go to a competing country/state.
 
-Congrats! You paid a one-time fee, and got in exchange a reasonable tax rate, for life (of course, part of the deal should include that the country/government should put up a collateral that gets seized if they increase the tax rate subsequently, this could be done using crypto and an oracle system to detect the change and liquidate the country/state's collateral position).
+Congrats! You paid a one-time fee, and got in exchange a reasonable tax rate, for life (of course, part of the deal should include that the country/government should put up a collateral that gets seized if they increase the tax rate subsequently, this could be done using crypto and an oracle system to detect the change and liquidate the country/state's collateral position) for very very very rich people. Kind of unethical as the rest of the population is still forced to pay normal taxes.
 
-Now, you can raise $100,000 from 10,000 people and do the same. Then $10,000 from 100,000. Then $1000 from 1,000,000 people. etc.
+But now, you can raise $100,000 from 10,000 people and do the same! Then $10,000 from 100,000. Then $1000 from 1,000,000 people. etc. Force governments to lower their tax rates and become efficient.
 
 ---
 

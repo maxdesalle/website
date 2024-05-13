@@ -11,11 +11,15 @@ This is an unordered list of (sometimes terrible) startup ideas I have, and pote
 
 Take New York City. Imagine if you could increase the size of Manhattan, or simply recreate an other island right next to the island of Manhattan. It would massively reduce inequality of opportunity as it becomes more affordable for "normal" people to live close the city center, given the housing supply gets significantly larger in that area. You also decrease the time people spend moving from one place to another, as they can live closer to the city center.
 
+This is what [Singapore has been doing for quite some time now](https://en.wikipedia.org/wiki/Land_reclamation_in_Singapore) to progressively grow its city state island.
+
 Out in the deep ocean, this could potentially enable the creation of new nation states with sovereign land. There is also a very significant use case potential for the military. I would imagine that the DoD would be very interested in the ability to quickly set up an artificial island near a hostile country.
 
 Only problem I could think of is the ecological consequences of building these artificial islands. You are effectively destroying the ecosystems that are based in the area on top of which the island is built, as well as where the sand is pumped out of if it's in the ocean. Haven't yet figured out a solution for that part.
 
 Also very hard to pull of in terms on the regulatory side (you will need to convince and sell the idea to governments, rarely easy), and you are very dependent on the price of sand.
+
+There are alternatives to sand, though. You can, for example, build an embakment around the area where you want the artificial island to be, pump out all the water, and then start building. Doesn't solve the ecological aspect, though.
 
 Startup name could be "Archipel", "Archipelago", "Atlantis", or a fourth secret name which is too good and close to my heart to be revealed.
 

@@ -13,13 +13,17 @@ Take New York City. Imagine if you could increase the size of Manhattan, or simp
 
 This is what [Singapore has been doing for quite some time now](https://en.wikipedia.org/wiki/Land_reclamation_in_Singapore) to progressively grow its city state island.
 
-Out in the deep ocean, this could potentially enable the creation of new nation states with sovereign land. There is also a very significant use case potential for the military. I would imagine that the DoD would be very interested in the ability to quickly set up an artificial island near a hostile country.
+Artificial island building could also be used to defend countries against the threat of rising sea levels. Out in the deep ocean, this could potentially enable the creation of new nation states with sovereign land.
 
-Only problem I could think of is the ecological consequences of building these artificial islands. You are effectively destroying the ecosystems that are based in the area on top of which the island is built, as well as where the sand is pumped out of if it's in the ocean. Haven't yet figured out a solution for that part.
+There is also a very significant use case potential for the military. I would imagine that the U.S. Department of Defense would be very interested in the ability to quickly set up an artificial island anywhere in the world (near a hostile country, for example), or increase the size of an existing one. Singapore [has been doing](https://en.wikipedia.org/wiki/Pulau_Tekong) exactly that.
 
-Also very hard to pull of in terms on the regulatory side (you will need to convince and sell the idea to governments, rarely easy), and you are very dependent on the price of sand.
+Only problem I could think of is the ecological consequences of building these artificial islands. You are effectively destroying the ecosystems that are based in the area on top of which the island is built, as well as where the sand is pumped out of if it's in the ocean, assuming you are using leveraging sand to build the island.
 
-There are alternatives to sand, though. You can, for example, build an embakment around the area where you want the artificial island to be, pump out all the water, and then start building. Doesn't solve the ecological aspect, though.
+There isn't a perfect solution on the ecological side, but there are a lot of things you can do to minimize as much as possible the disruptions to the local biodiversity. You could only select sites that have minimal ecological sensitivity (obviously avoid areas with a lot of biodiversity, coral reefs, etc.), compensate by restoring disrupted marine habitats elsewhere (similar to how companies that cut trees are forced to plant an equal number of trees, in some countries), build the island in phases to allow wild life to gradually adapt to the changes, and use materials and resources that aren't toxic for the local fauna.
+
+Also very hard to pull of in terms on the regulatory side (you will need to convince and sell the idea to governments, rarely easy), and you are very dependent on the price of sand (assuming you are leveraging sand).
+
+There are alternatives to sand, though. You can, for example, build an embakment around the area where you want the artificial island to be, pump out all the water, and then start building. Or you could simply use rocks and gravel. Or even alternatively abandon the idea of a "solid" island entirely and build floating islands (floating platforms made out of concrete, steel or another material). These could probably be made quite stable by anchoring them to the seabed.
 
 Startup name could be "Archipel", "Archipelago", "Atlantis", or a fourth secret name which is too good and close to my heart to be revealed.
 

@@ -11,7 +11,7 @@ This is an unordered list of (sometimes terrible) startup ideas I have, and pote
 
 Take New York City. Imagine if you could increase the size of Manhattan, or simply recreate an other island right next to the island of Manhattan. It would massively reduce inequality of opportunity as it becomes more affordable for "normal" people to live close the city center, given the housing supply gets significantly larger in that area. You also decrease the time people spend moving from one place to another, as they can live closer to the city center.
 
-This is what [Singapore has been doing for quite some time now](https://en.wikipedia.org/wiki/Land_reclamation_in_Singapore) to progressively grow its city state island.
+This is what [Singapore has been doing for quite some time now](https://en.wikipedia.org/wiki/Land_reclamation_in_Singapore) to progressively grow its city state island. [Hong Kong too](https://en.wikipedia.org/wiki/Land_reclamation_in_Hong_Kong). They even [built one of their airports that way](https://en.wikipedia.org/wiki/Chek_Lap_Kok).
 
 Artificial island building could also be used to defend countries against the threat of rising sea levels. Out in the deep ocean, this could potentially enable the creation of new nation states with sovereign land.
 

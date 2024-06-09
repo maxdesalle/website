@@ -62,3 +62,12 @@ Business model is simple: a subscription for additional content, ads, writing bo
 It should absolutely avoid the clichés like "how to dress like a gentleman" and focus on what really matters: principles, values and moral codes.
 
 ---
+
+**Deep see exploration tech:** imagine [Boston Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics), but for underwater robots. Most oceans are largely unexplored. There are a ton of plants, species, etc. that we don't know about yet as they are located in these unexplored areas. The implications of these findings for healthcare, for example, could be very significant. One could also think of the rare earth minerals that could be found at the bottom of these oceans.
+
+The real challenge here is twofold:
+
+- Find a working business model. Hunting for new plants, species, or finding rare earth minerals is probably not stable enough as a model? Not sure.
+- Figure out a way to design these underwater submersibles/robots so they can withstand the _insane_ amounts of pressure that exist deep into the ocean.
+
+---

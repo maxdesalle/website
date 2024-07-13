@@ -60,6 +60,7 @@ Favorite books in bold, with all-time favorite books underlined.
 - <span style="text-decoration:underline">[**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)</span> - David Deutsch
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
 - [The Science of Can and Can't](https://www.amazon.com/Science-Can-Cant-Physicists-Counterfactuals/dp/0525521925) - Chiara Marletto
+- [Guests of the Sheik](https://www.amazon.com/Guests-Sheik-Ethnography-Iraqi-Village/dp/0385014856) - Elizabeth Warnock Fernea
 
 **Favorite Twitter accounts:**
 

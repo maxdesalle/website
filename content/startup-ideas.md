@@ -28,6 +28,15 @@ There are alternatives to sand, though. You can, for example, build an embakment
 
 Startup name could be "Archipel", "Archipelago", "Atlantis", or a fourth secret name which is too good and close to my heart to be revealed.
 
+
+---
+
+**Encrypted data manipulation:** a data breach is really bad for business. It hurts the brand of the company, leaves affected users disappointed and often angry, and may even put the company at risk legally. What if you as a company could still send over that weekly newsletter you have to your customerbase, for example, while always keeping those emails encrypted, never putting them at risk?
+
+I'm the opposite of an expert when it comes to homomorphic encryption, zero-knowledge proofs, etc. but my guess is such a product could be built using those technologies. The "only" problems regarding those two technologie is that they 1. are very complex to implement, and 2. very resource-intensive and slow. Though it's probably only a matter of time before it becomes viable.
+
+Data breaches could soon be a relic of the past (social engineering/insiders will still be an issue regarding data leaks, though).
+
 ---
 
 **Real-time economy dashboards:** think of these COVID-19 map dashboards, but with faster updates and for the economy. You would be able to track the impact of interest rates increases in real time and in specific places. Basically needs to be a [Dune](https://dune.com)-like service, but for the "real" economy.

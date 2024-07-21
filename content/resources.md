@@ -38,6 +38,7 @@ Favorite books in bold, with all-time favorite books underlined.
 - [Influence](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X) - Robert B. Cialdini
 - <span style="text-decoration:underline">[**Le Comte De Monte-Cristo**](https://www.amazon.fr/Comte-Monte-Cristo-Int%C3%A9grale-trois-volumes/dp/1545401055)</span> - Alexandre Dumas (in French)
 - [Letters from a Stoic](https://www.amazon.com/Letters-Penguin-Classics-Lucius-Annaeus/dp/0140442103) - Seneca
+- [Bound to Be Free](https://www.amazon.com/Bound-Be-Free-Positive-Alternative/dp/1900219204) - Jane Fortune-Wood
 - [**Meditations**](https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255) - Marcus Aurelius
 - [Poor Charlie's Almanack](https://www.amazon.com/Poor-Charlies-Almanack-Charles-Expanded/dp/1578645018) - Peter D. Kaufman
 - [Radical Markets](https://www.amazon.com/Radical-Markets-Uprooting-Capitalism-Democracy/dp/0691196060) - Eric A. Posner and E. Glen Weyl
@@ -55,12 +56,14 @@ Favorite books in bold, with all-time favorite books underlined.
 - [Why We Sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144324) - Matthew Walker
 - [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388) - Andreas M. Antonopoulos
 - [Pitching Hacks](https://www.amazon.com/Pitching-Hacks-pitch-startups-investors/dp/0557235596) - Venture Hacks
-- [**Without Boundaries**](https://www.amazon.com/Without-Boundaries-Jan-Fortune-Wood/dp/1900219174/) - Jane Fortune-Wood
+- [**With Consent**](https://www.amazon.com/Consent-Parenting-All-Win/dp/1900219247) - Jane Fortune-Wood
 - [Zero to One](https://www.amazon.com/-/es/Peter-Thiel-Blake-Masters/dp/0753555204) - Peter Thiel
 - <span style="text-decoration:underline">[**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)</span> - David Deutsch
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
 - [The Science of Can and Can't](https://www.amazon.com/Science-Can-Cant-Physicists-Counterfactuals/dp/0525521925) - Chiara Marletto
 - [Guests of the Sheik](https://www.amazon.com/Guests-Sheik-Ethnography-Iraqi-Village/dp/0385014856) - Elizabeth Warnock Fernea
+- [Doing It Their Way](https://www.amazon.com/Doing-Their-Way-Home-Based-Autonomous/dp/1900219166) - Jane Fortune-Wood
+- [Too Soon Old, Too Late Smart](https://www.amazon.com/Too-Soon-Old-Late-Smart/dp/1569243735) - Gordon Livingston
 
 **Favorite Twitter accounts:**
 

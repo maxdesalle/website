@@ -34,9 +34,9 @@ A common critique of Capitalism is that it leads to overconsumption and overprod
 
 Of course, there are instances where true overconsumption transpires. Like when you're at a restaurant and you order more than you can eat, resulting in wasted food. But this form of wastage isn't applauded by Capitalism, it’s penalized.
 
-You've squandered resources – you've lost money. If you'd been more attuned to your actual appetite, you'd have ordered wisely, saved money, and still been perfectly sated. Hence, Capitalism subtly nudges you towards precise consumption - not more, not less.
+You've wasted resources – you've lost money. If you'd been more attuned to your actual appetite, you'd have ordered wisely, saved money, and still been perfectly sated. Hence, Capitalism subtly nudges you towards precise consumption - not more, not less.
 
-The narrative is similar for corporations. If a business overproduces, the surplus stock piles up, unsold. This is a clear cut loss, a monetary penalty, prompting them to match production to the demand. Capitalism, in essence, incentivizes companies to manufacture what the market necessitates, no more, no less.
+The same applies to corporations. If a business overproduces, the surplus stock piles up, unsold. This is a clear cut loss, a monetary penalty, prompting them to match production to the demand. Capitalism, in essence, incentivizes companies to manufacture what the market necessitates, no more, no less.
 
 Those subscribing to the Degrowth doctrine often misinterpret the utility of products, suggesting that several commodities lack intrinsic value and, hence, shouldn't be produced. But the notion of utility is subjective.
 
@@ -67,7 +67,7 @@ While some may vocally support Degrowth, it's only rarely reflected in their act
 
 This also applies to governments, who have been attending COP conferences to discuss climate change solutions and virtue signal about their "initiatives" since 1995, while carbon emissions [have only been increasing](https://web.archive.org/web/20240503175507/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?country=~OWID_WRL) since then.
 
-Interestingly, in the past ten years, they have [remained stable or very slightly decreased for the USA, a capitalistic country, whereas they have increased for China, a socialist country](https://web.archive.org/web/20240503180641/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?time=2012..latest&country=USA~CHN). And [the USA didn't just outsource its carbon emissions to China](https://web.archive.org/web/20240503180805/https://www.noahpinion.blog/p/no-the-us-didnt-outsource-our-carbon), like it's commonly believed. This proves exactly my point: countries like China are not game theoretically incentivized to care about climate change. They are incentivized to grow as much as possible. We wouldn't behave any different if we were in their shoes, and you can protest as much as you like, China won't stop growing.
+Interestingly, in the past ten years, they have [remained stable or very slightly decreased for the USA, a capitalistic country, whereas they have increased for China, a socialist country](https://web.archive.org/web/20240503180641/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?time=2012..latest&country=USA~CHN). And [the USA didn't just outsource its carbon emissions to China](https://web.archive.org/web/20240503180805/https://www.noahpinion.blog/p/no-the-us-didnt-outsource-our-carbon), like it's commonly believed. This proves exactly my point: countries like China are not game theoretically incentivized to care about climate change. They are incentivized to grow as much as possible. We wouldn't behave any differently if we were in their shoes, and you can protest as much as you like, China won't stop growing.
 
 ## Happiness is not a valid argument
 
@@ -116,19 +116,23 @@ In fact, a larger population would result in more demand for food, water, energy
 
 More people on the planet means more humans who get the chance of experiencing the beauty of life, more creative minds, more inventions, more technological breakthroughs, etc. This a net positive for the world! It's wonderful.
 
+Let's also not forget [we could theoretically store the entire human population in a cube of side 1.07km](https://web.archive.org/web/20240205185228/https://waitbutwhy.com/2015/03/7-3-billion-people-one-building.html), we've a lot of room left.
+
 ## Capitalism isn't burning the planet
 
-Capitalism is burning the planet, they say. It's not. Capitalism cannot burn the planet, it's an economic system. Nor is the planet burning. The climate is changing.
+Capitalism cannot burn the planet, it's an economic system. Nor is the planet burning, the climate is changing.
 
-What is really happening is that present day technology, used to improve the quality of life for humans, has, too often, an impact that causes our climate to change. It has nothing to do with Capitalism itself. This could very well happen in a communistic society too. [It has](https://web.archive.org/web/20240221111727/https://en.wikipedia.org/wiki/Aral_Sea#/media/File:AralSea1989_2014.jpg), in fact.
+The argument often used against Capitalism in this situation is the fact that it creates incentives for people to care about their benefit in the short-term, but at a long-term detriment for the climate. That may be right, but by that same argument, it should also incentivize people to build technologies that will counter climate change nowadays, as there is demand for it. That's what also what is happening, Tesla, and hundreds of climate tech companies being an example of that.
 
-The solution to that problem is obviously to improve our technology, not to change our economic system, which again, doesn't cause climate change. It's about improving our existing technology, both in terms of user experience and in terms of impact on the climate.
+Too often, people also forget that Capitalism led to the creation of nuclear powerplants, one of the best solutions to prevent climate change. Except the left has for decades been fully against it, citing irrational safety risks. And the same people are now complaining that Capitalism is causing climate change.
 
-Tesla is a great example of that. It's objectively a better product, while also being cleaner environmentally (assuming the electricity it runs on doesn't come from coal power plants, for example).
+Due to the paranoia of "environmentalists" against nuclear energy, governments made it incredibly hard to build new powerplants, [even closing ones which functioned perfectly well](https://web.archive.org/web/20240514052525/https://www.cnbc.com/2023/04/18/germany-shuts-down-last-nuclear-power-plants-some-scientists-aghast.html). [It's now so expensive to build a nuclear powerplant due to all the bureaucratic processes surrounding it](https://web.archive.org/web/20240619051942/https://ifp.org/web/20240619051942/https://ifp.org/nuclear-power-plant-construction-costs/), that it's nearly not even profitable anymore, and takes a decade or more for it to start producing energy. "Environmentalists" are at fault here, not Capitalism. The irony being that the ones who created this terrible situation ("environmentalists") are the ones now blaming the system that brought the solution (Capitalism) for causing climate change.
 
-The better user experience is the necessary incentive to attract consumers, who now get the chance of driving a car that is much cleaner environmentally.
+Instead, "environmentalists" have been pushing wind and solar energy, which only work when there is wind and sun respectively. What happens at night, when there is no wind? No electricity?
 
-Climate change isn't an unsolvable riddle. It's a technological challenge, and we're fully capable of tackling it. We need more companies that will help us solve this problem.
+Also worth mentioning that [communism wasn't kind towards the environment either](https://web.archive.org/web/20240221111727/https://en.wikipedia.org/wiki/Aral_Sea#/media/File:AralSea1989_2014.jpg), to say the least.
+
+Climate change isn't an unsolvable problem. It's a technological challenge, and we're fully capable of tackling it. We already have several tools at our disposal like nuclear energy, and in the meantime, hundreds of new solutions are being developed to help prevent and counter it.
 
 ---
 
@@ -159,7 +163,7 @@ And the issue of wealth inequality, even if we were to accept it as a legitimate
 
 Just compare the average peasant's life during Louis XIV's reign, which was made out of hardship and poverty, to the opulence of the royal court at Versailles.
 
-Peasants (the majority of the population) [mostly ate bread, about 40% owned little to not land](https://web.archive.org/web/20200225002946/http://www.fiatlux-day.org/euro/period_2/chapter_18/reading_18-6.html), and they typically lived in [one or two room houses](https://web.archive.org/web/20240225073756/https://sites.udel.edu/britlitwiki/social-and-family-life-in-the-late17th-early-18th-centuries/) in rural areas and their lifestyle was mostly agrarian. They sometimes shared their living space with their animals, and faced starvation in case of a poor harvest.
+Peasants (the majority of the population) [mostly ate bread, about 40% owned little to not land](https://web.archive.org/web/20200225002946/http://www.fiatlux-day.org/euro/period_2/chapter_18/reading_18-6.html), and they typically lived in [one or two room houses](https://web.archive.org/web/20240225073756/https://sites.udel.edu/britlitwiki/social-and-family-life-in-the-late17th-early-18th-centuries/) in rural areas and their lifestyle was mostly agrarian. They sometimes shared their living space with their animals, and faced starvation in case of a poor harvest. Parents and children slept in the same room.
 
 In contrast, Louis XIV ordered the construction of the Palais de Versailles, with hundreds of luxurious rooms, magnificent gardens with fountains, and countless paintings and statues. He had jewelry, clothing made out of delicate fabrics like silk and velvet, without forgetting the wigs of course. He had access to the finest meats, fruits, vegetables, wines, etc. And he could travel anywhere he wanted across France with the most comfortable carriages and the best horses.
 
@@ -186,6 +190,16 @@ Forget ‘harmony’, ‘well-being’, and ‘sustainability’. The iron rule 
 Additionally, being a pacifist doesn't mean that you shouldn't defend yourself against the enemy, on the contrary. It's not about being "peaceful", it's about protecting peace. If that requires violence because others threaten peace, then so be it.
 
 Having a strong defense also unironically acts as a war deterrent, as the enemy will be less likely to attack you. We should invest more in defense, not less.
+
+## Communist? There's nothing stopping you
+
+Contrary to communism, where you have to be communist and cannot be a Capitalist, there is nothing stopping you from being a communist in a Capitalist country.
+
+The hypocrisy of the extreme left on that front is unbearable to say the least. If you are communist, embody that ideology and go live in a commune. Have some skin in the game. It's bad ethics to criticize a system and state that it's the root of all evil, while simulataneously profiting from it and keep participating in it. You have the choice. If Capitalism is really that bad, go live in a commune.
+
+Except people have done it in the past, and weirdly enough (please pardon my irony), they no longer do. [The Kibbutzim](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz) are an example of that. Up until the 1970s, [they were essentially communist](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Communal_life). Needless to say the majority them since then have become privatized and are fully capitalistic nowadays. They had to, [in order to prevent financial collapse](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Legal_reforms_after_privatisation). Turns out ignoring economic realities is unsustainable.
+
+If your alternative to the present system is really better, try it, you have that liberty.
 
 ---
 

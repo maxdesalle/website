@@ -132,7 +132,7 @@ Instead, "environmentalists" have been pushing wind and solar energy, which only
 
 Also worth mentioning that [communism wasn't kind towards the environment either](https://web.archive.org/web/20240221111727/https://en.wikipedia.org/wiki/Aral_Sea#/media/File:AralSea1989_2014.jpg), to say the least.
 
-Climate change isn't an unsolvable problem. It's a technological challenge, and we're fully capable of tackling it. We already have several tools at our disposal like nuclear energy, and in the meantime, hundreds of new solutions are being developed to help prevent and counter it.
+The point being that climate change isn't an unsolvable problem. It's a technological challenge, and we're fully capable of tackling it. We already have several tools at our disposal like nuclear energy, and in the meantime, hundreds of new solutions are being developed to help prevent and counter it.
 
 ---
 
@@ -199,7 +199,7 @@ The hypocrisy of the extreme left on that front is unbearable to say the least. 
 
 Except people have done it in the past, and weirdly enough (please pardon my irony), they no longer do. [The Kibbutzim](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz) are an example of that. Up until the 1970s, [they were essentially communist](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Communal_life). Needless to say the majority them since then have become privatized and are fully capitalistic nowadays. They had to, [in order to prevent financial collapse](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Legal_reforms_after_privatisation). Turns out ignoring economic realities is unsustainable.
 
-If your alternative to the present system is really better, try it, you have that liberty.
+If your alternative to the present system is really better, try it. Capitalism grants you that liberty.
 
 ---
 

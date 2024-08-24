@@ -64,6 +64,7 @@ Favorite books in bold, with all-time favorite books underlined.
 - [Guests of the Sheik](https://www.amazon.com/Guests-Sheik-Ethnography-Iraqi-Village/dp/0385014856) - Elizabeth Warnock Fernea
 - [Doing It Their Way](https://www.amazon.com/Doing-Their-Way-Home-Based-Autonomous/dp/1900219166) - Jane Fortune-Wood
 - [Too Soon Old, Too Late Smart](https://www.amazon.com/Too-Soon-Old-Late-Smart/dp/1569243735) - Gordon Livingston
+- [Drugs Without the Hot Air](https://www.amazon.com/Drugs-without-hot-air-illegal/dp/0857844989) - David Nutt
 
 **Favorite Twitter accounts:**
 

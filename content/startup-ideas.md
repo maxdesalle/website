@@ -18,7 +18,7 @@ Artificial island building could also be used to defend countries against the th
 
 There is also a very significant use case potential for the military. I would imagine that the U.S. Department of Defense would be very interested in the ability to quickly set up an artificial island anywhere in the world (near a hostile country, for example), or increase the size of an existing one. Singapore [has been doing](https://en.wikipedia.org/wiki/Pulau_Tekong) exactly that. China literally built [a "Great Wall of Sand"](https://en.wikipedia.org/wiki/Great_Wall_of_Sand), a set of artificial islands strategically located in the South China Sea equipped with anti-aircraft and anti-missile systems.
 
-Only problem I could think of is the ecological consequences of building these artificial islands. You are effectively destroying the ecosystems that are based in the area on top of which the island is built, as well as where the sand is pumped out of if it's in the ocean, assuming you are using sand to build the island.
+Only problem I could think of is the ecological consequences of building these artificial islands. You are effectively destroying the ecosystems that are based in the area on top of which the island is built, as well as where the sand is pumped out of if it's in the ocean, assuming you are using sand to build the island. Though to be fair, it's unlikely there is a lot of biodiversity near ports of large cities, the water is already heavily polluted, there is a lot of ship traffic, etc.
 
 There isn't a perfect solution on the ecological side, but there are a lot of things you can do to minimize as much as possible the disruptions to the local biodiversity. You could only select sites that have minimal ecological sensitivity (obviously avoid areas with a lot of biodiversity, coral reefs, etc.), compensate by restoring disrupted marine habitats elsewhere (similar to how companies that cut trees are forced to plant an equal number of trees, in some countries), build the island in phases to allow wild life to gradually adapt to the changes, and use materials and resources that aren't toxic for the local fauna.
 
@@ -27,6 +27,24 @@ Also very hard to pull of in terms on the regulatory side (you will need to conv
 There are alternatives to sand, though. You can, for example, build an embakment around the area where you want the artificial island to be, pump out all the water, and then start building. Or you could simply use rocks and gravel. Or even alternatively abandon the idea of a "solid" island entirely and build floating islands (floating platforms made out of concrete, steel or another material). These could probably be made quite stable by anchoring them to the seabed.
 
 Startup name could be "Archipel", "Archipelago", "Atlantis", or a fourth secret name which is too good and close to my heart to be revealed.
+
+---
+
+**Actually good Kombucha:** I drink Kombucha all the time, I love it. If you don't know it, it's a fermented probiotic drink based on tea. Probiotics are foods/drinks that, according to the current research, contribute to the health of your gut as they contain bacteria that will help your digestive system.
+
+There is a big market for probiotics, [40% of the world population suffers from gastrointestinal problems](<https://www.gastrojournal.org/article/S0016-5085\(20\)30487-X/fulltext>). And even those who don't have gut problems at the moment would probably benefit from probiotics, the [current early research is very promising on mood/cognitive functions as well](https://www.health.harvard.edu/mind-and-mood/probiotics-may-help-boost-mood-and-cognitive-function), and [they have very rarely side effects](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/probiotics/faq-20058065).
+
+I have probably tested over 15+ Kombucha brands/varieties now, both in the EU (Belgium) and in North America (Quebec), and only found two that tested decently good. And even those two have definitely room for improvement regarding taste. The majority of my friends, for example, when tasting both, don't like either.
+
+Imagine if you could drink something that tasted as good as Coca-Cola while being healthy.
+
+There are three difficulties/problems:
+
+1. the current research on probiotics is early, and while it's probably unlikely that a medical study would find negatives about probiotics given their extensive use in history ([yogurt is a probiotic and literally originated in Mesopotamia 7000 years ago](https://en.wikipedia.org/wiki/Yogurt), for example), they are all different. Kombucha has different bacteria than Yogurt has. One being healthy doesn't necessarily means the other is as well (or as much).
+
+2. it's a very competitive market. There are already a lot of companies active in the Kombucha market, and you are always at risk of a giant like Coca-Cola introducing their own Kombucha brand. The incentives are there for them to do so (it's a growing market, strong narrative, etc.).
+
+3. find a recipe that tastes good (obviously!). Easier said than done. Either the majority of current Kombucha producers on the market have bad taste, or finding a good recipe that is healthy while tasting good is harder than it seems like. My guess is that it's probably a combination of both. Might seem arrogant, but it's objectively true in my opinion that [most people have bad taste](https://x.com/UltraLinx/status/1829180924904489008) when it comes to deciding on their own what is beautiful or what isn't, what tastes good and what doesn't, etc. As Steve Jobs would say, most people don't know what they want until you show it to them. This will again appear very arrogant but I believe it's deeply true: you have to make the decision-making for them.
 
 ---
 

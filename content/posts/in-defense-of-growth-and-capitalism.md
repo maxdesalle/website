@@ -71,7 +71,7 @@ Because of these reasons, it's fair to conclude that Capitalism denotes 'right-s
 
 A common theme among alternatives to Capitalism is their lack of pragmatism. The critique that is often used against the argument that Degrowth requires centralized power, is that the population will somehow willingly take part in it.
 
-As if nations like China, India, and Nigeria would willingly limit their growth, and settle for poor living conditions, all because of climate change? They wouldn't, and frankly, if we were in their shoes, we would feel exactly the same. Our ancestors lived incredibly poorly compared to how we live now, after all.
+As if nations like China, India, and Nigeria would willingly limit their growth, and settle for poor living conditions, all because of climate change? They wouldn't, and frankly, if we were in their shoes, we would feel exactly the same way. Our ancestors lived incredibly poorly compared to how we live now, after all.
 
 But even if they aren't in the shoes of third-world countries, the vast majority of people continue living as they have always done. Prior to the pandemic, despite all the climate protests, the number of passengers [flying globally](https://web.archive.org/web/20240204141326/https://www.iea.org/data-and-statistics/charts/world-air-passenger-traffic-evolution-1980-2020) and [travelling on cruises](https://web.archive.org/web/20240301064523/https://cruisemarketwatch.com/growth/) only increased year after year.
 
@@ -81,7 +81,7 @@ This also applies to governments, who have been attending COP conferences to dis
 
 Interestingly, in the past ten years, they have [remained stable or very slightly decreased for the USA, a capitalistic country, whereas they have increased for China, a socialist country](https://web.archive.org/web/20240503180641/https://ourworldindata.org/grapher/annual-co2-emissions-per-country?time=2012..latest&country=USA~CHN). And [the USA didn't just outsource its carbon emissions to China](https://web.archive.org/web/20240503180805/https://www.noahpinion.blog/p/no-the-us-didnt-outsource-our-carbon), like it's commonly believed.
 
-This proves exactly my point: countries like China are not game theoretically incentivized to care about climate change. They are incentivized to grow as much as possible. We wouldn't behave any differently if we were in their shoes, and you can protest as much as you like, China won't stop growing.
+Countries like China are not game theoretically incentivized to care about climate change. They are incentivized to grow as much as possible. We wouldn't behave any differently if we were in their shoes, and you can protest as much as you like, China won't stop growing.
 
 ## Happiness is not a valid argument
 
@@ -122,7 +122,9 @@ Consider Uranium, for instance. Before we understood its potential, it was just 
 
 Then, science moved forward, technology evolved, and suddenly we found ourselves with a powerful source of energy. Just like that, Uranium was no longer an inert element but a real game-changer for the world.
 
-We're not limited by what we have; we're only limited by what we know. There's a myriad of undiscovered methods to utilize existing resources to generate more energy, food, and other necessities. Similarly, there's an abundance of untapped potential to enhance our present resource utilization strategies.
+We're not limited by what we have, we're only limited by what we know.
+
+There's a myriad of undiscovered methods to utilize existing resources to generate more energy, food, and other necessities. Similarly, there's an abundance of untapped potential to enhance our present resource utilization strategies.
 
 This is where the population doom-mongers falter, assuming that our usage and efficiency of resources are static. But given the same physical resources we possess today, we can generate more food, water, energy, and so on tomorrow.
 
@@ -130,7 +132,7 @@ In fact, a larger population would result in more demand for food, water, energy
 
 More people on the planet means more humans who get the chance of experiencing the beauty of life, more creative minds, more inventions, more technological breakthroughs, etc. This a net positive for the world! It's wonderful.
 
-Let's also not forget [we could theoretically store the entire human population in a cube of side 1.07km](https://web.archive.org/web/20240205185228/https://waitbutwhy.com/2015/03/7-3-billion-people-one-building.html), we've a lot of room left.
+> Let's not forget [we could theoretically store the entire human population in a cube of side 1.07km](https://web.archive.org/web/20240205185228/https://waitbutwhy.com/2015/03/7-3-billion-people-one-building.html), there is a lot of room on the planet.
 
 ## Capitalism isn't burning the planet
 
@@ -209,7 +211,7 @@ Something which is rarely (never) covered by Degrowth advocates is the geopoliti
 
 This is where the naivety of some of the Degrowth advocates really comes into light, as they propose the idea of slowing down the economies of first-world countries to allow third-world countries to continue growing.
 
-But if a foreign power doesn't limit its growth, while our country does, that foreign power's military will grow stronger compared to ours, posing a risk to national security.
+But if a foreign power doesn't limit its growth, while your country does, that foreign power's military will grow stronger compared to yours, posing a risk to national security.
 
 While it's been a while, thankfully, since the West has been at actual war (leaving the proxy wars and cold wars aside for a minute), this isn't a fairy tale world.
 
@@ -236,9 +238,9 @@ The hypocrisy of the extreme left on that front is unbearable to say the least. 
 
 It's bad ethics to criticize a system and state that it's the root of all evil, while simulataneously profiting from it and keep participating in it. You have the choice. If Capitalism is really that bad, go live in a commune.
 
-Except people have done it in the past, and weirdly enough (please pardon my irony), they no longer do. [The Kibbutzim](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz) are an example of that. Up until the 1970s, [they were essentially communist](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Communal_life).
+People have done it in the past, though, and weirdly enough (please pardon my irony), they no longer do. [The Kibbutzim](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz) are an example of that. Up until the 1970s, [they were essentially communist](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Communal_life).
 
-Needless to say the majority them since then have become privatized and are fully capitalistic nowadays. They had to, [in order to prevent financial collapse](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Legal_reforms_after_privatisation). Turns out ignoring economic realities is unsustainable.
+Needless to say the majority them since then have become privatized and are fully capitalistic nowadays. They had to, [in order to prevent financial collapse](https://web.archive.org/web/20240424123045/https://en.wikipedia.org/wiki/Kibbutz#Legal_reforms_after_privatisation). It turns out that ignoring economic realities is unsustainable.
 
 If your alternative to the present system is really better, try it. Capitalism grants you that liberty.
 

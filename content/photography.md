@@ -17,3 +17,8 @@ description: "Some unedited photographs, by a beginner, using a Fujifilm X100VI.
 	<img src="/DSCF0970.JPG" alt="" />
 	<figcaption style="font-size: 75%">The side of a residential building. Montreal, Canada - January 12, 2025.</figcaption>
 </figure>
+
+<figure>
+	<img src="/DSCF0628.JPG" alt="" />
+	<figcaption style="font-size: 75%">Sleeping Golden Retriever. Brussels, Belgium - January 02, 2025.</figcaption>
+</figure>

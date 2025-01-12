@@ -1,6 +1,6 @@
 ---
 title: "Photography"
-description: "Some unedited photographs, by a beginner, using a Fujifilm X100VI."
+description: "Some unedited photographs, by a beginner, using a Fujifilm X100VI. Images are compressed for faster loading speed."
 ---
 
 <figure>

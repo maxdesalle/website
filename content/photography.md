@@ -4,6 +4,11 @@ description: "Some unedited photographs, by a beginner, using a Fujifilm X100VI.
 ---
 
 <figure>
+	<img src="/DSCF0981.JPG" alt="" />
+	<figcaption style="font-size: 75%">Winter storm. Montreal, Canada - February 13, 2025.</figcaption>
+</figure>
+
+<figure>
 	<img src="/DSCF0922.JPG" alt="" />
 	<figcaption style="font-size: 75%">Residential row houses. Montreal, Canada - January 12, 2025.</figcaption>
 </figure>

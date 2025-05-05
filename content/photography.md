@@ -4,6 +4,11 @@ description: "Some unedited photographs, by a beginner, using a Fujifilm X100VI.
 ---
 
 <figure>
+	<img src="/DSCF1004.JPG" alt="" />
+	<figcaption style="font-size: 75%">Sunset. Montreal, Canada - May 4, 2025.</figcaption>
+</figure>
+
+<figure>
 	<img src="/DSCF0997.JPG" alt="" />
 	<figcaption style="font-size: 75%">Flying plane. Montreal, Canada - March 23, 2025.</figcaption>
 </figure>

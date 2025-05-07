@@ -30,9 +30,37 @@ Startup name could be "Archipel", "Archipelago", "Atlantis", or a fourth secret 
 
 ---
 
+**Crowdfunded tax havens:** very simple idea: you raise 1 million dollars from 1000 people each in the EU or a large country like the US. Meaning you have now 1 billion dollars in the bank. (might be hard to pull off, but the numbers here are just to make it easier to follow)
+
+With your 1 billion dollars, you go knock at the door of each country government in the EU, or if you are in the US for example, each state. You tell them that you are willing to hand them over your money if, and only if, they agree to offer a preferential flat tax rate of, for example, 5%, to all your 1000 members.
+
+Again, the numbers here are just an example. If they disagree, you tell them (because you are polite) that you will be then forced to go knock at the door of the neighbouring country/state and offer them the same proposal. There are 27 countries in the EU and 50 states in the US, intuitively, it's likely at least one of these would agree. So the first governments you are talking to will probably feel an urge to accept, otherwise the money will go to a competing country/state.
+
+Congrats! You paid a one-time fee, and got in exchange a reasonable tax rate, for life (of course, part of the deal should include that the country/government should put up a collateral that gets seized if they increase the tax rate subsequently, this could be done using crypto and an oracle system to detect the change and liquidate the country/state's collateral position) for very very very rich people.
+
+But now, you can raise $100,000 from 10,000 people and do the same! Then $10,000 from 100,000 people. Then $1000 from 1,000,000 people. etc. eventually reaching the lower classes and freeing from taxation extortion as well. The startup's business model is effectively forcing governments to lower their tax rates and become more efficient.
+
+Technically, what I described above is unfortunately probably [illegal in the EU](https://competition-policy.ec.europa.eu/state-aid/overview_en), as the EU blocks "state aid". My understanding is similar rules apply in the US for states.
+
+This doesn't mean that it can't be done, however. It's not the first time that an EU country as openly disrespected the rules laid out by the EU ([first](https://www.politico.eu/article/italy-and-eu-on-collision-course-over-budget-giovanni-tria-valdis-dombrovskis/), [second](https://www.reuters.com/article/world/poland-hungary-broke-eu-laws-by-refusing-to-host-migrants-court-adviser-idUSKBN1XA1S4/), [third](https://www.reuters.com/world/europe/eu-court-dismisses-polands-complaints-over-eu-fines-2025-02-05/) example), and as an alternative, you could apply the same idea to already existing tax havens. It costs anywhere from $150K to >$1M nowadays to get a passport from a tax haven like Vanuatu, Saint Kitts and Nevis, Malta, etc. Applying the above approach, you could probably negotiate this down to $10K? Maybe $20K? Which would make it already significantly more affordable and accessible.
+
+Tagline could be: "One Check, Lifetime 5% Tax." (or whatever the % is you are offering)
+
+---
+
+**Real-time economy dashboards:** think of these COVID-19 map dashboards, but with faster updates and for the economy. You would be able to track the impact of interest rates increases in real time and in specific places. Basically needs to be a [Dune](https://dune.com)-like service, but for the "real" economy. It's unbelievable to me that something like this doesn't yet exist.
+
+The [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve), banks and major companies would be your first clients. Data could come from [ChainLink](https://chain.link) oracles, or a network of incentivized data providers in the region you are initially targetting.
+
+Should probably initially focus on getting integrated with traditional payment providers, this can either be done from the top (partner with Mastercard, Visa, etc.), or from the bottom (provide a plug and play solution merchants can add that sends data to you, in exchange for some type of reward system).
+
+Business model is very simple: free users get access to the dashboard, but with a delay of 24 hours for example, and paid users get instant updates in real time with daily or weekly reports and additional metrics.
+
+---
+
 **Actually good Kombucha:** I drink Kombucha all the time, I love it. If you don't know it, it's a fermented probiotic drink based on tea. Probiotics are foods/drinks that, according to the current research, contribute to the health of your gut as they contain bacteria that will help your digestive system.
 
-There is a big market for probiotics, [40% of the world population suffers from gastrointestinal problems](<https://www.gastrojournal.org/article/S0016-5085\(20\)30487-X/fulltext>). And even those who don't have gut problems at the moment would probably benefit from probiotics, the [current early research is very promising on mood/cognitive functions as well](https://www.health.harvard.edu/mind-and-mood/probiotics-may-help-boost-mood-and-cognitive-function), and [they have very rarely side effects](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/probiotics/faq-20058065).
+There is a big market for probiotics, [40% of the world population suffers from gastrointestinal problems](<https://www.gastrojournal.org/article/S0016-5085(20)30487-X/fulltext>). And even those who don't have gut problems at the moment would probably benefit from probiotics, the [current early research is very promising on mood/cognitive functions as well](https://www.health.harvard.edu/mind-and-mood/probiotics-may-help-boost-mood-and-cognitive-function), and [they have very rarely side effects](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/probiotics/faq-20058065).
 
 I have probably tested over 15+ Kombucha brands/varieties now, both in the EU (Belgium) and in North America (Quebec), and only found two that tested decently good. And even those two have definitely room for improvement regarding taste. The majority of my friends, for example, when tasting both, don't like either.
 
@@ -53,28 +81,6 @@ There are three difficulties/problems:
 I'm the opposite of an expert when it comes to homomorphic encryption, zero-knowledge proofs, etc. but my guess is such a product could be built using those technologies. The "only" problems regarding those two technologies is that they 1. are very complex to implement, and 2. very resource-intensive and slow. Though it's probably only a matter of time before it becomes viable.
 
 Data breaches could soon be a relic of the past (social engineering/insiders will still be an issue regarding data leaks, though).
-
----
-
-**Real-time economy dashboards:** think of these COVID-19 map dashboards, but with faster updates and for the economy. You would be able to track the impact of interest rates increases in real time and in specific places. Basically needs to be a [Dune](https://dune.com)-like service, but for the "real" economy.
-
-The [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve), banks and major companies would be your first clients. Data could come from [ChainLink](https://chain.link) oracles, or a network of incentivized data providers in the region you are initially targetting.
-
-Should probably initially focus on getting integrated with traditional payment providers, this can either be done from the top (partner with Mastercard, Visa, etc.), or from the bottom (provide a plug and play solution merchants can add that sends data to you, in exchange for some type of reward system).
-
-Business model is very simple: free users get access to the dashboard, but with a delay of 24 hours for example, and paid users get instant updates in real time with daily or weekly reports and additional metrics.
-
----
-
-**Cayman-Islands-as-a-service (CIAAS):** this starts out slightly unethical at first. Idea is simple: you raise 1 million dollars from 1000 people each in the EU or a large country like the US. Meaning you have now 1 billion dollars in the bank. (might be hard to pull off, but the numbers here are just to make it easier to follow)
-
-With your 1 billion dollars, you go knock at the door of each country government in the EU, or if you are in the US for example, each state. You tell them that you are willing to hand them over your money if, and only if, they agree to offer a preferential flat tax rate of, for example, 5%, to all your 1000 members.
-
-Again, the numbers here are just an example. If they disagree, you tell them (because you are polite) that you will be then forced to go knock at the door of the neighbouring country/state and offer them the same proposal. There are 27 countries in the EU and 50 states in the US, intuitively, it's likely at least one of these would agree. So the first governments you are talking to will probably feel an urge to accept, otherwise the money will go to a competing country/state.
-
-Congrats! You paid a one-time fee, and got in exchange a reasonable tax rate, for life (of course, part of the deal should include that the country/government should put up a collateral that gets seized if they increase the tax rate subsequently, this could be done using crypto and an oracle system to detect the change and liquidate the country/state's collateral position) for very very very rich people. Kind of unethical as the rest of the population is still forced to pay normal taxes.
-
-But now, you can raise $100,000 from 10,000 people and do the same! Then $10,000 from 100,000 people. Then $1000 from 1,000,000 people. etc. Force governments to lower their tax rates and become efficient.
 
 ---
 

@@ -18,6 +18,13 @@ pygmentsUseClasses = true
     name = "startup ideas"
     title = "startup ideas"
     url = "/startup-ideas/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "piano"
+    name = "piano"
+    title = "piano"
+    url = "/piano/"
     weight = 10
 
   [[menu.main]]
@@ -25,28 +32,28 @@ pygmentsUseClasses = true
     name = "photography"
     title = "photography"
     url = "/photography/"
-    weight = 20
+    weight = 15
 
   [[menu.main]]
     identifier = "resources"
     name = "resources"
     title = "resources"
     url = "/resources/"
-    weight = 30
+    weight = 20
 
   [[menu.socials]]
     identifier = "twitter"
     name = "twitter"
     title = "twitter"
     url = "https://twitter.com/maxdesalle"
-    weight = 40
+    weight = 25
 
   [[menu.socials]]
     identifier = "github"
     name = "github"
     title = "github"
     url = "https://github.com/maxdesalle"
-    weight = 50
+    weight = 30
 
 [permalinks]
   posts = "/:filename/"

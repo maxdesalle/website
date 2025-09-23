@@ -10,6 +10,7 @@ pygmentsUseClasses = true
   # description = "Win and help win."
   dark = "off"
   highlight = true
+  math = true
   # images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]
@@ -58,5 +59,13 @@ pygmentsUseClasses = true
 [permalinks]
   posts = "/:filename/"
 
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  [markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]

@@ -4,6 +4,15 @@
 	box-sizing: border-box;
 }
 
+.info-box {
+	border-left: 4px solid rgb(131,131,131);
+  background: rgb(245,245,245);
+  color: rgb(51,58,61);
+  padding: 0.75em 1em;
+  margin: 1em 0;
+  border-radius: 4px;
+}
+
 #TableOfContents a strong {
   font-weight: normal !important;
 }

@@ -34,9 +34,11 @@ But what if both outcomes happened? What if, somewhere, a version of you
 did send the message, and is now navigating that reality, while you sit
 here, relieved that you didn't?
 
-> Of course, you wouldn't suddenly start doing random things in another
-> version of reality—you'd still act for your own reasons. The coin is
-> just a simple way to picture it.
+{{< info >}}
+Of course, you wouldn't suddenly start doing random things in another
+version of reality—you'd still act for your own reasons. The coin is
+just a simple way to picture it.
+{{< /info >}}
 
 Welcome to quantum mechanics, where quantum events cause the universe to
 split, creating a new, independent version of reality for each
@@ -91,14 +93,16 @@ call it _Everettian Quantum Mechanics_, after Hugh Everett, the
 physicist who proposed it in 1957. In mainstream media it's often called
 the _Multiverse_. Henceforth, we will refer to it as Many-Worlds.
 
-> I have a grudge with the term _Everettian quantum mechanics_,
-> because Everettian quantum mechanics is simply quantum mechanics, as
-> we will see later on in this article. Adding the '_Everettian_' prefix
-> may convey the misconception that they are different.
->
-> _Many-Worlds_ is preferred over _Multiverse_, as this latter term has
-> been used in many different ways, including cosmological theories,
-> plots for Hollywood movies, etc., which may lead to confusion.
+{{< info >}}
+I have a grudge with the term _Everettian quantum mechanics_,
+because Everettian quantum mechanics is simply quantum mechanics, as
+we will see later on in this article. Adding the '_Everettian_' prefix
+may convey the misconception that they are different.
+
+*Many-Worlds* is preferred over _Multiverse_, as this latter term has
+been used in many different ways, including cosmological theories,
+plots for Hollywood movies, etc., which may lead to confusion.
+{{< /info >}}
 
 Many-Worlds is often grouped with other "interpretations" of quantum
 mechanics. But unlike collapse-based views, it doesn't add extra
@@ -167,14 +171,14 @@ in the universe at one time, you could predict the future perfectly.
 In the early 1800s, Pierre-Simon Laplace pushed this deterministic idea
 to its logical extreme. He wrote:
 
-_"We may regard the present state of the universe as the effect of its
-past and the cause of its future. An intellect which at a certain moment
-would know all forces that set nature in motion, and all positions of
-all items of which nature is composed, if this intellect were also vast
-enough to submit these data to analysis, it would embrace in a single
-formula the movements of the greatest bodies of the universe and those
-of the tiniest atom; for such an intellect nothing would be uncertain
-and the future just like the past could be present before its eyes."_
+> *"We may regard the present state of the universe as the effect of its
+> past and the cause of its future. An intellect which at a certain moment
+> would know all forces that set nature in motion, and all positions of
+> all items of which nature is composed, if this intellect were also vast
+> enough to submit these data to analysis, it would embrace in a single
+> formula the movements of the greatest bodies of the universe and those
+> of the tiniest atom; for such an intellect nothing would be uncertain
+> and the future just like the past could be present before its eyes."* — Pierre-Simon Laplace
 
 This hypothetical intelligence, now called Laplace's Demon, would be
 able to compute the entire future of the universe from its present
@@ -253,9 +257,11 @@ exception of extreme conditions like high speed or strong gravity, it
 worked beautifully, but at small scales—the microscopic level of
 atoms, photons, and electrons—it wasn't accurate.
 
-> Atoms are tiny units of matter, while photons are particles of light.
-> Notably, both exhibit wave-like behavior. A wave is a repeating
-> pattern that spreads through space, like ripples on water.
+{{< info >}}
+Atoms are tiny units of matter, while photons are particles of light.
+Notably, both exhibit wave-like behavior. A wave is a repeating
+pattern that spreads through space, like ripples on water.
+{{< /info >}}
 
 The new explanation of microscopic reality that emerged—quantum
 mechanics—wasn't just a better theory.
@@ -273,10 +279,12 @@ Planck proposed that energy could only be emitted in multiples of a tiny
 unit: \(E = h\nu\). In this equation, \(E\) is the energy, \(h\) is Planck's
 constant, and \(\nu\) is the frequency of the radiation.
 
-> Planck's constant is equal to
-> \(h = 6.626\ 070\ 15 \times 10^{- 34}\ \frac{J}{Hz}\), where \(J\) stands
-> for Joules, a unit of energy, and \(Hz\) stands for Hertz, a unit of
-> frequency.
+{{< info >}}
+Planck's constant is equal to
+\(h = 6.626\ 070\ 15 \times 10^{- 34}\ \frac{J}{Hz}\), where \(J\) stands
+for Joules, a unit of energy, and \(Hz\) stands for Hertz, a unit of
+frequency.
+{{< /info >}}
 
 ####
 
@@ -343,9 +351,11 @@ Given \(\Psi\), you can calculate everything you might want to know: how
 likely it is to find a particle in a given location, how it will evolve
 over time, or what outcomes an experiment might yield.
 
-> A _quantum system_ can be anything—for instance, a particle in a
-> box. The wave function allows you to calculate the likelihood of
-> finding the particle in a specific location of the box.
+{{< info >}}
+A _quantum system_ can be anything—for instance, a particle in a
+box. The wave function allows you to calculate the likelihood of
+finding the particle in a specific location of the box.
+{{< /info >}}
 
 Here is an example of a wave function (don't be scared, it doesn't
 bite):
@@ -367,22 +377,24 @@ overthink the notation, as we could have written it as \(x\) or \(john\),
 but for reasons that we won't get into here, we write it as
 \(|\psi\rangle\). It's just a name.
 
-> A vector is just an object that holds multiple numbers at once.
->
-> In everyday life, think of a vector like a shopping list. Instead of
-> holding just one number, it holds several: 2 apples, 3 bananas, 1 loaf
-> of bread (the numbers here are completely random, we could have picked
-> any other). It's a single object (the list) that bundles together
-> multiple values.
->
-> In quantum mechanics, the vector \(|\psi\rangle\) works the same way,
-> except the "items on the list" are possible states or outcomes of the
-> system (like different coin toss results, or different locations of a
-> particle). Each number in the vector tells you how strongly that state
-> is "present" in the overall mixture.
->
-> So you can think of \(|\psi\rangle\) as the master list of all the ways
-> the system can exist, and how much weight each way carries.
+{{< info >}}
+A vector is just an object that holds multiple numbers at once.
+
+In everyday life, think of a vector like a shopping list. Instead of
+holding just one number, it holds several: 2 apples, 3 bananas, 1 loaf
+of bread (the numbers here are completely random, we could have picked
+any other). It's a single object (the list) that bundles together
+multiple values.
+
+In quantum mechanics, the vector \(|\psi\rangle\) works the same way,
+except the "items on the list" are possible states or outcomes of the
+system (like different coin toss results, or different locations of a
+particle). Each number in the vector tells you how strongly that state
+is "present" in the overall mixture.
+
+So you can think of \(|\psi\rangle\) as the master list of all the ways
+the system can exist, and how much weight each way carries.
+{{< /info >}}
 
 At its core, a Hilbert space is a mathematical space where each point
 represents a possible quantum state of a system. It's like the stage on
@@ -391,17 +403,19 @@ which quantum reality plays out.
 You can think of it as 3D space, but instead of three coordinates like
 \((x,y,z)\), states in Hilbert space can have infinitely many dimensions.
 
-> If this sounds abstract, that's because it is. Here is a simple
-> analogy: Imagine a piano keyboard that extends forever in both
-> directions, left and right, with an infinite number of keys, each with
-> a unique tune. A Hilbert space is like the entire infinite keyboard
-> itself.
->
-> Any sound you play (a chord, a song, noise) is a combination of those
-> infinite unique tones—this is like a vector in Hilbert space. Just
-> as any sound can be broken down into individual notes, any quantum
-> state can be decomposed into simpler building blocks, called _basis
-> states_, in Hilbert space.
+{{< info >}}
+If this sounds abstract, that's because it is. Here is a simple
+analogy: Imagine a piano keyboard that extends forever in both
+directions, left and right, with an infinite number of keys, each with
+a unique tune. A Hilbert space is like the entire infinite keyboard
+itself.
+
+Any sound you play (a chord, a song, noise) is a combination of those
+infinite unique tones—this is like a vector in Hilbert space. Just
+as any sound can be broken down into individual notes, any quantum
+state can be decomposed into simpler building blocks, called _basis
+states_, in Hilbert space.
+{{< /info >}}
 
 ### **3.3 The Schrödinger Equation**
 
@@ -451,12 +465,14 @@ The Schrödinger equation is linear, deterministic, and universal:
 These three features, linearity, determinism, and universality, will be
 crucial later on.
 
-> A solution to the Schrödinger equation is a specific wave function
-> \(\Psi\) that satisfies the equation. In other words, it's a function
-> that correctly describes how a quantum system (like an electron, atom,
-> or a particle in a box) evolves over time according to quantum
-> mechanics. Once you have this solution, you can predict how the system
-> behaves at any moment.
+{{< info >}}
+A solution to the Schrödinger equation is a specific wave function
+\(\Psi\) that satisfies the equation. In other words, it's a function
+that correctly describes how a quantum system (like an electron, atom,
+or a particle in a box) evolves over time according to quantum
+mechanics. Once you have this solution, you can predict how the system
+behaves at any moment.
+{{< /info >}}
 
 While the wave function describes the physical state of a quantum system
 at a given moment, the Schrödinger equation allows us to track its
@@ -480,9 +496,11 @@ This means the probability density of finding a particle near position
 \(x\) is the square of the absolute value of the wave function at that
 position.
 
-> The absolute value of the wave function just means how strong or how
-> big the wave function is at a certain point, its magnitude, without
-> regard to direction or sign.
+{{< info >}}
+The absolute value of the wave function just means how strong or how
+big the wave function is at a certain point, its magnitude, without
+regard to direction or sign.
+{{< /info >}}
 
 For example, if you want to calculate the probability density of finding
 the particle near position \(x = 2\), and \(\Psi(2) = 0.8\), for instance,
@@ -728,19 +746,23 @@ Let's assume the device (or your eyes) to initially be in the state:
 
 \[|D_{0}\rangle\]
 
-> Here, again, \(|D_{0}\rangle\) is just a name. We could have called it
-> anything else. We only chose the letter _D_ because it's the first
-> letter of _device_.
+{{< info >}}
+Here, again, \(|D_{0}\rangle\) is just a name. We could have called it
+anything else. We only chose the letter _D_ because it's the first
+letter of _device_.
+{{< /info >}}
 
 When the particle interacts with the device, the universal Schrödinger
 equation doesn't collapse anything. Instead, it entangles the two:
 
 \[|\psi\rangle = a|A\rangle|D_{A}\rangle + b|B\rangle|D_{B}\rangle\]
 
-> _Entanglement_ means that their outcomes are no longer described by
-> independent wave functions. In the above example, \(|A\rangle\) and
-> \(|D_{A}\rangle\) are tied together. Same for \(|B\rangle\) and
-> \(|D_{B}\rangle\).
+{{< info >}}
+_Entanglement_ means that their outcomes are no longer described by
+independent wave functions. In the above example, \(|A\rangle\) and
+\(|D_{A}\rangle\) are tied together. Same for \(|B\rangle\) and
+\(|D_{B}\rangle\).
+{{< /info >}}
 
 Here's what the entanglement signifies:
 
@@ -775,12 +797,14 @@ see why later). Importantly, until the exact moment that the
 entanglement occurred, the observer was one person, however, once the
 entanglement happened, two versions of the same observer emerged.
 
-> Think of it like a book that splits into two storylines. Up to chapter
-> 5, there's only one character, Bob. At chapter 6, the story splits
-> into two parallel plotlines: in one version Bob opens the red door, in
-> the other he opens the blue door. Both stories exist in the book,
-> written side by side, but each Bob only experiences the one inside his
-> storyline.
+{{< info >}}
+Think of it like a book that splits into two storylines. Up to chapter
+5, there's only one character, Bob. At chapter 6, the story splits
+into two parallel plotlines: in one version Bob opens the red door, in
+the other he opens the blue door. Both stories exist in the book,
+written side by side, but each Bob only experiences the one inside his
+storyline.
+{{< /info >}}
 
 That's what the equation is saying: both Bobs exist, both are equally
 real, each is restricted to the outcomes of their own branch, in their
@@ -865,13 +889,15 @@ there are now two worlds. One world entangled with state \(|A\rangle\),
 and another entangled with state \(|B\rangle\). We call this process of
 growing entanglement and the separation of branches _decoherence_.
 
-> Decoherence is what happens when a quantum system becomes entangled
-> with its environment in so many uncontrollable ways that the different
-> branches of its wave function can no longer interfere with each other.
->
-> In plain words: it's the process by which quantum possibilities (like
-> outcome \(|A\rangle\) and outcome \(|B\rangle\)) stop overlapping and
-> start behaving like separate, classical realities.
+{{< info >}}
+Decoherence is what happens when a quantum system becomes entangled
+with its environment in so many uncontrollable ways that the different
+branches of its wave function can no longer interfere with each other.
+
+In plain words: it's the process by which quantum possibilities (like
+outcome \(|A\rangle\) and outcome \(|B\rangle\)) stop overlapping and
+start behaving like separate, classical realities.
+{{< /info >}}
 
 It's important to stress that splitting is local, not global. The whole
 universe doesn't branch at once. The chain starts right where the
@@ -1178,11 +1204,13 @@ But that is wrong. Branches are not fundamental objects in the theory.
 Those are downstream from the universal wave function, which evolves
 smoothly and deterministically.
 
-> In fact, Hugh Everett named his revolutionary 1957 paper "The Theory
-> of the Universal Wave Function", and didn't mention the existence of
-> other universes even once throughout the entire paper. It is implied
-> by quantum mechanics, as an emergent description, but not a
-> fundamental part of it.
+{{< info >}}
+In fact, Hugh Everett named his revolutionary 1957 paper "The Theory
+of the Universal Wave Function", and didn't mention the existence of
+other universes even once throughout the entire paper. It is implied
+by quantum mechanics, as an emergent description, but not a
+fundamental part of it.
+{{< /info >}}
 
 Branches are an emergent description we use when decoherence makes parts
 of the wave function effectively independent. They are patterns in the

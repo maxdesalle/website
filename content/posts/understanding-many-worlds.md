@@ -1,8 +1,10 @@
 ---
 title: "Understanding Many-Worlds"
 description: "A Beginner's Guide."
-date: 2025-09-22
+date: 2025-09-23
 thumbnail: "/solvay-conference.jpg"
+params:
+  math: true
 ---
 
 <figure>

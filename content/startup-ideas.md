@@ -84,7 +84,7 @@ Data breaches could soon be a relic of the past (social engineering/insiders wil
 
 ---
 
-**Non-misogynistic, non-incel masculine media:** there is a real gap in the market at the moment regarding content creators teaching men about masculinity, faterhood and marriage while _not_ giving misogynistic/incel vibes like most current outlets do.
+**Non-misogynistic, non-incel masculine media:** there is a real gap in the market at the moment regarding content creators teaching men about masculinity, fatherhood and marriage while _not_ giving misogynistic/incel vibes like most current outlets do.
 
 The content would be a mix of stoicism, chivalry and ethics, focusing on modernizing these old values and principles.
 

@@ -601,7 +601,7 @@ Hence why it's called by many the "Shut up and calculate!"
 interpretation. But the cost of shutting up is blocking decades of
 scientific progress.
 
-### **4.3 Mathematical Nonsense**
+### **4.3 Mathematically Ill-Defined**
 
 It's important to emphasize that collapse contradicts the core equation
 of quantum mechanics, the Schrödinger equation.

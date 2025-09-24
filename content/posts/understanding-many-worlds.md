@@ -56,8 +56,8 @@ all of them are real.
 Quantum physics is famously bizarre. You may have heard of
 Schrodinger\'s cat: both alive and dead, until you see it. The thought
 experiment posits that an outcome cannot exist until it is observed.
-This isn't science fiction, it's the accepted story told in universities
-and textbooks.
+That's the accepted story told in universities
+and textbooks, it's not science-fiction.
 
 But the problem is: it's wrong.
 
@@ -368,7 +368,7 @@ exactly happening here to understand the rest of the article.
 ### **3.2 Hilbert Space**
 
 To understand \(\Psi\), the wave function, we need to understand the kind
-of space it "lives" in—the so-called Hilbert space.
+of space it "lives" in—the so-called *Hilbert space*.
 
 In classical physics, a system might be described by a few numbers:
 position, momentum, energy. In quantum mechanics, a system is described
@@ -535,7 +535,7 @@ Imagine having a coin where neither face is just heads or just tails,
 but instead, both at once, not because the state of the coin\'s face is
 unknown, but because the outcomes exist in a blended state.
 
-Imagine that \(|A\rangle\) is heads and \(|B\rangle\) is tails. The numbers
+Let's say that \(|A\rangle\) is heads and \(|B\rangle\) is tails. The numbers
 \(a\) and \(b\), called _amplitudes_, tell us how much of \(|A\rangle\) and
 \(|B\rangle\) are in the mix relative to each other. The amplitudes are
 like proportions of ingredients in a recipe, and indicate how much of
@@ -695,10 +695,6 @@ world. But science is not about comfort or credibility. It's about
 truth. And the truth is this: when you stop denying reality and start
 taking quantum mechanics seriously, you get Many-Worlds.
 
-Now we can see why calling Many-Worlds an 'interpretation' is
-misleading. It is quantum theory taken literally. Collapse
-interpretations, by contrast, are extra rules pasted on top.
-
 <figure>
 	<img src="/everett.jpg" alt="" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Portrait of Hugh Everett, who in 1957 released the paper "The Theory Of
@@ -814,12 +810,17 @@ This might seem crazy, but all we're doing here is taking quantum
 mechanics seriously and figuring out its implications. There are no
 additional, ad hoc assumptions here.
 
+This is why calling Many-Worlds an 'interpretation' is
+misleading. It is quantum theory taken literally. Collapse
+interpretations, by contrast, are extra rules pasted on top.
+
 We will cover later on in the article where each version of Bob resides,
 and why they can't communicate with each other.
 
 But first, if an observer in the room becomes entangled with each
 branch, what about the rest of the world? Won't it eventually become
-entangled as well? The answer is, yes.
+entangled as well? The answer is, yes, but before that, let's go over
+what *interference* is.
 
 ### **5.3 Interference**
 
@@ -1105,14 +1106,14 @@ Let's make this concrete. Suppose the total energy of the universal
 state before branching is \(10\ J,\) where \(J\) denotes _joules_, a unit of
 energy. After branching, each branch looks like a complete world from
 the inside, with as much energy as its 'parent' branch had had: say
-\(E_{A} = 10\ J\) and \(E_{B} = 10\ J\). To Bob-A and Bob-B, nothing seems
+\(E_{A} = 10\ J\) and \(E_{B} = 10\ J\). To Bob A and Bob B, nothing seems
 to be missing, and everything is continuous. Each Bob lives in a
 complete-seeming world.
 
 But when we calculate the total energy of the universal wave function,
 we don't just add \(E_{A} + E_{B}\). That would be double counting, since
 the 'weight' of the parent branch is equal to the sum of the 'weights'
-of the branches that include Bob-A and Bob-B. The correct calculation,
+of the branches that include Bob A and Bob B. The correct calculation,
 then, is the _expectation value,_ the average of all the possible
 outcomes of a measurement as weighted by their likelihood:
 
@@ -1137,9 +1138,9 @@ original world had \(10\ J\), and each child world also has \(10\ J\), then
 it may seem as if something must have been duplicated and handed out.
 
 But that picture is misleading. Before branching, the state was a single
-vector (\(|\psi\rangle\)). After branching, it is still a single vector
-(\(|\psi\rangle\)), just written as a sum of components (\(|A\rangle\) and
-\(|B\rangle\)). At no point is energy taken from one and given to another,
+vector \(|\psi\rangle\). After branching, it is still a single vector
+\(|\psi\rangle\), just written as a sum of components \(|A\rangle\ and
+\(|B\rangle\). At no point is energy taken from one and given to another,
 the global expectation value of energy is constant throughout.
 
 ### **6.4 At What Speed Do Worlds Split?**
@@ -1227,9 +1228,7 @@ So while it's fine as a shorthand to say "a world where Bob saw A" and
 "a world where Bob saw B," in reality there are infinitely many slight
 variations entangled into those states, each differing by the paths of
 countless photons, molecules, and atoms. Talking about a "number of
-worlds" is like asking, "How many waves are in the ocean?" The answer
-depends on where you draw the lines, the ocean itself is one continuous
-whole.
+worlds" is like asking, "How many waves are in the ocean?"
 
 ### **6.6 Can We Interact with Other Worlds?**
 
@@ -1293,7 +1292,7 @@ don't.
 By this standard, Many-Worlds is not speculative at all. It is simply
 quantum mechanics taken seriously, without ad hoc additions or fixes.
 The Schrödinger equation is one of the most precisely tested laws in all
-of science. It has never once failed an experimental test. Everett's
+of science. It has never once failed an experimental test. As previously mentioned, Everett's
 insight was simple: don't add collapse, just apply the equation
 universally.
 
@@ -1310,7 +1309,7 @@ system has?
 
 There are no clear, testable answers. Collapse is not just an
 unnecessary assumption, it's one that directly contradicts the linear,
-deterministic, universal Schrödinger equation.
+deterministic, universal nature of the Schrödinger equation.
 
 This is why Many-Worlds is not a speculative add-on. It is the default
 reading of the equations. If you take the Schrödinger equation and

@@ -520,7 +520,7 @@ This isn't a statement about our ignorance or uncertainty. It's a
 statement about what is, superpositions are entirely real, evolve
 deterministically, and follow the Schrödinger equation at all times.
 
-#### **3.1.1 What Is a Superposition?**
+#### **3.5.1 What Is a Superposition?**
 
 A quantum system can be described as (again, don't worry about the weird
 notation):

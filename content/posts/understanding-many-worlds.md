@@ -5,6 +5,8 @@ date: 2025-09-23
 thumbnail: "/solvay-conference.jpg"
 params:
   math: true
+pdf: "/downloads/understanding-many-worlds.pdf"
+epub: "/downloads/understanding-many-worlds.epub"
 ---
 
 <figure>
@@ -18,10 +20,6 @@ _With gratitude to Giulia Mouland, and to Logan Chipkin, Sam Kuypers and
 Charles Alexandre Bédard, all three from the [Conjecture
 Institute](https://www.conjectureinstitute.com/), for their
 feedback and editorial review._
-
----
-
-_**Update (30 Sep 2025):** There is now a [PDF](/downloads/understanding-many-worlds.pdf) and [EPUB](/downloads/understanding-many-worlds.epub) version of the article! They're both automatically updated when the article gets updated. If there are any issues with the formatting, please feel free to [reach out](https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6)._
 
 ---
 

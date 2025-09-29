@@ -310,3 +310,36 @@ footer#footer {
 .headseparator {
 	margin-left: 0.5rem;
 }
+
+.download-links {
+  margin-top: 0.6rem;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.download-links a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #444;
+}
+
+.download-links a:hover {
+  color: #000;
+}
+
+.download-note {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.tight-link {
+  margin-right: -0.15em; /* pulls the link tight against next char */
+}
+.tight-close {
+  margin-left: 0; /* ensures no gap before ) */
+}
+
+.no-gap {
+  display: inline-block;
+  margin-left: -0.8em; /* pulls ) tight against the link */
+}

@@ -1140,7 +1140,7 @@ it may seem as if something must have been duplicated and handed out.
 But that picture is misleading. Before branching, the state was a single
 vector \(|\psi\rangle\). After branching, it is still a single vector
 \(|\psi\rangle\), just written as a sum of components \(|A\rangle\ and
-\(|B\rangle\). At no point is energy taken from one and given to another,
+\(|B\rangle\. At no point is energy taken from one and given to another,
 the global expectation value of energy is constant throughout.
 
 ### **6.4 At What Speed Do Worlds Split?**

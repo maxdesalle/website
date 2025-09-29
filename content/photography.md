@@ -4,6 +4,11 @@ description: "Some unedited photographs, by a beginner, using a Fujifilm X100VI.
 ---
 
 <figure>
+	<img src="/DSCF1516.JPG" alt="" />
+	<figcaption style="font-size: 75%">Clouds. Airspace, United States - Sep 26, 2025.</figcaption>
+</figure>
+
+<figure>
 	<img src="/DSCF1219.JPG" alt="" />
 	<figcaption style="font-size: 75%">Sea. Cannes, France - Jun 29, 2025.</figcaption>
 </figure>

@@ -21,6 +21,10 @@ feedback and editorial review._
 
 ---
 
+_**Update (30 Sep 2025):** There is now a [PDF](/downloads/understanding-many-worlds.pdf) and [EPUB](/downloads/understanding-many-worlds.epub) version of the article! They're both automatically updated when the article gets updated. If there are any issues with the formatting, please feel free to [reach out](https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6)._
+
+---
+
 {{< toc >}}
 
 ## **1. Introduction**
@@ -285,8 +289,6 @@ Planck's constant is equal to
 for Joules, a unit of energy, and \(Hz\) stands for Hertz, a unit of
 frequency.
 {{< /info >}}
-
-####
 
 #### **2.2.2 Bohr's Atomic Model**
 

@@ -1,0 +1,33 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: pandoc/latex:latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - name: Install bash in container
+        run: apk add --no-cache bash
+
+      - name: Make script executable
+        run: chmod +x scripts/make-pdf-epub.sh
+
+      - name: Build PDF & EPUB into static/downloads
+        env:
+          OUT_DIR: static/downloads
+        run: |
+          mkdir -p static/downloads
+          ./scripts/make-pdf-epub.sh content/posts/understanding-many-worlds.md
+
+      - name: Commit generated files (if any changes)
+        run: |
+          if [ -n "$(git status --porcelain static/downloads)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add static/downloads
+            git commit -m "chore(ci): rebuild pubs [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi

@@ -65,13 +65,20 @@ Unfortunately, DigiCash didn’t succeed, the timing was wrong. Recall that this
 
 Soon after, a different kind of movement started taking shape. In 1992, a group of cryptographers, hackers, and libertarians started meeting in the San Francisco Bay Area and communicating via an electronic mailing list. They called themselves the [*cypherpunks*](https://en.wikipedia.org/wiki/Cypherpunk).
 
-The cypherpunks were not academics writing papers, they were ideologues writing code. Their founding premise was that in the digital age, privacy would not be granted by governments or corporations, instead, it would have to be built, deployed, and defended by individuals using cryptographic tools. In 1993, group member Eric Hughes crystallized this concept in [*A Cypherpunk's Manifesto*](https://www.activism.net/cypherpunk/manifesto.html):
+The cypherpunks were not academics writing papers, they were ideologues writing code. Their founding premise was that in the digital age, privacy would not be granted by governments or corporations, instead, it would have to be built, deployed, and defended by individuals using cryptographic tools. In 1993, group member [Eric Hughes](https://en.wikipedia.org/wiki/Eric_Hughes_%28cypherpunk%29) crystallized this concept in [*A Cypherpunk's Manifesto*](https://www.activism.net/cypherpunk/manifesto.html):
 
 *"Privacy is necessary for an open society in the electronic age... We cannot expect governments, corporations, or other large, faceless organizations to grant us privacy out of their beneficence... We must defend our own privacy if we expect to have any... Cypherpunks write code."*
 
 The mailing list became a crucible for the ideas that would shape the next three decades of cryptographic development. Members included [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) (before [WikiLeaks](https://en.wikipedia.org/wiki/WikiLeaks)), [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)) (who would later receive the first Bitcoin transaction), [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo) (who proposed [*bit gold*](https://nakamotoinstitute.org/library/bit-gold/), a conceptual precursor to Bitcoin), and [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai) (whose [*b-money*](https://nakamotoinstitute.org/library/b-money/) proposal was cited by Satoshi Nakamoto). In 1997, another member, [Adam Back](https://en.wikipedia.org/wiki/Adam_Back), invented [*Hashcash*](https://en.wikipedia.org/wiki/Hashcash), the *Proof of Work (PoW)* system later adopted by Bitcoin.
 
-The cypherpunks didn't build a successful private currency, or did they? The creation of Bitcoin is attributed to the pseudonymous Satoshi Nakamoto, rumoured to have been a developer or a group of developers tied to the cypherpunks, and who has not been active in over a decade. In any case, what we know for sure, is that the cypherpunks built the culture, the tools, and the intellectual framework that has made private currency possible.
+The cypherpunks didn't build a successful cryptocurrency, or did they? The creation of Bitcoin is attributed to the pseudonymous Satoshi Nakamoto, rumoured to have been a developer or a group of developers tied to the cypherpunks, and who has not been active in over a decade. In any case, what we know for sure, is that the cypherpunks built the culture, the tools, and the intellectual framework that has made private currency possible.
+
+{{< info type="note" >}}
+Shortly after this article was published, Zooko Wilcox, co-founder of Zcash, reached out noting the following:
+- He *was* on the Cypherpunk mailing list! Meaning the cypherpunks *did* create a successful cryptocurrency. Mea culpa for that omission.
+- Zooko became friends there with the founders, including [Tim May](https://en.wikipedia.org/wiki/Timothy_C._May) who founded the crypto-anarachist movement, Eric Hughes who wrote *A Cypherpunk's Manifesto* as previously mentioned, [Bram Cohen](https://en.wikipedia.org/wiki/Bram_Cohen) who created the BitTorrent protocol and with whom he worked on a startup focused on chains of secure hashes, and [John Gilmore](https://en.wikipedia.org/wiki/John_Gilmore_(activist)) who co-founded the [Electronic Frontier Foundation](https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation).
+- The cypherpunk mailing list was instrumental in his development, with John Gilmore, for example, becoming a friend, mentor, and inspiration.
+{{< /info >}}
 
 ### 2.3 Bitcoin: The Wrong Tradeoff
 

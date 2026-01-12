@@ -1,3 +1,6 @@
-<div class="info-box">
-  {{ .Inner | markdownify }}
+{{ $type := .Get "type" | default "info" }}
+{{ $titles := dict "info" "Info" "example" "Example" "warning" "Warning" "note" "Note" "tip" "Tip" "error" "Error" }}
+<div class="box box-{{ $type }}">
+  <div class="box-title">{{ index $titles $type }}</div>
+  <div class="box-content">{{ .Inner | markdownify }}</div>
 </div>

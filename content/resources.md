@@ -1,9 +1,9 @@
 ---
 title: "Resources"
-description: "Great thinkers, books and Twitter accounts."
+description: "Great thinkers and books."
 ---
 
-A set of unordered lists including my favorite thinkers, books and Twitter accounts.
+A set of unordered lists including my favorite thinkers and books.
 
 > **Note:** I do not necessarily agree with everything listed here. I sometimes consume someone's content precisely because I don't agree with them and find their opposing opinion interesting.
 
@@ -45,14 +45,5 @@ Favorite books in bold, with all-time favorite books underlined.
 - <span style="text-decoration:underline">[**The Beginning of Infinity**](https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359)</span> - David Deutsch
 - [A Pattern Language](https://www.amazon.com/Pattern-Language-Buildings-Construction-Environmental/dp/0195019199) - Christopher Alexander
 - [Guests of the Sheik](https://www.amazon.com/Guests-Sheik-Ethnography-Iraqi-Village/dp/0385014856) - Elizabeth Warnock Fernea
-
-**Favorite Twitter accounts:**
-
-- [Paul Razvan Berg](https://twitter.com/PaulRBerg)
-- [Naval Ravikant](https://twitter.com/naval)
-- [Brett Hall](https://twitter.com/tokteacher)
-- [David Deutsch](https://twitter.com/DavidDeutschOxf)
-- [Brad](https://twitter.com/Brad08414464)
-- [David Holz](https://twitter.com/DavidSHolz)
-- [Greg Fodor](https://twitter.com/gfodor)
-- [J. Sanilac](https://twitter.com/Sanilac_J)
+- [The Most Important Thing](https://www.amazon.com/most-important-thing-Howard-Marks/dp/9353022797) - Howard Marks
+- [Animal Farm](https://www.amazon.com/Animal-Farm-George-Orwell/dp/0451526341) - George Orwell

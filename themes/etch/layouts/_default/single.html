@@ -22,13 +22,46 @@
         <a href="{{ . }}">EPUB</a>
       {{ end }}
       <span class="download-note">
-        (formatting issues? 
+        (formatting issues?
         <a href="https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6">reach out</a><span class="no-gap">)</span>
       </span>
     </div>
     {{ end }}
   </header>
 
+  <!-- Grayscale toggle (commented out for now)
+  <div id="box-color-toggle">
+    <label>
+      <input type="checkbox" id="grayscale-boxes" />
+      <span>Grayscale infoboxes</span>
+    </label>
+  </div>
+  -->
+
   {{ .Content }}
 </article>
+
+<!-- Grayscale toggle script (commented out for now)
+<script>
+(function() {
+  const checkbox = document.getElementById('grayscale-boxes');
+  const stored = localStorage.getItem('grayscale-boxes');
+
+  if (stored === 'true') {
+    document.body.classList.add('grayscale-boxes');
+    checkbox.checked = true;
+  }
+
+  checkbox.addEventListener('change', function() {
+    if (this.checked) {
+      document.body.classList.add('grayscale-boxes');
+      localStorage.setItem('grayscale-boxes', 'true');
+    } else {
+      document.body.classList.remove('grayscale-boxes');
+      localStorage.setItem('grayscale-boxes', 'false');
+    }
+  });
+})();
+</script>
+-->
 {{ end }}

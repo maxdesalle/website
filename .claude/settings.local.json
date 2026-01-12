@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo server:*)",
+      "Bash(./scripts/make-pdf-epub.sh:*)"
+    ]
+  }
+}

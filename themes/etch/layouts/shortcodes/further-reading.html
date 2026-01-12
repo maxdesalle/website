@@ -1,0 +1,8 @@
+{{ $title := .Get "title" | default "Further Reading" }}
+<div class="further-reading-section">
+  <hr>
+  <aside class="further-reading">
+    <h4>{{ $title }}</h4>
+    {{ .Inner | markdownify }}
+  </aside>
+</div>

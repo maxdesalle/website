@@ -17,3 +17,9 @@ other = "January 2, 2006"
 
 [post.updated]
 other = "Updated January 2, 2006"
+
+
+[courses]
+
+[courses.title]
+other = "Courses"

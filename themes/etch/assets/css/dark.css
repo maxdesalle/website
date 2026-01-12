@@ -5,6 +5,46 @@ html {
     scrollbar-color: #6c6c6c #2e2e2e;
 }
 
+.box {
+	color: #e0e0e0;
+}
+
+.box pre {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.box-info,
+.box-example,
+.box-warning,
+.box-note,
+.box-tip,
+.box-error {
+  background: rgb(45,45,45);
+  border-left-color: rgb(100,100,100);
+}
+
+.further-reading h4 {
+  color: #e0e0e0;
+}
+
+.further-reading li {
+  color: #f5f5f5;
+}
+
+.further-reading li::before {
+  color: #a7a7a7;
+}
+
+/* Colored box variants for dark mode (commented out for now)
+.box-info    { background: #12253B; border-left-color: #4385BE; }
+.box-example { background: #261C39; border-left-color: #8B7EC8; }
+.box-warning { background: #40200D; border-left-color: #DA702C; }
+.box-note    { background: #252D09; border-left-color: #879A39; }
+.box-tip     { background: #3A2D04; border-left-color: #D0A215; }
+.box-error   { background: #3E1715; border-left-color: #D14D41; }
+*/
+
+
 body {
     color: #ebebeb;
     background: #121212;
@@ -48,6 +88,21 @@ main#content ul#posts li a:hover {
 main#content header#post-header div {
     color: #a7a7a7;
 }
+/* Grayscale toggle for dark mode (commented out for now)
+.grayscale-boxes .box-info,
+.grayscale-boxes .box-example,
+.grayscale-boxes .box-warning,
+.grayscale-boxes .box-note,
+.grayscale-boxes .box-tip,
+.grayscale-boxes .box-error {
+  background: rgb(45,45,45);
+  border-left-color: rgb(100,100,100);
+}
+
+#box-color-toggle {
+  color: #a0a0a0;
+}
+*/
 {{- if not (eq .Site.Params.dark "on") -}}
 }
 {{- end -}}

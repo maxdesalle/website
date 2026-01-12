@@ -97,7 +97,7 @@ Finland, often cited by studies supposedly measuring happiness as one of the hap
 
 Different cultures have different definitions of happiness, and within these cultures, definitions of happiness vary too. What happiness may mean for Degrowth proponents may not be what it means for me.
 
-A hedonist may define happiness as finding pleasure in the little things, while a buddhist may define it as being at peace. Because the definitions for happiness vary so much, it's incredibly hard, if not impossible, to create a system that optimizes for happiness.
+A hedonist may define happiness as finding pleasure in the little things, while a Buddhist may define it as being at peace. Because the definitions for happiness vary so much, it's incredibly hard, if not impossible, to create a system that optimizes for happiness.
 
 The conclusion is simple: happiness is not a valid argument in this debate.
 

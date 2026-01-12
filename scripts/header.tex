@@ -13,3 +13,18 @@
 
 % nicer gap between columns
 \setlength{\columnsep}{18pt}
+
+% code listings with line breaking
+\usepackage{listings}
+\lstset{
+  breaklines=true,
+  breakatwhitespace=true,
+  basicstyle=\ttfamily\small,
+  columns=fullflexible,
+  keepspaces=true,
+  showstringspaces=false,
+  frame=single,
+  framesep=3pt,
+  xleftmargin=3pt,
+  xrightmargin=3pt
+}

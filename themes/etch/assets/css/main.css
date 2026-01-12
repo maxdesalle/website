@@ -4,14 +4,53 @@
 	box-sizing: border-box;
 }
 
-.info-box {
-	border-left: 4px solid rgb(131,131,131);
-  background: rgb(245,245,245);
-  color: rgb(51,58,61);
-  padding: 0.75em 1em;
-  margin: 1em 0;
-  border-radius: 4px;
+.box {
+	overflow: hidden;
+	padding: 0;
+	margin: 1em 0;
+	border-radius: 4px;
+	border-left: 4px solid;
+	color: rgb(51,58,61);
 }
+
+.box-title {
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 0.35em 1em;
+	background: rgba(0, 0, 0, 0.06);
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.box-content {
+	padding: 0.5em 1em 0.75em 1em;
+}
+
+.box pre {
+	background: rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	margin: 1em 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.box-info,
+.box-example,
+.box-warning,
+.box-note,
+.box-tip,
+.box-error {
+  background: rgb(245,245,245);
+  border-left-color: rgb(131,131,131);
+}
+
+/* Colored box variants (commented out for now)
+.box-info    { background: #ECCB60; border-left-color: #BE9207; }
+.box-example { background: #CBBDEB; border-left-color: #735EB5; }
+.box-warning { background: #F9AE77; border-left-color: #CB6120; }
+.box-note    { background: #89CFF0; border-left-color: #3171B2; }
+.box-tip     { background: #8DD58D; border-left-color: #768D21; }
+.box-error   { background: #F89A8A; border-left-color: #C03E35; }
+*/
 
 #TableOfContents a strong {
   font-weight: normal !important;
@@ -295,6 +334,35 @@ main#content section.footnotes {
 	font-size: 0.9em;
 }
 
+.further-reading-section {
+  margin-top: 3em;
+}
+
+.further-reading-section hr {
+  margin-bottom: 1.5em;
+}
+
+.further-reading h4 {
+  font-weight: 600;
+  margin: 0 0 0.5em 0;
+}
+
+.further-reading ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.further-reading li {
+  margin: 0.4em 0;
+  color: #394548;
+}
+
+.further-reading li::before {
+  content: "\2013\00a0\00a0";
+  color: #767676;
+}
+
 footer#footer {
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -343,3 +411,33 @@ footer#footer {
   display: inline-block;
   margin-left: -0.8em; /* pulls ) tight against the link */
 }
+
+/* Grayscale toggle (commented out for now)
+#box-color-toggle {
+  float: right;
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 0.5em;
+}
+
+#box-color-toggle label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+#box-color-toggle input {
+  cursor: pointer;
+}
+
+.grayscale-boxes .box-info,
+.grayscale-boxes .box-example,
+.grayscale-boxes .box-warning,
+.grayscale-boxes .box-note,
+.grayscale-boxes .box-tip,
+.grayscale-boxes .box-error {
+  background: rgb(245,245,245);
+  border-left-color: rgb(131,131,131);
+}
+*/

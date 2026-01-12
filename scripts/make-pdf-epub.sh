@@ -19,14 +19,26 @@ cp "$IN" "$TMP"
 # Remove Hugo TOC shortcode
 perl -0777 -i -pe 's{\{\{<\s*toc\s*>\}\}\s*}{}g' "$TMP"
 
-# {{< info >}}… → Markdown blockquote
+# {{< info >}} or {{< info type="..." >}} → Markdown blockquote
 perl -0777 -i -pe '
-  s{\{\{<\s*info\s*>\}\}([\s\S]*?)\{\{<\s*/info\s*>\}\}}{
-    my $b=$1; $b =~ s/^\s+|\s+$//g;
+  s{\{\{<\s*info(?:\s+type="([^"]*)")?\s*>\}\}([\s\S]*?)\{\{<\s*/info\s*>\}\}}{
+    my $type = $1 // "info";
+    my $label = ucfirst($type);
+    my $b=$2; $b =~ s/^\s+|\s+$//g;
     my @lines = split(/\n/, $b, -1);
-    my $out = "> **Info**\n";
+    my $out = "> **${label}**\n";
     $out .= join("\n", map { length($_) ? ("> " . $_) : ">" } @lines);
     "\n\n$out\n\n";
+  }ge
+' "$TMP"
+
+# {{< further-reading >}} → Markdown section
+perl -0777 -i -pe '
+  s{\{\{<\s*further-reading(?:\s+title="([^"]*)")?\s*>\}\}([\s\S]*?)\{\{<\s*/further-reading\s*>\}\}}{
+    my $title = $1 // "Further Reading";
+    my $content = $2;
+    $content =~ s/^\s+|\s+$//g;
+    "\n\n---\n\n**${title}**\n\n${content}\n\n";
   }ge
 ' "$TMP"
 
@@ -55,6 +67,7 @@ pandoc "$TMP" \
   --metadata=link-citations:true \
   -M author="Maxime Desalle" \
   -V classoption=twocolumn \
+  --listings \
   -o "$PDF_OUT"
 
 # ---------- EPUB ----------

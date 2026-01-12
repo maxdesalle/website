@@ -102,6 +102,10 @@ Bitcoin had solved the double-spend problem, but it had made the privacy problem
 
 In 2013, [Matthew Green](https://en.wikipedia.org/wiki/Matthew_D._Green), a cryptographer at Johns Hopkins University, and two graduate students, [Ian Miers](https://www.cs.umd.edu/~imiers/) and [Christina Garman](https://www.cs.purdue.edu/homes/clg/), published [*“Zerocoin,”*](https://en.wikipedia.org/wiki/Zerocoin_protocol) a paper proposing a solution to Bitcoin’s problem.
 
+{{< info type="note" >}}
+Fun fact shared by Zooko Wilcox after the publication of this article: Ian Miers and Christina Garman later became founding scientists at the Zcash Company (see section 2.6), with Christina Garman later joining the Board of Directors as well.
+{{< /info >}}
+
 Their idea was to add a privacy layer on top of Bitcoin, such that users could convert their bitcoins into *zerocoins*, anonymous tokens with no transaction history. Later, when you wanted to spend it, you could convert it back to Bitcoin. The conversion process relied on cryptographic techniques known as zero-knowledge proofs, which let you prove that you owned a valid zerocoin without revealing its origin.
 
 Zerocoin worked in theory, but it had problems. First, the proofs were large, two orders of magnitude larger than the few hundred bytes required for a normal Bitcoin transaction. Second, the cryptography was also limited: you could prove ownership, but you couldn't hide transaction amounts. Third, and most critically, it required Bitcoin to adopt it as a protocol change, but Bitcoin's conservative development culture made that unlikely.

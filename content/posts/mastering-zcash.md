@@ -926,19 +926,23 @@ These state updates are deterministic. Every node that processes the block arriv
 
 #### Confirmations
 
-Alice's transaction is now confirmed, but the confirmation doesn’t mean finality.
+Alice's transaction is now confirmed, but confirmation doesn't mean finality.
 
-Just like Bitcoin, Zcash can experience temporary chain forks. Two miners might find valid blocks at nearly the same time, causing the network to briefly disagree on which chain is correct. The longest chain, meaning the one with the most cumulative proof of work, is the one that wins. Transactions in the losing fork return to the mempool and may be re-mined later, or they may become invalid if they conflict with transactions in the winning chain.
+Like Bitcoin, Zcash uses pure Proof of Work, which has no cryptographic finality. The chain with the most cumulative
+work wins, but nothing prevents a sufficiently resourced attacker from building a longer chain that rewrites history.
+Transactions in orphaned blocks return to the mempool or become invalid if they conflict with the attacker's chain.
 
-The probability of a transaction being reversed drops exponentially with each additional confirmation. After one block, there's a small chance of reorganization. After six blocks, the chance is negligible for practical purposes. For large transfers, recipients often wait for multiple confirmations before considering the payment final.
-
-Alice's wallet sees the confirmation count tick upward as new blocks are mined on top of the one containing her transaction. After a few minutes, she can be confident the transaction is permanent.
+The conventional wisdom—that after six confirmations, reversal is "negligible"—is misleading. It frames security as a
+statistical property when it's actually an adversarial one. This applies to all pure-PoW chains, Bitcoin included.
+Against an attacker with majority hashpower, no confirmation count provides cryptographic certainty—only economic
+assumptions about attacker incentives and hashpower costs.
 
 {{< info type="note" >}}
-Zcash has a block time of 75 seconds, compared to Bitcoin's 10 minutes, so confirmations accumulate much faster. Six confirmations take about seven and a half minutes for Zcash, versus an hour for Bitcoin. The tradeoff is that each individual Zcash block represents less total work, so more confirmations may be prudent for very high-value transfers.
+Zcash's 75-second block time means confirmations accumulate faster—six confirmations take about seven and a half
+minutes versus Bitcoin's hour. Each block represents less work, but confirmations compound quickly.
 {{< /info >}}
 
-The transaction is mined and the state is updated. Alice's old notes are gone forever, replaced by two new notes in the commitment tree. One of those notes belongs to Bob, and now he  needs to find it.
+The transaction is mined and the state is updated. Alice's old notes are gone forever, replaced by two new notes in the commitment tree. One belongs to Bob, and now he needs to find it.
 
 ### 4.10 Recipient Detection
 
@@ -1130,7 +1134,7 @@ On transparent blockchains, that data is everything. Literally every transaction
 What you do today will be analyzed with the tools of tomorrow. Transactions that seem anonymous now may be trivially traceable in five years. Patterns that seem hidden in noise today may be obvious signals once the algorithms improve. The decisions that you make in 2026 must account for the state of privacy and analysis in 2030.
 
 #### The Precedent We Must Remember
-One of the most effective tools of authoritarian control is mandatory disclosure. It doesn’t begin with confiscation, but with the collection of information. Register your religion. Declare your assets. Report your associations. Though these requirements are presented as administrative and bureaucratic, these often preclude something worse.
+One of the most effective tools of authoritarian control is mandatory disclosure. It doesn’t begin with confiscation, but with the collection of information. Register your religion. Declare your assets. Report your associations. Though these requirements are presented as administrative and bureaucratic, these often precede something worse.
 
 Once disclosure becomes mandatory, populations can be segmented, and groups can be identified, analyzed, and assessed. Do they follow a religion that we disapprove of? Do they belong to associations that we find threatening? Do they possess assets that we might want? The separation and distinction precedes the persecution, it’s once the data exists that the targeted actions become possible.
 
@@ -1574,7 +1578,7 @@ The NSM creates infrastructure for use cases that the community will encounter d
 - **ZSA fees:** Minting, transacting, or bridging Zcash Shielded Assets could burn a portion to compensate ZEC holders.
 - **Legacy support fees:** Users storing funds in older pools could pay fees, thus incentivizing migration to newer, more secure pools.
 - **Privacy incentivization fees:** Transparent address usage could incur fees to compensate for the reduced anonymity set.
-- **EIP-1559 style dynamic fees:** Base fees adjusted with network congestion, partially burned.
+- **Dynamic fees:** Shielded Labs is developing a [market-based fee system](https://fees.shieldedinfra.net/) that replaces the fixed 10,000 zatoshi per-action fee. The mechanism calculates a median-based marginal fee from the previous 50 blocks, rounds to powers of ten to preserve privacy, and offers a 10× priority lane during congestion.
 
 #### Why Now?
 Currently, Transaction fees are minimal, so implementing the burn mechanism now avoids the political difficulty that Ethereum faced with EIP-1559, where miners had strong incentives to oppose fee burning. If implemented now, the precedent will exist by the time Zcash fees become significant.

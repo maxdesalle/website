@@ -782,8 +782,6 @@ Think of the circuit as a massive checklist encoded in mathematical constraints.
 
 Alice's wallet takes her private inputs (notes, keys, paths, randomness) and grinds through this circuit to find values that satisfy every constraint. The zk-SNARK machinery then compresses this entire satisfying assignment into a tiny proof that anyone can check.
 
-We'll dissect exactly how this works—through polynomial commitments, elliptic curves, and the Halo 2 proving system—in section 7. For now, what’s important to know is that the proof is the output of a deterministic process: valid inputs produce a valid proof, and invalid inputs don’t produce anything useful.
-
 {{< info type="note" >}}
 The circuit is fixed at the protocol level, and every Orchard transaction uses the same circuit, as defined in the Zcash specification. Alice can't modify the rules, she can only prove that she followed them. This is what makes the system trustless: nodes don't need to trust Alice, they just need to verify that her proof passes the universal circuit agreed to.
 {{< /info >}}

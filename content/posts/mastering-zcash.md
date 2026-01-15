@@ -1401,8 +1401,6 @@ Aztec and similar projects will likely find significant demand for private appli
 
 This misconception confuses what has historically been the default for wallets with protocol design.
 
-New ZEC is always minted into the shielded pool, meaning that every new coin enters into existence as encrypted. The protocol is private by default at the most fundamental level: issuance.
-
 The misconception about default privacy arose because early wallets defaulted to transparent addresses for reasons of practicality. In Sprout and Sapling, shielded transactions were computationally expensive and exchanges required transparent deposits. So, the path of least resistance was often transparent.
 
 Orchard has now made shielded transactions more efficient and wallets like Zashi enforce shielding by default, automatically moving any transparent funds into the shielded pool before allowing you to spend. The user experience has become private-first.
@@ -1506,7 +1504,7 @@ The criminals’ choices reveal decisions based on marketing and network effects
 ### 8.10 "Monero Is More Private Because All Transactions Are Private"
 This misconception argues that Monero's mandatory privacy somehow means that it’s more secure than Zcash’s optional privacy model. The confusion arises from failing to distinguish design defaults from cryptographic strength.
 
-As covered above, Zcash is also private by default, as ZEC is minted into the shielded pool and modern wallets enforce shielding. The default path is fully encrypted.
+As covered above, Zcash is also private by default, as modern wallets enforce shielding. The default path is fully encrypted.
 
 Even if Monero and Zcash’s default paths differed, the distinction would not determine their privacy strengths. 
 

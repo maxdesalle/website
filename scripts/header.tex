@@ -14,12 +14,19 @@
 % nicer gap between columns
 \setlength{\columnsep}{18pt}
 
+% Allow inline code to break - seqsplit breaks long strings at any point
+\usepackage{seqsplit}
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{{\ttfamily\seqsplit{#1}}}
+
 % code listings with line breaking
 \usepackage{listings}
 \lstset{
   breaklines=true,
-  breakatwhitespace=true,
-  basicstyle=\ttfamily\small,
+  breakatwhitespace=false,
+  breakautoindent=true,
+  postbreak=\mbox{\textcolor{gray}{$\hookrightarrow$}\space},
+  basicstyle=\ttfamily\footnotesize,
   columns=fullflexible,
   keepspaces=true,
   showstringspaces=false,

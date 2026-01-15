@@ -1642,7 +1642,7 @@ Zcash is how money stays free.
   - [Understanding Zcash: A Comprehensive Overview](https://messari.io/report/understanding-zcash-a-comprehensive-overview) by Youssef Haidar
   - [Inside Zcash: Encrypted Money at Planetary Scale](https://www.coindesk.com/research/inside-zcash-encrypted-money-at-planetary-scale) by CoinDesk Research
   - [The Case for a Small Allocation to ZEC](https://www.scifi.money/zec-thesis) by Sacha
-	- [Freedom Money](https://www.scifi.money/freedom-money) by Arjun Khemani
+  - [Freedom Money](https://www.scifi.money/freedom-money) by Arjun Khemani
   - [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) by Satoshi Nakamoto
 {{< /further-reading >}}
 

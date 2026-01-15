@@ -20,7 +20,14 @@ _With deep gratitude to Giulia Mouland for her feedback and editorial review, an
 
 ---
 
+
 {{< toc >}}
+
+---
+
+Contributions to this article are more than welcome [on GitHub](https://github.com/maxdesalle/website/blob/main/content/posts/mastering-zcash.md) through pull requests.
+
+---
 
 ## **1. Introduction**
 

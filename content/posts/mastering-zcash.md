@@ -547,13 +547,15 @@ Outgoing viewing key (`ovk`), which lets you decrypt the outgoing ciphertexts, s
 
 This granularity exists because users may want to share only limited information. For example, if you want to provide a service with your incoming viewing key so the service can notify you of received payments, without revealing any information about your spending patterns.
 
+A wallet can also choose to make sent note details unrecoverable, even to holders of the full viewing key. It does this by using a random OVK at the time of sending and immediately zeroing it from memory. The `outCiphertext` is then encrypted to a key that no one possesses, making it impossible to determine the recipient address from the FVK alone. The value can still be inferred by subtracting the change from the input total, but the destination is lost.
+
 #### The Nullifier Deriving Key
 
 The nullifier deriving key (`nk`), also derived from the spending key, is used to compute nullifiers when spending. This is required in order to mark notes as spent, which is why viewing keys alone can't authorize transactions—they don't have access to `nk`.
 
 #### Addresses
 
-At the bottom of the hierarchy are the addresses: what you give to people so they can pay you. In Orchard, addresses are derived from the full viewing key using a diversifier, which is just a small piece of random data.
+At the bottom of the hierarchy are the addresses: what you give to people so they can pay you. In Orchard, addresses are derived from the incoming viewing key using a diversifier, which is just a small piece of random data. This means that even an IVK-only merchant terminal can derive new diversified addresses without needing the full viewing key or spending authority.
 
 The diversifier enables diversified addresses, meaning you can generate billions of unlinkable addresses from a single wallet. Though each address is completely different, they all funnel to the same set of keys. Additionally, you can give a unique address to every person or service you interact with.
 
@@ -624,11 +626,13 @@ Here's an example of note A:
 
 The position field is crucial because it tells the wallet where in the commitment tree this note is situated, information necessary to construct the Merkle proof.
 
-### 4.3 Fetching Merkle Paths
+### 4.3 Merkle Paths
 
 In order to spend a note, Alice must prove that its commitment exists in the tree, without revealing which commitment it is. This requires proving a Merkle path from the commitment to the root.
 
-Alice's wallet queries a full node for the Merkle path at each note's position. For Note A, at position 847,291 in a tree with depth 32, the path consists of 32 sibling hashes:
+Alice's wallet maintains Merkle witnesses locally as it syncs the blockchain, updating them as new commitments are appended to the tree. This is critical: querying a full node for a Merkle path at a specific position would reveal which note is being spent, which would be a serious privacy leak. Full nodes don't even maintain the entire note commitment tree—only recent frontiers and the set of valid anchors.
+
+For Note A, at position 847,291 in a tree with depth 32, the path consists of 32 sibling hashes:
 
 ```
   merkle_path_A = [
@@ -641,7 +645,7 @@ Alice's wallet queries a full node for the Merkle path at each note's position. 
 
 Anyone with access to this path can verify that `cmx_A` is in the tree by hashing back to the root. but, inside the zk-SNARK, Alice can prove this without revealing `cmx_A` or the path itself.
 
-The wallet also records the anchor—the Merkle root at the time of path retrieval. The transaction will reference this anchor and nodes can use it to verify that it's a recent, valid root.
+The wallet also records the anchor—the Merkle root at the time the witness was captured. The transaction will reference this anchor and nodes can use it to verify that it's a valid root.
 
 ### 4.4 Computing Nullifiers
 
@@ -843,7 +847,7 @@ Here's what Alice's transaction actually contains:
 
 Let's break this down:
 
-anchor: The Merkle root that Alice's proof references. This commits her transaction to a specific state of the commitment tree. Nodes will verify this is a recent, valid root. If Alice tried to use an anchor from a year ago, the transaction would be rejected.
+anchor: The Merkle root that Alice's proof references. This commits her transaction to a specific state of the commitment tree. Nodes will verify this is a valid root that existed at some point in the tree's history. While old anchors are technically valid, wallets typically use recent anchors to maximize the anonymity set.
 
 - **cv (value commitment):** A cryptographic commitment to the value being spent or created in each action. These don't reveal the actual amounts. Instead, they're constructed so that the sum of all cv values across the transaction encodes the net flow. If the transaction is balanced (inputs = outputs + fee), the math works out. If not, verification fails.
 
@@ -867,6 +871,8 @@ The value commitments encode net flow, so when a miner verifies the binding sign
 
 The fee is public. Observers can see how much was paid to process the transaction, but that's the only visible value. The input amounts, output amounts, and transfer of value between parties remain hidden.
 
+Importantly, [ZIP 317](https://zips.z.cash/zip-0317) standardizes fee calculations so that compliant wallets do not permit discretionary fee amounts. This matters for privacy: if wallets allowed arbitrary fees, the choice of fee would leak information that could help fingerprint transactions or distinguish between wallet implementations.
+
 ### 4.8 Broadcasting and Mempool
 
 Alice's wallet has assembled the complete transaction, now it needs to reach the network.
@@ -883,7 +889,7 @@ When a node receives Alice's transaction, it doesn't blindly accept it. Before r
 
 1. **Proof verification:** The node runs the zk-SNARK verifier on Alice's proof. This takes a few milliseconds. If the proof is invalid, the transaction is rejected immediately. No further checks needed.
 
-2. **Anchor check:** The node verifies that the anchor Alice used (the Merkle root her proof references) is valid. Specifically, it must be a recent root from the commitment tree. Zcash allows a window of recent anchors to accommodate network latency. If Alice's anchor is too old or doesn't match any known tree state, the transaction is rejected.
+2. **Anchor check:** The node verifies that the anchor Alice used (the Merkle root her proof references) is a valid root from the commitment tree's history. The consensus protocol does not prohibit old anchors—any anchor that was ever a valid tree root is accepted. However, using a recent anchor is strongly advisable because it maximizes the anonymity set: the more notes in the tree at the time of the anchor, the larger the crowd Alice's note hides in. Some wallets, like YWallet, allow selection of older anchors to enable spending old notes without requiring the wallet to have scanned all subsequent blocks.
 
 3. **Nullifier check:** The node checks both nullifiers against its local nullifier set. If either `0x2c3d4e5f...` or `0x8f7a9b2c...` already exists in the set, Alice is attempting to double-spend. The transaction is rejected.
 
@@ -1000,7 +1006,7 @@ During normal operations, this check always passes. Alice's wallet constructed t
 Bob now owns a spendable 5 ZEC note. His wallet stores the note data locally and keeps it ready for whenever he wants to use it. At that point, he’ll follow the same process that Alice did in order to send it to him:
 
 1. Select the note
-2. Fetch its Merkle path
+2. Retrieve its Merkle path from the locally maintained witnesses
 3. Compute its nullifier
 4. Create output notes for his recipients
 5. Generate a proof

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ with .Params.language }}{{ . }}{{ else }}en{{ end }}">
     {{- partial "head.html" . -}}
 		{{ if .Param "math" }}
 			{{ partialCached "math.html" . }}

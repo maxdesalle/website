@@ -7,6 +7,8 @@ params:
   math: true
 pdf: "/downloads/mastering-zcash.pdf"
 epub: "/downloads/mastering-zcash.epub"
+translations:
+  es: "/mastering-zcash-es/"
 ---
 
 <figure>

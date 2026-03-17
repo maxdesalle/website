@@ -13,13 +13,19 @@
       {{- end -}}
     </div>
 
-    {{ if or (.Params.pdf) (.Params.epub) }}
+    {{ if or (.Params.pdf) (.Params.epub) (.Params.translations) }}
     <div class="download-links">
       {{ with .Params.pdf }}
         <a href="{{ . }}">PDF</a>
       {{ end }}
       {{ with .Params.epub }}
         <a href="{{ . }}">EPUB</a>
+      {{ end }}
+      {{ with .Params.translations }}
+        {{ range $lang, $url := . }}
+          {{ if eq $lang "es" }}<a href="{{ $url }}">Español</a>{{ end }}
+          {{ if eq $lang "en" }}<a href="{{ $url }}">English</a>{{ end }}
+        {{ end }}
       {{ end }}
       <span class="download-note">
         (formatting issues?

@@ -5,8 +5,8 @@ date: 2026-01-12
 thumbnail: "/bernstein.jpg"
 params:
   math: true
-pdf: "/downloads/mastering-zcash.pdf"
-epub: "/downloads/mastering-zcash.epub"
+pdf: "/downloads/mastering-zcash-es.pdf"
+epub: "/downloads/mastering-zcash-es.epub"
 ---
 
 <figure>
@@ -16,7 +16,7 @@ epub: "/downloads/mastering-zcash.epub"
 
 ---
 
-_Con profundo agradecimiento a Giulia Mouland por sus comentarios y revisión editorial, y a Arjun Khemani por su apoyo._
+_Con profundo agradecimiento a Giulia Mouland por sus comentarios y revisión editorial, a Arjun Khemani por su apoyo, y a César Oswaldo Navarro por la traducción al español._
 
 ---
 
@@ -25,7 +25,7 @@ _Con profundo agradecimiento a Giulia Mouland por sus comentarios y revisión ed
 
 ---
 
-Las contribuciones a este artículo son más que bienvenidas [en GitHub](https://github.com/maxdesalle/website/blob/main/content/posts/mastering-zcash.md) mediante solicitudes de incorporación de cambios.
+Las contribuciones a este artículo son más que bienvenidas [en GitHub](https://github.com/maxdesalle/website/blob/main/content/posts/mastering-zcash-es.md) mediante solicitudes de incorporación de cambios.
 
 ---
 
@@ -74,14 +74,17 @@ Poco después, un tipo diferente de movimiento comenzó a tomar forma. En 1992, 
 
 Los Cypherpunks no eran académicos que escribían artículos; eran ideólogos que escribían código. Su premisa fundamental era que, en la era digital, la privacidad no sería otorgada por los gobiernos ni por las corporaciones; en cambio, tendría que ser construida, implementada y defendida por los propios individuos utilizando herramientas criptográficas. En 1993, el miembro del grupo [Eric Hughes](https://en.wikipedia.org/wiki/Eric_Hughes_%28cypherpunk%29) cristalizó esta idea en [*Un manifiesto de un Cypherpunk*](https://www.activism.net/cypherpunk/manifesto.html):
 
-*"La privacidad es necesaria para una sociedad abierta en la era electrónica.... No podemos esperar que los gobiernos, las corporaciones u otras grandes organizaciones impersonales nos otorguen privacidad por su beneficiencia.... Debemos defender nuestra propia privacidad si esperamos tener alguna.... Los Cypherpunks escriben código."*
+*"La privacidad es necesaria para una sociedad abierta en la era electrónica.... No podemos esperar que los gobiernos, las corporaciones u otras grandes organizaciones impersonales nos otorguen privacidad por su beneficencia.... Debemos defender nuestra propia privacidad si esperamos tener alguna.... Los Cypherpunks escriben código."*
 
-La lista de correo se convirtió en un crisol de ideas que darían forma a las siguientes tres décadas de desarrollo criptográfico. Entre sus miembros se encontraban [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) (antes de [WikiLeaks](https://en.wikipedia.org/wiki/WikiLeaks)), [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist) (quien más tarde recibiría la primera transacción de Bitcoin), [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo) (quien propuso [*bit gold*](https://nakamotoinstitute.org/library/bit-gold/), un precursor conceptual de Bitcoin) y [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai) (cuya propuesta [*b-money*](https://nakamotoinstitute.org/library/b-money/) fue citada por Satoshi Nakamoto). En 1997, otro miembro, [Adam Back](https://en.wikipedia.org/wiki/Adam_Back), inventó [*Hashcash*](https://en.wikipedia.org/wiki/Hashcash), *el sistema de Prueba de Trabajo* (PoW, por sus siglas en inglés) que posteriormente sería adoptado por Bitcoin.
+La lista de correo se convirtió en un crisol de ideas que darían forma a las siguientes tres décadas de desarrollo criptográfico. Entre sus miembros se encontraban [Julian Assange](https://en.wikipedia.org/wiki/Julian_Assange) (antes de [WikiLeaks](https://en.wikipedia.org/wiki/WikiLeaks)), [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)) (quien más tarde recibiría la primera transacción de Bitcoin), [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo) (quien propuso [*bit gold*](https://nakamotoinstitute.org/library/bit-gold/), un precursor conceptual de Bitcoin) y [Wei Dai](https://en.wikipedia.org/wiki/Wei_Dai) (cuya propuesta [*b-money*](https://nakamotoinstitute.org/library/b-money/) fue citada por Satoshi Nakamoto). En 1997, otro miembro, [Adam Back](https://en.wikipedia.org/wiki/Adam_Back), inventó [*Hashcash*](https://en.wikipedia.org/wiki/Hashcash), *el sistema de Prueba de Trabajo* (PoW, por sus siglas en inglés) que posteriormente sería adoptado por Bitcoin.
 
 Los cypherpunks no construyeron una criptomoneda exitosa… ¿o sí? La creación de Bitcoin se atribuye al seudónimo Satoshi Nakamoto, de quien se rumorea que fue un desarrollador o un grupo de desarrolladores vinculados al movimiento cypherpunk, y que no ha estado activo durante más de una década. En cualquier caso, lo que sí sabemos con certeza es que los cypherpunks construyeron la cultura, las herramientas y el marco intelectual que hicieron posible la existencia de monedas privadas.
 
 {{< info type="note" >}}
-Poco después de que se publicara este artículo, Zooko Wilcox, cofundador de Zcash, se puso en contacto señalando lo siguiente: — ¡Él *estaba* en la lista de correo de los cypherpunks! Lo que significaría que los cypherpunks *sí crearon* una criptomoneda exitosa. Mea culpa por esa omisión. — Zooko se hizo amigo allí de varios de los fundadores, entre ellos [Tim May](https://en.wikipedia.org/wiki/Timothy_C._May), quien fundó el movimiento criptoanarquista; Eric Hughes, quien escribió *"Un manifiesto de un Cypherpunk"*, como se mencionó anteriormente; [Bram Cohen](https://en.wikipedia.org/wiki/Bram_Cohen), creador del protocolo BitTorrent, con quien trabajó en una empresa emergente enfocada en cadenas de hash seguros; y [John Gilmore](https://en.wikipedia.org/wiki/John_Gilmore_(activist), cofundador de la [Electronic Frontier Foundation](https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation). — La lista de correo de los cypherpunks fue fundamental en su desarrollo. Por ejemplo, John Gilmore se convirtió en amigo, mentor e inspiración.
+Poco después de que se publicara este artículo, Zooko Wilcox, cofundador de Zcash, se puso en contacto señalando lo siguiente:
+- ¡Él *estaba* en la lista de correo de los cypherpunks! Lo que significaría que los cypherpunks *sí crearon* una criptomoneda exitosa. Mea culpa por esa omisión.
+- Zooko se hizo amigo allí de varios de los fundadores, entre ellos [Tim May](https://en.wikipedia.org/wiki/Timothy_C._May), quien fundó el movimiento criptoanarquista; Eric Hughes, quien escribió *"Un manifiesto de un Cypherpunk"*, como se mencionó anteriormente; [Bram Cohen](https://en.wikipedia.org/wiki/Bram_Cohen), creador del protocolo BitTorrent, con quien trabajó en una empresa emergente enfocada en cadenas de hash seguros; y [John Gilmore](https://en.wikipedia.org/wiki/John_Gilmore_(activist)), cofundador de la [Electronic Frontier Foundation](https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation).
+- La lista de correo de los cypherpunks fue fundamental en su desarrollo. Por ejemplo, John Gilmore se convirtió en amigo, mentor e inspiración.
 {{< /info >}}
 
 ### 2.3 Bitcoin: El Compromiso Equivocado
@@ -863,7 +866,7 @@ Esto es lo que contiene realmente la transacción de Alice:
 
 Desglosemos esto:
 
-**`anchor` (ancla):** la raíz de Merkle a la que hace referencia la prueba de Alice. Esto compromete su transacción a un estado específico del árbol de compromisos. Los nodos verificarán que esta sea una raíz reciente y válida. Si Alice intentara usar un `anchor` de hace un año, la transacción sería rechazada.
+**`anchor` (ancla):** la raíz de Merkle a la que hace referencia la prueba de Alice. Esto compromete su transacción a un estado específico del árbol de compromisos. Los nodos verificarán que esta sea una raíz válida que existió en algún momento del historial del árbol. Aunque los anchors antiguos son técnicamente válidos, las billeteras suelen usar anchors recientes para maximizar el conjunto de anonimato.
 
 - **`cv (value commitment)` (compromiso de valor):** Un compromiso criptográfico del valor que se gasta o se crea en cada acción. Estos no revelan los montos reales. En su lugar, están construidos de tal forma que la suma de todos los valores cv de la transacción codifica el flujo neto. Si la transacción está balanceada (entradas = salidas + comisión), la matemática cuadra. Si no, la verificación falla.
 
@@ -1654,7 +1657,7 @@ Ante nosotros se presentan dos futuros: uno en el que todas las transacciones so
 
 Zcash es la forma en que el dinero sigue siendo libre.
 
-{{< Lecturas adicionales >}}
+{{< further-reading >}}
   - [El Individuo Soberano (The Sovereign Individual)](https://example.com) de James Dale Davidson
   - [Mi Tesis de inversion en Zcash (My Zcash Investment Thesis)](https://www.scifi.money/zec-bag) de Frank Braun
   - [Especificación del protocolo Zcash](https://zips.z.cash/protocol/protocol.pdf) de Daira-Emma Hopwood et al.

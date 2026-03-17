@@ -7,6 +7,10 @@ params:
   math: true
 pdf: "/downloads/mastering-zcash-es.pdf"
 epub: "/downloads/mastering-zcash-es.epub"
+translations:
+  en: "/mastering-zcash/"
+hidden: true
+language: es
 ---
 
 <figure>
@@ -446,8 +450,8 @@ Además, las pruebas Merkle proporcionan una forma eficaz de comprobar un elemen
 Por ejemplo, para demostrar que cm1 está en el árbol no es necesario revelar todos los compromisos. Para ello, basta con proporcionar una ruta Merkle, es decir, los hash hermanos a lo largo del camino hasta la raíz. Para `cm1`, la ruta Merkle es `[cm0, H1]`.
 
 Así es como un verificador podría comprobarlo:
-1. Tome el primer elemento de `[cm0, H1]`, es decir, `cm0`, y hágalo hash con `cm1`, el elemento que queremos comprobar, lo que nos da `H0: Hash(cm0, cm1) = ‹→ H0`
-2. Hash la salida del primer paso (`H0`) con el siguiente elemento en `[cm0, H1]`, es decir, `H1`. Esto nos da el hash raíz: `(H0, H1) = raíz`.
+1. Tome el primer elemento de `[cm0, H1]`, es decir, `cm0`, y hágalo hash con `cm1`, el elemento que queremos comprobar, lo que nos da `H0: Hash(cm0, cm1) = H0`
+2. Hash la salida del primer paso (`H0`) con el siguiente elemento en `[cm0, H1]`, es decir, `H1`. Esto nos da el hash raíz: `Hash(H0, H1) = root`.
 
 Si el resultado coincide con la raíz conocida, podemos concluir que `cm1` está en el árbol. Es importante destacar que el verificador nunca ve `cm2` ni `cm3`, ya que no son necesarios para la verificación.
 {{< /info >}}
@@ -627,7 +631,7 @@ Aquí hay un ejemplo de la nota A:
     "psi": "0x1d2e3f...",
     "rcm": "0x4a5b6c...",
     // Position in commitment tree
-    "position": 847291,      // Campo de posición en el árbol de compromiso
+    "position": 847291,      // Position in commitment tree
     // The commitment
     "cmx": "0x9f8e7d..."     // El compromiso
   }

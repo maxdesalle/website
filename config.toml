@@ -5,9 +5,10 @@ theme = "etch"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+enableRobotsTXT = true
 
 [params]
-  # description = "Win and help win."
+  description = "Maxime Desalle — essays, a podcast, and talks on cryptography, Zcash, quantum mechanics, and investing."
   dark = "off"
   highlight = true
   mainSections = ["posts"]
@@ -15,6 +16,7 @@ pygmentsUseClasses = true
   stream_customer_code = "nif7o4as5sqoitmq"
   author = "Maxime Desalle"
   email = "rss@maxdesalle.com"
+  twitter = "maxdesalle"
   # images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]
@@ -69,6 +71,20 @@ pygmentsUseClasses = true
 
 [permalinks]
   posts = "/:contentbasename/"
+
+[taxonomies]
+  tag = "tags"
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
 [markup]
   [markup.goldmark]

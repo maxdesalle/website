@@ -1,6 +1,7 @@
 ---
 title: "Venice and Futarchy"
 description: "On the history of the Venetian Republic and the idea of futarchy."
+tags: ["governance", "economics", "philosophy"]
 date: 2026-06-19
 stream_uid: "3bc36ea997181b89b0b5eced90d181df"
 video_url: "https://cdn.maxdesalle.com/talks/talk-1.mp4"

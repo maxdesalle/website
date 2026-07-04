@@ -1,6 +1,7 @@
 ---
 title: "Mastering Zcash"
 description: "A Study in Private Money"
+tags: ["zcash", "cryptography", "privacy"]
 date: 2026-01-12
 thumbnail: "/bernstein.jpg"
 params:
@@ -12,7 +13,7 @@ translations:
 ---
 
 <figure>
-	<img src="/bernstein.jpg" alt="" />
+	<img src="/bernstein.jpg" alt="Leonard Bernstein conducting the 'Ode to Freedom' concert after the fall of the Berlin Wall, 1989" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Leonard Bernstein's "Ode to Freedom" concert on Christmas day in 1989 celebrating the fall of the Berlin Wall. The orchestra consisted of members representing the two German States and the four occupying powers of post-war Berlin. The concert was broadcast live to an estimated audience of 100 million people in more than twenty countries. The victory of freedom, democracy, and capitalism, over oppression, totalitarianism, and communism — pictured.</figcaption>
 </figure>
 
@@ -54,7 +55,7 @@ We will also cover Zcash's origins in academic cryptography, the philosophy that
 Some parts of this comprehensive study of Zcash will be more technical. Though I have tried to make things as clear and accessible as possible for everyone, if you have trouble with certain concepts, I recommend asking an LLM for clarification or simply skipping it and revisiting it later. If that doesn’t work, don't hesitate to [reach out](https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6) with any questions.
 
 <figure>
-	<img src="/chaum.jpg" alt="" />
+	<img src="/chaum.jpg" alt="Portrait of cryptographer David Chaum" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">David Chaum, cryptography pioneer.</figcaption>
 </figure>
 
@@ -142,7 +143,7 @@ The trusted setup problem highlighted above required a creative solution. The te
 On October 28, 2016, the [Zcash genesis block was mined](https://www.youtube.com/watch?v=O8QA6Nvg8RI). For the first time, a production cryptocurrency offered genuine, cryptographic privacy. Thirty-four years after David Chaum's first paper, the dream of untraceable digital money was running on a live network.
 
 <figure>
-	<img src="/weimar.jpg" alt="" />
+	<img src="/weimar.jpg" alt="Weimar Republic banknotes used as wallpaper during hyperinflation" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Hyperinflation in the Weimar Republic. Banknotes had lost so much value that they were used as wallpaper.</figcaption>
 </figure>
 
@@ -592,7 +593,7 @@ spending key (sk)
 As you move down the hierarchy, each level reveals less information. The spending key can do everything, the full viewing key sees everything, but can't spend, and the incoming viewing key only sees incoming funds. Lastly, addresses reveal nothing, they're just destinations.
 
 <figure>
-	<img src="/eli-ben-sasson.jpg" alt="" />
+	<img src="/eli-ben-sasson.jpg" alt="Portrait of Eli Ben-Sasson, co-founder of Zcash" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Eli Ben-Sasson, co-founder of Zcash and now leading StarkWare.</figcaption>
 </figure>
 
@@ -1024,7 +1025,7 @@ Alice sent 5 ZEC to Bob. The network verified the transaction without learning w
 
 
 <figure>
-	<img src="/panopticon.jpg" alt="" />
+	<img src="/panopticon.jpg" alt="Architectural drawing of Jeremy Bentham's Panopticon prison, 1791" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Jeremy Bentham's Panopticon, 1791. A prison designed so inmates never know if they're being watched. They learn to watch themselves.</figcaption>
 </figure>
 
@@ -1201,7 +1202,7 @@ Choosing to shield your transactions is not just a personal financial decision, 
 Surveillance money leads to a future where economic freedom is a permission to be granted by the powerful. Freedom money leads to a world where economic freedom is fundamental and guaranteed by mathematics. Which do you choose?
 
 <figure>
-	<img src="/northern-rock.jpg" alt="" />
+	<img src="/northern-rock.jpg" alt="Depositors queuing outside a Northern Rock branch during the 2007 bank run" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Depositors queue outside Northern Rock, September 2007. The first British bank run in 150 years.</figcaption>
 </figure>
 
@@ -1304,7 +1305,7 @@ Protocol changes follow the Zcash Improvement Proposal (ZIP) process, meaning th
 Major decisions skip the ZIP process and are resolved through community-wide polling. The Dev Fund extensions in 2020 and 2024 both involved extensive public deliberation and sentiment gathering before implementation. Input was taken from token holders, miners, and community members.
 
 <figure>
-	<img src="/enigma.jpg" alt="" />
+	<img src="/enigma.jpg" alt="A German Enigma cipher machine from World War II" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">The Enigma machine, used by Nazi Germany to encrypt military communications during World War II. Operators changed settings daily, producing messages that appeared as random gibberish to interceptors.</figcaption>
 </figure>
 
@@ -1397,7 +1398,7 @@ Beyond the technical design, there is a social layer. Zcash’s community formed
 Aztec and similar projects will likely find significant demand for private applications, but for the core use case of private money, a place where wealth can rest indefinitely, they serve a different purpose than Zcash.
 
 <figure>
-	<img src="/samizdat.jpg" alt="" />
+	<img src="/samizdat.jpg" alt="Soviet citizens copying banned literature by hand, known as samizdat" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Samizdat — Soviet citizens copying and distributing banned literature by hand to evade state censorship. Possession meant prison.</figcaption>
 </figure>
 
@@ -1525,7 +1526,7 @@ The default of weak locks on every door is not preferential to the default of a 
 The correct question is not whether privacy is the default, but whether the privacy holds up under adversarial analysis. Zcash’s privacy does, Monero’s privacy does not.
 
 <figure>
-	<img src="/zcash-team.jpg" alt="" />
+	<img src="/zcash-team.jpg" alt="The early Zcash team, including Zooko Wilcox-O'Hearn and Jay Graber" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Zcash team in the early days, featuring among others Zooko Wilcox-O'Hearn, co-founder of Zcash, and Jay Graber, then a junior developer in the Zcash team and who went on to later become CEO of Bluesky.</figcaption>
 </figure>
 
@@ -1622,7 +1623,7 @@ Shield your coins. The shielded pool's design already provides substantial quant
 Zcash's cryptographers will remain ahead of developments, because the protocol's modular design, which isolates vulnerable primitives, enables future upgrades without overhaul.
 
 <figure>
-	<img src="/tank-man.jpg" alt="" />
+	<img src="/tank-man.jpg" alt="'Tank Man' standing before a column of tanks near Tiananmen Square, 1989" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">"Tank Man" standing in front of a column of tanks near Tiananmen Square in Beijing on June 5, 1989.</figcaption>
 </figure>
 
@@ -1653,4 +1654,3 @@ Zcash is how money stays free.
   - [Freedom Money](https://www.scifi.money/freedom-money) by Arjun Khemani
   - [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf) by Satoshi Nakamoto
 {{< /further-reading >}}
-

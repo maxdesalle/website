@@ -1,0 +1,98 @@
+{{- /* JSON-LD structured data dispatcher. All fields guarded so missing
+       front matter never emits malformed JSON. */ -}}
+{{- $base := "https://maxdesalle.com" -}}
+{{- $home := printf "%s/" $base -}}
+{{- $img := "https://maxdesalle.com/social_image.jpg" -}}
+{{- with .Params.thumbnail }}{{ $img = printf "%s%s" $base . }}{{ end -}}
+{{- $desc := .Description | default .Summary | default .Site.Params.description | plainify | truncate 160 -}}
+{{- $author := dict "@type" "Person" "name" .Site.Params.author "url" $home -}}
+
+{{- if .IsHome -}}
+  {{- $sameAs := slice -}}
+  {{- range .Site.Menus.socials -}}
+    {{- if or (eq .Identifier "x") (eq .Identifier "github") -}}{{ $sameAs = $sameAs | append .URL }}{{- end -}}
+  {{- end -}}
+  {{- $person := dict
+      "@context" "https://schema.org"
+      "@type" "Person"
+      "name" .Site.Params.author
+      "url" $home
+      "description" .Site.Params.description
+      "image" "https://maxdesalle.com/social_image.jpg"
+      "sameAs" $sameAs -}}
+  {{- $website := dict
+      "@context" "https://schema.org"
+      "@type" "WebSite"
+      "name" .Site.Title
+      "url" $home
+      "inLanguage" "en"
+      "publisher" $author -}}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+  <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and .IsPage (or (eq .Type "posts") (eq .Type "courses")) -}}
+  {{- $post := dict
+      "@context" "https://schema.org"
+      "@type" "BlogPosting"
+      "headline" (.Title | truncate 110)
+      "description" $desc
+      "url" .Permalink
+      "mainEntityOfPage" .Permalink
+      "datePublished" (.Date.Format "2006-01-02")
+      "dateModified" (.Date.Format "2006-01-02")
+      "author" $author
+      "publisher" $author
+      "image" $img
+      "wordCount" .WordCount
+      "inLanguage" (.Params.language | default "en") -}}
+  <script type="application/ld+json">{{ $post | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and .IsPage (eq .Type "podcast") -}}
+  {{- $pod := .Site.GetPage "/podcast" -}}
+  {{- $series := dict "@type" "PodcastSeries" "name" "Maxime Desalle" "url" $home "webFeed" (printf "%s/podcast/index.xml" $base) -}}
+  {{- with $pod }}{{ $series = merge $series (dict "name" .Title) }}{{ with .Params.image }}{{ $series = merge $series (dict "image" .) }}{{ end }}{{ end -}}
+  {{- $ep := dict
+      "@context" "https://schema.org"
+      "@type" "PodcastEpisode"
+      "url" .Permalink
+      "name" .Title
+      "description" $desc
+      "datePublished" (.Date.Format "2006-01-02")
+      "partOfSeries" $series -}}
+  {{- with .Params.episode }}{{ $ep = merge $ep (dict "episodeNumber" .) }}{{ end -}}
+  {{- with .Params.season }}{{ $ep = merge $ep (dict "seasonNumber" .) }}{{ end -}}
+  {{- with .Params.duration -}}
+    {{- $p := split . ":" -}}
+    {{- if eq (len $p) 3 }}{{ $ep = merge $ep (dict "duration" (printf "PT%dH%dM%dS" (int (index $p 0)) (int (index $p 1)) (int (index $p 2)))) }}{{ end -}}
+  {{- end -}}
+  {{- with .Params.audio_url }}{{ $ep = merge $ep (dict "associatedMedia" (dict "@type" "MediaObject" "contentUrl" .)) }}{{ end -}}
+  <script type="application/ld+json">{{ $ep | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- if and .IsPage (eq .Type "talks") -}}
+  {{- $video := dict
+      "@context" "https://schema.org"
+      "@type" "VideoObject"
+      "name" .Title
+      "description" $desc
+      "uploadDate" (.Date.Format "2006-01-02")
+      "thumbnailUrl" $img -}}
+  {{- with .Params.video_url }}{{ $video = merge $video (dict "contentUrl" .) }}{{ end -}}
+  {{- with .Params.stream_uid }}{{ $video = merge $video (dict "embedUrl" (printf "https://customer-%s.cloudflarestream.com/%s/iframe" $.Site.Params.stream_customer_code .)) }}{{ end -}}
+  <script type="application/ld+json">{{ $video | jsonify | safeJS }}</script>
+{{- end -}}
+
+{{- /* BreadcrumbList for section-nested singles (skip root /slug/ posts). */ -}}
+{{- if and .IsPage (in (slice "podcast" "talks" "courses") .Type) -}}
+  {{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $home) -}}
+  {{- $pos := 2 -}}
+  {{- if ne .Type "podcast" -}}
+    {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" (.Section | title) "item" (printf "%s/%s/" $base .Section)) -}}
+    {{- $pos = 3 -}}
+  {{- end -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" $pos "name" .Title "item" .Permalink) -}}
+  {{- $bc := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs -}}
+  <script type="application/ld+json">{{ $bc | jsonify | safeJS }}</script>
+{{- end -}}

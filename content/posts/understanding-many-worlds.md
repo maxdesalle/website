@@ -1,6 +1,7 @@
 ---
 title: "Understanding Many-Worlds"
 description: "A Beginner's Guide."
+tags: ["quantum-mechanics", "physics", "philosophy"]
 date: 2025-09-23
 thumbnail: "/solvay-conference.jpg"
 params:
@@ -10,7 +11,7 @@ epub: "/downloads/understanding-many-worlds.epub"
 ---
 
 <figure>
-	<img src="/solvay-conference.jpg" alt="" />
+	<img src="/solvay-conference.jpg" alt="Physicists gathered for the 1927 Solvay Conference" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">The 1927 Solvay conference, lauded by Heisenberg as, “officially, the completion of the quantum theory,” while Langevin remarked it was, “where the confusion of ideas reached its peak.”</figcaption>
 </figure>
 
@@ -145,7 +146,7 @@ view is the most widely presented one on the web.
 Without further ado, let's get into it.
 
 <figure>
-	<img src="/nobel-laureates.jpg" alt="" />
+	<img src="/nobel-laureates.jpg" alt="Albert Einstein and Max Planck with fellow Nobel laureates at a 1931 dinner in Berlin" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Albert
 Einstein and Max Planck (middle) together with three other Nobel
 laureates—Walther Nernst, Robert Andrews Millikan, and Max von
@@ -324,7 +325,7 @@ abstract equation. This equation would describe an entirely novel
 concept in physics—the *wave function*.
 
 <figure>
-	<img src="/dirac-heisenberg.jpg" alt="" />
+	<img src="/dirac-heisenberg.jpg" alt="Paul Dirac and Werner Heisenberg, early 1930s" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Paul Dirac and
 Werner Heisenberg, likely in the early 1930s. Heisenberg created the
 first complete formulation of quantum mechanics and Dirac unified
@@ -545,7 +546,7 @@ However, we don't see both outcomes when we look. We'll come to that
 later.
 
 <figure>
-	<img src="/schrodinger.jpg" alt="" />
+	<img src="/schrodinger.jpg" alt="Portrait of Erwin Schrödinger" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Portrait of Erwin Schrödinger.</figcaption>
 </figure>
 
@@ -696,7 +697,7 @@ truth. And the truth is this: when you stop denying reality and start
 taking quantum mechanics seriously, you get Many-Worlds.
 
 <figure>
-	<img src="/everett.jpg" alt="" />
+	<img src="/everett.jpg" alt="Portrait of Hugh Everett" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Portrait of Hugh Everett, who in 1957 released the paper "The Theory Of
 The Universal Wave Function", which later became known as Many-Worlds.</figcaption>
 </figure>
@@ -952,7 +953,7 @@ anything larger than a handful of particles, the worlds may as well be
 permanently separate.
 
 <figure>
-	<img src="/einstein-bohr.jpg" alt="" />
+	<img src="/einstein-bohr.jpg" alt="Niels Bohr and Albert Einstein in Leiden, 1925" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Niels
 Bohr (left) with Albert Einstein (right) at Paul Ehrenfest\'s home in
 Leiden, December 1925. Bohr strongly defended the collapse
@@ -1258,7 +1259,7 @@ frequencies. Both fill the air, but once you're tuned into one, you
 cannot hear the others.
 
 <figure>
-	<img src="/von-neumann.jpg" alt="" />
+	<img src="/von-neumann.jpg" alt="Portrait of John von Neumann" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Portrait of John Von Neumann, who gave
 quantum mechanics its precise formal structure.</figcaption>
 </figure>
@@ -1318,7 +1319,7 @@ The burden of proof lies not on Everett, but on anyone who wants to
 _change the equations_ by injecting collapse.
 
 <figure>
-	<img src="/dewitt.jpg" alt="" />
+	<img src="/dewitt.jpg" alt="Bryce DeWitt with his wife Cécile DeWitt-Morette" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Bryce DeWitt with his wife Cécile DeWitt-Morette. Bryce DeWitt revived
 Everett's Many-Worlds interpretation and helped gain it recognition.</figcaption>
 </figure>
@@ -1442,7 +1443,7 @@ decoherence or errors. Cooling reduces the energy available for these
 unwanted excitations, making qubits more stable.
 
 <figure>
-	<img src="/wheeler.jpg" alt="" />
+	<img src="/wheeler.jpg" alt="Portrait of physicist John Wheeler" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">John
 Wheeler, legendary physicist and one of Everett's mentors.</figcaption>
 </figure>

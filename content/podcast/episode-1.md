@@ -1,6 +1,7 @@
 ---
 title: "This Cryptographer Has a 10-Year Plan for Zcash — Zooko Wilcox"
 description: "My first interview with Zooko Wilcox, co-founder of Zcash."
+tags: ["zcash", "cryptography", "privacy", "governance", "podcast"]
 date: 2026-06-03
 episode: 1
 season: 1

@@ -1,6 +1,7 @@
 ---
 title: "This Physicist Says There Are Millions of You — Sam Kuypers"
-description: "My first interview with Sam Kuypers, quantum physicist and fellow at the Conjecture Institute."
+description: "A conversation with Sam Kuypers, quantum physicist and fellow at the Conjecture Institute."
+tags: ["quantum-mechanics", "physics", "philosophy", "podcast"]
 date: 2026-07-02
 episode: 2
 season: 1

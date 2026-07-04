@@ -1,6 +1,7 @@
 ---
 title: "Dominando Zcash"
 description: "Un estudio en el dinero privado"
+tags: ["zcash", "cryptography", "privacy"]
 date: 2026-01-12
 thumbnail: "/bernstein.jpg"
 params:
@@ -14,7 +15,7 @@ language: es
 ---
 
 <figure>
-	<img src="/bernstein.jpg" alt="" />
+	<img src="/bernstein.jpg" alt="Leonard Bernstein dirigiendo el concierto 'Oda a la Libertad' tras la caída del Muro de Berlín, 1989" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Concierto "Oda a la Libertad" de Leonard Bernstein, realizado el día de Navidad de 1989 para celebrar la caída del Muro de Berlín. La orquesta estuvo compuesta por miembros que representaban a los dos Estados alemanes y a las cuatro potencias ocupantes del Berlín de posguerra. El concierto fue transmitido en vivo a una audiencia estimada de 100 millones de personas en más de veinte países. La victoria de la libertad, la democracia y el capitalismo sobre la opresión, el totalitarismo y el comunismo, representada en la imagen.</figcaption>
 </figure>
 
@@ -56,7 +57,7 @@ También abordaremos los orígenes de Zcash en la criptografía académica, la f
 Algunas partes de este estudio integral sobre Zcash serán más técnicas. Aunque he intentado hacer todo lo más claro y accesible posible para todos, si tienes dificultades con ciertos conceptos, recomiendo preguntar a un modelo de lenguaje (LLM) para obtener aclaraciones o simplemente saltarte esa parte y volver a ella más tarde. Si eso no funciona, no dudes [en comunicarte](https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6) con cualquier pregunta.
 
 <figure>
-	<img src="/chaum.jpg" alt="" />
+	<img src="/chaum.jpg" alt="Retrato del criptógrafo David Chaum" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">David Chaum, pionero de la criptografía.</figcaption>
 </figure>
 
@@ -144,7 +145,7 @@ El problema de la configuración confiable mencionado antes requería una soluci
 El 28 de octubre de 2016, [se minó el bloque génesis de Zcash](https://www.youtube.com/watch?v=O8QA6Nvg8RI). Por primera vez, una criptomoneda en funcionamiento ofrecía privacidad criptográfica real. Treinta y cuatro años después del primer artículo de David Chaum, el sueño de un dinero digital imposible de rastrear estaba funcionando en una red activa.
 
 <figure>
-	<img src="/weimar.jpg" alt="" />
+	<img src="/weimar.jpg" alt="Billetes de la República de Weimar usados como papel tapiz durante la hiperinflación" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Hiperinflación en la República de Weimar.
 Los billetes habían perdido tanto valor que se utilizaban como papel tapiz.</figcaption>
 </figure>
@@ -596,7 +597,7 @@ spending key (sk)
 A medida que se desciende en la jerarquía, cada nivel revela menos información. La clave de gasto puede hacer todo, la clave de visualización completa lo ve todo, pero no puede gastar, y la clave de visualización de ingresos solo ve los fondos entrantes. Por último, las direcciones no revelan nada, solo son destinos.
 
 <figure>
-	<img src="/eli-ben-sasson.jpg" alt="" />
+	<img src="/eli-ben-sasson.jpg" alt="Retrato de Eli Ben-Sasson, cofundador de Zcash" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Eli Ben-Sasson, cofundador de Zcash y ahora al frente de StarkWare.</figcaption>
 </figure>
 
@@ -1039,7 +1040,7 @@ Alice envió 5 ZEC a Bob. La red verificó la transacción sin conocer quién en
 
 
 <figure>
-	<img src="/panopticon.jpg" alt="" />
+	<img src="/panopticon.jpg" alt="Dibujo arquitectónico del Panóptico de Jeremy Bentham, 1791" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">El Panóptico de Jeremy Bentham, 1791. Una prisión diseñada para que los reclusos nunca sepan si están siendo observados. Aprenden a vigilarse a sí mismos.</figcaption>
 </figure>
 
@@ -1216,7 +1217,7 @@ Elegir proteger tus transacciones no es solo una decisión financiera personal, 
 El dinero de vigilancia conduce a un futuro donde la libertad económica es un permiso concedido por quienes tienen el poder. El dinero de libertad conduce a un mundo donde la libertad económica es fundamental y está garantizada por las matemáticas. ¿Cuál escoger?
 
 <figure>
-	<img src="/northern-rock.jpg" alt="" />
+	<img src="/northern-rock.jpg" alt="Depositantes haciendo cola frente a una sucursal de Northern Rock durante la crisis de 2007" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Colas de depositantes frente a Northern Rock, septiembre de 2007. La primera retirada masiva de depósitos en un banco británico en 150 años..</figcaption>
 </figure>
 
@@ -1320,7 +1321,7 @@ Los cambios en el protocolo siguen el proceso de Zcash Proceso Mejorado (ZIP), l
 Las decisiones más importantes omiten el proceso ZIP y se resuelven mediante votaciones a nivel comunitario. Por ejemplo, las extensiones del Fondo de Desarrollo en 2020 y 2024 involucraron amplias deliberaciones públicas y recopilación de opiniones antes de su implementación. Se tomaron en cuenta las opiniones de poseedores de tokens, mineros y miembros de la comunidad.
 
 <figure>
-	<img src="/enigma.jpg" alt="" />
+	<img src="/enigma.jpg" alt="Una máquina de cifrado Enigma alemana de la Segunda Guerra Mundial" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">La máquina Enigma, utilizada por la Alemania nazi para encriptar las comunicaciones militares durante la Segunda Guerra Mundial. Los operadores cambiaban la configuración diariamente, produciendo mensajes que parecían un conjunto aleatorio de caracteres sin sentido para los interceptores.</figcaption>
 </figure>
 
@@ -1415,7 +1416,7 @@ Más allá del diseño técnico, también existe una capa social. La comunidad d
 Es probable que Aztec y proyectos similares encuentren una demanda significativa para aplicaciones privadas, pero para el caso de uso central del dinero privado, un lugar donde la riqueza pueda descansar indefinidamente, cumplen un propósito diferente al de Zcash.
 
 <figure>
-	<img src="/samizdat.jpg" alt="" />
+	<img src="/samizdat.jpg" alt="Ciudadanos soviéticos copiando literatura prohibida a mano, conocido como samizdat" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">Samizdat — ciudadanos soviéticos copiando y distribuyendo literatura prohibida a mano para evadir la censura estatal. Su posesión podía significar prisión.</figcaption>
 </figure>
 
@@ -1543,7 +1544,7 @@ La configuración predeterminada de cerraduras débiles en todas las puertas no 
 La pregunta correcta no es si la privacidad es la opción predeterminada, sino si la privacidad se mantiene bajo un análisis contradictorio. La privacidad de Zcash sí lo hace, la de Monero no.
 
 <figure>
-	<img src="/zcash-team.jpg" alt="" />
+	<img src="/zcash-team.jpg" alt="El primer equipo de Zcash, incluyendo a Zooko Wilcox-O'Hearn y Jay Graber" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">El equipo de Zcash en sus inicios, con Zooko Wilcox-O'Hearn, cofundador de Zcash, y Jay Graber, entonces desarrollador junior del equipo de Zcash y que más tarde se convertiría en director ejecutivo de Bluesky, entre otros.</figcaption>
 </figure>
 
@@ -1641,7 +1642,7 @@ Proteja sus monedas. El diseño del pool protegido ya proporciona una resistenci
 Los criptógrafos de Zcash seguirán estando a la vanguardia de los avances, ya que el diseño modular del protocolo, que aísla los primitivos vulnerables, permite futuras actualizaciones sin necesidad de revisiones.
 
 <figure>
-	<img src="/tank-man.jpg" alt="" />
+	<img src="/tank-man.jpg" alt="'El hombre del tanque' frente a una columna de tanques cerca de la plaza de Tiananmen, 1989" />
 	<figcaption style="font-size: 75%; line-height:1.2; margin-top:0.25em;">"El hombre del tanque" frente a una columna de tanques cerca de la plaza de Tiananmen en Pekín, el 5 de junio de 1989.</figcaption>
 </figure>
 
@@ -1672,4 +1673,3 @@ Zcash es la forma en que el dinero sigue siendo libre.
   - [Dinero Libre](https://www.scifi.money/freedom-money) de Arjun Khemani
   - [Libro blanco de Bitcoin (Bitcoin Whitepaper)](https://bitcoin.org/files/bitcoin-paper/bitcoin_es.pdf) de Satoshi Nakamoto
 {{< /further-reading >}}
-

@@ -1,6 +1,7 @@
 ---
 title: "Taking Schrödinger Seriously"
 description: "A first-principles course on quantum mechanics."
+tags: ["quantum-mechanics", "physics"]
 date: 2026-01-10
 ---
 

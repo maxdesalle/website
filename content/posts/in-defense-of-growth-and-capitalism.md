@@ -1,12 +1,13 @@
 ---
 title: "In Defense of Growth and Capitalism"
 description: "Progression, not regression: a complete refutation of Degrowth."
+tags: ["economics", "philosophy"]
 date: 2023-07-10
 thumbnail: "/article-cover-in-defense-of-growth-and-capitalism.jpg"
 ---
 
 <figure>
-	<img src="/wright-first-airplane.jpg" alt="" />
+	<img src="/wright-first-airplane.jpg" alt="The Wright Flyer making the first powered airplane flight, 1903" />
 	<figcaption style="font-size: 75%">The <a href="https://en.wikipedia.org/wiki/Wright_Flyer">Wright Flyer</a>, which made the first airplane flight in 1903.</figcaption>
 </figure>
 
@@ -61,7 +62,7 @@ Because of these reasons, it's fair to conclude that Capitalism denotes 'right-s
 ---
 
 <figure>
-	<img src="/worker-empire-state-building.jpg" alt="" />
+	<img src="/worker-empire-state-building.jpg" alt="A worker perched on steelwork during construction of the Empire State Building, 1931" />
 	<figcaption style="font-size: 75%">Picture by <a href="https://en.wikipedia.org/wiki/Lewis_Hine">Lewis Hine</a> taken in 1931, of a worker during the construction of the Empire State Building.</figcaption>
 </figure>
 
@@ -106,7 +107,7 @@ However, what is a valid argument, is that there is [there is absolutely no virt
 ---
 
 <figure>
-	<img src="/hoover-dam.jpeg" alt="" />
+	<img src="/hoover-dam.jpeg" alt="The Hoover Dam under construction in the 1930s" />
 	<figcaption style="font-size: 75%">Picture taken during the construction of the <a href="https://en.wikipedia.org/wiki/Hoover_Dam">Hoover Dam</a> in the 1930s.</figcaption>
 </figure>
 
@@ -167,7 +168,7 @@ The point being that climate change isn't an unsolvable problem. It's a technolo
 ---
 
 <figure>
-	<img src="/first-helicopter.jpg" alt="" />
+	<img src="/first-helicopter.jpg" alt="The Vought-Sikorsky VS-300, the first viable American helicopter, 1939" />
 	<figcaption style="font-size: 75%">Early prototype of the <a href="https://en.wikipedia.org/wiki/Vought-Sikorsky_VS-300">Vought-Sikorsky VS-300</a> in 1939, the first viable American helicopter, which pioneered the rotor configuration used by most helicopters today.</figcaption>
 </figure>
 
@@ -224,7 +225,7 @@ Having a strong defense also unironically acts as a war deterrent, as the enemy 
 ---
 
 <figure>
-	<img src="/eniac-first-computer.jpg" alt="" />
+	<img src="/eniac-first-computer.jpg" alt="ENIAC, the first general-purpose electronic computer, around 1950" />
 	<figcaption style="font-size: 75%">Image taken around 1950 of <a href="https://en.wikipedia.org/wiki/ENIAC">ENIAC</a>, the first programmable, electronic, general-purpose digital computer.</figcaption>
 </figure>
 
@@ -267,7 +268,7 @@ In both cases, the inefficiencies in these markets aren’t due to Capitalism fa
 ---
 
 <figure>
-	<img src="/shinkansen.jpg" alt="" />
+	<img src="/shinkansen.jpg" alt="The first Shinkansen bullet train on a test run, 1964" />
 	<figcaption style="font-size: 75%">First full-length test ride in 1964 of the <a href="https://web.archive.org/web/20140904052921/https://www.nytimes.com/2014/08/29/upshot/fifty-years-ago-and-today-japan-blazes-trails-with-trains.html">Shinkansen</a>, the world's first bullet train.</figcaption>
 </figure>
 

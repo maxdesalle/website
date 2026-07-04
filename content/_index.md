@@ -3,7 +3,7 @@ title: "Maxime Desalle"
 description: "Win and help win."
 ---
 
-Investing at [Winklevoss Capital](https://winklevosscapital.com) by day. Researching quantum mechanics by night.
+Investing at [Winklevoss Capital](https://winklevosscapital.com) by day. Researching quantum mechanics at the [Conjecture Institute](https://conjectureinstitute.org/) by night.
 
 Previously completed a B.Sc. in mathematics and physics at the [University of Montreal](https://umontreal.ca/en/), and attended [42](https://42belgium.be/en/) prior to that.
 

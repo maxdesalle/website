@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article>
+  <header id="post-header">
+    <h1>{{ .Title }}</h1>
+    <h1 style="color: #808080; font-size: 90%; margin-top: 0">
+      {{ .Description }}
+    </h1>
+    <div>
+      {{- if isset .Params "date" -}}
+      <time style="font-size: 80%; color: #B8B8B8">
+        <strong>{{ .Date | time.Format (i18n "post.created") }}</strong>
+      </time>
+      {{- end -}}
+    </div>
+  </header>
+
+  {{- with .Params.stream_uid }}
+  <div class="stream-embed" style="position:relative;padding-top:56.25%;margin:1.5rem 0">
+    <iframe src="https://customer-{{ site.Params.stream_customer_code }}.cloudflarestream.com/{{ . }}/iframe"
+      loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%"
+      allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe>
+  </div>{{ end }}
+
+  {{- with .Params.audio_url }}
+  <audio controls preload="none" style="width:100%;margin:0.5rem 0" src="{{ . }}"></audio>{{ end }}
+
+  <div class="download-links">
+    {{ with .Params.youtube_url }}<a href="{{ . }}">YouTube</a>{{ end }}
+    {{ with .Params.apple_url }}<a href="{{ . }}">Apple Podcasts</a>{{ end }}
+    {{ with .Params.spotify_url }}<a href="{{ . }}">Spotify</a>{{ end }}
+    {{ with .Params.video_url }}<a href="{{ . }}">Download video</a>{{ end }}
+    {{ with .Params.audio_url }}<a href="{{ . }}">Download audio</a>{{ end }}
+  </div>
+
+  {{ .Content }}
+
+  {{- with .Params.transcript_file }}
+  {{- with resources.Get . }}
+  <details class="transcript">
+    <summary>Transcript</summary>
+    <div class="transcript-body" style="max-height:60vh;overflow:auto;margin-top:0.5rem">
+      {{ $.RenderString .Content }}
+    </div>
+  </details>{{ end }}{{ end }}
+</article>
+{{ end }}

@@ -1,0 +1,5 @@
+<h3>{{ i18n "talks.title" }}</h3>
+<ul id="posts">
+	{{- range where site.RegularPages "Type" "talks" }} {{
+	.Render "li" }} {{- end }}
+</ul>

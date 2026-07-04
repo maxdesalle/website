@@ -5,4 +5,6 @@ description: "Some piano pieces, played by a beginner. I'm far from a great pian
 
 <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wCas3BRvtME?si=cH2yXoYv0ABX3_bB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< stream uid="REPLACE_PIANO_1_UID" >}}
+{{< stream uid="REPLACE_PIANO_2_UID" >}}
+{{< stream uid="REPLACE_PIANO_3_UID" >}}

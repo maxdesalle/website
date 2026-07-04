@@ -1,0 +1,7 @@
+{{- $uid := .Get "uid" -}}
+{{- $code := site.Params.stream_customer_code -}}
+<div class="stream-embed" style="position:relative;padding-top:56.25%;margin:1.5rem 0">
+  <iframe src="https://customer-{{ $code }}.cloudflarestream.com/{{ $uid }}/iframe"
+    loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%"
+    allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe>
+</div>

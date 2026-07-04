@@ -10,7 +10,11 @@ pygmentsUseClasses = true
   # description = "Win and help win."
   dark = "off"
   highlight = true
+  mainSections = ["posts"]
   math = true
+  stream_customer_code = "REPLACE_WITH_STREAM_CUSTOMER_CODE"
+  author = "Maxime Desalle"
+  email = "REPLACE_WITH_OWNER_EMAIL"
   # images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]
@@ -29,6 +33,13 @@ pygmentsUseClasses = true
     weight = 10
 
   [[menu.main]]
+    identifier = "podcast"
+    name = "podcast"
+    title = "podcast"
+    url = "/podcast/"
+    weight = 12
+
+  [[menu.main]]
     identifier = "photography"
     name = "photography"
     title = "photography"
@@ -43,10 +54,10 @@ pygmentsUseClasses = true
     weight = 20
 
   [[menu.socials]]
-    identifier = "twitter"
-    name = "twitter"
-    title = "twitter"
-    url = "https://twitter.com/maxdesalle"
+    identifier = "x"
+    name = "x"
+    title = "x"
+    url = "https://x.com/maxdesalle"
     weight = 25
 
   [[menu.socials]]
@@ -56,8 +67,15 @@ pygmentsUseClasses = true
     url = "https://github.com/maxdesalle"
     weight = 30
 
+  [[menu.socials]]
+    identifier = "signal"
+    name = "signal"
+    title = "signal"
+    url = "https://signal.me/#eu/TST_2FkJznjly3Xkn2NnsNRDw32eoOTHwO0L9REt2N1A2fOQ_vdKEYb-C-KsvEW6"
+    weight = 35
+
 [permalinks]
-  posts = "/:filename/"
+  posts = "/:contentbasename/"
 
 [markup]
   [markup.goldmark]

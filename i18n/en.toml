@@ -1,0 +1,14 @@
+[posts]
+
+[posts.title]
+other = "Articles"
+
+[podcast]
+
+[podcast.title]
+other = "Podcasts"
+
+[talks]
+
+[talks.title]
+other = "Talks"

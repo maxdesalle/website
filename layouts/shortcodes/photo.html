@@ -1,0 +1,42 @@
+{{- /* Build-time responsive image: WebP + JPEG fallback with srcset.
+       (Hugo cannot ENCODE AVIF — only decode — so WebP is the modern format here.) */ -}}
+{{- $src := .Get "src" -}}
+{{- $caption := .Get "caption" -}}
+{{- $alt := .Get "alt" | default $caption -}}
+{{- $img := resources.Get (printf "photography/%s" $src) -}}
+{{- if $img -}}
+  {{- $maxw := $img.Width -}}
+  {{- $widths := slice 480 960 1440 1920 -}}
+  {{- $webp := slice -}}
+  {{- $jpg := slice -}}
+  {{- $used := slice -}}
+  {{- range $widths -}}
+    {{- if le . $maxw -}}
+      {{- $used = $used | append . -}}
+      {{- $w := $img.Resize (printf "%dx webp q80" .) -}}
+      {{- $j := $img.Resize (printf "%dx jpg q82" .) -}}
+      {{- $webp = $webp | append (printf "%s %dw" $w.RelPermalink .) -}}
+      {{- $jpg = $jpg | append (printf "%s %dw" $j.RelPermalink .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $used -}}
+    {{- $w := $img.Resize "webp q80" -}}
+    {{- $j := $img.Resize "jpg q82" -}}
+    {{- $webp = $webp | append (printf "%s %dw" $w.RelPermalink $maxw) -}}
+    {{- $jpg = $jpg | append (printf "%s %dw" $j.RelPermalink $maxw) -}}
+    {{- $used = $used | append $maxw -}}
+  {{- end -}}
+  {{- $fbw := index (last 1 $used) 0 -}}
+  {{- $fallback := $img.Resize (printf "%dx jpg q82" $fbw) -}}
+  <figure>
+    <picture>
+      <source type="image/webp" srcset="{{ delimit $webp ", " }}" sizes="(max-width: 720px) 100vw, 720px" />
+      <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $jpg ", " }}" sizes="(max-width: 720px) 100vw, 720px"
+        width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+    </picture>
+    {{- with $caption }}
+    <figcaption style="font-size: 75%">{{ . }}</figcaption>{{ end }}
+  </figure>
+{{- else -}}
+  {{- warnf "photo shortcode: image not found in assets/photography/%s" $src -}}
+{{- end -}}

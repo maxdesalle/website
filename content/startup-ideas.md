@@ -48,16 +48,6 @@ Tagline could be: "One Check, Lifetime 5% Tax." (or whatever the % is you are of
 
 ---
 
-**Real-time economy dashboards:** think of these COVID-19 map dashboards, but with faster updates and for the economy. You would be able to track the impact of interest rates increases in real time and in specific places. Basically needs to be a [Dune](https://dune.com)-like service, but for the "real" economy. It's unbelievable to me that something like this doesn't yet exist.
-
-The [Federal Reserve](https://en.wikipedia.org/wiki/Federal_Reserve), banks and major companies would be your first clients. Data could come from [ChainLink](https://chain.link) oracles, or a network of incentivized data providers in the region you are initially targetting.
-
-Should probably initially focus on getting integrated with traditional payment providers, this can either be done from the top (partner with Mastercard, Visa, etc.), or from the bottom (provide a plug and play solution merchants can add that sends data to you, in exchange for some type of reward system).
-
-Business model is very simple: free users get access to the dashboard, but with a delay of 24 hours for example, and paid users get instant updates in real time with daily or weekly reports and additional metrics.
-
----
-
 **Actually good Kombucha:** I drink Kombucha all the time, I love it. If you don't know it, it's a fermented probiotic drink based on tea. Probiotics are foods/drinks that, according to the current research, contribute to the health of your gut as they contain bacteria that will help your digestive system.
 
 There is a big market for probiotics, [40% of the world population suffers from gastrointestinal problems](<https://www.gastrojournal.org/article/S0016-5085(20)30487-X/fulltext>). And even those who don't have gut problems at the moment would probably benefit from probiotics, the [current early research is very promising on mood/cognitive functions as well](https://www.health.harvard.edu/mind-and-mood/probiotics-may-help-boost-mood-and-cognitive-function), and [they have very rarely side effects](https://www.mayoclinic.org/healthy-lifestyle/nutrition-and-healthy-eating/expert-answers/probiotics/faq-20058065).
@@ -73,32 +63,3 @@ There are three difficulties/problems:
 2. it's a very competitive market. There are already a lot of companies active in the Kombucha market, and you are always at risk of a giant like Coca-Cola introducing their own Kombucha brand. The incentives are there for them to do so (it's a growing market, strong narrative, etc.).
 
 3. find a recipe that tastes good (obviously!). Easier said than done. Either the majority of current Kombucha producers on the market have bad taste, or finding a good recipe that is healthy while tasting good is harder than it seems like. My guess is that it's probably a combination of both. Might seem arrogant, but it's objectively true in my opinion that [most people have bad taste](https://x.com/UltraLinx/status/1829180924904489008) when it comes to deciding on their own what is beautiful or what isn't, what tastes good and what doesn't, etc. As Steve Jobs would say, most people don't know what they want until you show it to them. This will again appear very arrogant but I believe it's deeply true: you have to make the decision-making for them.
-
----
-
-**Encrypted data manipulation:** a data breach is really bad for business. It hurts the brand of the company, leaves affected users disappointed and often angry, and may even put the company at risk legally. What if you as a company could still send over that weekly newsletter you have to your customerbase, for example, while always keeping those emails encrypted, never putting them at risk? What if you could still use your customer data, without ever exposing it in the clear?
-
-I'm the opposite of an expert when it comes to homomorphic encryption, zero-knowledge proofs, etc. but my guess is such a product could be built using those technologies. The "only" problems regarding those two technologies is that they 1. are very complex to implement, and 2. very resource-intensive and slow. Though it's probably only a matter of time before it becomes viable.
-
-Data breaches could soon be a relic of the past (social engineering/insiders will still be an issue regarding data leaks, though).
-
----
-
-**Non-misogynistic, non-incel masculine media:** there is a real gap in the market at the moment regarding content creators teaching men about masculinity, fatherhood and marriage while _not_ giving misogynistic/incel vibes like most current outlets do.
-
-The content would be a mix of stoicism, chivalry and ethics, focusing on modernizing these old values and principles.
-
-Business model is simple: a subscription for additional content, ads, writing books and promoting them to the audience, and organizing paid meet-ups (once the community is large enough) where the audience can meet and build relationships.
-
-It should absolutely avoid the clichés like "how to dress like a gentleman" and focus on what really matters: principles, values and moral codes.
-
----
-
-**Deep see exploration tech:** imagine [Boston Dynamics](https://en.wikipedia.org/wiki/Boston_Dynamics), but for underwater robots. Most oceans are largely unexplored. There are a ton of plants, species, etc. that we don't know about yet as they are located in these unexplored areas. The implications of these findings for healthcare, for example, could be very significant. One could also think of the rare earth minerals that could be found at the bottom of these oceans.
-
-The real challenge here is twofold:
-
-- Find a working business model. Hunting for new plants, species, or finding rare earth minerals is probably not stable enough as a model? Not sure.
-- Figure out a way to design these underwater submersibles/robots so they can withstand the _insane_ amounts of pressure that exist deep into the ocean.
-
----

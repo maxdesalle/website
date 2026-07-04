@@ -13,11 +13,16 @@ if [[ -z "${CLOUDFLARE_API_KEY:-}" && -r "$HOME/.zshrc" ]]; then
   unset _cf_line
 fi
 
+: "${CF_ACCOUNT_ID:=${CLOUDFLARE_ACCOUNT_ID:-}}"
+: "${CF_ACCOUNT_EMAIL:=${CLOUDFLARE_EMAIL:-}}"
+: "${CF_API_TOKEN:=${CLOUDFLARE_API_TOKEN:-}}"
+export CLOUDFLARE_ACCOUNT_ID CLOUDFLARE_API_KEY CLOUDFLARE_EMAIL
+
 # Download, prepare, transcribe, and upload self-hosted media on macOS.
 #
 # Usage:
 #   media-pipeline.sh --url <URL> --slug <slug> --source <youtube|x> \
-#     [--transcribe] [--audio] [--kind podcast|talks|piano] [--no-upload]
+#     [--transcribe] [--audio] [--kind podcast|talks|piano] [--no-upload] [--cleanup]
 #
 # Project matrix:
 #   podcast ep1  youtube  --audio --transcribe
@@ -49,6 +54,7 @@ Options:
   --audio                      Generate a 128 kbps MP3 (podcasts only)
   --kind <podcast|talks|piano> R2 key prefix; inferred from known slug prefixes
   --no-upload                  Skip Cloudflare Stream and R2 uploads
+  --cleanup                    Delete local media after successful uploads
   -h, --help                   Show this help
 EOF
 }
@@ -64,6 +70,7 @@ KIND=""
 TRANSCRIBE=false
 AUDIO=false
 NO_UPLOAD=false
+CLEANUP=false
 SKIP_VIDEO=false
 
 while (($# > 0)); do
@@ -88,6 +95,10 @@ while (($# > 0)); do
       ;;
     --no-upload)
       NO_UPLOAD=true
+      shift
+      ;;
+    --cleanup)
+      CLEANUP=true
       shift
       ;;
     --skip-video)
@@ -441,6 +452,28 @@ print_backfill() {
   printf '===== MEDIA BACKFILL END =====\n'
 }
 
+cleanup_media() {
+  [[ "$CLEANUP" == true ]] || return
+  if [[ "$NO_UPLOAD" == true ]]; then
+    log "[cleanup] Skipping cleanup because nothing was uploaded (--no-upload)"
+    return
+  fi
+
+  local video_marker="$WORKDIR/.r2-${SLUG}.mp4.uploaded"
+  local audio_marker="$WORKDIR/.r2-${SLUG}.mp3.uploaded"
+  if [[ ! -s "$STREAM_UID_FILE" || ! -f "$video_marker" || \
+        ( "$AUDIO" == true && ! -f "$audio_marker" ) ]]; then
+    log "[cleanup] Skipping cleanup because one or more uploads are incomplete"
+    return
+  fi
+
+  log "[cleanup] Deleting uploaded local media for: $SLUG"
+  rm -f "$MASTER" "$VIDEO" "$MP3"
+  while IFS= read -r -d '' wav; do
+    rm -f "$wav"
+  done < <(find "$WORKDIR" -type f -name '*.wav' -print0)
+}
+
 download_master
 prepare_1080
 prepare_audio
@@ -448,3 +481,4 @@ transcribe_media
 upload_media
 log "[6/6] Media pipeline complete"
 print_backfill
+cleanup_media

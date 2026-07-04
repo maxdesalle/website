@@ -10,6 +10,5 @@
 {{- if or $caption $date }}
 <p style="font-size:75%;color:#808080;margin-top:0">
   {{- with $caption }}{{ . }}{{ end -}}
-  {{- if and $caption $date }} — {{ end -}}
-  {{- with $date }}{{ (time.AsTime .).Format "Jan 2, 2006" }}{{ end -}}
+  {{- with $date }}{{ if $caption }} ({{ end }}{{ (time.AsTime .).Format "Jan 2, 2006" }}{{ if $caption }}){{ end }}{{ end -}}
 </p>{{ end }}

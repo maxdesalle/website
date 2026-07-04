@@ -9,8 +9,8 @@
     <title>{{ .Title | default site.Title }}</title>
     <link>{{ .Permalink }}</link>
     <language>{{ .Params.language | default site.LanguageCode | default "en-us" }}</language>
-    <description>{{ $summary }}</description>
-    <itunes:summary>{{ $summary }}</itunes:summary>
+    <description>{{ $summary | html }}</description>
+    <itunes:summary>{{ $summary | html }}</itunes:summary>
     <itunes:author>{{ $author }}</itunes:author>
     <itunes:type>{{ .Params.itunes_type | default "episodic" }}</itunes:type>
     <itunes:explicit>{{ if .Params.explicit }}true{{ else }}false{{ end }}</itunes:explicit>
@@ -36,8 +36,8 @@
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="false">{{ .Params.guid | default .File.UniqueID }}</guid>
-      <description><![CDATA[{{ .Content }}]]></description>
-      <itunes:summary>{{ .Description | default .Summary }}</itunes:summary>
+      <description>{{ .Content | html }}</description>
+      <itunes:summary>{{ (.Description | default .Summary) | html }}</itunes:summary>
       {{- with .Params.duration }}
       <itunes:duration>{{ . }}</itunes:duration>{{ end }}
       {{- with .Params.episode }}

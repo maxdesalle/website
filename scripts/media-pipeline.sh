@@ -379,7 +379,7 @@ upload_r2_object() {
     return
   fi
   if command -v wrangler >/dev/null 2>&1; then
-    wrangler r2 object put "$R2_BUCKET/$key" --file="$file"
+    wrangler r2 object put "$R2_BUCKET/$key" --file="$file" --remote
     : > "$marker"
   else
     log "wrangler is not installed; run this command after installing it:"

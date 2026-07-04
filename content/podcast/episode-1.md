@@ -7,9 +7,9 @@ season: 1
 explicit: false
 duration: "00:48:37"
 guid: "podcast-0001"
-stream_uid: "REPLACE_STREAM_UID"
+stream_uid: "036b8cf3ff7b84345241134bcb9fd09b"
 video_url: "https://cdn.maxdesalle.com/podcast/episode-1.mp4"
-video_bytes: 0
+video_bytes: 962421441
 video_type: "video/mp4"
 audio_url: "https://cdn.maxdesalle.com/podcast/episode-1.mp3"
 audio_bytes: 46670637

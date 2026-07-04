@@ -32,7 +32,8 @@
     <picture>
       <source type="image/webp" srcset="{{ delimit $webp ", " }}" sizes="(max-width: 720px) 100vw, 720px" />
       <img src="{{ $fallback.RelPermalink }}" srcset="{{ delimit $jpg ", " }}" sizes="(max-width: 720px) 100vw, 720px"
-        width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async" />
+        width="{{ $fallback.Width }}" height="{{ $fallback.Height }}" alt="{{ $alt }}" loading="lazy" decoding="async"
+        style="height:auto" />
     </picture>
     {{- with $caption }}
     <figcaption style="font-size: 75%">{{ . }}</figcaption>{{ end }}

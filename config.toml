@@ -33,13 +33,6 @@ pygmentsUseClasses = true
     weight = 10
 
   [[menu.main]]
-    identifier = "podcast"
-    name = "podcast"
-    title = "podcast"
-    url = "/podcast/"
-    weight = 12
-
-  [[menu.main]]
     identifier = "photography"
     name = "photography"
     title = "photography"

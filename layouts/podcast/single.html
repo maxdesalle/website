@@ -22,10 +22,11 @@
   </div>{{ end }}
 
   {{- with .Params.audio_url }}
-  <audio controls preload="none" style="width:100%;margin:0.5rem 0" src="{{ . }}"></audio>{{ end }}
+  <audio id="episode-audio" controls preload="none" style="width:100%;margin:0.5rem 0" src="{{ . }}"></audio>{{ end }}
 
   <div class="download-links">
     {{ with .Params.youtube_url }}<a href="{{ . }}">YouTube</a>{{ end }}
+    {{ with .Params.x_url }}<a href="{{ . }}">Watch on X</a>{{ end }}
     {{ with .Params.apple_url }}<a href="{{ . }}">Apple Podcasts</a>{{ end }}
     {{ with .Params.spotify_url }}<a href="{{ . }}">Spotify</a>{{ end }}
     {{ with .Params.video_url }}<a href="{{ . }}">Download video</a>{{ end }}
@@ -43,4 +44,24 @@
     </div>
   </details>{{ end }}{{ end }}
 </article>
+
+{{- if .Params.audio_url }}
+<script>
+(function () {
+  var audio = document.getElementById("episode-audio");
+  if (!audio) return;
+  document.querySelectorAll('article a[href^="#t="]').forEach(function (a) {
+    a.addEventListener("click", function (e) {
+      e.preventDefault();
+      var parts = a.getAttribute("href").slice(3).split(":").map(Number);
+      var secs = parts.length === 3
+        ? parts[0] * 3600 + parts[1] * 60 + parts[2]
+        : parts[0] * 60 + parts[1];
+      audio.currentTime = secs;
+      audio.play();
+      audio.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  });
+})();
+</script>{{ end }}
 {{ end }}

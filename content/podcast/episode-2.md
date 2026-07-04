@@ -16,30 +16,31 @@ audio_bytes: 47773485
 audio_type: "audio/mpeg"
 transcript_file: "transcripts/episode-2.md"
 youtube_url: "https://www.youtube.com/watch?v=s6R0q6Fn_Zo"
+x_url: "https://x.com/maxdesalle/status/2072647772331802701"
 apple_url: ""
 spotify_url: ""
 ---
 
 **Chapters**
 
-- 00:00 — Intro
-- 00:33 — Working with David Deutsch
-- 01:11 — Taking quantum theory seriously
-- 03:19 — Locality & local realism
-- 04:19 — Entanglement explained
-- 06:28 — Spooky action at a distance
-- 08:42 — The Conjecture Institute
-- 09:58 — What is Many Worlds?
-- 11:01 — The measurement problem
-- 16:28 — Collapse vs. Many Worlds
-- 19:00 — Branching & decoherence
-- 22:23 — The double-slit experiment
-- 25:20 — Where are the worlds? (Bekenstein bound)
-- 27:18 — What is Hilbert space?
-- 31:08 — Does Many Worlds violate energy conservation?
-- 33:57 — Is time real?
-- 34:20 — Newtonian time vs. internal time
-- 37:07 — Julian Barbour & timeless physics
-- 41:00 — The Page–Wootters clock model
-- 45:02 — Explaining time to a non-physicist
-- 47:19 — Free will in a deterministic universe
+- [00:00](#t=00:00) — Intro
+- [00:33](#t=00:33) — Working with David Deutsch
+- [01:11](#t=01:11) — Taking quantum theory seriously
+- [03:19](#t=03:19) — Locality & local realism
+- [04:19](#t=04:19) — Entanglement explained
+- [06:28](#t=06:28) — Spooky action at a distance
+- [08:42](#t=08:42) — The Conjecture Institute
+- [09:58](#t=09:58) — What is Many Worlds?
+- [11:01](#t=11:01) — The measurement problem
+- [16:28](#t=16:28) — Collapse vs. Many Worlds
+- [19:00](#t=19:00) — Branching & decoherence
+- [22:23](#t=22:23) — The double-slit experiment
+- [25:20](#t=25:20) — Where are the worlds? (Bekenstein bound)
+- [27:18](#t=27:18) — What is Hilbert space?
+- [31:08](#t=31:08) — Does Many Worlds violate energy conservation?
+- [33:57](#t=33:57) — Is time real?
+- [34:20](#t=34:20) — Newtonian time vs. internal time
+- [37:07](#t=37:07) — Julian Barbour & timeless physics
+- [41:00](#t=41:00) — The Page–Wootters clock model
+- [45:02](#t=45:02) — Explaining time to a non-physicist
+- [47:19](#t=47:19) — Free will in a deterministic universe

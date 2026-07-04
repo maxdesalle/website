@@ -16,25 +16,26 @@ audio_bytes: 46670637
 audio_type: "audio/mpeg"
 transcript_file: "transcripts/episode-1.md"
 youtube_url: "https://www.youtube.com/watch?v=6G2GtyCkgM0"
+x_url: "https://x.com/maxdesalle/status/2062165560259908084"
 apple_url: ""
 spotify_url: ""
 ---
 
 **Chapters**
 
-- 00:00 — Intro
-- 00:40 — Why Zooko joined Cypherpunk as advisor
-- 01:42 — Quantum computing & Zcash's position
-- 05:09 — Bitcoin vs Zcash culture
-- 07:18 — What is Crosslink?
-- 09:35 — Crosslink benefits: irreversible finality & security budget
-- 14:24 — Bitcoin's security budget problem & NSM
-- 18:20 — The complexity critique of Crosslink
-- 21:23 — NSM, dynamic fees & voting confusion
-- 25:14 — Coin-weighted voting
-- 27:55 — Tachyon: scalability and post-quantum
-- 32:35 — Shielded Labs' enterprise support services
-- 33:38 — The T-addresses debate
-- 38:30 — The political path forward for Crosslink
-- 43:25 — Turnstiles & canary networks
-- 45:28 — Zooko's 10-year vision for Zcash
+- [00:00](#t=00:00) — Intro
+- [00:40](#t=00:40) — Why Zooko joined Cypherpunk as advisor
+- [01:42](#t=01:42) — Quantum computing & Zcash's position
+- [05:09](#t=05:09) — Bitcoin vs Zcash culture
+- [07:18](#t=07:18) — What is Crosslink?
+- [09:35](#t=09:35) — Crosslink benefits: irreversible finality & security budget
+- [14:24](#t=14:24) — Bitcoin's security budget problem & NSM
+- [18:20](#t=18:20) — The complexity critique of Crosslink
+- [21:23](#t=21:23) — NSM, dynamic fees & voting confusion
+- [25:14](#t=25:14) — Coin-weighted voting
+- [27:55](#t=27:55) — Tachyon: scalability and post-quantum
+- [32:35](#t=32:35) — Shielded Labs' enterprise support services
+- [33:38](#t=33:38) — The T-addresses debate
+- [38:30](#t=38:30) — The political path forward for Crosslink
+- [43:25](#t=43:25) — Turnstiles & canary networks
+- [45:28](#t=45:28) — Zooko's 10-year vision for Zcash

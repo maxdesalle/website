@@ -9,6 +9,6 @@
 </div>
 {{- if or $caption $date }}
 <p style="font-size:75%;color:#808080;margin-top:0">
-  {{- with $caption }}{{ . }}{{ end -}}
+  {{- with $caption }}{{ . | safeHTML }}{{ end -}}
   {{- with $date }}{{ if $caption }} ({{ end }}{{ (time.AsTime .).Format "Jan 2, 2006" }}{{ if $caption }}){{ end }}{{ end -}}
 </p>{{ end }}

@@ -10,6 +10,7 @@ itunes_subcategory: ""
 explicit: false
 itunes_type: "episodic"
 language: "en-us"
+outputs: ["RSS"]
 ---
 
 Conversations about technology, investing, science, and ambitious ideas.

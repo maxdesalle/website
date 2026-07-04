@@ -1,0 +1,3200 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.280
+ is time real what is time each moment of time is is equally real past exists the future exists
+
+00:00:05.280 --> 00:00:09.360
+ when we measure it what we're doing is getting entangled with the particle we see one version
+
+00:00:09.360 --> 00:00:13.600
+ of it and another version of us is another version you're finding yourself in these different
+
+00:00:13.600 --> 00:00:18.160
+ universes the whole of physical reality looks a bit like a collection of worlds future in the past
+
+00:00:18.160 --> 00:00:23.760
+ already exists you're just in a slice we are using a common sense idea of what a measurement is but
+
+00:00:23.760 --> 00:00:28.560
+ really we ought to have a theory of what a measurement is in quantum mechanics this then
+
+00:00:28.560 --> 00:00:31.600
+ lead people to naturally think that everything is deterministic
+
+00:00:31.600 --> 00:00:40.160
+ we are here in a beautiful room in oxford and speaking of oxford my understanding is you worked
+
+00:00:40.160 --> 00:00:44.800
+ with uh david deutsch um sort of like the father of quantum computing how is it to work with him
+
+00:00:44.800 --> 00:00:49.600
+ like how does the scientist like him get to all these results when you know there are like
+
+00:00:49.600 --> 00:00:54.800
+ thousands of other scientists who don't have all the achievements he has had in his life um i can't
+
+00:00:54.800 --> 00:00:58.320
+ tell you how he did what he did all i can say is that it was very nice
+
+00:00:58.320 --> 00:01:03.120
+ working with him and i think the main thing important is to have
+
+00:01:03.120 --> 00:01:09.440
+ the right ideas about certain topics my view of the history of quantum information theory
+
+00:01:09.440 --> 00:01:14.960
+ is partly that a bunch of people were interested in in taking quantum theory seriously and
+
+00:01:14.960 --> 00:01:21.280
+ that includes david but it also includes people like shilpa sark and uh charlie bennett who
+
+00:01:21.280 --> 00:01:27.600
+ were also interested in kind of a pure view of common theory as i put it or maybe many worlds view of it
+
+00:01:27.600 --> 00:01:35.120
+ and although it's i think it's less explicit with them it it still leads to certain conclusions
+
+00:01:35.120 --> 00:01:39.360
+ in the foundations of physics and also in cryptography and a bunch of other topics
+
+00:01:39.360 --> 00:01:47.120
+ where there are ramifications to to taking quantum theory as the literal description of the world and
+
+00:01:47.120 --> 00:01:54.560
+ one of them is that if you have classical theories such as classical cryptographic theories
+
+00:01:55.200 --> 00:02:00.080
+ and you think that classical physics is actually wrong well then you might want to revise
+
+00:02:00.080 --> 00:02:05.840
+ what you know about cryptography in light of quantum mechanics and stuff like that yeah
+
+00:02:05.840 --> 00:02:13.040
+ pops up and i think that that is also true of david's work yeah a lot of it is uh i guess the
+
+00:02:13.040 --> 00:02:17.520
+ general scientific values things like being curious things like uh being critical of the
+
+00:02:17.520 --> 00:02:23.200
+ theories that we have yeah trying to push them as far as we can stuff like that i think one of the
+
+00:02:23.200 --> 00:02:28.640
+ the problems he has been encountering is that a lot of the the scientists like in quantum mechanics
+
+00:02:28.640 --> 00:02:36.640
+ who are focused um uh you know mechanics are not necessarily willing to just relearn everything from
+
+00:02:36.640 --> 00:02:43.280
+ scratch through this new like framework that is like heisenberg mechanics um and so yeah there's
+
+00:02:43.280 --> 00:02:46.880
+ little growth there as a result and it's basically like one of the only only ones who is like
+
+00:02:46.880 --> 00:02:51.040
+ actively in it so yeah yeah so the funny thing is that it's actually quite an old framework and
+
+00:02:51.040 --> 00:02:51.840
+ people are not willing to exactly yeah it's kind of an old framework and people are not willing to
+
+00:02:51.840 --> 00:02:59.120
+ exactly ironic yeah i mean it was it was invented by heisenberg yes when quantum theory was invented
+
+00:02:59.120 --> 00:03:06.400
+ yeah um almost 100 years ago now i think 100 years ago actually and with that i also feel like there
+
+00:03:06.400 --> 00:03:13.360
+ are other reasons people do not take it on board i mean i i agree wholeheartedly with with charles
+
+00:03:13.360 --> 00:03:20.960
+ and we uh yeah are in agree so the topic that this is about in particular is something called locality
+
+00:03:21.840 --> 00:03:29.520
+ and uh local realism is the view that roughly speaking there is a real world and uh you can
+
+00:03:29.520 --> 00:03:35.200
+ divide it into parts and when you do something to one part uh you can't affect another yeah if you
+
+00:03:35.200 --> 00:03:41.200
+ want to there's no spooky action at a distance exactly yeah so if i uh if i have something here
+
+00:03:41.200 --> 00:03:46.960
+ if i have a cup of water or something yeah and it's it's spatially separated from another item
+
+00:03:46.960 --> 00:03:51.280
+ then doing something to the water should not affect whatever else yes there is that i'm considering
+
+00:03:51.840 --> 00:03:56.720
+ uh unless they're interacting directly at a particular point like at the same location
+
+00:03:56.720 --> 00:04:03.920
+ say um or through something mediating the interaction um then those are cases in which
+
+00:04:03.920 --> 00:04:08.160
+ you can interacting they can affect each other if that's not the case they shouldn't affect
+
+00:04:08.160 --> 00:04:16.320
+ each other and quantum theory it's generally thought that that does happen so um but i can
+
+00:04:16.320 --> 00:04:21.360
+ explain the the general setup if you want yeah let's go yeah so for example
+
+00:04:21.840 --> 00:04:29.520
+ there are cases where um two systems are what we call entangled and that means uh the following
+
+00:04:29.520 --> 00:04:37.680
+ you can have a quantum particle with a certain property say we call spin which is a little bit
+
+00:04:37.680 --> 00:04:44.960
+ like having a magnetic moment but it's slightly more subtle but that's all right so the particle
+
+00:04:44.960 --> 00:04:49.760
+ can have spin up and down so it can be found in one of these two states it can also be found in
+
+00:04:51.840 --> 00:04:55.520
+ in which case some of the time when you look at it it has value up and some of the time when you
+
+00:04:55.520 --> 00:05:03.360
+ look at it it has value down seemingly at random and now it can be the case that there's another
+
+00:05:03.360 --> 00:05:08.560
+ particle with the same property up and down which is correlated to that of the other one so we have
+
+00:05:08.560 --> 00:05:14.000
+ two particles each of them separately can have the property of having spin up or having spin down so
+
+00:05:14.000 --> 00:05:18.320
+ they're they're kind of like linked in a way yeah it seems like so it seems like they're linked but
+
+00:05:19.120 --> 00:05:24.560
+ that is that already seems to suggest that there could be such a thing as protection so the thing
+
+00:05:24.560 --> 00:05:30.640
+ which can happen is that when it couldn't it can be the case that the system so both particles are
+
+00:05:30.640 --> 00:05:36.400
+ in a superposition such that when you measure particle one let's call it particle one let's go
+
+00:05:36.400 --> 00:05:42.000
+ the other one particle two if you measure particle one having spin up then the other particle also
+
+00:05:42.000 --> 00:05:46.960
+ has spin up and if you measure particle one with spin down the other particle also has spin down and
+
+00:05:46.960 --> 00:05:53.520
+ vice versa so if you measure the second particle and spin up the first particle has been up etc and
+
+00:05:53.520 --> 00:06:01.840
+ that seems very bizarre because the outcomes appear to be random so if you uh perform a
+
+00:06:01.840 --> 00:06:07.120
+ measurement here you so i have a particle you have the other particle the the entangled pair
+
+00:06:07.120 --> 00:06:15.920
+ we go very far away from each other um and then we perform measurements yeah now i'm i measure
+
+00:06:15.920 --> 00:06:16.880
+ my particle i see it
+
+00:06:16.960 --> 00:06:24.800
+ up and i now it seems like i instantly know that you also have up because that is what entanglement
+
+00:06:24.800 --> 00:06:29.920
+ tells us so it's as if there was faster than light communication in a way exactly yeah it seems like
+
+00:06:29.920 --> 00:06:35.200
+ so it's not communication because i can't message anything to you yes yes uh but there does seem to
+
+00:06:35.200 --> 00:06:41.280
+ be some kind of influence which is superluminal yeah and uh and that's very bizarre i mean one
+
+00:06:41.280 --> 00:06:45.920
+ of the reasons it's bizarre is that that means so in it seems to be instantaneous
+
+00:06:46.960 --> 00:06:51.040
+ description that we have that means that in certain frames it's going backwards in time
+
+00:06:51.040 --> 00:06:58.800
+ so we know that in special relativity simultaneity is not absolute if something is instantaneous in
+
+00:06:58.800 --> 00:07:02.640
+ one frame then there's another frame which the effect propagates backwards in time which
+
+00:07:02.640 --> 00:07:09.760
+ doesn't seem physical at all yes so so this is an issue and now
+
+00:07:09.760 --> 00:07:15.840
+ there is actually in in many worlds actually offers quite a nice solution to this
+
+00:07:17.520 --> 00:07:22.800
+ which we can get into as well uh but maybe i don't know maybe we should first talk about
+
+00:07:22.800 --> 00:07:27.440
+ what many worlds is in particular but so so this is the this is one of the issues yeah that i and
+
+00:07:27.440 --> 00:07:32.960
+ charles and other people like yeah and david also have worked on we're in the minority in holding
+
+00:07:32.960 --> 00:07:37.600
+ the opinion that actual spooky action at a distance so this thing that we just described
+
+00:07:37.600 --> 00:07:45.280
+ is not normal yeah not not something that actually happens yeah i think i feel like even most people
+
+00:07:45.280 --> 00:07:49.040
+ do not really see it as an issue anymore so most physicists are just accepted and just
+
+00:07:49.040 --> 00:07:52.720
+ buying the bulletin and say well that is just what con theory tells us it is what it is yeah
+
+00:07:52.720 --> 00:07:58.960
+ so so i think that's part of the reason why charles and other than i also have experience like
+
+00:07:58.960 --> 00:08:03.440
+ slightly harder paul also by the way uh paul yeah i forgot to mention him but he
+
+00:08:03.440 --> 00:08:09.600
+ he had some very important work yes and i feel like that's why we have a somewhat hard time
+
+00:08:10.560 --> 00:08:14.720
+ arguing with people that actually we should this is an issue and we should find a solution yes and
+
+00:08:14.720 --> 00:08:18.240
+ then we think we have a solution so it's kind of twofold whereas usually you can argue with people
+
+00:08:18.240 --> 00:08:22.160
+ well there is a problem and this is what we think the solution is and here we have to say well
+
+00:08:22.160 --> 00:08:26.080
+ it's not just that um we have a solution we have first of all we have to convince you that there
+
+00:08:26.080 --> 00:08:31.520
+ is an issue here yes yes yeah yeah people are just are not willing to accept it in the first place
+
+00:08:31.520 --> 00:08:34.800
+ yeah i think that as i said i think they bite the bullet and they've just accepted the world
+
+00:08:34.800 --> 00:08:39.760
+ that's what one of these tells us about the world is very counterintuitive yeah i mean uh so be it
+
+00:08:39.760 --> 00:08:44.320
+ yeah yeah and but i think that's not quite satisfying before we get into many worlds
+
+00:08:44.320 --> 00:08:49.040
+ my understanding is so you were previously researcher uh first at oxford uh then at the
+
+00:08:49.040 --> 00:08:54.480
+ university of montreal which is where we met yes now your researcher for conjecture institute what
+
+00:08:54.480 --> 00:08:59.120
+ does that entail um it basically means i do the same kinds of things but i i work for
+
+00:08:59.120 --> 00:09:03.200
+ conjecture institute so i'm still writing papers i have a couple of papers in the pipeline nice
+
+00:09:03.200 --> 00:09:09.680
+ and uh my day-to-day life looks very similar uh except i now work for a conjecture institute
+
+00:09:09.760 --> 00:09:16.640
+ which is very exciting and what is conjecture institute um so conjecture institute is a private
+
+00:09:16.640 --> 00:09:20.720
+ uh foundation which sponsors people including you and me
+
+00:09:20.720 --> 00:09:27.680
+ yeah you're another yeah i mean at least it sponsors me and you i know that you are also a
+
+00:09:27.680 --> 00:09:35.760
+ fellow they try to fund neglected topics in physics and other areas of research and thought
+
+00:09:35.760 --> 00:09:38.880
+ i'm i'm mainly there for the physics
+
+00:09:39.760 --> 00:09:43.920
+ and so there's a bunch of topics i care about that they care about as well such as many worlds
+
+00:09:43.920 --> 00:09:55.440
+ such as locality these kinds of things and it's a very exciting uh next step in my research career
+
+00:09:55.440 --> 00:10:02.560
+ so it's fun i enjoy it let's get into many worlds so cool yeah what is many worlds uh like many
+
+00:10:02.560 --> 00:10:08.000
+ worlds like this is actually in jail like what is even this war like yeah this is a weird thing yeah
+
+00:10:09.760 --> 00:10:12.800
+ it's a very interesting thing to think about yeah i think it's a very interesting thing to think about
+
+00:10:12.800 --> 00:10:15.840
+ yeah i think it's a very interesting thing to think about yeah i think it's a very interesting thing to
+
+00:10:15.840 --> 00:10:18.160
+ think about yeah i think it's a very interesting thing to think about yeah i think it's a very
+
+00:10:18.160 --> 00:10:20.720
+ interesting thing to think about yeah i think it's a very interesting thing to think about yeah i think
+
+00:10:20.720 --> 00:10:22.720
+ it's a very interesting thing to think about yeah i think it's a very interesting thing to think about
+
+00:10:22.720 --> 00:10:24.800
+ yeah i think it's a very interesting thing to think about yeah i think it's a very interesting thing to think about
+
+00:10:24.800 --> 00:10:26.800
+ yeah i think it's a very interesting thing to think about yeah i think it's a very interesting thing to think about
+
+00:10:26.800 --> 00:10:28.800
+ yeah i think it's a very interesting thing to think about yeah i think it's a very interesting thing to think about
+
+00:10:28.800 --> 00:10:30.800
+ yeah i think it's a very interesting thing to think about yeah i think it's a very interesting thing to think about
+
+00:10:30.800 --> 00:10:32.840
+ some of the assumptions which are not problematic,
+
+00:10:32.840 --> 00:10:36.400
+ which are widely accepted and we think should just be part
+
+00:10:36.400 --> 00:10:38.600
+ of the theories it's properly understood.
+
+00:10:38.600 --> 00:10:41.440
+ Things like what we just mentioned,
+
+00:10:41.440 --> 00:10:43.860
+ systems can be in superposition of different states,
+
+00:10:43.860 --> 00:10:46.460
+ they can be entangled with other systems.
+
+00:10:46.460 --> 00:10:49.120
+ There's a few others, like the way they evolve
+
+00:10:49.120 --> 00:10:52.140
+ should be of a particular type, should be what is prescribed
+
+00:10:52.140 --> 00:10:54.680
+ by the Schrodinger equation, for instance.
+
+00:10:54.680 --> 00:10:58.960
+ And so those are all fine, those are all commonly accepted.
+
+00:10:58.960 --> 00:11:01.620
+ And then there is one axiom, one assumption,
+
+00:11:01.620 --> 00:11:05.560
+ which is both ill-formulated and problematic,
+
+00:11:05.560 --> 00:11:08.500
+ namely the measurement postulate,
+
+00:11:08.500 --> 00:11:12.700
+ which basically says that when you look at a system,
+
+00:11:12.700 --> 00:11:13.940
+ which is in a superposition--
+
+00:11:13.940 --> 00:11:16.500
+ - Let's clarify, what is a system?
+
+00:11:16.500 --> 00:11:17.840
+ - Well, it could really be anything.
+
+00:11:17.840 --> 00:11:22.000
+ I mean, we can make it more, so it--
+
+00:11:22.000 --> 00:11:23.560
+ - It could be like a particle in a box, for example.
+
+00:11:23.560 --> 00:11:26.320
+ - It could be atoms, yes, a particle in a box,
+
+00:11:26.320 --> 00:11:27.780
+ could be photons, could be things like that.
+
+00:11:27.780 --> 00:11:28.960
+ So usually,
+
+00:11:28.960 --> 00:11:33.620
+ these systems are small, so we're considering small stuff.
+
+00:11:33.620 --> 00:11:36.880
+ - Yeah, yeah, quantum, yeah, microscopic, yeah.
+
+00:11:36.880 --> 00:11:41.480
+ - Yeah, so, although I always think that that is,
+
+00:11:41.480 --> 00:11:44.400
+ the theory is usually presented as being about small things
+
+00:11:44.400 --> 00:11:45.240
+ and it's actually not.
+
+00:11:45.240 --> 00:11:47.900
+ I used to be into solid state physics,
+
+00:11:47.900 --> 00:11:50.740
+ which is physics that tries to describe, for example,
+
+00:11:50.740 --> 00:11:53.020
+ how metals work and how-- - Yeah, materials, yeah.
+
+00:11:53.020 --> 00:11:58.020
+ - Yeah, exactly, how insulators, a whole range of materials,
+
+00:11:58.740 --> 00:12:02.940
+ function and behave and what their properties are.
+
+00:12:02.940 --> 00:12:05.340
+ And that whole area of physics
+
+00:12:05.340 --> 00:12:07.520
+ is completely dominated by quantum mechanics.
+
+00:12:07.520 --> 00:12:10.020
+ Classical physics doesn't really play much of a role
+
+00:12:10.020 --> 00:12:12.960
+ in that study, and those are macroscopic materials.
+
+00:12:12.960 --> 00:12:15.100
+ Like, we couldn't have stable objects
+
+00:12:15.100 --> 00:12:16.200
+ if it wasn't for quantum mechanics.
+
+00:12:16.200 --> 00:12:18.980
+ We know from classical physics that atoms,
+
+00:12:18.980 --> 00:12:21.380
+ classical atoms are not stable.
+
+00:12:21.380 --> 00:12:22.980
+ So if atoms aren't stable
+
+00:12:22.980 --> 00:12:24.620
+ and things are supposed to be made out of atoms,
+
+00:12:24.620 --> 00:12:26.560
+ they'll think you can't have a classical description
+
+00:12:26.560 --> 00:12:28.520
+ of a table consisting of atoms.
+
+00:12:28.520 --> 00:12:31.780
+ That is, in any way, stable.
+
+00:12:31.780 --> 00:12:32.980
+ They should collapse immediately
+
+00:12:32.980 --> 00:12:34.780
+ into like the nucleus or something.
+
+00:12:34.780 --> 00:12:37.200
+ To clarify, we mean specifically in this case,
+
+00:12:37.200 --> 00:12:41.940
+ things like maybe an atom, maybe electrons, maybe photons.
+
+00:12:41.940 --> 00:12:42.780
+ It could be in a box.
+
+00:12:42.780 --> 00:12:46.220
+ It could be experimenting with them
+
+00:12:46.220 --> 00:12:47.540
+ in some laboratory setting.
+
+00:12:47.540 --> 00:12:48.460
+ - Yeah.
+
+00:12:48.460 --> 00:12:52.320
+ - And they can have this property
+
+00:12:52.320 --> 00:12:53.800
+ that they are in a superposition.
+
+00:12:53.800 --> 00:12:56.060
+ So maybe the electron is in a box somewhere
+
+00:12:56.060 --> 00:12:58.300
+ and it's in two places at once.
+
+00:12:58.300 --> 00:12:59.480
+ In the box.
+
+00:12:59.480 --> 00:13:04.480
+ So it's like roughly either here or there in the box.
+
+00:13:04.480 --> 00:13:07.300
+ And now the measurement posture tells us
+
+00:13:07.300 --> 00:13:09.520
+ that if we were to look at the box,
+
+00:13:09.520 --> 00:13:14.420
+ you would never see two electrons
+
+00:13:14.420 --> 00:13:15.460
+ because it's just one electron.
+
+00:13:15.460 --> 00:13:17.340
+ You only see one of them.
+
+00:13:17.340 --> 00:13:18.180
+ - Yes.
+
+00:13:18.180 --> 00:13:20.980
+ - And you see one of them with some probability
+
+00:13:20.980 --> 00:13:24.240
+ determined by the exact configuration the system's in.
+
+00:13:24.240 --> 00:13:25.320
+ It could be 50/50.
+
+00:13:25.320 --> 00:13:27.420
+ It's always a simplifying assumption.
+
+00:13:28.080 --> 00:13:30.100
+ It could also not be 50/50.
+
+00:13:30.100 --> 00:13:31.860
+ But again, it's just for simplicity.
+
+00:13:31.860 --> 00:13:32.700
+ Sounds fair enough.
+
+00:13:32.700 --> 00:13:34.660
+ Sounds like, okay, well, that could be an assumption.
+
+00:13:34.660 --> 00:13:36.960
+ And the first thing that I find annoying
+
+00:13:36.960 --> 00:13:37.940
+ is that we don't really tell people
+
+00:13:37.940 --> 00:13:40.060
+ what is this measurement.
+
+00:13:40.060 --> 00:13:44.700
+ A measurement is a thing which we know from common sense
+
+00:13:44.700 --> 00:13:46.000
+ what that's supposed to be.
+
+00:13:46.000 --> 00:13:47.580
+ It's like, if I look at a thing in a box,
+
+00:13:47.580 --> 00:13:48.800
+ that's a measurement.
+
+00:13:48.800 --> 00:13:49.640
+ - Yeah.
+
+00:13:49.640 --> 00:13:50.560
+ It's not a preservation.
+
+00:13:50.560 --> 00:13:51.380
+ Yeah.
+
+00:13:51.380 --> 00:13:52.220
+ - Yeah.
+
+00:13:52.220 --> 00:13:54.700
+ It's not something that the theory tells us.
+
+00:13:54.700 --> 00:13:55.540
+ - Yeah.
+
+00:13:55.540 --> 00:13:57.860
+ - That is to say,
+
+00:13:57.860 --> 00:14:02.640
+ we are using a common sense idea of what a measurement is.
+
+00:14:02.640 --> 00:14:04.460
+ But really, we ought to have a theory
+
+00:14:04.460 --> 00:14:06.900
+ of what a measurement is in quantum mechanics.
+
+00:14:06.900 --> 00:14:07.840
+ And that's not the case.
+
+00:14:07.840 --> 00:14:09.880
+ So we have kind of an undefined term
+
+00:14:09.880 --> 00:14:13.360
+ within the axiomatic system that is quantum mechanics.
+
+00:14:13.360 --> 00:14:14.200
+ - Yeah.
+
+00:14:14.200 --> 00:14:16.040
+ Like, for example, it's not defined.
+
+00:14:16.040 --> 00:14:18.720
+ Is it when it reaches the eyes?
+
+00:14:18.720 --> 00:14:20.480
+ Or is it in the brain?
+
+00:14:20.480 --> 00:14:22.400
+ Does it work if I use a camera?
+
+00:14:22.400 --> 00:14:24.160
+ It's also a form of observation.
+
+00:14:24.160 --> 00:14:25.240
+ - Yes.
+
+00:14:25.240 --> 00:14:26.360
+ - Yeah, that's very unclear.
+
+00:14:26.360 --> 00:14:27.200
+ Yeah.
+
+00:14:27.200 --> 00:14:27.640
+ - Yeah, exactly. Yeah.
+
+00:14:27.640 --> 00:14:30.320
+ So there's a bunch of things which it doesn't specify.
+
+00:14:30.320 --> 00:14:31.160
+ - Yeah.
+
+00:14:31.160 --> 00:14:36.160
+ - And so that should ring some alarm bells.
+
+00:14:36.160 --> 00:14:39.860
+ And the other thing that's kind of strange about it
+
+00:14:39.860 --> 00:14:43.880
+ is that this is a kind of dynamic.
+
+00:14:43.880 --> 00:14:46.240
+ So the system, so this is called collapse.
+
+00:14:46.240 --> 00:14:49.580
+ So we measure a system, and it is in a superposition.
+
+00:14:49.580 --> 00:14:52.460
+ It's set to collapse into one of these two states,
+
+00:14:52.460 --> 00:14:53.800
+ or it could be multiple states,
+
+00:14:53.800 --> 00:14:56.400
+ but it collapses to a singular state.
+
+00:14:56.400 --> 00:14:57.420
+ And...
+
+00:14:57.420 --> 00:15:00.240
+ That appears to be irreversible.
+
+00:15:00.240 --> 00:15:01.080
+ - Yeah.
+
+00:15:01.080 --> 00:15:03.880
+ - And that is not compatible with, for example,
+
+00:15:03.880 --> 00:15:05.980
+ the kind of evolution that the Schrodinger picture,
+
+00:15:05.980 --> 00:15:08.920
+ or the Schrodinger equation prescribes.
+
+00:15:08.920 --> 00:15:10.960
+ So there's already a bunch of issues,
+
+00:15:10.960 --> 00:15:13.280
+ even just in trying to say,
+
+00:15:13.280 --> 00:15:17.500
+ trying to formalize what the axiom is supposed to say.
+
+00:15:17.500 --> 00:15:22.500
+ The many worlds interpretation or explanation says instead
+
+00:15:22.500 --> 00:15:27.200
+ that collapse doesn't happen and that we can derive all the,
+
+00:15:27.200 --> 00:15:30.460
+ the results that we typically get out through this axiom,
+
+00:15:30.460 --> 00:15:32.960
+ just from the typical kind of evolution
+
+00:15:32.960 --> 00:15:35.780
+ that the Schrodinger equation prescribes.
+
+00:15:35.780 --> 00:15:38.660
+ So we're essentially able to explain more with less.
+
+00:15:38.660 --> 00:15:40.100
+ We have fewer assumptions,
+
+00:15:40.100 --> 00:15:42.040
+ but we can explain the same things.
+
+00:15:42.040 --> 00:15:43.160
+ And also we have a richer picture
+
+00:15:43.160 --> 00:15:45.460
+ of what's actually going on in the world.
+
+00:15:45.460 --> 00:15:50.280
+ And what that actually entails in,
+
+00:15:50.280 --> 00:15:52.480
+ for example, the setting we were just talking about,
+
+00:15:52.480 --> 00:15:55.060
+ is that when there's these two possibilities,
+
+00:15:55.060 --> 00:15:56.980
+ so the electron...
+
+00:15:56.980 --> 00:15:59.620
+ The electron is in two places at once.
+
+00:15:59.620 --> 00:16:01.660
+ Then when we measure it,
+
+00:16:01.660 --> 00:16:04.040
+ what we're doing is getting entangled with the particle
+
+00:16:04.040 --> 00:16:06.560
+ so that we see one version of it.
+
+00:16:06.560 --> 00:16:08.880
+ And another version of us sees another version.
+
+00:16:08.880 --> 00:16:12.560
+ So version one of me sees electrons here,
+
+00:16:12.560 --> 00:16:14.840
+ another version of me sees electrons over there.
+
+00:16:14.840 --> 00:16:18.800
+ And they don't interact with each other generally.
+
+00:16:18.800 --> 00:16:20.380
+ So it appears as if the other version
+
+00:16:20.380 --> 00:16:21.680
+ has disappeared from view.
+
+00:16:21.680 --> 00:16:26.760
+ But that's all something which comes out of the Schrodinger
+
+00:16:26.760 --> 00:16:28.000
+ equation essentially.
+
+00:16:28.000 --> 00:16:29.440
+ - What collapse says is,
+
+00:16:29.440 --> 00:16:31.080
+ so we have this particle in the box.
+
+00:16:31.080 --> 00:16:32.640
+ It's maybe in like two states,
+
+00:16:32.640 --> 00:16:34.900
+ like it's in a superposition of two states.
+
+00:16:34.900 --> 00:16:36.760
+ So it's kind of like in this mix of states,
+
+00:16:36.760 --> 00:16:37.880
+ like it's unclear which is which,
+
+00:16:37.880 --> 00:16:39.820
+ but there's like a, you know,
+
+00:16:39.820 --> 00:16:41.220
+ as if you were to like, you know,
+
+00:16:41.220 --> 00:16:43.380
+ mix several liquids, for example,
+
+00:16:43.380 --> 00:16:45.880
+ like it's sort of like in a mix of both states.
+
+00:16:45.880 --> 00:16:50.880
+ And when we, in the collapse approach,
+
+00:16:50.880 --> 00:16:53.040
+ like the traditional way of thinking about it,
+
+00:16:53.040 --> 00:16:54.840
+ when we look at it,
+
+00:16:56.540 --> 00:16:59.480
+ the particle will collapse into either of those states.
+
+00:16:59.480 --> 00:17:01.880
+ So states like A and B, for example,
+
+00:17:01.880 --> 00:17:04.020
+ and then, and that's why we see only A or B,
+
+00:17:04.020 --> 00:17:06.420
+ even throwing the equations, you would see A and B.
+
+00:17:06.420 --> 00:17:07.260
+ - Yes.
+
+00:17:07.260 --> 00:17:10.240
+ - And then what many worlds says is when I,
+
+00:17:10.240 --> 00:17:13.960
+ when I look at the particle, I get entangled with it.
+
+00:17:13.960 --> 00:17:15.920
+ So I get, you know, connected.
+
+00:17:15.920 --> 00:17:22.060
+ And that leads me to see in one branch,
+
+00:17:22.060 --> 00:17:24.660
+ we're getting through the branches,
+
+00:17:24.660 --> 00:17:26.320
+ the states, the particle in state A,
+
+00:17:26.320 --> 00:17:29.000
+ and in the other branch, in particle B,
+
+00:17:29.000 --> 00:17:32.220
+ and many worlds says both of those are equally real.
+
+00:17:32.220 --> 00:17:33.060
+ Is that correct?
+
+00:17:33.060 --> 00:17:33.880
+ - Yeah, they're equally real.
+
+00:17:33.880 --> 00:17:36.340
+ And so one of the benefits of this is that we don't have
+
+00:17:36.340 --> 00:17:40.260
+ to assume different kinds of dynamics
+
+00:17:40.260 --> 00:17:42.060
+ when we're performing a measurement.
+
+00:17:42.060 --> 00:17:43.800
+ We also don't have to assume what a measurement is.
+
+00:17:43.800 --> 00:17:47.600
+ We can derive a model of what a measurement is
+
+00:17:47.600 --> 00:17:49.120
+ from the theory itself,
+
+00:17:49.120 --> 00:17:51.500
+ so that we don't have these undefined words
+
+00:17:51.500 --> 00:17:54.820
+ that we're using in setting up the theory.
+
+00:17:56.100 --> 00:17:59.960
+ And it also kind of makes sense of what it even means
+
+00:17:59.960 --> 00:18:02.800
+ for the particle to be in a superposition in the first place,
+
+00:18:02.800 --> 00:18:05.780
+ because in the conventional view, it's kind of unclear.
+
+00:18:05.780 --> 00:18:07.900
+ It's not clear what it means for the particle
+
+00:18:07.900 --> 00:18:08.820
+ to be in superposition.
+
+00:18:08.820 --> 00:18:12.240
+ It just means it's either here or there kind of potentially.
+
+00:18:12.240 --> 00:18:15.580
+ - Yes, and there's a probability and it's, yeah.
+
+00:18:15.580 --> 00:18:17.360
+ - Yeah, so it's vague.
+
+00:18:17.360 --> 00:18:19.800
+ Whereas in many worlds too, it just means,
+
+00:18:19.800 --> 00:18:23.260
+ well, there is, the particle really is in two places at once
+
+00:18:23.260 --> 00:18:25.880
+ and it's behaving exactly as if it is
+
+00:18:25.880 --> 00:18:29.420
+ actually here and actually there at the same time.
+
+00:18:29.420 --> 00:18:34.420
+ And that is true for things which get entangled with it as well.
+
+00:18:34.420 --> 00:18:38.440
+ So it gives a more explanatory framework
+
+00:18:38.440 --> 00:18:41.180
+ for understanding how quantum theory actually works.
+
+00:18:41.180 --> 00:18:44.880
+ So there's both the formal benefits
+
+00:18:44.880 --> 00:18:46.700
+ and then at the level of the explanation,
+
+00:18:46.700 --> 00:18:48.100
+ I feel it's much more intuitive.
+
+00:18:48.100 --> 00:18:52.420
+ So those would be some of the reasons why I like theory.
+
+00:18:52.420 --> 00:18:55.660
+ - We have those two branches now.
+
+00:18:55.660 --> 00:18:59.320
+ And what we're seeing is that those are equally real.
+
+00:18:59.320 --> 00:19:00.920
+ What does this actually imply?
+
+00:19:00.920 --> 00:19:02.120
+ Like, where are we getting to?
+
+00:19:02.120 --> 00:19:04.280
+ So there are many worlds then?
+
+00:19:04.280 --> 00:19:05.380
+ - Yes.
+
+00:19:05.380 --> 00:19:06.480
+ - Kind of like bringing it up, but.
+
+00:19:06.480 --> 00:19:08.280
+ - Yeah, it's in the name.
+
+00:19:08.280 --> 00:19:09.340
+ You've got the name, right?
+
+00:19:09.340 --> 00:19:14.340
+ Yes, so there are different worlds in which,
+
+00:19:14.340 --> 00:19:17.080
+ for example, as I've said,
+
+00:19:17.080 --> 00:19:20.080
+ it could be small things which initiate the branching.
+
+00:19:20.080 --> 00:19:23.900
+ So I see particle being here instead of there.
+
+00:19:25.440 --> 00:19:29.920
+ And consequently, that kind of quantum effect gets amplified.
+
+00:19:29.920 --> 00:19:32.300
+ And now I have a record of where in my mind,
+
+00:19:32.300 --> 00:19:34.340
+ I have a record of where the particle was,
+
+00:19:34.340 --> 00:19:36.960
+ as does the environment from then on.
+
+00:19:36.960 --> 00:19:39.640
+ It could be that this information
+
+00:19:39.640 --> 00:19:40.720
+ is somehow leaked to the environment.
+
+00:19:40.720 --> 00:19:44.200
+ So maybe to make it a little bit artificial,
+
+00:19:44.200 --> 00:19:47.100
+ but let's say that I have decided
+
+00:19:47.100 --> 00:19:52.100
+ if I see the particle in state of being here,
+
+00:19:52.100 --> 00:19:54.180
+ then I'm gonna cook some dinner.
+
+00:19:54.180 --> 00:19:55.220
+ And if I see the particle here,
+
+00:19:55.220 --> 00:19:57.280
+ well, then I'm gonna read a book.
+
+00:19:57.280 --> 00:19:58.440
+ And then after a little while,
+
+00:19:58.440 --> 00:20:00.380
+ you'll see that the kitchen is messy in one branch
+
+00:20:00.380 --> 00:20:02.880
+ and it's not in the other.
+
+00:20:02.880 --> 00:20:07.880
+ And so these small differences in the state of an initial,
+
+00:20:07.880 --> 00:20:12.140
+ like just a particle, just a microscopic particle,
+
+00:20:12.140 --> 00:20:13.640
+ within that case has been amplified up
+
+00:20:13.640 --> 00:20:15.400
+ to cause a mess in the kitchen,
+
+00:20:15.400 --> 00:20:17.060
+ in one branch and not the other.
+
+00:20:17.060 --> 00:20:18.880
+ That kind of thing is constantly going on.
+
+00:20:18.880 --> 00:20:22.780
+ So there's constantly things are in superposition,
+
+00:20:22.780 --> 00:20:25.000
+ like through natural processes.
+
+00:20:25.000 --> 00:20:27.420
+ And then they happen to get measured,
+
+00:20:27.420 --> 00:20:28.460
+ where measured really in this case,
+
+00:20:28.460 --> 00:20:30.380
+ could mean just information about where the particle is,
+
+00:20:30.380 --> 00:20:32.840
+ gets encoded in the environment,
+
+00:20:32.840 --> 00:20:35.860
+ gets encoded in me, in the mind, or in other things.
+
+00:20:35.860 --> 00:20:40.860
+ And from then on, these kind of differentiating effects
+
+00:20:40.860 --> 00:20:46.520
+ percolate throughout the environment.
+
+00:20:46.520 --> 00:20:49.420
+ So there's more and more records are in the environment
+
+00:20:49.420 --> 00:20:51.340
+ of where the particle was.
+
+00:20:51.340 --> 00:20:54.780
+ And that means that more and more of the world is different,
+
+00:20:54.780 --> 00:20:56.680
+ one branch than it was in the other one.
+
+00:20:56.680 --> 00:20:58.220
+ So you get these branches,
+
+00:20:58.220 --> 00:21:00.500
+ which are initially different only in small ways,
+
+00:21:00.500 --> 00:21:02.560
+ and then they become different in larger ways.
+
+00:21:02.560 --> 00:21:03.400
+ And because of that,
+
+00:21:03.400 --> 00:21:07.080
+ it's harder and harder for them to reinterfere,
+
+00:21:07.080 --> 00:21:08.640
+ to influence each other again.
+
+00:21:08.640 --> 00:21:11.160
+ - Yeah, so it is a good way to think about it,
+
+00:21:11.160 --> 00:21:14.360
+ that it's sort of like a bubble growing of entanglements.
+
+00:21:14.360 --> 00:21:17.400
+ And so let's say, you have the particle in the box.
+
+00:21:17.400 --> 00:21:19.420
+ So I'm the observer in the laboratory.
+
+00:21:19.420 --> 00:21:20.620
+ I'm looking at the particle.
+
+00:21:20.620 --> 00:21:21.660
+ I get entangled with it
+
+00:21:21.660 --> 00:21:24.560
+ because the information reaches my eyes and my brain.
+
+00:21:24.560 --> 00:21:26.100
+ And then just all of me.
+
+00:21:26.100 --> 00:21:29.060
+ And then maybe I will open the door
+
+00:21:29.060 --> 00:21:34.060
+ and the information will reach the neighborhood around it,
+
+00:21:34.060 --> 00:21:37.180
+ and then eventually the whole world.
+
+00:21:37.180 --> 00:21:40.200
+ And so, but there is a separate version of me
+
+00:21:40.200 --> 00:21:42.420
+ that saw state B, like the particle in state B,
+
+00:21:42.420 --> 00:21:45.260
+ and that for which the same happens.
+
+00:21:45.260 --> 00:21:46.100
+ - Yes.
+
+00:21:46.100 --> 00:21:48.400
+ - And so eventually that's the process we call decoherence,
+
+00:21:48.400 --> 00:21:52.120
+ where eventually we're getting split.
+
+00:21:52.120 --> 00:21:54.340
+ And those branches are becoming
+
+00:21:54.340 --> 00:21:57.100
+ more and more separate universes,
+
+00:21:57.100 --> 00:21:59.960
+ which is, you know, what we'll call multiverse sometimes.
+
+00:21:59.960 --> 00:22:00.800
+ - Yeah.
+
+00:22:00.800 --> 00:22:03.580
+ Yeah, so the whole of physical reality
+
+00:22:03.580 --> 00:22:05.660
+ looks a bit like a collection of worlds
+
+00:22:05.660 --> 00:22:07.140
+ that we know from classical physics.
+
+00:22:07.140 --> 00:22:08.160
+ - Yes.
+
+00:22:08.160 --> 00:22:10.840
+ - They have other properties as well.
+
+00:22:10.840 --> 00:22:14.900
+ So for example, one of the things we haven't mentioned yet
+
+00:22:14.900 --> 00:22:19.900
+ is that particles and other quantum systems can interfere.
+
+00:22:19.900 --> 00:22:21.440
+ And that's one of the primary ways
+
+00:22:21.440 --> 00:22:22.920
+ that we know about quantum mechanics.
+
+00:22:22.920 --> 00:22:24.120
+ - Yes.
+
+00:22:24.120 --> 00:22:24.960
+ Yes.
+
+00:22:24.960 --> 00:22:26.820
+ - Interference effects happen in, for example,
+
+00:22:26.820 --> 00:22:29.420
+ the double slit, which is this famous set up
+
+00:22:29.420 --> 00:22:33.940
+ where you have two slits with the backdrop being a wall
+
+00:22:33.940 --> 00:22:36.460
+ or some detector, and you send a particle through
+
+00:22:36.460 --> 00:22:38.960
+ one at a time, could be photon.
+
+00:22:38.960 --> 00:22:42.700
+ And then when you detect where the photon is on the screen,
+
+00:22:42.700 --> 00:22:46.080
+ after having repeated this experiment in series,
+
+00:22:46.080 --> 00:22:48.340
+ so you send one through and two at a time,
+
+00:22:48.340 --> 00:22:50.060
+ and you detect it, and then you send another one through,
+
+00:22:50.060 --> 00:22:51.660
+ and then you detect it again,
+
+00:22:51.660 --> 00:22:53.900
+ then you find that there's an interference pattern,
+
+00:22:53.900 --> 00:22:54.740
+ which wouldn't be there
+
+00:22:54.740 --> 00:22:56.160
+ if you closed either of the two slits.
+
+00:22:56.160 --> 00:22:59.240
+ - But what do you mean with an interference pattern?
+
+00:22:59.240 --> 00:23:01.920
+ - It means that there are places on the screen
+
+00:23:01.920 --> 00:23:03.420
+ where many photons arrive
+
+00:23:03.420 --> 00:23:06.520
+ and places where barely any or none arrive.
+
+00:23:06.520 --> 00:23:07.920
+ And they kind of, they come in fringes.
+
+00:23:07.920 --> 00:23:12.320
+ So it's like, you know, a lot, less, a lot.
+
+00:23:12.320 --> 00:23:16.100
+ And then again, much fewer or none, a lot.
+
+00:23:16.100 --> 00:23:19.340
+ And that keeps going on.
+
+00:23:19.340 --> 00:23:21.820
+ And that pattern is called an interference pattern
+
+00:23:21.820 --> 00:23:23.680
+ because the...
+
+00:23:23.680 --> 00:23:26.160
+ What's happening is that, for example,
+
+00:23:26.160 --> 00:23:28.160
+ in the case of the photon,
+
+00:23:28.160 --> 00:23:30.800
+ if you send it through the two slits,
+
+00:23:30.800 --> 00:23:32.700
+ it actually goes through both.
+
+00:23:32.700 --> 00:23:33.540
+ - Yes.
+
+00:23:33.540 --> 00:23:36.340
+ - And we'll get to why that's the case.
+
+00:23:36.340 --> 00:23:38.060
+ It goes through both.
+
+00:23:38.060 --> 00:23:41.940
+ And then there's an instance of the photon
+
+00:23:41.940 --> 00:23:43.900
+ going through the left one and one through the right one,
+
+00:23:43.900 --> 00:23:45.840
+ which then end up affecting each other.
+
+00:23:45.840 --> 00:23:48.220
+ So they end up interfering,
+
+00:23:48.220 --> 00:23:49.960
+ which just means they affect each other
+
+00:23:49.960 --> 00:23:51.300
+ just as they might.
+
+00:23:51.300 --> 00:23:53.460
+ It's a little bit similar to a classical way
+
+00:23:53.460 --> 00:23:56.040
+ of theory where if you have waves,
+
+00:23:56.040 --> 00:23:57.880
+ one of the things that can happen is
+
+00:23:57.880 --> 00:24:00.440
+ they can interact and then amplify each other.
+
+00:24:00.440 --> 00:24:03.820
+ Or if you have a trough and a peak,
+
+00:24:03.820 --> 00:24:05.780
+ then they could cancel.
+
+00:24:05.780 --> 00:24:07.000
+ And that's what's going on at the screen.
+
+00:24:07.000 --> 00:24:09.740
+ So some versions of the photon are amplifying each other
+
+00:24:09.740 --> 00:24:13.440
+ and some versions are interacting to cancel each other.
+
+00:24:13.440 --> 00:24:16.100
+ And as I said, if you do that many times,
+
+00:24:16.100 --> 00:24:18.320
+ each time you're sending a single photon through,
+
+00:24:18.320 --> 00:24:20.540
+ then you get this interference pattern.
+
+00:24:20.540 --> 00:24:21.380
+ - Yes.
+
+00:24:21.380 --> 00:24:23.240
+ - And the kind of the bizarre thing is if you close up,
+
+00:24:23.240 --> 00:24:25.360
+ close either of these two slits,
+
+00:24:25.360 --> 00:24:26.420
+ then it disappears.
+
+00:24:26.420 --> 00:24:32.180
+ So that indicates that something must be going
+
+00:24:32.180 --> 00:24:35.620
+ through the other slit to interact with the thing
+
+00:24:35.620 --> 00:24:37.720
+ that goes through the one that isn't closed,
+
+00:24:37.720 --> 00:24:40.720
+ so to give the pattern.
+
+00:24:40.720 --> 00:24:43.300
+ Otherwise you would still see the pattern
+
+00:24:43.300 --> 00:24:45.900
+ if only one slit were open, which we don't.
+
+00:24:45.900 --> 00:24:47.240
+ Again, the many worlds explanation is
+
+00:24:47.240 --> 00:24:48.680
+ there's two versions of the photon.
+
+00:24:48.680 --> 00:24:49.980
+ There's only ever one photon,
+
+00:24:49.980 --> 00:24:53.020
+ but the photon can consist of multiple instances
+
+00:24:53.020 --> 00:24:55.620
+ or versions or however you want to call it.
+
+00:24:55.620 --> 00:24:57.240
+ And they can affect each other.
+
+00:24:57.240 --> 00:24:58.680
+ They can interfere.
+
+00:24:58.680 --> 00:25:00.700
+ So we know from seeing the pattern
+
+00:25:00.700 --> 00:25:02.940
+ that the photon was in two places at once.
+
+00:25:02.940 --> 00:25:05.360
+ It took two paths at once.
+
+00:25:05.360 --> 00:25:07.600
+ And that is generally,
+
+00:25:07.600 --> 00:25:10.020
+ that's one of the main ways that we know about
+
+00:25:10.020 --> 00:25:14.080
+ quantum effects is that we see interference happening
+
+00:25:14.080 --> 00:25:16.940
+ in what are called generally interference experiments,
+
+00:25:16.940 --> 00:25:18.720
+ of which this is an instance.
+
+00:25:18.720 --> 00:25:21.240
+ - This effectively means that there are
+
+00:25:22.800 --> 00:25:26.220
+ billions if not an infinity of versions of you and I
+
+00:25:26.220 --> 00:25:29.160
+ in these different worlds.
+
+00:25:29.160 --> 00:25:30.420
+ Where are these worlds?
+
+00:25:30.420 --> 00:25:32.380
+ Like, wait, are they somewhere?
+
+00:25:32.380 --> 00:25:33.300
+ Like, can I go there?
+
+00:25:33.300 --> 00:25:35.180
+ Like, can I visit?
+
+00:25:35.180 --> 00:25:40.100
+ - So, firstly, there's not gonna be infinitely many.
+
+00:25:40.100 --> 00:25:43.120
+ There are reasons to believe that there is a bound
+
+00:25:43.120 --> 00:25:44.980
+ on how many different universes there can be.
+
+00:25:44.980 --> 00:25:45.820
+ - Interesting.
+
+00:25:45.820 --> 00:25:50.220
+ - That comes from, it's the so-called Bekenstein bound,
+
+00:25:50.220 --> 00:25:52.580
+ and it gives an argument for why in any
+
+00:25:52.580 --> 00:25:55.140
+ finite region there is an upper bound
+
+00:25:55.140 --> 00:25:59.600
+ to the amount of universes that can be there.
+
+00:25:59.600 --> 00:26:02.880
+ - Is that due to the number of interactions possible?
+
+00:26:02.880 --> 00:26:04.960
+ - It is due to the amount of information
+
+00:26:04.960 --> 00:26:06.360
+ you can store in a system.
+
+00:26:06.360 --> 00:26:08.180
+ So this is maybe a bit technical,
+
+00:26:08.180 --> 00:26:12.580
+ but the way to think about it is the different universes,
+
+00:26:12.580 --> 00:26:15.680
+ it should be the case that they do not interfere
+
+00:26:15.680 --> 00:26:16.740
+ with each other.
+
+00:26:16.740 --> 00:26:18.620
+ They could in principle,
+
+00:26:18.620 --> 00:26:22.000
+ but we generally want them to evolve independently.
+
+00:26:22.000 --> 00:26:24.560
+ For that to be the case, they have to be orthogonal,
+
+00:26:24.560 --> 00:26:28.480
+ which is a technical term which I don't think I can explain.
+
+00:26:28.480 --> 00:26:32.760
+ But we generally want the universes
+
+00:26:32.760 --> 00:26:35.300
+ to be orthogonal to one another.
+
+00:26:35.300 --> 00:26:36.240
+ - Separate in a way.
+
+00:26:36.240 --> 00:26:37.080
+ - Yes.
+
+00:26:37.080 --> 00:26:37.900
+ - Yes, very distinct.
+
+00:26:37.900 --> 00:26:40.200
+ - Yes, yeah, they don't have overlap.
+
+00:26:40.200 --> 00:26:44.000
+ And the number of orthogonal states that you can have
+
+00:26:44.000 --> 00:26:47.940
+ in a finite region of space is determined
+
+00:26:47.940 --> 00:26:50.700
+ by the maximum entropy in that region,
+
+00:26:50.700 --> 00:26:51.780
+ and the maximum entropy is bounded.
+
+00:26:51.780 --> 00:26:55.380
+ - Yes, so there's a limit capacity
+
+00:26:55.380 --> 00:26:57.300
+ of how much you can store, essentially.
+
+00:26:57.300 --> 00:26:59.020
+ - Yeah, exactly, yeah.
+
+00:26:59.020 --> 00:27:01.920
+ So, Bekenstein's bound gives an upper bound,
+
+00:27:01.920 --> 00:27:02.760
+ and that is a little bit technical.
+
+00:27:02.760 --> 00:27:04.600
+ I think that's the most technical thing we've said so far,
+
+00:27:04.600 --> 00:27:09.600
+ but the main idea is there is some bound
+
+00:27:09.600 --> 00:27:14.600
+ which determines things like how much information
+
+00:27:14.600 --> 00:27:15.440
+ you can store in a system,
+
+00:27:15.440 --> 00:27:16.980
+ and also how many universes there can be.
+
+00:27:16.980 --> 00:27:18.500
+ - Where are these universes?
+
+00:27:18.500 --> 00:27:21.060
+ - An enlarged space that we call Hilbert space.
+
+00:27:21.060 --> 00:27:21.560
+ - Yeah.
+
+00:27:21.560 --> 00:27:25.260
+ - And in some sense, the universe is,
+
+00:27:25.260 --> 00:27:28.080
+ it kind of depends on our views of space and time,
+
+00:27:28.080 --> 00:27:32.900
+ but in some sense, they are here in space.
+
+00:27:32.900 --> 00:27:33.840
+ - Yes.
+
+00:27:33.840 --> 00:27:36.380
+ - But they are in different points in Hilbert space.
+
+00:27:36.380 --> 00:27:38.480
+ So Hilbert space is this larger space
+
+00:27:38.480 --> 00:27:39.900
+ in which quantum states live.
+
+00:27:39.900 --> 00:27:43.260
+ - Mm, but it's a mathematical space, right?
+
+00:27:43.260 --> 00:27:45.360
+ Like, we're not talking about like,
+
+00:27:45.360 --> 00:27:46.940
+ necessarily like physical space,
+
+00:27:46.940 --> 00:27:49.000
+ like going to the moon or something, yeah.
+
+00:27:49.000 --> 00:27:51.340
+ - Yeah, no, it's a mathematical space,
+
+00:27:51.340 --> 00:27:53.380
+ and it's not the same thing as string theory
+
+00:27:53.380 --> 00:27:54.740
+ having multiple dimensions or anything.
+
+00:27:54.740 --> 00:27:56.580
+ - Yes.
+
+00:27:56.580 --> 00:27:59.020
+ - Everyone who does quantum physics is in agreement
+
+00:27:59.020 --> 00:28:01.200
+ that there is this thing called Hilbert space
+
+00:28:01.200 --> 00:28:03.880
+ in which the states of a quantum system live.
+
+00:28:03.880 --> 00:28:06.680
+ I think the best answer I can give is they live in Hilbert space.
+
+00:28:06.680 --> 00:28:09.700
+ Another way of saying it is that they exist in some sense,
+
+00:28:09.700 --> 00:28:10.700
+ they are just as real as we are,
+
+00:28:10.700 --> 00:28:16.140
+ because we also live in Hilbert space,
+
+00:28:16.140 --> 00:28:17.620
+ but they're just not where we are,
+
+00:28:17.620 --> 00:28:18.940
+ otherwise we would see them.
+
+00:28:18.940 --> 00:28:21.120
+ - So there's no way to interact with them?
+
+00:28:21.120 --> 00:28:23.680
+ Like once they're like orthogonal, as you said,
+
+00:28:23.680 --> 00:28:24.780
+ once they're like distinct,
+
+00:28:24.780 --> 00:28:27.960
+ like once the branch is distinct,
+
+00:28:27.960 --> 00:28:29.900
+ there's no way to interact with them, right?
+
+00:28:29.900 --> 00:28:33.300
+ - So maybe we should say that we have all these different terms
+
+00:28:33.300 --> 00:28:34.560
+ and they basically mean the same thing.
+
+00:28:34.560 --> 00:28:38.300
+ So we have the terms branches and universes and things like that.
+
+00:28:38.300 --> 00:28:39.640
+ - Universes, worlds, it's all the same thing.
+
+00:28:39.640 --> 00:28:42.460
+ - Yeah, it's all basically just parts of a quantum system
+
+00:28:42.460 --> 00:28:45.160
+ that don't really interact with other parts anymore
+
+00:28:45.160 --> 00:28:47.740
+ and evolve as if the other parts aren't there.
+
+00:28:47.740 --> 00:28:50.900
+ And sometimes also we have the connotation that we mean,
+
+00:28:50.900 --> 00:28:55.900
+ they are obeying semi-classical operations of motion.
+
+00:28:55.900 --> 00:28:59.000
+ They look like they're classical systems effectively,
+
+00:28:59.000 --> 00:29:02.520
+ is what we might also mean, but at any rate,
+
+00:29:02.520 --> 00:29:04.720
+ so just to clarify some terminology,
+
+00:29:04.720 --> 00:29:07.260
+ it's always the case that they can interact in principle,
+
+00:29:07.260 --> 00:29:08.140
+ which is very hard.
+
+00:29:08.140 --> 00:29:10.080
+ - It's increasingly unlikely.
+
+00:29:10.080 --> 00:29:12.020
+ - Yeah, it's increasingly difficult essentially, yeah.
+
+00:29:12.020 --> 00:29:17.020
+ Like if, for example, in the photon experiment,
+
+00:29:17.020 --> 00:29:19.680
+ you're reinterfering a single photon
+
+00:29:20.680 --> 00:29:23.760
+ and that's quite a manageable task.
+
+00:29:23.760 --> 00:29:28.720
+ It's much more difficult to make a couple of photons
+
+00:29:28.720 --> 00:29:30.160
+ interfere with one another.
+
+00:29:30.160 --> 00:29:32.100
+ So they would interfere.
+
+00:29:32.100 --> 00:29:34.040
+ Well, maybe that's not the best example.
+
+00:29:34.040 --> 00:29:36.480
+ So let's say that the photon becomes entangled
+
+00:29:36.480 --> 00:29:38.000
+ with the environment somehow.
+
+00:29:38.000 --> 00:29:41.940
+ Then it's not just the photon that we need to reinterfere,
+
+00:29:41.940 --> 00:29:43.600
+ we also need to reinterfere the thing
+
+00:29:43.600 --> 00:29:44.880
+ that the photon is now entangled with.
+
+00:29:44.880 --> 00:29:48.960
+ - Yes, so we need to undo essentially our changes in a way.
+
+00:29:48.960 --> 00:29:50.460
+ - Yeah, and the reason for that is, roughly,
+
+00:29:50.460 --> 00:29:53.640
+ that for interference to happen,
+
+00:29:53.640 --> 00:29:55.700
+ the photon really should have taken both paths.
+
+00:29:55.700 --> 00:29:57.560
+ So one instance of the photon should take one path
+
+00:29:57.560 --> 00:29:59.460
+ and the other one should take the other one.
+
+00:29:59.460 --> 00:30:04.460
+ When the photon becomes entangled with the environment,
+
+00:30:04.460 --> 00:30:07.460
+ it essentially even traces of where it was.
+
+00:30:07.460 --> 00:30:11.760
+ And that means that there's now a definite answer
+
+00:30:11.760 --> 00:30:14.900
+ in that world where the photon was actually at,
+
+00:30:14.900 --> 00:30:17.540
+ which is information that you can't have
+
+00:30:17.540 --> 00:30:19.460
+ if the photon literally took both paths.
+
+00:30:19.460 --> 00:30:20.240
+ You can't say, well,
+
+00:30:20.240 --> 00:30:21.580
+ I know that the photon took this one,
+
+00:30:21.580 --> 00:30:23.360
+ but also it was in both.
+
+00:30:23.360 --> 00:30:24.200
+ - Yes.
+
+00:30:24.200 --> 00:30:25.080
+ - That's logically incoherent.
+
+00:30:25.080 --> 00:30:30.220
+ So instead, the photon shouldn't have any information.
+
+00:30:30.220 --> 00:30:33.040
+ I think it's sometimes called which-where information.
+
+00:30:33.040 --> 00:30:36.500
+ That means that either you erase that information
+
+00:30:36.500 --> 00:30:37.580
+ before the interference happens,
+
+00:30:37.580 --> 00:30:41.760
+ or the thing that was entangled with the photon
+
+00:30:41.760 --> 00:30:43.700
+ also interferes with the other version of itself
+
+00:30:43.700 --> 00:30:45.680
+ so that that information gets erased.
+
+00:30:45.680 --> 00:30:47.300
+ But somehow you need to get rid of that.
+
+00:30:47.300 --> 00:30:50.020
+ And it's hard because of course the photon and other parts
+
+00:30:50.020 --> 00:30:52.980
+ are constantly leaving ever more traces
+
+00:30:52.980 --> 00:30:55.220
+ in their environment of where they were.
+
+00:30:55.220 --> 00:30:58.860
+ So that means you have like an exponentially cascading
+
+00:30:58.860 --> 00:31:00.200
+ number of things to undo
+
+00:31:00.200 --> 00:31:02.200
+ before you can re-interfere the thing again.
+
+00:31:02.200 --> 00:31:06.020
+ - One of the, I guess one of the criticisms,
+
+00:31:06.020 --> 00:31:06.860
+ I guess you could say,
+
+00:31:06.860 --> 00:31:09.220
+ or like the common objections, let's say,
+
+00:31:09.220 --> 00:31:13.320
+ of many worlds is this idea of energy.
+
+00:31:13.320 --> 00:31:14.760
+ Because, well, if you're telling me
+
+00:31:14.760 --> 00:31:18.060
+ that we're now going to have all these parallel,
+
+00:31:18.060 --> 00:31:18.900
+ quote unquote,
+
+00:31:19.800 --> 00:31:24.000
+ universes, where does the energy come from?
+
+00:31:24.000 --> 00:31:26.040
+ So we're just like duplicating each time?
+
+00:31:26.040 --> 00:31:28.400
+ Like, how is this actually possible?
+
+00:31:28.400 --> 00:31:30.300
+ - Yeah, so the funny thing is that intuitively
+
+00:31:30.300 --> 00:31:31.420
+ that seems very strange.
+
+00:31:31.420 --> 00:31:32.880
+ And actually, if you look at the mathematics,
+
+00:31:32.880 --> 00:31:33.720
+ it's much simpler.
+
+00:31:33.720 --> 00:31:34.560
+ - Yes.
+
+00:31:34.560 --> 00:31:37.180
+ - So in the case of it,
+
+00:31:37.180 --> 00:31:40.320
+ so people would expect that somehow many worlds
+
+00:31:40.320 --> 00:31:42.480
+ violates energy conservation.
+
+00:31:42.480 --> 00:31:46.480
+ And in fact, I think generally is a measurement which does,
+
+00:31:46.480 --> 00:31:49.580
+ because in...
+
+00:31:49.580 --> 00:31:53.380
+ in the many worlds picture,
+
+00:31:53.380 --> 00:31:55.900
+ you only ever have unitary evolution
+
+00:31:55.900 --> 00:31:59.580
+ and that preserves the energy of a system.
+
+00:31:59.580 --> 00:32:01.080
+ - What is unitary evolution?
+
+00:32:01.080 --> 00:32:05.540
+ - So we only ever have things like Schrodinger type evolution.
+
+00:32:05.540 --> 00:32:07.820
+ - So like linear, clean line.
+
+00:32:07.820 --> 00:32:09.860
+ - Yeah, reversible, all of the good stuff.
+
+00:32:09.860 --> 00:32:10.700
+ - Yeah.
+
+00:32:10.700 --> 00:32:14.400
+ - We like this, we like this.
+
+00:32:14.400 --> 00:32:15.960
+ - It's simple, it's beautiful.
+
+00:32:15.960 --> 00:32:19.360
+ - Yes, and that preserves the energy of a system.
+
+00:32:19.360 --> 00:32:20.400
+ - Yes.
+
+00:32:20.400 --> 00:32:22.680
+ - And measurement does not have that,
+
+00:32:22.680 --> 00:32:26.280
+ and so you're not guaranteed to conserve the energy.
+
+00:32:26.280 --> 00:32:27.120
+ - Yes.
+
+00:32:27.120 --> 00:32:28.960
+ - Anyway, so there's one note.
+
+00:32:28.960 --> 00:32:30.860
+ The way I view it,
+
+00:32:30.860 --> 00:32:34.680
+ and I think lots of people who are into many worlds view
+
+00:32:34.680 --> 00:32:38.740
+ as well, is that this view of splitting the universe
+
+00:32:38.740 --> 00:32:39.580
+ is not right.
+
+00:32:39.580 --> 00:32:42.260
+ So it's not like you are splitting the universe.
+
+00:32:42.260 --> 00:32:46.520
+ It's more like every system already is a collection
+
+00:32:46.520 --> 00:32:49.140
+ of instances, all of which are,
+
+00:32:49.140 --> 00:32:51.520
+ are completely identical initially,
+
+00:32:51.520 --> 00:32:54.440
+ as kind of like a slap of the multiverse.
+
+00:32:54.440 --> 00:32:57.980
+ And then they, some of them become distinct.
+
+00:32:57.980 --> 00:33:00.600
+ So like maybe first it's this many,
+
+00:33:00.600 --> 00:33:02.200
+ and then some of them, you know.
+
+00:33:02.200 --> 00:33:05.160
+ - So we're constantly like slicing
+
+00:33:05.160 --> 00:33:07.640
+ the same block of energy in a way.
+
+00:33:07.640 --> 00:33:09.640
+ - Yes.
+
+00:33:09.640 --> 00:33:12.900
+ - And so, yeah, so it remains constant
+
+00:33:12.900 --> 00:33:15.240
+ across all of those branches,
+
+00:33:15.240 --> 00:33:18.920
+ but the branches themselves may have a smaller slice.
+
+00:33:18.920 --> 00:33:20.340
+ - Yeah, exactly, yeah.
+
+00:33:20.340 --> 00:33:21.920
+ So it's not like you're making mass.
+
+00:33:21.920 --> 00:33:22.760
+ - Yes.
+
+00:33:22.760 --> 00:33:24.780
+ - It's not like, oh, you, something happens,
+
+00:33:24.780 --> 00:33:26.840
+ something entangled, something entangles with another thing,
+
+00:33:26.840 --> 00:33:29.620
+ and now there's more mass because there's more universes.
+
+00:33:29.620 --> 00:33:32.580
+ It's more like there was already a certain amount of them,
+
+00:33:32.580 --> 00:33:35.000
+ which we can have a general measure of.
+
+00:33:35.000 --> 00:33:37.680
+ - They were just identical, and now we're splitting them.
+
+00:33:37.680 --> 00:33:38.680
+ - Exactly, now they're, yeah.
+
+00:33:38.680 --> 00:33:40.660
+ So splitting, or they're branching.
+
+00:33:40.660 --> 00:33:42.020
+ - Yeah, slicing, yeah.
+
+00:33:42.020 --> 00:33:44.680
+ - All of that just means some portion of them
+
+00:33:44.680 --> 00:33:47.060
+ now do one thing and some portion are different
+
+00:33:47.060 --> 00:33:48.040
+ and do another.
+
+00:33:48.040 --> 00:33:48.700
+ - Yeah.
+
+00:33:48.700 --> 00:33:52.260
+ - So we're not creating any mass or energy in the process.
+
+00:33:52.260 --> 00:33:55.580
+ In fact, that is exactly what's conserved.
+
+00:33:55.580 --> 00:33:57.420
+ - A lot of your research is about time.
+
+00:33:57.420 --> 00:33:58.620
+ Is time real?
+
+00:33:58.620 --> 00:34:01.000
+ Does time actually exist?
+
+00:34:01.000 --> 00:34:01.840
+ What is time?
+
+00:34:01.840 --> 00:34:05.740
+ - So some ways of viewing time or some notions of time
+
+00:34:05.740 --> 00:34:07.760
+ don't exist and others do.
+
+00:34:07.760 --> 00:34:12.020
+ And so I always like to say time doesn't exist.
+
+00:34:12.020 --> 00:34:14.760
+ I mean, it's a phrase that Julian Barber and others have used
+
+00:34:14.760 --> 00:34:17.100
+ and he wrote a very famous book,
+
+00:34:17.100 --> 00:34:18.480
+ which I highly recommend called
+
+00:34:18.480 --> 00:34:19.480
+ The Convention of Time.
+
+00:34:19.480 --> 00:34:23.560
+ And the argument in that book is that our general conception
+
+00:34:23.560 --> 00:34:26.240
+ of how time works is unnecessary.
+
+00:34:26.240 --> 00:34:29.280
+ And to explain what that means,
+
+00:34:29.280 --> 00:34:33.560
+ the convention of view is something like there is this parameter,
+
+00:34:33.560 --> 00:34:37.460
+ this number which represents time.
+
+00:34:37.460 --> 00:34:39.100
+ Maybe if you're thinking very classically,
+
+00:34:39.100 --> 00:34:43.060
+ then it's the same everywhere in the universe.
+
+00:34:43.060 --> 00:34:44.920
+ Of course, that can't be true because of special relativity,
+
+00:34:44.920 --> 00:34:45.920
+ but never mind that.
+
+00:34:45.920 --> 00:34:48.260
+ And it's kind of like God's clock.
+
+00:34:48.260 --> 00:34:49.100
+ Like God has a clock.
+
+00:34:49.100 --> 00:34:52.060
+ - It's like his wristwatch and like, yeah.
+
+00:34:52.060 --> 00:34:53.920
+ - And we cannot see it,
+
+00:34:53.920 --> 00:34:55.700
+ but we're invoking it because things are changing.
+
+00:34:55.700 --> 00:34:57.260
+ So things are changing and that means
+
+00:34:57.260 --> 00:34:58.860
+ that it's a different time now.
+
+00:34:58.860 --> 00:35:01.080
+ The actual things that we use to measure time,
+
+00:35:01.080 --> 00:35:03.840
+ like your watch, for example, and other things,
+
+00:35:03.840 --> 00:35:06.760
+ like the solar system is a thing,
+
+00:35:06.760 --> 00:35:08.720
+ which in some sense is a clock.
+
+00:35:08.720 --> 00:35:11.160
+ And the different positions of the planets
+
+00:35:11.160 --> 00:35:16.160
+ in the solar system tell us what time of year it is.
+
+00:35:16.160 --> 00:35:18.040
+ Maybe the seasons are different, things like that.
+
+00:35:18.040 --> 00:35:20.820
+ Those are things internal to the universe
+
+00:35:20.820 --> 00:35:22.000
+ which tell us what time is.
+
+00:35:22.000 --> 00:35:25.280
+ Whereas the kind of Newtonian view of time
+
+00:35:25.280 --> 00:35:26.560
+ is slightly different.
+
+00:35:26.560 --> 00:35:30.100
+ It's that, as I said, it's more ethereal.
+
+00:35:30.100 --> 00:35:33.180
+ There is some notion of time.
+
+00:35:33.180 --> 00:35:34.440
+ - Across everything.
+
+00:35:34.440 --> 00:35:35.280
+ - Across everything.
+
+00:35:35.280 --> 00:35:38.200
+ It's not something that you can necessarily see,
+
+00:35:38.200 --> 00:35:39.040
+ but it's there.
+
+00:35:39.040 --> 00:35:40.100
+ - And it's fixed everywhere.
+
+00:35:40.100 --> 00:35:41.200
+ - It's fixed everywhere, yeah.
+
+00:35:41.200 --> 00:35:43.980
+ - It's the same clock for wherever you go.
+
+00:35:43.980 --> 00:35:44.820
+ - Yes.
+
+00:35:44.820 --> 00:35:47.820
+ Again, that aspect of it was already no longer tenable,
+
+00:35:47.820 --> 00:35:49.180
+ with Einstein.
+
+00:35:49.180 --> 00:35:51.020
+ - Yes, relatively, yeah.
+
+00:35:51.020 --> 00:35:51.860
+ - But in some sense,
+
+00:35:51.860 --> 00:35:54.780
+ we don't need to concern ourselves with that so much.
+
+00:35:54.780 --> 00:35:55.860
+ The main thing that's weird is just,
+
+00:35:55.860 --> 00:35:57.760
+ it's not something that's observable within the universe.
+
+00:35:57.760 --> 00:36:00.660
+ We're just saying that there is something that's changing.
+
+00:36:00.660 --> 00:36:03.560
+ So this unobservable property of the universe is changing.
+
+00:36:03.560 --> 00:36:06.260
+ And because that thing is changing,
+
+00:36:06.260 --> 00:36:07.620
+ things around us are changing too.
+
+00:36:07.620 --> 00:36:08.780
+ So people are getting older,
+
+00:36:08.780 --> 00:36:11.620
+ but that's because time's passed, things like that.
+
+00:36:11.620 --> 00:36:14.560
+ And as I already kind of alluded to,
+
+00:36:14.560 --> 00:36:17.600
+ the thing that we actually use both
+
+00:36:17.600 --> 00:36:18.960
+ in everyday life and in science,
+
+00:36:18.960 --> 00:36:22.720
+ and I think also just nature more generally uses it
+
+00:36:22.720 --> 00:36:23.600
+ in some sense,
+
+00:36:23.600 --> 00:36:27.180
+ is time that is like internal to the universe.
+
+00:36:27.180 --> 00:36:32.180
+ So clocks are a way of seeing that some change has happened.
+
+00:36:32.180 --> 00:36:35.440
+ So there's some kind of periodic process in a clock
+
+00:36:35.440 --> 00:36:38.200
+ and you're counting how often that process has happened.
+
+00:36:38.200 --> 00:36:39.160
+ And that tells you, okay,
+
+00:36:39.160 --> 00:36:44.160
+ so the clock says X numbers of periods have elapsed.
+
+00:36:44.160 --> 00:36:47.380
+ I know now that other systems have changed
+
+00:36:47.380 --> 00:36:48.220
+ as a result as well,
+
+00:36:48.220 --> 00:36:49.740
+ because they're constantly undergoing
+
+00:36:49.740 --> 00:36:51.700
+ their own physical processes.
+
+00:36:51.700 --> 00:36:55.540
+ Like as your clock is ticking, your wristwatch,
+
+00:36:55.540 --> 00:36:58.060
+ the earth is also moving around the sun.
+
+00:36:58.060 --> 00:37:01.040
+ And we know that a certain number of ticks on your wristwatch
+
+00:37:01.040 --> 00:37:04.520
+ corresponds to a certain distance traveled through space
+
+00:37:04.520 --> 00:37:06.880
+ by the earth, things like that.
+
+00:37:06.880 --> 00:37:11.880
+ And it turns out even classical physics, as Julian showed,
+
+00:37:11.880 --> 00:37:16.500
+ that you can replace this ethereal notion of time,
+
+00:37:16.500 --> 00:37:17.160
+ this kind of like, okay,
+
+00:37:17.160 --> 00:37:19.140
+ the backdrop against which things happen,
+
+00:37:19.140 --> 00:37:21.980
+ which is itself, this is not really clearly physical.
+
+00:37:21.980 --> 00:37:24.060
+ You can replace that notion of time,
+
+00:37:24.060 --> 00:37:27.300
+ which is time as it exists internal to the universe.
+
+00:37:27.300 --> 00:37:29.340
+ Julian's way of doing it is very pretty.
+
+00:37:29.340 --> 00:37:30.900
+ What he does is he says,
+
+00:37:30.900 --> 00:37:33.860
+ you assume you just have celestial objects
+
+00:37:33.860 --> 00:37:38.060
+ and they are obeying Newton's equations of motion.
+
+00:37:38.060 --> 00:37:40.780
+ So the kind of gravity making them interact
+
+00:37:40.780 --> 00:37:42.040
+ and things like that.
+
+00:37:42.040 --> 00:37:46.940
+ And then adding a simple assumption that the energy
+
+00:37:46.940 --> 00:37:49.880
+ of the system is equal to zero.
+
+00:37:49.880 --> 00:37:51.940
+ So it's conserved and it's equal to zero.
+
+00:37:51.940 --> 00:37:54.740
+ It turns out that their positions
+
+00:37:54.740 --> 00:37:56.880
+ at any particular time are unique.
+
+00:37:56.880 --> 00:37:58.680
+ So you can kind of use their positions.
+
+00:37:58.680 --> 00:38:00.680
+ - To figure out what the time is.
+
+00:38:00.680 --> 00:38:02.560
+ - There exist counterparts of this in quantum mechanics,
+
+00:38:02.560 --> 00:38:04.280
+ which are very nice.
+
+00:38:04.280 --> 00:38:07.940
+ And I work on the quantum counterparts in particular.
+
+00:38:07.940 --> 00:38:11.820
+ So I think both in Julian's view and in my view,
+
+00:38:11.820 --> 00:38:13.700
+ as you rephrase that,
+
+00:38:13.700 --> 00:38:15.000
+ I think both in Julian's model,
+
+00:38:15.000 --> 00:38:16.720
+ although not on Julian's view,
+
+00:38:16.720 --> 00:38:19.960
+ you get a kind of many-worlds picture again,
+
+00:38:19.960 --> 00:38:22.840
+ because to really get rid of time
+
+00:38:22.840 --> 00:38:26.100
+ is not quite enough to say that time's internal,
+
+00:38:26.100 --> 00:38:27.580
+ because you also,
+
+00:38:27.580 --> 00:38:29.840
+ if you still have to say,
+
+00:38:29.840 --> 00:38:31.180
+ well, these different configurations
+
+00:38:31.180 --> 00:38:34.680
+ are somehow coming about and ceasing to be,
+
+00:38:34.680 --> 00:38:37.500
+ then you need this external number again,
+
+00:38:37.500 --> 00:38:40.760
+ which is telling you what the state of the system is.
+
+00:38:40.760 --> 00:38:43.600
+ So instead, to really get rid of time,
+
+00:38:43.600 --> 00:38:45.200
+ one thing you can say is well,
+
+00:38:46.500 --> 00:38:51.560
+ all these configurations of the celestial objects, say,
+
+00:38:51.560 --> 00:38:52.540
+ exist together.
+
+00:38:52.540 --> 00:38:53.940
+ They all exist.
+
+00:38:53.940 --> 00:38:58.940
+ And the passage of time is just the change
+
+00:38:58.940 --> 00:39:03.000
+ of these celestial objects relative to you.
+
+00:39:03.000 --> 00:39:08.000
+ But there is no external time to take into account.
+
+00:39:08.000 --> 00:39:10.700
+ So they already exist.
+
+00:39:10.700 --> 00:39:12.660
+ The future and the past already exist.
+
+00:39:12.660 --> 00:39:16.280
+ You're just in a slice and you can see what time it is,
+
+00:39:16.280 --> 00:39:18.720
+ because the configurations are unique.
+
+00:39:18.720 --> 00:39:20.640
+ - The way we can measure time
+
+00:39:20.640 --> 00:39:24.960
+ is by observing the change in the world.
+
+00:39:24.960 --> 00:39:25.800
+ - Yes.
+
+00:39:25.800 --> 00:39:27.720
+ - And there's no fixed time.
+
+00:39:27.720 --> 00:39:34.460
+ And so each of our internal clocks in a way, like--
+
+00:39:34.460 --> 00:39:35.900
+ - Well, so that doesn't quite follow.
+
+00:39:35.900 --> 00:39:38.940
+ So again, that becomes more dependent
+
+00:39:38.940 --> 00:39:40.840
+ on what specific models that you're talking about.
+
+00:39:40.840 --> 00:39:43.760
+ So in Julian's model, time is fixed everywhere,
+
+00:39:43.760 --> 00:39:46.060
+ just by the position of all the celestial objects.
+
+00:39:46.060 --> 00:39:47.120
+ - Yes, yes, yes.
+
+00:39:47.120 --> 00:39:50.740
+ - So in that sense, again, it's the same everywhere.
+
+00:39:50.740 --> 00:39:51.580
+ - Yes.
+
+00:39:51.580 --> 00:39:54.500
+ - And, but the main thing about it is that it's internal.
+
+00:39:54.500 --> 00:39:57.800
+ It's like you have this internal label of what the time is,
+
+00:39:57.800 --> 00:39:59.300
+ because you can look at the celestial objects and say,
+
+00:39:59.300 --> 00:40:00.520
+ okay, well, these are their positions.
+
+00:40:00.520 --> 00:40:04.720
+ And you can kind of, you can glue them back together,
+
+00:40:04.720 --> 00:40:05.820
+ knowing the laws of physics,
+
+00:40:05.820 --> 00:40:09.860
+ you know how to line them up, the sequence.
+
+00:40:09.860 --> 00:40:14.860
+ And it's that understanding that allows you to replace
+
+00:40:15.840 --> 00:40:20.840
+ this unphysical idea of time with internal labels
+
+00:40:20.840 --> 00:40:24.220
+ of what time it is inside the universe.
+
+00:40:24.220 --> 00:40:27.160
+ So it's kind of like, we want to get rid
+
+00:40:27.160 --> 00:40:31.280
+ of this weird background structure that we can't observe.
+
+00:40:31.280 --> 00:40:32.340
+ Like the theory already tells us,
+
+00:40:32.340 --> 00:40:35.540
+ we can't observe this ethereal notion of time,
+
+00:40:35.540 --> 00:40:37.580
+ this absolute time, as Newton called it.
+
+00:40:37.580 --> 00:40:38.700
+ So instead, we should just look at the things
+
+00:40:38.700 --> 00:40:40.880
+ that we can observe, like for example,
+
+00:40:40.880 --> 00:40:43.920
+ your clock or the positions of celestial bodies.
+
+00:40:43.920 --> 00:40:45.620
+ That is both much more based in observation,
+
+00:40:45.620 --> 00:40:49.020
+ and much more satisfying theoretically.
+
+00:40:49.020 --> 00:40:53.340
+ And it leads again to something like a many worlds view.
+
+00:40:53.340 --> 00:40:58.100
+ So in particular, we talk mainly about
+
+00:40:58.100 --> 00:41:01.540
+ Julian's classical setup, which I like a lot.
+
+00:41:01.540 --> 00:41:05.200
+ And there is a counterpart to this in quantum mechanics,
+
+00:41:05.200 --> 00:41:07.600
+ where it's literally many worlds.
+
+00:41:07.600 --> 00:41:12.600
+ So you assume that you're in the universe,
+
+00:41:15.400 --> 00:41:19.620
+ you have the description of the universe or the multiverse.
+
+00:41:19.620 --> 00:41:24.620
+ And you say, well, it's completely stationary.
+
+00:41:24.620 --> 00:41:28.400
+ We want to get rid of this idea that things are changing
+
+00:41:28.400 --> 00:41:30.660
+ relative to the external time parameter,
+
+00:41:30.660 --> 00:41:32.280
+ relative to the absolute time.
+
+00:41:32.280 --> 00:41:34.560
+ So let's just assume everything is stationary.
+
+00:41:34.560 --> 00:41:36.060
+ And now let's carve the world up into something
+
+00:41:36.060 --> 00:41:39.100
+ we're going to call a clock and the rest of the universe.
+
+00:41:39.100 --> 00:41:44.100
+ And they're not interacting, it's an important assumption.
+
+00:41:45.180 --> 00:41:49.160
+ And then what you say is, well, these two systems
+
+00:41:49.160 --> 00:41:50.840
+ are entangled with one another.
+
+00:41:50.840 --> 00:41:54.760
+ So that, for example, when the clock says it's 3:00 PM,
+
+00:41:54.760 --> 00:41:59.940
+ then the rest of the universe is doing a particular thing.
+
+00:41:59.940 --> 00:42:02.680
+ And then when the clock says it's 3:05,
+
+00:42:02.680 --> 00:42:05.180
+ then the rest of the universe looks slightly different.
+
+00:42:05.180 --> 00:42:09.560
+ And when it's 3:10, then the rest of the universe
+
+00:42:09.560 --> 00:42:11.480
+ looks slightly different again.
+
+00:42:11.480 --> 00:42:14.960
+ In such a way that if you keep conditioning on the clock,
+
+00:42:14.960 --> 00:42:16.340
+ the rest of the universe evolves
+
+00:42:16.340 --> 00:42:18.180
+ according to the laws of motion that we know.
+
+00:42:18.180 --> 00:42:19.000
+ - Yes.
+
+00:42:19.000 --> 00:42:24.000
+ - And then again, you have time coming from a time.
+
+00:42:24.000 --> 00:42:25.660
+ So you have a notion of time
+
+00:42:25.660 --> 00:42:28.580
+ that comes from a timeless description in that case.
+
+00:42:28.580 --> 00:42:31.580
+ And it's a many worlds view because the different universes
+
+00:42:31.580 --> 00:42:33.080
+ are now just the different moments in time
+
+00:42:33.080 --> 00:42:36.120
+ and they all exist together in a kind of block
+
+00:42:36.120 --> 00:42:38.660
+ in what are sometimes called the block universe.
+
+00:42:38.660 --> 00:42:40.420
+ - There's a clock.
+
+00:42:40.420 --> 00:42:42.080
+ - Yeah, so you assume that there is a clock.
+
+00:42:42.080 --> 00:42:44.740
+ The model assumes there is such a thing as a clock.
+
+00:42:44.740 --> 00:42:46.820
+ - Is this like a theoretical clock
+
+00:42:46.820 --> 00:42:48.080
+ or is this actually like a real clock?
+
+00:42:48.080 --> 00:42:48.900
+ - Yeah, so, okay.
+
+00:42:48.900 --> 00:42:52.280
+ So one of the things that I am quite happy with having done
+
+00:42:52.280 --> 00:42:56.360
+ is, so this model is due to Page and Woodhurst.
+
+00:42:56.360 --> 00:42:57.200
+ - Yes, yes.
+
+00:42:57.200 --> 00:42:59.240
+ This is an old model by the way, right?
+
+00:42:59.240 --> 00:43:00.700
+ This is like many decades ago.
+
+00:43:00.700 --> 00:43:01.540
+ I think in the '70s.
+
+00:43:01.540 --> 00:43:02.400
+ - I think in the '80s.
+
+00:43:02.400 --> 00:43:03.240
+ - Oh, '80s, '80s.
+
+00:43:03.240 --> 00:43:04.080
+ Okay, yeah, yeah.
+
+00:43:04.080 --> 00:43:05.540
+ - And a very nice model.
+
+00:43:05.540 --> 00:43:07.740
+ One of the assumptions that went into it is,
+
+00:43:07.740 --> 00:43:08.580
+ as you're writing the point out,
+
+00:43:08.580 --> 00:43:10.500
+ it's kind of strange is that there's no interactions
+
+00:43:10.500 --> 00:43:13.520
+ between the clock and the rest of the universe.
+
+00:43:13.520 --> 00:43:14.520
+ So it kind of feels,
+
+00:43:14.520 --> 00:43:16.280
+ if you again, 'cause now,
+
+00:43:16.280 --> 00:43:18.380
+ I was saying, well, you can look at your watch,
+
+00:43:18.380 --> 00:43:19.820
+ but this is not a clock you can look at.
+
+00:43:19.820 --> 00:43:20.660
+ - Yes.
+
+00:43:20.660 --> 00:43:21.780
+ - And since then,
+
+00:43:21.780 --> 00:43:23.980
+ so I think what has happened is that initially,
+
+00:43:23.980 --> 00:43:27.640
+ people kind of were very critical of this model.
+
+00:43:27.640 --> 00:43:30.520
+ It went out of vogue and now it's in vogue again.
+
+00:43:30.520 --> 00:43:31.860
+ And people worked on it a lot.
+
+00:43:31.860 --> 00:43:34.480
+ One of the things they've done is shown that
+
+00:43:34.480 --> 00:43:36.140
+ even when there's interactions,
+
+00:43:36.140 --> 00:43:39.320
+ you can still get these,
+
+00:43:39.320 --> 00:43:40.480
+ let's call them Page-Woodhurst states.
+
+00:43:40.480 --> 00:43:42.840
+ So you can still get timeless descriptions,
+
+00:43:42.840 --> 00:43:44.300
+ even when there are certain kinds of
+
+00:43:44.300 --> 00:43:45.780
+ interactions, not general kinds of interactions,
+
+00:43:45.780 --> 00:43:47.200
+ but certain kinds of interactions between the clock
+
+00:43:47.200 --> 00:43:48.780
+ and the rest of the universe.
+
+00:43:48.780 --> 00:43:50.400
+ And building on that,
+
+00:43:50.400 --> 00:43:54.520
+ Simona Rijovec and I showed that,
+
+00:43:54.520 --> 00:43:56.760
+ in particular, you can measure the clock
+
+00:43:56.760 --> 00:43:58.240
+ without disturbing the model.
+
+00:43:58.240 --> 00:44:01.740
+ So you still have the timeless view emerging from it.
+
+00:44:01.740 --> 00:44:04.800
+ So you still have different universes being different times
+
+00:44:04.800 --> 00:44:11.040
+ and the clock giving you the equations of motion
+
+00:44:11.040 --> 00:44:13.320
+ that were used to all the good stuff.
+
+00:44:13.320 --> 00:44:14.080
+ But the only thing that's different is that,
+
+00:44:14.080 --> 00:44:15.120
+ you can actually observe it.
+
+00:44:15.120 --> 00:44:17.520
+ So you can say, okay, well, I can see, for example,
+
+00:44:17.520 --> 00:44:19.380
+ - It won't affect the system.
+
+00:44:19.380 --> 00:44:21.560
+ - So you, yeah, you won't disturb it in such a way
+
+00:44:21.560 --> 00:44:23.280
+ that the clock no longer functions as a clock.
+
+00:44:23.280 --> 00:44:24.120
+ - Okay.
+
+00:44:24.120 --> 00:44:26.080
+ - I think that's the technical way of putting it
+
+00:44:26.080 --> 00:44:28.560
+ or the technically correct way of putting it anyway.
+
+00:44:28.560 --> 00:44:30.080
+ So that means that, for example,
+
+00:44:30.080 --> 00:44:32.000
+ according to this extended model,
+
+00:44:32.000 --> 00:44:35.720
+ your wristwatch is really a clock in this sense.
+
+00:44:35.720 --> 00:44:38.720
+ So you can look at it and you provide it
+
+00:44:38.720 --> 00:44:39.620
+ that you don't destroy it.
+
+00:44:39.620 --> 00:44:40.680
+ You don't do certain things to it
+
+00:44:40.680 --> 00:44:43.860
+ that completely ruin it in its function as a clock.
+
+00:44:43.860 --> 00:44:46.640
+ You can observe it and measure the time.
+
+00:44:46.640 --> 00:44:48.440
+ Yeah, that's one of the ways
+
+00:44:48.440 --> 00:44:50.600
+ in which the model has been advanced.
+
+00:44:50.600 --> 00:44:54.600
+ So it's becoming ever more physical, I would say,
+
+00:44:54.600 --> 00:44:56.280
+ and we have an ever better understanding
+
+00:44:56.280 --> 00:44:58.040
+ of how these clocks should work.
+
+00:44:58.040 --> 00:45:00.340
+ So I think it's fair to say that your wristwatch
+
+00:45:00.340 --> 00:45:02.100
+ counts as a clock in this sense.
+
+00:45:02.100 --> 00:45:07.100
+ - So time isn't just like a sequence of these universes
+
+00:45:07.100 --> 00:45:10.140
+ or like, how do we best like recap it?
+
+00:45:10.140 --> 00:45:13.640
+ Like if I had to explain this to my mom or something,
+
+00:45:13.640 --> 00:45:15.420
+ who is not a physicist,
+
+00:45:15.420 --> 00:45:17.900
+ what is the best way to like phrase this,
+
+00:45:17.900 --> 00:45:19.840
+ to think about time then
+
+00:45:19.840 --> 00:45:21.640
+ from this like quantum mechanical perspective?
+
+00:45:21.640 --> 00:45:25.300
+ - I think the best way to view it is that in this view,
+
+00:45:25.300 --> 00:45:29.860
+ each moment of time is equally real.
+
+00:45:29.860 --> 00:45:34.000
+ And so the past exists, the future exists,
+
+00:45:34.000 --> 00:45:35.320
+ they're not coming into existence.
+
+00:45:35.320 --> 00:45:37.280
+ I think that the typical view is they come into existence
+
+00:45:37.280 --> 00:45:39.540
+ and then they cease to exist instantly.
+
+00:45:39.540 --> 00:45:41.140
+ And there's this species present,
+
+00:45:41.140 --> 00:45:43.420
+ which is constantly moving forward.
+
+00:45:43.420 --> 00:45:48.080
+ That's not what's happening according to this understanding.
+
+00:45:48.080 --> 00:45:52.000
+ What's happening instead is you're finding yourself
+
+00:45:52.000 --> 00:45:54.400
+ in these different universes,
+
+00:45:54.400 --> 00:45:58.380
+ but they already, like the universes are all there.
+
+00:45:58.380 --> 00:45:59.640
+ If we were to say,
+
+00:45:59.640 --> 00:46:02.440
+ what was the state of the universe like five minutes ago?
+
+00:46:02.440 --> 00:46:05.440
+ Well, then there is a world that exists,
+
+00:46:05.440 --> 00:46:08.900
+ which is the state of the universe five minutes ago,
+
+00:46:08.900 --> 00:46:10.280
+ where we were talking.
+
+00:46:10.280 --> 00:46:13.200
+ And in some sense, we're still talking.
+
+00:46:13.200 --> 00:46:17.200
+ We're still, us of five minutes ago are still having
+
+00:46:17.200 --> 00:46:20.860
+ that conversation five minutes ago, if that makes sense.
+
+00:46:20.860 --> 00:46:24.420
+ - So it's basically all happening at the same time.
+
+00:46:24.420 --> 00:46:27.620
+ - Yes, so yeah, it's hard to find a good terminology
+
+00:46:27.620 --> 00:46:29.500
+ for this 'cause at the same time, it's kind of a misnomer,
+
+00:46:29.500 --> 00:46:34.500
+ but it's kind of like maybe an analogy that is helpful is,
+
+00:46:34.500 --> 00:46:37.920
+ so perhaps this will go on YouTube,
+
+00:46:37.920 --> 00:46:41.260
+ perhaps this will go on a podcasting app.
+
+00:46:41.260 --> 00:46:42.980
+ When you're listening to it, you're hearing,
+
+00:46:42.980 --> 00:46:45.140
+ you're hearing a particular moment from the interview,
+
+00:46:45.140 --> 00:46:48.320
+ but the moments are already all there.
+
+00:46:48.320 --> 00:46:50.440
+ Like you can go to any part in the interview
+
+00:46:50.440 --> 00:46:52.700
+ and the recording is already completely,
+
+00:46:52.700 --> 00:46:53.740
+ it's already been recorded.
+
+00:46:53.740 --> 00:46:57.140
+ It's not like our voices are coming in and out of existence.
+
+00:46:57.140 --> 00:47:00.680
+ They are already completely present
+
+00:47:00.680 --> 00:47:04.600
+ in the recording of the conversation or like with books.
+
+00:47:04.600 --> 00:47:07.860
+ I mean, a story already exists before you read it.
+
+00:47:07.860 --> 00:47:11.320
+ You're just on page 10 and you're gonna go to page 11,
+
+00:47:11.320 --> 00:47:12.760
+ but page 10 still exists.
+
+00:47:12.760 --> 00:47:15.720
+ And you can reread it and the same things will happen again.
+
+00:47:15.720 --> 00:47:17.840
+ And that's kind of the picture of the universe
+
+00:47:17.840 --> 00:47:18.680
+ that this gives you.
+
+00:47:18.680 --> 00:47:20.560
+ - What is happening in the future already exists.
+
+00:47:20.560 --> 00:47:22.540
+ What is happening in the past already exists.
+
+00:47:22.540 --> 00:47:25.520
+ So how do we then think of free will
+
+00:47:25.520 --> 00:47:30.520
+ and your free agency in that context?
+
+00:47:30.520 --> 00:47:33.420
+ - The future might already exist, but we can't predict it.
+
+00:47:33.420 --> 00:47:35.760
+ We can't predict from the current state of the universe
+
+00:47:35.760 --> 00:47:37.720
+ what the future will entail.
+
+00:47:37.720 --> 00:47:39.080
+ - And I'm guessing you can affect
+
+00:47:39.080 --> 00:47:41.980
+ in which branch you end up in.
+
+00:47:41.980 --> 00:47:42.540
+ Is that right? - In some sense.
+
+00:47:42.540 --> 00:47:48.500
+ If you have to explain why the story unfolds as it does,
+
+00:47:48.500 --> 00:47:50.460
+ you have to account for people's motives,
+
+00:47:50.460 --> 00:47:52.420
+ their actions, their ideas.
+
+00:47:52.420 --> 00:47:56.140
+ And even though the book is already there in full,
+
+00:47:56.140 --> 00:47:59.880
+ the reason why, for example, a hero defeats a villain
+
+00:47:59.880 --> 00:48:02.340
+ might still be because of the various things
+
+00:48:02.340 --> 00:48:03.800
+ he did throughout the book.
+
+00:48:03.800 --> 00:48:06.100
+ So his actions had consequences,
+
+00:48:06.100 --> 00:48:08.700
+ even in the deterministic universe.
+
+00:48:08.700 --> 00:48:10.700
+ If every time you watch the movie,
+
+00:48:10.700 --> 00:48:12.320
+ it had a completely different outcome,
+
+00:48:12.320 --> 00:48:17.940
+ that would not really be congruous or something
+
+00:48:17.940 --> 00:48:21.520
+ with this idea that his actions have results,
+
+00:48:21.520 --> 00:48:24.080
+ that he's doing something in the world.
+
+00:48:24.080 --> 00:48:27.340
+ So we can have explanations of people and stories
+
+00:48:27.340 --> 00:48:29.380
+ and why their actions were good
+
+00:48:29.380 --> 00:48:32.220
+ and why they affected the world in certain ways.
+
+00:48:32.220 --> 00:48:34.320
+ And I think the same is true for us,
+
+00:48:34.320 --> 00:48:36.600
+ even though we live in a deterministic universe.
+
+00:48:36.600 --> 00:48:37.960
+ - Actions have consequences
+
+00:48:37.960 --> 00:48:40.040
+ and they do still need to be logical.
+
+00:48:40.040 --> 00:48:42.100
+ If I jump from the fifth floor,
+
+00:48:42.100 --> 00:48:44.560
+ to the grounds, I will get hurt, right?
+
+00:48:44.560 --> 00:48:46.740
+ There's no universe where I won't get hurt.
+
+00:48:46.740 --> 00:48:47.860
+ Like I'm very few.
+
+00:48:47.860 --> 00:48:50.180
+ - Yeah, it's a bit like, okay,
+
+00:48:50.180 --> 00:48:52.320
+ if we think that free will doesn't exist
+
+00:48:52.320 --> 00:48:54.860
+ and we just lie down on the couch forever,
+
+00:48:54.860 --> 00:48:56.020
+ well then we won't do anything.
+
+00:48:56.020 --> 00:49:00.980
+ So, you know, lying down on the couch had results,
+
+00:49:00.980 --> 00:49:02.780
+ predictable results, maybe even.
+
+00:49:02.780 --> 00:49:06.860
+ And whereas undertaking certain actions
+
+00:49:06.860 --> 00:49:08.140
+ will have different results.
+
+00:49:08.140 --> 00:49:09.220
+ And we know that in advance,
+
+00:49:09.220 --> 00:49:10.840
+ we have a choice to sit on the couch
+
+00:49:10.840 --> 00:49:11.880
+ or not to sit on the couch.
+
+00:49:11.880 --> 00:49:16.880
+ And our actions still have consequences,
+
+00:49:16.880 --> 00:49:17.960
+ even if it's determined.
+
+00:49:17.960 --> 00:49:19.960
+ I mean, kind of because it's deterministic,
+
+00:49:19.960 --> 00:49:21.680
+ our actions have consequences.
+
+00:49:21.680 --> 00:49:24.080
+ I mean, I don't have a full theory of free will,
+
+00:49:24.080 --> 00:49:27.600
+ but this is roughly how I think about it.
+
+00:49:27.600 --> 00:49:30.540
+ - Yeah, and it's an active area of research, right?
+
+00:49:30.540 --> 00:49:32.500
+ - Yeah, it's not something I work on.
+
+00:49:32.500 --> 00:49:34.880
+ But if you were to ask me as a physicist,
+
+00:49:34.880 --> 00:49:36.380
+ how do you think you can incorporate it with that?
+
+00:49:36.380 --> 00:49:37.500
+ It would be something like this.
+
+00:49:37.500 --> 00:49:38.860
+ - Yes, that makes sense.
+
+00:49:38.860 --> 00:49:40.700
+ Perfect, well, thank you so much for your time.
+
+00:49:40.700 --> 00:49:41.660
+ This was a pleasure.
+
+00:49:41.660 --> 00:49:43.280
+ and let's do this again soon.
+
+00:49:43.280 --> 00:49:43.880
+ Sounds good.
+
+00:49:43.880 --> 00:49:44.580
+ Thanks for having me.
+
+00:49:44.580 --> 00:49:44.840
+ Sounds great.
+
+00:49:44.840 --> 00:49:45.560
+ Thank you.
+

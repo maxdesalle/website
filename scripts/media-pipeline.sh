@@ -1,6 +1,17 @@
 #!/usr/bin/env bash
 set -euo pipefail
-source ~/.zshrc 2>/dev/null || true
+
+# CLOUDFLARE_API_KEY lives in the interactive zsh profile. Sourcing a zsh rc
+# from bash is fragile (interactive guards / zsh-only syntax abort the script),
+# so extract just that one line instead of executing the whole file.
+if [[ -z "${CLOUDFLARE_API_KEY:-}" && -r "$HOME/.zshrc" ]]; then
+  _cf_line=$(grep -E '^[[:space:]]*(export[[:space:]]+)?CLOUDFLARE_API_KEY=' "$HOME/.zshrc" | tail -1 || true)
+  if [[ -n "$_cf_line" ]]; then
+    CLOUDFLARE_API_KEY=$(printf '%s' "$_cf_line" | sed -E "s/^[^=]*=//; s/^[\"']//; s/[\"']$//")
+    export CLOUDFLARE_API_KEY
+  fi
+  unset _cf_line
+fi
 
 # Download, prepare, transcribe, and upload self-hosted media on macOS.
 #
@@ -53,6 +64,7 @@ KIND=""
 TRANSCRIBE=false
 AUDIO=false
 NO_UPLOAD=false
+SKIP_VIDEO=false
 
 while (($# > 0)); do
   case "$1" in
@@ -76,6 +88,10 @@ while (($# > 0)); do
       ;;
     --no-upload)
       NO_UPLOAD=true
+      shift
+      ;;
+    --skip-video)
+      SKIP_VIDEO=true
       shift
       ;;
     -h|--help)
@@ -162,6 +178,10 @@ if [[ -s "$STREAM_UID_FILE" ]]; then
 fi
 
 download_master() {
+  if [[ "$SKIP_VIDEO" == true ]]; then
+    log "[1/6] Skipping Stream master download (--skip-video)"
+    return
+  fi
   if [[ -s "$MASTER" ]]; then
     log "[1/6] Master exists; skipping: $MASTER"
     return
@@ -179,6 +199,10 @@ download_master() {
 }
 
 prepare_1080() {
+  if [[ "$SKIP_VIDEO" == true ]]; then
+    log "[2/6] Skipping 1080p MP4 (--skip-video)"
+    return
+  fi
   if [[ -s "$VIDEO" ]]; then
     log "[2/6] 1080p MP4 exists; skipping: $VIDEO"
     return
@@ -215,11 +239,22 @@ transcribe_media() {
     log "[4/6] Transcription not requested; skipping"
     return
   }
-  require_command python3
-  if ! python3 -c "import faster_whisper" >/dev/null 2>&1; then
-    log "[4/6] faster-whisper is not installed; skipping transcription."
-    log "Install it with: pip install faster-whisper"
+  local WHISPER_BIN=""
+  for b in whisper-cli whisper-cpp; do
+    command -v "$b" >/dev/null 2>&1 && { WHISPER_BIN="$b"; break; }
+  done
+  if [[ -z "$WHISPER_BIN" ]]; then
+    log "[4/6] whisper.cpp not found; skipping transcription."
+    log "Install it with: brew install whisper-cpp"
     return
+  fi
+  local MODEL="${WHISPER_MODEL:-$HOME/.cache/whisper-cpp/ggml-large-v3.bin}"
+  if [[ ! -s "$MODEL" ]]; then
+    log "[4/6] Downloading whisper large-v3 model -> $MODEL (~3 GB, one time)"
+    mkdir -p "$(dirname "$MODEL")"
+    curl -L --fail -o "$MODEL" \
+      "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin" \
+      || die "Failed to download whisper model"
   fi
 
   mkdir -p "$TRANSCRIPT_DIR" "$ASSET_TRANSCRIPT_DIR"
@@ -229,32 +264,16 @@ transcribe_media() {
   if [[ -s "$VTT" && -s "$PLAIN_TXT" ]]; then
     log "[4/6] Whisper outputs exist; skipping model run"
   else
-    log "[4/6] Transcribing with faster-whisper large-v3"
-    python3 - "$input" "$VTT" "$PLAIN_TXT" <<'PY'
-import sys
-from pathlib import Path
-from faster_whisper import WhisperModel
-
-source, vtt_path, txt_path = map(Path, sys.argv[1:])
-
-def timestamp(seconds: float) -> str:
-    milliseconds = max(0, round(seconds * 1000))
-    hours, remainder = divmod(milliseconds, 3_600_000)
-    minutes, remainder = divmod(remainder, 60_000)
-    secs, millis = divmod(remainder, 1000)
-    return f"{hours:02d}:{minutes:02d}:{secs:02d}.{millis:03d}"
-
-model = WhisperModel("large-v3")
-segments, _ = model.transcribe(str(source))
-with vtt_path.open("w", encoding="utf-8") as vtt, txt_path.open("w", encoding="utf-8") as txt:
-    vtt.write("WEBVTT\n\n")
-    for segment in segments:
-        text = segment.text.strip()
-        if not text:
-            continue
-        vtt.write(f"{timestamp(segment.start)} --> {timestamp(segment.end)}\n{text}\n\n")
-        txt.write(text + "\n")
-PY
+    log "[4/6] Transcribing with whisper.cpp large-v3 ($WHISPER_BIN)"
+    local wav="$TRANSCRIPT_DIR/$SLUG.16k.wav"
+    local prefix="$TRANSCRIPT_DIR/$SLUG.whisper"
+    ffmpeg -y -i "$input" -ar 16000 -ac 1 -c:a pcm_s16le "$wav" >/dev/null 2>&1 \
+      || die "ffmpeg failed to produce 16 kHz wav from: $input"
+    "$WHISPER_BIN" -m "$MODEL" -f "$wav" -l en -otxt -ovtt -of "$prefix" >&2 \
+      || die "whisper.cpp transcription failed"
+    mv -f "$prefix.vtt" "$VTT"
+    mv -f "$prefix.txt" "$PLAIN_TXT"
+    rm -f "$wav"
   fi
 
   if [[ -s "$CLEAN_TXT" ]]; then
@@ -387,9 +406,12 @@ upload_media() {
 }
 
 duration_hms() {
-  local seconds
+  local src="" seconds
+  [[ -s "$VIDEO" ]] && src="$VIDEO"
+  [[ -z "$src" && -s "$MP3" ]] && src="$MP3"
+  [[ -n "$src" ]] || { printf '00:00:00'; return; }
   seconds=$(ffprobe -v error -show_entries format=duration \
-    -of default=noprint_wrappers=1:nokey=1 "$VIDEO")
+    -of default=noprint_wrappers=1:nokey=1 "$src")
   awk -v seconds="$seconds" 'BEGIN {
     total = int(seconds + 0.5)
     printf "%02d:%02d:%02d", int(total / 3600), int((total % 3600) / 60), total % 60
@@ -398,7 +420,7 @@ duration_hms() {
 
 print_backfill() {
   local video_bytes audio_bytes duration cdn_root
-  video_bytes=$(stat -f%z "$VIDEO")
+  if [[ -s "$VIDEO" ]]; then video_bytes=$(stat -f%z "$VIDEO"); else video_bytes=0; fi
   duration=$(duration_hms)
   cdn_root=${CDN_BASE:-<CDN_BASE>}
   cdn_root=${cdn_root%/}

@@ -1,0 +1,2942 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.840
+ Quantum computers are increasingly, you know, coming along and, you know, with new breakthroughs and new papers coming every week.
+
+00:00:06.840 --> 00:00:13.900
+ It's not fair to say it's the quantum safe coin because it's not actually safe against quantum computers as it currently stands.
+
+00:00:13.900 --> 00:00:15.640
+ I was like an OG Bitcoiner.
+
+00:00:15.640 --> 00:00:19.800
+ What we're building here is something that is planetary for like hundreds of millions of users.
+
+00:00:19.800 --> 00:00:22.280
+ This is a dangerous, risky technology.
+
+00:00:22.280 --> 00:00:26.440
+ I don't really separate money into store of value and medium of exchange.
+
+00:00:26.440 --> 00:00:28.160
+ I think it's like two sides of the same coin.
+
+00:00:28.160 --> 00:00:29.040
+ The price is going up.
+
+00:00:29.040 --> 00:00:31.380
+ Everyone says, don't change anything and ruin it.
+
+00:00:31.380 --> 00:00:32.340
+ Don't ruin it.
+
+00:00:32.340 --> 00:00:33.600
+ Don't touch it.
+
+00:00:33.600 --> 00:00:36.920
+ And when the price is going down, everyone says, let's do something.
+
+00:00:36.920 --> 00:00:40.620
+ You are a Cypherpunk advisor.
+
+00:00:40.620 --> 00:00:41.720
+ Why join Cypherpunk?
+
+00:00:41.720 --> 00:00:42.440
+ Why be an advisor?
+
+00:00:42.440 --> 00:00:49.940
+ Well, they invited me to be an advisor and it seemed like a good idea at the time.
+
+00:00:49.940 --> 00:00:53.240
+ I thought Cypherpunk was going to be a DAT.
+
+00:00:53.240 --> 00:00:57.660
+ And even then, I thought a DAT was probably a good idea.
+
+00:00:57.820 --> 00:01:07.480
+ It would give various parties the ability to get price exposure to ZEK that they otherwise couldn't get because of their organizational rules or structure.
+
+00:01:07.480 --> 00:01:09.320
+ Yeah, for institutions, it's very useful.
+
+00:01:09.320 --> 00:01:11.920
+ And I trust Tyler and Cameron's intentions.
+
+00:01:11.920 --> 00:01:16.280
+ They have the right goals that I share.
+
+00:01:16.280 --> 00:01:26.740
+ And I get Cypherpunk stock options or some kind of pay, some kind of indirect pay for doing it.
+
+00:01:27.820 --> 00:01:36.960
+ So I agreed to be an advisor to Cypherpunk, which is one of only basically two professional obligations I've agreed to do at this point.
+
+00:01:36.960 --> 00:01:41.800
+ The chief product officer at Shielded Labs and an advisor to Cypherpunk.
+
+00:01:41.800 --> 00:01:49.740
+ One of the big topics that's been, you know, the main, the current thing in the Zcash ecosystem has been quantum computing.
+
+00:01:49.740 --> 00:01:57.620
+ As you may be aware, quantum computers are increasingly, you know, coming along and, you know, with new breakthroughs and new papers.
+
+00:01:57.820 --> 00:01:59.060
+ Coming every week.
+
+00:01:59.060 --> 00:02:04.640
+ Some have, like, positioned Zcash as, like, the quantum safe coin.
+
+00:02:04.640 --> 00:02:07.460
+ Do you have any thoughts on that?
+
+00:02:07.460 --> 00:02:12.240
+ Like, what's your perspective of, like, Zcash's position on the quantum problem?
+
+00:02:12.240 --> 00:02:20.100
+ It's not fair to say it's the quantum safe coin because it's not actually safe against quantum computers as it currently stands.
+
+00:02:20.100 --> 00:02:27.100
+ The best thing about Zcash is that there's a culture and a tradition of...
+
+00:02:27.100 --> 00:02:30.760
+ Responsible innovation.
+
+00:02:30.760 --> 00:02:31.360
+ Yeah.
+
+00:02:31.360 --> 00:02:36.020
+ Like, we don't move fast and break things, but nor do we, like, try to hold absolutely still.
+
+00:02:36.020 --> 00:02:38.280
+ Yeah, yeah, yeah, which is very important.
+
+00:02:38.280 --> 00:02:47.400
+ And Zcash has a lot of really good cryptographers and security engineers who've been thinking about this since long before it became the current thing.
+
+00:02:47.400 --> 00:02:55.140
+ And we've got some defenses against certain kinds of problems already built in.
+
+00:02:56.380 --> 00:03:19.540
+ And some of the other cryptographers, not me and not Sheldon Labs, but some of the other teams working on Zcash have developed a roadmap to further protect the users against quantum computers over the coming years in a, like, responsible, incremental fashion that doesn't disrupt or put everything at unnecessary risk, but also makes progress.
+
+00:03:19.540 --> 00:03:20.540
+ Yeah.
+
+00:03:20.540 --> 00:03:21.640
+ So that's what I like about Zcash.
+
+00:03:21.640 --> 00:03:26.220
+ But it's overselling to say that Zcash is the quantum safe.
+
+00:03:26.220 --> 00:03:31.120
+ It's the quantum safe coin, because it's currently not...
+
+00:03:31.120 --> 00:03:33.500
+ No major coins currently are.
+
+00:03:33.500 --> 00:03:33.980
+ Yeah.
+
+00:03:33.980 --> 00:03:40.640
+ And they've all started, like, trying to move that direction, or at least all of them except Bitcoin have started trying to move that direction.
+
+00:03:40.640 --> 00:03:43.100
+ Yeah, we're not there yet.
+
+00:03:43.100 --> 00:03:46.780
+ I think what's promising about Zcash is there's a lot of work being done about it.
+
+00:03:46.780 --> 00:03:48.100
+ It's taken very seriously.
+
+00:03:48.100 --> 00:03:55.480
+ If a quantum solution is put forward, my guess is that it would likely be adopted just because of the culture of Zcash.
+
+00:03:56.060 --> 00:04:02.160
+ Whereas you could argue that for Bitcoin, that is much less certain due to a lot of, like, you know, divisiveness in, like, the Bitcoin community.
+
+00:04:02.160 --> 00:04:03.480
+ Do you have any thoughts on that?
+
+00:04:03.480 --> 00:04:04.740
+ Yeah, I agree.
+
+00:04:04.740 --> 00:04:06.020
+ Let me put it positively.
+
+00:04:06.020 --> 00:04:11.720
+ I have this practice I'm practicing, which is don't say what's bad about a bad thing.
+
+00:04:11.720 --> 00:04:14.920
+ Instead, say what's good about a good thing.
+
+00:04:14.920 --> 00:04:17.660
+ For one thing, double negatives confuse me.
+
+00:04:17.660 --> 00:04:21.080
+ But also, it makes everyone focus better.
+
+00:04:21.080 --> 00:04:24.860
+ So what's good, I'm thinking about bad things about Bitcoin.
+
+00:04:24.860 --> 00:04:25.300
+ Yeah.
+
+00:04:25.300 --> 00:04:26.040
+ But let me express.
+
+00:04:26.040 --> 00:04:27.160
+ Let me express those good things about Zcash.
+
+00:04:27.160 --> 00:04:38.840
+ So, A, like we just said, the Zcash community is willing to evolve, like, at the right pace, carefully and responsibly, but with intention.
+
+00:04:38.840 --> 00:04:39.240
+ Yep.
+
+00:04:39.240 --> 00:04:46.020
+ And the other thing that you just mentioned is that the Zcash community is largely more, like, win-win oriented.
+
+00:04:46.020 --> 00:04:46.460
+ Yep.
+
+00:04:46.460 --> 00:04:52.400
+ Like, we may not agree on everything, but we have a lot of shared values and shared goals, and we can cooperate.
+
+00:04:52.400 --> 00:04:55.400
+ I think that's really valuable long run for...
+
+00:04:56.020 --> 00:04:57.240
+ For building.
+
+00:04:57.240 --> 00:05:05.760
+ There's a concept I saw a lot with the original, with the Bitcoin culture.
+
+00:05:05.760 --> 00:05:08.560
+ I don't know if you know, but I was, like, an OG Bitcoiner.
+
+00:05:08.560 --> 00:05:09.080
+ I know, I know.
+
+00:05:09.080 --> 00:05:12.820
+ I don't know if you know, but I'm the author of the first blog post ever written about Bitcoin.
+
+00:05:12.820 --> 00:05:14.020
+ I know, I know.
+
+00:05:14.020 --> 00:05:26.000
+ And there was, there developed a culture there of, it sort of, like, took the network level and cryptographic level principles that you...
+
+00:05:26.000 --> 00:05:27.820
+ You want to minimize trust, right?
+
+00:05:27.820 --> 00:05:34.180
+ You want to, you don't want to be vulnerable or to take the word of another node over the network.
+
+00:05:34.180 --> 00:05:38.600
+ Instead, you want to be able to verify everything and sort of defend yourself as a node.
+
+00:05:38.600 --> 00:05:39.260
+ Yep.
+
+00:05:39.260 --> 00:05:43.560
+ And for whatever reason, people also applied that to the human level.
+
+00:05:43.560 --> 00:05:47.760
+ Like, you're not going to trust any other humans, and you're going to distrust them.
+
+00:05:47.760 --> 00:05:55.220
+ It's like the, the culture in which, sort of, bad faith is, should be the assumption.
+
+00:05:55.220 --> 00:05:55.720
+ Yes.
+
+00:05:55.720 --> 00:05:56.920
+ The assumption is bad faith.
+
+00:05:56.920 --> 00:06:10.500
+ And that was, a lot of people thought of that as, they would say, like, Bitcoin is so important that we can't be, like, namby-pamby-ing around with being nice.
+
+00:06:10.500 --> 00:06:12.840
+ It's so important that we need to be mean.
+
+00:06:12.840 --> 00:06:17.720
+ And I always thought, yeah, but, like, being nice works better.
+
+00:06:17.720 --> 00:06:19.300
+ Like, it's so important.
+
+00:06:19.300 --> 00:06:21.160
+ You want to be, you want to get stuff done.
+
+00:06:21.160 --> 00:06:21.480
+ Yeah.
+
+00:06:21.480 --> 00:06:25.700
+ And human trust and cooperativeness and focusing on the world.
+
+00:06:25.760 --> 00:06:29.040
+ Win-win opportunities get stuff done in a way that distrust doesn't.
+
+00:06:29.040 --> 00:06:29.560
+ Yeah.
+
+00:06:29.560 --> 00:06:34.760
+ I guess we just got onto that, because you mentioned something about the Zcash culture.
+
+00:06:34.760 --> 00:06:35.700
+ I agree.
+
+00:06:35.700 --> 00:06:36.140
+ I agree.
+
+00:06:36.140 --> 00:06:43.740
+ I think one of the big positives, I think we were speaking of that earlier, for Zcash is really the culture, right?
+
+00:06:43.740 --> 00:06:45.140
+ This openness to innovation.
+
+00:06:45.140 --> 00:06:52.600
+ I mean, there's still, like, you know, a conservative aspect, which I think is very important for store of value.
+
+00:06:52.600 --> 00:06:53.560
+ Mm-hmm.
+
+00:06:53.560 --> 00:06:55.140
+ But the fact...
+
+00:06:55.700 --> 00:07:02.220
+ The fact that we are open to innovation and open to the ideas of others is very important for quantum,
+
+00:07:02.220 --> 00:07:08.900
+ for maybe at some points potentially replacing proof-of-work for, like, these types of things.
+
+00:07:08.900 --> 00:07:10.200
+ So, yeah, I agree.
+
+00:07:10.200 --> 00:07:11.160
+ Mm-hmm.
+
+00:07:11.160 --> 00:07:11.540
+ Yeah.
+
+00:07:11.540 --> 00:07:14.120
+ Yeah, the world is never going to stop changing.
+
+00:07:14.120 --> 00:07:14.620
+ Yeah.
+
+00:07:14.620 --> 00:07:17.000
+ The needs of the people are never going to stop changing.
+
+00:07:17.000 --> 00:07:17.500
+ I agree.
+
+00:07:17.500 --> 00:07:25.600
+ Speaking of proof-of-work, so, like, one of the major focuses of Shielded Labs is Crosslink.
+
+00:07:25.680 --> 00:07:36.700
+ Maybe let's first cover what Crosslink is, because I think, like, the proposal has, like, changed quite a bit since, like, the original first ideas came about.
+
+00:07:36.700 --> 00:07:44.580
+ And then we can, you know, go over, like, you know, the case for it, some of the critiques, and, yeah, discuss more about it, if that's okay.
+
+00:07:44.580 --> 00:07:55.600
+ Crosslink is a proposal to change the Zcash consensus algorithm by keeping the current proof-of-work in place and adding a finality gadget.
+
+00:07:56.080 --> 00:07:56.220
+ Yep.
+
+00:07:56.220 --> 00:08:04.860
+ So I kind of think metaphorically, like, proof-of-work, which was Satoshi's big breakthrough contribution, right?
+
+00:08:04.860 --> 00:08:13.520
+ It's kind of like an engine, a self-powering engine that's always pushing forward, which is amazing and very useful.
+
+00:08:13.520 --> 00:08:21.340
+ And then the finality gadget, which used proof-of-state technology to make the finality gadget work.
+
+00:08:21.340 --> 00:08:25.660
+ Mm-hmm.
+
+00:08:25.660 --> 00:08:26.620
+ It prevents backsliding.
+
+00:08:26.620 --> 00:08:27.720
+ Okay?
+
+00:08:27.720 --> 00:08:34.540
+ Proof-of-work by itself doesn't have a notion of when a thing is permanent.
+
+00:08:34.540 --> 00:08:35.580
+ Mm-hmm.
+
+00:08:35.580 --> 00:08:41.180
+ It can always be undone by the engine pushing in a new direction.
+
+00:08:41.180 --> 00:08:42.440
+ It's probabilistic.
+
+00:08:42.440 --> 00:08:43.500
+ Right.
+
+00:08:43.500 --> 00:08:45.460
+ Well, that's what people say.
+
+00:08:45.460 --> 00:08:45.900
+ Mm-hmm.
+
+00:08:45.900 --> 00:08:51.820
+ And I actually think, at, like, a mathematical level, that's a misnomer.
+
+00:08:51.820 --> 00:08:52.640
+ Mm-hmm.
+
+00:08:55.640 --> 00:09:03.020
+ I wouldn't think about security as probabilistic.
+
+00:09:03.020 --> 00:09:13.820
+ If it's worth enough to the attacker, if they have the opportunity and they have the means and the motive to take advantage of you,
+
+00:09:13.820 --> 00:09:23.220
+ it is just going to confuse you and mislead you if you think to yourself, there's a probability that they'll take advantage of me.
+
+00:09:23.220 --> 00:09:24.560
+ It's not a probability.
+
+00:09:24.560 --> 00:09:25.620
+ It's whether they decide to.
+
+00:09:25.620 --> 00:09:26.640
+ It's whether they do and whether they can't.
+
+00:09:26.640 --> 00:09:27.060
+ Yes.
+
+00:09:27.060 --> 00:09:27.540
+ Yes.
+
+00:09:27.540 --> 00:09:28.000
+ Yes.
+
+00:09:28.000 --> 00:09:28.520
+ Correct.
+
+00:09:28.520 --> 00:09:28.920
+ Yeah.
+
+00:09:28.920 --> 00:09:29.660
+ Yeah.
+
+00:09:29.660 --> 00:09:30.820
+ That's always a risk.
+
+00:09:30.820 --> 00:09:35.240
+ I mean, and we've seen, like, these reorg attacks, like, for example, last week with Litecoin.
+
+00:09:35.240 --> 00:09:35.540
+ Yeah.
+
+00:09:35.540 --> 00:09:36.600
+ It does happen.
+
+00:09:36.600 --> 00:09:48.560
+ But, like, I guess one of, like, the main arguments then brought forward by, you know, the other camp is, well, why not just improve proof-of-work currently?
+
+00:09:48.560 --> 00:09:50.060
+ Because there's a lot to improve.
+
+00:09:50.060 --> 00:09:55.600
+ Like, I mean, until, I think, a month ago, Zcash had just, like, one big miner.
+
+00:09:55.600 --> 00:09:58.660
+ Now we have Foundry as well.
+
+00:09:58.660 --> 00:10:04.320
+ Is this maybe, like, a first path we should explore before, like, exploring Crosslink?
+
+00:10:04.320 --> 00:10:07.800
+ Or are these, like, you know, not mutually exclusive?
+
+00:10:07.800 --> 00:10:08.260
+ Yeah.
+
+00:10:08.260 --> 00:10:08.860
+ They're not.
+
+00:10:08.860 --> 00:10:11.800
+ I think they're compatible and they help in different ways.
+
+00:10:11.800 --> 00:10:25.260
+ There are a bunch of other potential improvements to the proof-of-work component that the Valar team is now proposing, like, reducing the times between blocks, other kinds of performance improvements.
+
+00:10:25.260 --> 00:10:25.580
+ Yeah.
+
+00:10:25.580 --> 00:10:30.900
+ And all of those are totally compatible with the Crosslink design because it's very modular.
+
+00:10:30.900 --> 00:10:39.840
+ Like, Crosslink keeps our current proposal, our design, and the prototype that we've implemented, which we're now experimenting with.
+
+00:10:39.840 --> 00:10:46.200
+ You can join the channel and play with Crosslink and help us break it.
+
+00:10:46.200 --> 00:10:48.560
+ It's very broken right now.
+
+00:10:48.560 --> 00:10:49.940
+ And that's why we do this.
+
+00:10:49.940 --> 00:10:52.600
+ Anyway, but the design is extremely modular.
+
+00:10:52.600 --> 00:10:52.960
+ Yeah.
+
+00:10:52.960 --> 00:10:55.560
+ Like, any improvements, including the new...
+
+00:10:55.560 --> 00:11:07.880
+ The new mining pool foundry and the reduced block times and, like, improved peer-to-peer networking so that blocks can get communicated and transactions can get communicated faster between nodes.
+
+00:11:07.880 --> 00:11:10.600
+ All of that is perfectly compatible with Crosslink.
+
+00:11:10.600 --> 00:11:13.560
+ What Crosslink adds is primarily...
+
+00:11:13.560 --> 00:11:17.060
+ Let me try to think of the most important things.
+
+00:11:17.060 --> 00:11:20.300
+ It's got, like, quite a few different benefits that I think it offers.
+
+00:11:20.300 --> 00:11:25.420
+ But I'd say the two most important ones are irreversible finality.
+
+00:11:25.540 --> 00:11:36.620
+ So that when you can know if someone has deposited a million dollars worth of ZEC into your exchange or your DEX, like Near.
+
+00:11:36.620 --> 00:11:37.940
+ So this is what happened to Near.
+
+00:11:37.940 --> 00:11:39.080
+ Well...
+
+00:11:39.080 --> 00:11:39.780
+ Yeah, with Litecoin.
+
+00:11:39.780 --> 00:11:40.880
+ They actually lost a lot of money.
+
+00:11:40.880 --> 00:11:45.600
+ They lost $600,000, I think, in that event.
+
+00:11:45.600 --> 00:11:54.540
+ And it's kind of confusing whether irreversible finality would or wouldn't have fixed that in that case.
+
+00:11:54.540 --> 00:11:55.520
+ Yeah, because the transaction would have occurred.
+
+00:11:55.680 --> 00:11:55.840
+ Yeah.
+
+00:11:55.840 --> 00:12:04.620
+ But in any case, in general, if you're operating a DEX or a CEX or you're accepting large transactions over the network,
+
+00:12:04.620 --> 00:12:08.500
+ irreversible finality tells you that there's not a probability here.
+
+00:12:08.500 --> 00:12:15.320
+ It's just that once it has the stamp of finality on it, you know it cannot be undone.
+
+00:12:15.320 --> 00:12:15.860
+ Yeah.
+
+00:12:15.860 --> 00:12:22.860
+ That's a much simpler and safer guarantee to reason about as an operator.
+
+00:12:22.860 --> 00:12:23.640
+ Correct.
+
+00:12:23.640 --> 00:12:24.140
+ Correct.
+
+00:12:24.140 --> 00:12:25.100
+ Yes, that makes sense.
+
+00:12:25.100 --> 00:12:25.500
+ Oh, and the other...
+
+00:12:25.500 --> 00:12:36.760
+ The second biggest advantage of Crosslink is that it magnifies the security budget, in a sense.
+
+00:12:36.760 --> 00:12:45.380
+ And we have a more precise technical definition of this number, but people call it informally, they call it the security budget.
+
+00:12:45.380 --> 00:12:52.400
+ And that's a thing which in Bitcoin and in Zcash, it's tied to the issuance.
+
+00:12:52.400 --> 00:12:52.840
+ Yep.
+
+00:12:52.840 --> 00:12:53.200
+ Right?
+
+00:12:53.200 --> 00:12:55.200
+ And the issuance ticks down over time.
+
+00:12:55.480 --> 00:12:55.860
+ Of course, yeah.
+
+00:12:55.860 --> 00:13:02.320
+ And like with Quantum, this is a thing where I think it will be a problem for Bitcoin,
+
+00:13:02.320 --> 00:13:07.040
+ and I don't know if they have the right culture to be willing to make changes to address the problem.
+
+00:13:07.040 --> 00:13:07.320
+ Yep.
+
+00:13:07.320 --> 00:13:17.960
+ And in Zcash, it's got the same problem because Bitcoin and Zcash are the two coins that want to maintain a hard, fixed cap on the supply.
+
+00:13:17.960 --> 00:13:18.560
+ Yep.
+
+00:13:18.560 --> 00:13:24.660
+ There's only ever 21 million Bitcoins, only ever 21 million Zcash, and almost everyone agrees to that.
+
+00:13:24.660 --> 00:13:25.340
+ That's the golden rule.
+
+00:13:25.340 --> 00:13:36.100
+ Very few people want to change that, but there's substantial, maybe 10% or 20% of all the Zcashers would be happy to change the supply in order to gain the sustainability.
+
+00:13:36.100 --> 00:13:36.780
+ Yes.
+
+00:13:36.780 --> 00:13:54.420
+ So at Shielded Labs, we have two projects, and one of them is Crosslink, which we think can provide the sustainability and thus sort of harden the assurance that the supply will remain limited.
+
+00:13:54.420 --> 00:13:55.020
+ Yep.
+
+00:13:55.200 --> 00:14:04.700
+ Whereas with Ethereum, they long since accepted a variable supply in return for various other trade-offs.
+
+00:14:04.700 --> 00:14:08.580
+ And in Bitcoin, I don't know what their plan is.
+
+00:14:08.580 --> 00:14:13.880
+ They're committed to the fixed supply, but they don't know how they're going to provide the sustainability.
+
+00:14:13.880 --> 00:14:14.640
+ Yeah, yeah.
+
+00:14:14.640 --> 00:14:24.560
+ So two of Shielded Labs' projects, Network Sustainability Mechanism and also Crosslink, both contribute to sustainability while hardening the 21 million supply cap.
+
+00:14:24.560 --> 00:14:24.940
+ Yeah.
+
+00:14:25.060 --> 00:14:25.420
+ That makes sense.
+
+00:14:25.420 --> 00:14:49.200
+ Because like the problem with Bitcoin is, and it's such a logical problem, I fail to understand how people cannot see that it's a problem, is if you're allocating like a security budget every year to mining, which the inflation on Bitcoin is effectively, and you're halving that security budget every four years, you need the price to catch up and compensate, which at some point it might not.
+
+00:14:49.200 --> 00:14:54.920
+ And when it does not, when it doesn't, you're going to be in big trouble because your security budget.
+
+00:14:54.920 --> 00:14:55.700
+ Effectively halves.
+
+00:14:55.700 --> 00:15:02.580
+ And so at some points, it's practically guaranteed we'll need like an alternative system.
+
+00:15:02.580 --> 00:15:03.140
+ Seems like it.
+
+00:15:03.140 --> 00:15:04.600
+ And there's transaction fees.
+
+00:15:04.600 --> 00:15:05.200
+ Yes.
+
+00:15:05.200 --> 00:15:06.280
+ But those are not enough.
+
+00:15:06.280 --> 00:15:06.880
+ But that's also.
+
+00:15:06.880 --> 00:15:08.140
+ Like a Bitcoin, it's very little.
+
+00:15:08.140 --> 00:15:08.540
+ Questionable.
+
+00:15:08.540 --> 00:15:08.880
+ Yeah.
+
+00:15:08.880 --> 00:15:09.300
+ Yes.
+
+00:15:09.300 --> 00:15:23.840
+ A thing about Crosslink, one of the two biggest features or benefits of Crosslink is that if you take your security budget, your issuance, which can come from unissued coins, right?
+
+00:15:23.840 --> 00:15:24.860
+ Because we're still below.
+
+00:15:24.860 --> 00:15:25.640
+ Twenty one million.
+
+00:15:25.640 --> 00:15:34.300
+ So we can issue more and it can come from past fees because with shielded labs is network sustainability mechanism.
+
+00:15:34.300 --> 00:15:44.580
+ Sixty percent of the fees get burned, so 40% of the fees goes to the current minor of the next block and 60% of the fee gets burned.
+
+00:15:44.580 --> 00:15:54.380
+ And in the network sustainability mechanism, everything that's ever been burned can be reincarnated months and years later to add to the sustainability.
+
+00:15:54.380 --> 00:15:54.720
+ But.
+
+00:15:54.720 --> 00:15:59.920
+ Maybe a dumb question, but wouldn't that then reduce the security budget for mining?
+
+00:15:59.920 --> 00:16:03.020
+ I mean, I'm guessing that you are then rewarding miners less.
+
+00:16:03.020 --> 00:16:07.700
+ The fee burning or the issuance part?
+
+00:16:07.700 --> 00:16:12.960
+ Well, for the fee burning, like the fees you're burning previously, I'm assuming they went to miners.
+
+00:16:12.960 --> 00:16:13.160
+ Right.
+
+00:16:13.160 --> 00:16:15.780
+ Currently, 100% of the fees go to miners.
+
+00:16:15.780 --> 00:16:15.960
+ Yep.
+
+00:16:15.960 --> 00:16:24.580
+ And in the NSM proposal, which is going up for some kind of governance vote shortly, but it's already been voted on.
+
+00:16:24.580 --> 00:16:28.080
+ It's been voted on once and everyone approved this part of it the last time around.
+
+00:16:28.080 --> 00:16:32.800
+ But anyway, in that proposal, 60% of each fee gets burned.
+
+00:16:32.800 --> 00:16:35.860
+ That only leaves 40% of the fee for the current miner.
+
+00:16:35.860 --> 00:16:44.260
+ However, that's enough to incentivize them to include that transaction because it's very cheap for them to add a transaction in.
+
+00:16:44.260 --> 00:16:46.300
+ Yeah. So your bet is that they will do it anyway.
+
+00:16:46.300 --> 00:16:54.440
+ And they're still motivated to include transactions at the current levels.
+
+00:16:54.440 --> 00:16:59.340
+ Like with Bitcoin, the fees are very little in real money terms.
+
+00:16:59.340 --> 00:16:59.740
+ Oh, yeah.
+
+00:16:59.740 --> 00:17:01.300
+ Like it's compared to inflation.
+
+00:17:01.300 --> 00:17:01.920
+ Yeah.
+
+00:17:01.920 --> 00:17:09.880
+ But this is, we're very like long term and sustainability and like economic balance oriented at Shielded Labs.
+
+00:17:09.880 --> 00:17:16.500
+ So almost all of our projects are focused on like if we got this into place, got everyone to agree to it.
+
+00:17:16.500 --> 00:17:16.780
+ Yep.
+
+00:17:16.780 --> 00:17:19.100
+ And then the world radically changed.
+
+00:17:19.100 --> 00:17:21.880
+ How would the network do in that situation?
+
+00:17:21.880 --> 00:17:22.340
+ Yes.
+
+00:17:22.340 --> 00:17:22.740
+ Yes.
+
+00:17:22.740 --> 00:17:23.140
+ Yeah.
+
+00:17:23.140 --> 00:17:23.540
+ Yeah.
+
+00:17:23.540 --> 00:17:24.300
+ And I think it is.
+
+00:17:24.300 --> 00:17:33.460
+ I think it is very important to plan for like the future where like what we're building here is something that is planetary for like hundreds of millions of users.
+
+00:17:33.460 --> 00:17:34.200
+ That's the plan.
+
+00:17:34.200 --> 00:17:34.760
+ That's the goal.
+
+00:17:34.760 --> 00:17:43.380
+ We don't want to, you know, like it's nice to have our little community of like, you know, a few hundreds, maybe a few thousands of people who are very committed to Zcash.
+
+00:17:43.380 --> 00:17:48.020
+ But the end goal is millions of users, millions of transactions every day.
+
+00:17:48.020 --> 00:17:49.380
+ And yeah.
+
+00:17:49.380 --> 00:17:53.060
+ Which increase the fees, increase the load.
+
+00:17:53.060 --> 00:17:53.480
+ Yes.
+
+00:17:53.480 --> 00:17:54.000
+ Yes.
+
+00:17:54.000 --> 00:18:00.580
+ And increase all the sort of like stress on makers of software and services and everything.
+
+00:18:00.580 --> 00:18:01.540
+ Correct.
+
+00:18:01.540 --> 00:18:07.520
+ And those hundreds of millions or however many users, they make it much harder to change things.
+
+00:18:07.520 --> 00:18:08.080
+ Yes.
+
+00:18:08.080 --> 00:18:08.600
+ Yes.
+
+00:18:08.600 --> 00:18:09.100
+ Yes.
+
+00:18:09.100 --> 00:18:09.920
+ Yes.
+
+00:18:09.920 --> 00:18:13.680
+ I'm hoping to get these things in now because I think they're like long term.
+
+00:18:13.680 --> 00:18:15.260
+ Because later on it will be much harder.
+
+00:18:15.260 --> 00:18:15.680
+ Yeah.
+
+00:18:15.680 --> 00:18:16.100
+ Probably.
+
+00:18:16.100 --> 00:18:16.700
+ Hopefully.
+
+00:18:16.700 --> 00:18:17.360
+ Yeah.
+
+00:18:17.360 --> 00:18:17.980
+ Hopefully.
+
+00:18:17.980 --> 00:18:18.380
+ Hopefully.
+
+00:18:18.380 --> 00:18:18.720
+ Indeed.
+
+00:18:18.720 --> 00:18:19.060
+ Indeed.
+
+00:18:19.060 --> 00:18:19.140
+ Indeed.
+
+00:18:19.140 --> 00:18:19.420
+ Indeed.
+
+00:18:19.420 --> 00:18:22.560
+ I guess to close on the crosslink chapter.
+
+00:18:22.560 --> 00:18:23.760
+ Like what are the other?
+
+00:18:23.860 --> 00:18:24.340
+ The critiques.
+
+00:18:24.340 --> 00:18:26.280
+ I think Mert has given his critique.
+
+00:18:26.280 --> 00:18:33.720
+ I myself do resonate with it as well is that it might make the protocol too complex or too complicated.
+
+00:18:33.720 --> 00:18:34.240
+ Yeah.
+
+00:18:34.240 --> 00:18:36.440
+ Because you're introducing a lot of like new variables.
+
+00:18:36.440 --> 00:18:39.000
+ Like proof of work is great because it's pretty simple.
+
+00:18:39.000 --> 00:18:39.500
+ Yeah.
+
+00:18:39.500 --> 00:18:41.760
+ Like it's really just very simple.
+
+00:18:41.760 --> 00:18:42.240
+ Turns out.
+
+00:18:42.240 --> 00:18:44.700
+ Like the miners guess like an ounce.
+
+00:18:44.700 --> 00:18:46.780
+ Turns out to be pretty complicated in practice.
+
+00:18:46.780 --> 00:18:47.560
+ But yes.
+
+00:18:47.560 --> 00:18:49.960
+ Even simple things turn out to be really complicated.
+
+00:18:49.960 --> 00:18:52.960
+ So I really resonate too with that factor.
+
+00:18:53.860 --> 00:18:59.020
+ That critique that like complexity is definitely the enemy especially for store value.
+
+00:18:59.020 --> 00:18:59.620
+ Yeah.
+
+00:18:59.620 --> 00:19:00.120
+ Yeah.
+
+00:19:00.120 --> 00:19:00.640
+ Right.
+
+00:19:00.640 --> 00:19:10.320
+ Because we want confidence, reliability, safety, even in face of attack, attempted exploitation, all kinds of attacks from different parties.
+
+00:19:10.320 --> 00:19:12.800
+ So I totally agree with that.
+
+00:19:12.800 --> 00:19:17.300
+ There's an aspect of our current crosslink design, which is kind of targeted that way.
+
+00:19:17.300 --> 00:19:19.620
+ I'm not saying they're wrong to critique it.
+
+00:19:19.620 --> 00:19:23.700
+ Like it's definitely two things is way more complicated than one, like more than twice.
+
+00:19:23.700 --> 00:19:24.480
+ It's complicated.
+
+00:19:24.480 --> 00:19:25.020
+ Right.
+
+00:19:25.020 --> 00:19:33.140
+ Like two things is a lot, but there's an aspect of it, which I'm pretty satisfied with.
+
+00:19:33.140 --> 00:19:43.320
+ And we solicited some sort of independent analysis from economics, mechanism design to try to double check if we're getting this right.
+
+00:19:43.320 --> 00:19:47.580
+ But there are different components and each component only has one job.
+
+00:19:47.580 --> 00:19:48.320
+ Yeah.
+
+00:19:48.320 --> 00:19:53.540
+ And so in a way that simplifies things like in the current in Bitcoin.
+
+00:19:53.540 --> 00:20:06.920
+ And in Zcash currently, the proof of work miners, people are counting on them both to keep making progress and including transactions and not to backslide too much.
+
+00:20:06.920 --> 00:20:07.420
+ Yeah.
+
+00:20:07.420 --> 00:20:10.360
+ So they kind of have two sort of competing goals.
+
+00:20:10.360 --> 00:20:10.860
+ Yes.
+
+00:20:10.860 --> 00:20:23.380
+ And then they normally do this well, but of course it gets more complicated when due to load due to like bugs that are coming out from the cyber.
+
+00:20:23.380 --> 00:20:30.300
+ Security, AI, wave, things like that, the complications compound.
+
+00:20:30.300 --> 00:20:30.800
+ Yeah.
+
+00:20:30.800 --> 00:20:36.840
+ And a thing that I really like about the current crosslink design is now there's two components, but each one only has one job.
+
+00:20:36.840 --> 00:20:37.340
+ Yeah.
+
+00:20:37.340 --> 00:20:50.180
+ The proof of work miners can't backslide or undo anybody's transaction, even if they tried, and they don't need to worry about that because the finalizers, it's called validators in other blockchains.
+
+00:20:50.180 --> 00:20:50.660
+ It's called validators in other blockchains.
+
+00:20:50.660 --> 00:20:51.300
+ It's called validators in other blockchains.
+
+00:20:51.300 --> 00:20:51.760
+ It's called validators in other blockchains.
+
+00:20:51.760 --> 00:20:52.260
+ It's called validators in other blockchains.
+
+00:20:52.260 --> 00:20:52.760
+ It's called validators in other blockchains.
+
+00:20:52.760 --> 00:20:53.260
+ It's called validators in other blockchains.
+
+00:20:53.260 --> 00:20:53.260
+ It's called validators in other blockchains.
+
+00:20:53.260 --> 00:20:53.260
+ It's called validators in other blockchains.
+
+00:20:53.260 --> 00:20:53.260
+ It's called validators in other blockchains.
+
+00:20:53.260 --> 00:20:53.800
+ It's called validators in other blockchains.
+
+00:20:53.800 --> 00:20:56.600
+ But in crosslink, they don't validate anything.
+
+00:20:56.600 --> 00:21:03.800
+ All they do is put the stamp of approval that this thing cannot be undone, the irreversible stamp, okay?
+
+00:21:03.800 --> 00:21:10.920
+ And so the finalizers, they just have one job, just put the irreversible stamp on things and never undo it.
+
+00:21:10.920 --> 00:21:13.180
+ They, as a component, they can be simpler.
+
+00:21:13.180 --> 00:21:17.920
+ They're not responsible for including transactions, dealing with all the other like issues.
+
+00:21:17.920 --> 00:21:20.300
+ Yeah, they do one thing, they do it well, you know.
+
+00:21:20.300 --> 00:21:20.840
+ Yeah.
+
+00:21:20.840 --> 00:21:23.140
+ So I agree, complexity is the hard part.
+
+00:21:23.140 --> 00:21:27.020
+ And we're always fighting against complexity at all levels.
+
+00:21:27.020 --> 00:21:29.100
+ Let's move forward to a new topic.
+
+00:21:29.100 --> 00:21:36.340
+ Like you were speaking about, you know, the other proposals of Shielded Labs being NSM and dynamic fees.
+
+00:21:36.340 --> 00:21:38.800
+ Any update on those?
+
+00:21:38.800 --> 00:21:46.840
+ My understanding is that both were put forward in the last NU7, I think, voting proposal.
+
+00:21:46.840 --> 00:21:48.560
+ I think the voting was confused.
+
+00:21:48.560 --> 00:21:49.140
+ Okay.
+
+00:21:49.140 --> 00:21:53.020
+ Because the actual ballot said,
+
+00:21:53.020 --> 00:21:57.820
+ for each of, there was many questions, like 12 or something, different questions, or 10.
+
+00:21:57.820 --> 00:22:06.640
+ And the ballot said things like, do you generally like the idea of fees being based on market conditions or adapting or whatever?
+
+00:22:06.640 --> 00:22:07.400
+ Yeah.
+
+00:22:07.400 --> 00:22:21.600
+ But then, sort of the accompanying extra information said, this question is about this specific protocol in a draft Zcash improvement proposal in like GitHub.
+
+00:22:21.600 --> 00:22:22.900
+ So now it's ambiguous.
+
+00:22:22.900 --> 00:22:28.780
+ Are you voting for and against the general idea or are you voting for or against this specific preliminary protocol?
+
+00:22:28.780 --> 00:22:29.280
+ Yeah.
+
+00:22:29.280 --> 00:22:48.280
+ Anyway, a bunch of the, like, interest groups, there's a voting body that's all the core devs, and there's like the Zcash Brazil community, and then there's like the Zcash Foundation's longstanding advisory panel that's been doing this for like eight years or whatever.
+
+00:22:48.280 --> 00:22:48.780
+ Yeah.
+
+00:22:48.780 --> 00:22:51.280
+ I think they all voted in favor of the dynamic fees.
+
+00:22:51.280 --> 00:22:55.120
+ They all voted in favor of the dynamic fees item.
+
+00:22:55.120 --> 00:22:59.160
+ And then 80% of the coin holders voted against the dynamic fees item.
+
+00:22:59.160 --> 00:23:01.660
+ Okay.
+
+00:23:01.660 --> 00:23:09.900
+ And one guy, Dave from the Valar group, posted his rationale on Twitter as to how he, why he voted how he voted.
+
+00:23:09.900 --> 00:23:18.320
+ He voted against dynamic fees, saying the reason was he disagreed with some specific detail of the draft protocol.
+
+00:23:18.320 --> 00:23:21.160
+ Anyway, I don't know.
+
+00:23:21.160 --> 00:23:22.580
+ I don't know if there's going to be another vote.
+
+00:23:22.580 --> 00:23:23.120
+ Yeah.
+
+00:23:23.120 --> 00:23:26.160
+ Some, like, other people are organizing that stuff.
+
+00:23:26.160 --> 00:23:31.540
+ I think there's also, like, still a lot of room for, like, the, you know, voting to be improved.
+
+00:23:31.540 --> 00:23:46.740
+ Whether it being available in, you know, in Soddle and Zyngo and other Zcash wallets, but also, obviously, like, the questions should be, like, very, very clear and simple so, you know, everyone knows what they're actually voting on and what they're not voting on.
+
+00:23:46.740 --> 00:23:47.540
+ Right.
+
+00:23:47.540 --> 00:23:50.080
+ Or at least they're all voting on the same question as each other for starters.
+
+00:23:50.080 --> 00:23:51.040
+ Yeah.
+
+00:23:51.040 --> 00:23:59.660
+ Because, yeah, in this case, for example, it's very hard to actually learn actionable information from it because we actually don't know what the reasoning was behind it.
+
+00:23:59.660 --> 00:24:00.160
+ Yeah.
+
+00:24:00.160 --> 00:24:03.160
+ Like, if actually people understood the right, like, the question.
+
+00:24:03.160 --> 00:24:04.000
+ Yeah.
+
+00:24:04.000 --> 00:24:05.960
+ Yeah, and which question, as you said, they voted on.
+
+00:24:05.960 --> 00:24:07.660
+ Yeah, it'd be interesting if there was some process.
+
+00:24:07.660 --> 00:24:08.160
+ I don't know.
+
+00:24:08.160 --> 00:24:09.160
+ I'm speculating here.
+
+00:24:09.160 --> 00:24:20.920
+ It's not really my department, but it'd be cool if there was something that were more deliberative or people had to post their rationales along with their votes or something.
+
+00:24:20.920 --> 00:24:26.580
+ Then we'd learn a lot more because just a yay/nay vote on a specific question could be interpreted a lot of different ways.
+
+00:24:26.580 --> 00:24:43.420
+ Yeah, or maybe, as I think you had mentioned in the earlier discussion, have sub-questions where it's yes to this specific outcome, no to this specific, like, yes to this other specific outcome, or, like, just no, kill it and let's just not do this.
+
+00:24:43.420 --> 00:24:49.840
+ For example, like, you know, for issuance curves, like, this curve, this curve, or just no curve at all, like, we don't change anything.
+
+00:24:49.840 --> 00:24:50.800
+ Yeah.
+
+00:24:50.800 --> 00:24:53.680
+ I think that, you know, that would be way more actionable and, yeah, just way more useful.
+
+00:24:53.680 --> 00:24:54.140
+ Makes sense.
+
+00:24:54.140 --> 00:25:06.420
+ And this is an example of, like, responding to the previous vote by asking a more specific or clarifying question or seeing if some people are going to shift and converge between then and now or something.
+
+00:25:06.420 --> 00:25:11.960
+ So it's more, I don't know, an interactive process than a one-shot vote.
+
+00:25:11.960 --> 00:25:12.460
+ Yeah.
+
+00:25:12.460 --> 00:25:20.680
+ I think you had had some conversations with Daira Emma about coin-weighted voting, and I think she was generally against it.
+
+00:25:20.680 --> 00:25:22.800
+ You were in favor?
+
+00:25:22.800 --> 00:25:24.600
+ I don't remember this conversation last year.
+
+00:25:24.600 --> 00:25:25.140
+ Oh, too bad.
+
+00:25:25.140 --> 00:25:26.340
+ Was this on the forum?
+
+00:25:26.340 --> 00:25:27.520
+ I'm guessing, yeah.
+
+00:25:27.520 --> 00:25:30.980
+ Like, what's your position right now on coin-weighted voting?
+
+00:25:30.980 --> 00:25:33.600
+ Like, what's, you know, are you in favor of it?
+
+00:25:33.600 --> 00:25:44.560
+ Well, historically, there was a time when most people who were active in the Zcash community were against it for valid reasons.
+
+00:25:44.560 --> 00:25:50.560
+ One of them was Vitalik Buterin, who was always a Zcacher in addition to being an Ethereum person.
+
+00:25:50.560 --> 00:25:57.560
+ And others were like Peter Van Valkenburg, who's now, at the time, he was on the Zcash Foundation Board of Directors.
+
+00:25:57.560 --> 00:26:02.220
+ He subsequently stepped down from that in order to become the executive director of Coin Center.
+
+00:26:02.220 --> 00:26:03.220
+ Yeah, that makes sense, yeah.
+
+00:26:03.220 --> 00:26:11.220
+ But Vitalik and Peter and others expressed concerns about, like, the risks or downsides of coin-weighted voting.
+
+00:26:11.220 --> 00:26:20.440
+ And my position at the time was, well, yeah, but those are risks if the coin holders have, like, all of the...
+
+00:26:20.440 --> 00:26:21.440
+ Yeah.
+
+00:26:21.440 --> 00:26:22.440
+ ...power.
+
+00:26:22.440 --> 00:26:23.440
+ Yeah.
+
+00:26:23.440 --> 00:26:24.440
+ All of the decision.
+
+00:26:24.440 --> 00:26:25.440
+ And currently, they have, like, zero power or zero voice at all.
+
+00:26:25.440 --> 00:26:26.440
+ Yeah.
+
+00:26:26.440 --> 00:26:31.440
+ Like, nobody even knows what they think, much less will give them any credence.
+
+00:26:31.440 --> 00:26:32.440
+ Yes, yeah.
+
+00:26:32.440 --> 00:26:37.440
+ And my position at the time was, so, I think they should have somewhere between, like, one-thirds and two-thirds of the power.
+
+00:26:37.440 --> 00:26:38.440
+ Yeah.
+
+00:26:38.440 --> 00:26:44.440
+ And then it's probably not going to run into those, like, total risks on that side and probably not the total risks on this side.
+
+00:26:44.440 --> 00:26:45.440
+ Yeah.
+
+00:26:45.440 --> 00:26:49.320
+ This is typical of me to figure, like, the extremes are more risky...
+
+00:26:49.320 --> 00:26:50.320
+ Yeah.
+
+00:26:50.320 --> 00:26:52.320
+ ...and the middle ground is probably safer sometimes.
+
+00:26:52.320 --> 00:26:53.320
+ Yeah.
+
+00:26:53.320 --> 00:26:54.320
+ Okay.
+
+00:26:54.320 --> 00:26:55.320
+ Well, I still think that.
+
+00:26:55.320 --> 00:26:59.320
+ I still think coin holders should have between one-thirds and two-thirds of the political power.
+
+00:26:59.320 --> 00:27:00.320
+ Yeah.
+
+00:27:00.320 --> 00:27:03.320
+ It's totally unclear to me how much they currently have.
+
+00:27:03.320 --> 00:27:08.320
+ I think it's technically a third, but, like, it's all in just, like, culture, right?
+
+00:27:08.320 --> 00:27:09.320
+ Like, I mean...
+
+00:27:09.320 --> 00:27:10.320
+ Right.
+
+00:27:10.320 --> 00:27:11.320
+ There's no strict rule.
+
+00:27:11.320 --> 00:27:16.320
+ Like, there's a funny thing about political power is if you convince someone you have it and there's no point...
+
+00:27:16.320 --> 00:27:17.320
+ Yes.
+
+00:27:17.320 --> 00:27:19.320
+ ...in resisting you, then you have it.
+
+00:27:19.320 --> 00:27:20.200
+ Yeah.
+
+00:27:20.200 --> 00:27:21.200
+ Yeah.
+
+00:27:21.200 --> 00:27:25.200
+ Now, the one technical thing that I can tell without trying to infer a culture...
+
+00:27:25.200 --> 00:27:26.200
+ Yeah.
+
+00:27:26.200 --> 00:27:30.200
+ ...is that coin holders control, I think it's 60% of the funding.
+
+00:27:30.200 --> 00:27:31.200
+ Yeah.
+
+00:27:31.200 --> 00:27:36.200
+ Because 60% of the funding goes to retroactive grants determined solely by the coin holder votes.
+
+00:27:36.200 --> 00:27:37.200
+ Yeah.
+
+00:27:37.200 --> 00:27:43.200
+ 40% of the funding goes to other kinds of grants controlled solely by the Zcash Community Grants Committee.
+
+00:27:43.200 --> 00:27:44.200
+ Yeah.
+
+00:27:44.200 --> 00:27:49.200
+ I think of the 20% that is going to the DEF Fund, it's 12% that's going to one and 8% are going to the other.
+
+00:27:49.200 --> 00:27:50.080
+ Exactly.
+
+00:27:50.080 --> 00:27:51.080
+ Yeah, that's correct.
+
+00:27:51.080 --> 00:27:52.080
+ Same numbers.
+
+00:27:52.080 --> 00:27:53.080
+ Yeah, same numbers.
+
+00:27:53.080 --> 00:27:56.080
+ So that fits nicely within my one-third to two-third range.
+
+00:27:56.080 --> 00:27:57.080
+ Yeah.
+
+00:27:57.080 --> 00:28:08.080
+ One of the, you know, aside from Crosslink, one of the other hot topics in the Zcash Community has been Tachyon, which, you know, has been for a lot of people very exciting.
+
+00:28:08.080 --> 00:28:11.080
+ Like, you know, the promise of, like, near infinite scalability.
+
+00:28:11.080 --> 00:28:12.080
+ Yeah.
+
+00:28:12.080 --> 00:28:17.080
+ Any thoughts or updated thoughts on Tachyon?
+
+00:28:17.080 --> 00:28:19.960
+ First of all, I love the idea.
+
+00:28:19.960 --> 00:28:20.960
+ Yeah.
+
+00:28:20.960 --> 00:28:22.960
+ I love the founder, Sean Bowe.
+
+00:28:22.960 --> 00:28:27.960
+ And it's not the first time he's come up with a breakthrough idea that seemed…
+
+00:28:27.960 --> 00:28:28.960
+ Oh, no.
+
+00:28:28.960 --> 00:28:29.960
+ Hello, too.
+
+00:28:29.960 --> 00:28:30.960
+ Yeah.
+
+00:28:30.960 --> 00:28:33.960
+ …literally sort of incomprehensible to other people at first.
+
+00:28:33.960 --> 00:28:35.960
+ Like, Sean was the only one who got it at first.
+
+00:28:35.960 --> 00:28:36.960
+ Yeah.
+
+00:28:36.960 --> 00:28:37.960
+ Yeah.
+
+00:28:37.960 --> 00:28:39.960
+ Tachyon is very much like that for me.
+
+00:28:39.960 --> 00:28:43.960
+ It's kind of hard to even understand how that's possible or how it would work.
+
+00:28:43.960 --> 00:28:44.960
+ So I'm really excited.
+
+00:28:44.960 --> 00:28:49.840
+ And in addition to coming up with these breakthrough ideas, Sean is one of very few people that I've met.
+
+00:28:49.840 --> 00:28:56.840
+ Two people who both, the Venn diagram of people who come up with novel scientific breakthroughs
+
+00:28:56.840 --> 00:29:01.840
+ and the people who engineer stuff until it works and ship it has a very small sliver
+
+00:29:01.840 --> 00:29:02.840
+ of a Venn diagram.
+
+00:29:02.840 --> 00:29:03.840
+ Yeah.
+
+00:29:03.840 --> 00:29:04.840
+ Yeah.
+
+00:29:04.840 --> 00:29:05.840
+ So that's all very encouraging.
+
+00:29:05.840 --> 00:29:12.920
+ I definitely think Tachyon, like Crosslink and, like, all these changes that we've been
+
+00:29:12.920 --> 00:29:19.720
+ talking about, it's going to be a really good test of the Zcash culture of…
+
+00:29:19.720 --> 00:29:20.720
+ Yeah.
+
+00:29:20.720 --> 00:29:21.720
+ …responsible evolution.
+
+00:29:21.720 --> 00:29:22.720
+ Yeah.
+
+00:29:22.720 --> 00:29:23.720
+ Responsible upgrade.
+
+00:29:23.720 --> 00:29:30.720
+ It's going to be very, very difficult to get all the users and all the software implementations
+
+00:29:30.720 --> 00:29:36.920
+ and everyone to cooperate, to deploy a new thing while, you know, maintaining a sufficient
+
+00:29:36.920 --> 00:29:41.480
+ level of stability and safety for all the current users, etc., etc.
+
+00:29:41.480 --> 00:29:46.600
+ Especially because my understanding is with wallets, with Tachyon, wallets will need to
+
+00:29:46.600 --> 00:29:49.600
+ be completely, I mean, rebuilt, essentially.
+
+00:29:49.600 --> 00:29:50.480
+ Right?
+
+00:29:50.480 --> 00:29:51.480
+ I mean, they need…
+
+00:29:51.480 --> 00:29:52.480
+ I think…
+
+00:29:52.480 --> 00:29:53.480
+ I don't…
+
+00:29:53.480 --> 00:29:57.840
+ I haven't thought that much about it, but yeah, my instinct is, yeah, the…
+
+00:29:57.840 --> 00:29:58.840
+ Everything changes.
+
+00:29:58.840 --> 00:29:59.840
+ …everything about the…
+
+00:29:59.840 --> 00:30:01.840
+ And the wallet is sort of the focal point, right?
+
+00:30:01.840 --> 00:30:02.840
+ Yeah.
+
+00:30:02.840 --> 00:30:03.840
+ Yeah.
+
+00:30:03.840 --> 00:30:04.840
+ Like, the…
+
+00:30:04.840 --> 00:30:05.840
+ It's kind of like the wallet is the center of the universe and the blockchain is just
+
+00:30:05.840 --> 00:30:06.840
+ one of these peripheral pieces…
+
+00:30:06.840 --> 00:30:07.840
+ Yeah.
+
+00:30:07.840 --> 00:30:08.840
+ …that serves the wallet.
+
+00:30:08.840 --> 00:30:09.840
+ Yeah.
+
+00:30:09.840 --> 00:30:10.840
+ Yeah.
+
+00:30:10.840 --> 00:30:13.840
+ But I think one of the exciting things with Tachyon is it will have sufficient…
+
+00:30:13.840 --> 00:30:19.480
+ It will have the ability to make post-quantum Zcash scalable.
+
+00:30:19.480 --> 00:30:26.480
+ Because, you know, with post-quantum cryptography is very heavy, it will make the transactions
+
+00:30:26.480 --> 00:30:31.480
+ way, way bigger, which means that if we don't change anything in terms of scalability, we
+
+00:30:31.480 --> 00:30:35.360
+ will be able to do even fewer transactions than we are able to do today.
+
+00:30:35.360 --> 00:30:36.360
+ Right.
+
+00:30:36.360 --> 00:30:37.360
+ So, yeah.
+
+00:30:37.360 --> 00:30:38.360
+ Any thoughts on that?
+
+00:30:38.360 --> 00:30:39.800
+ Like, where, you know, Tachyon can help?
+
+00:30:39.800 --> 00:30:41.480
+ I may misunderstand some of this stuff.
+
+00:30:41.480 --> 00:30:42.480
+ Yeah.
+
+00:30:42.480 --> 00:30:43.480
+ Like, Tachyon is not my…
+
+00:30:43.480 --> 00:30:45.440
+ I'm just like a fanboy of Tachyon, right?
+
+00:30:45.440 --> 00:30:47.360
+ My jobs at Shielded Labs include cross-link…
+
+00:30:47.360 --> 00:30:48.360
+ Yeah.
+
+00:30:48.360 --> 00:30:49.360
+ Yeah.
+
+00:30:49.360 --> 00:30:54.400
+ …monetizationism, dynamic fees, and supporting a bunch of mining pools and CEXs and DEXs
+
+00:30:54.400 --> 00:30:56.760
+ to, like, help them not get hacked.
+
+00:30:56.760 --> 00:30:57.760
+ Yeah.
+
+00:30:57.760 --> 00:31:01.600
+ So, I don't like to sound off on things that are not my business…
+
+00:31:01.600 --> 00:31:02.600
+ Yeah.
+
+00:31:02.600 --> 00:31:03.600
+ Yeah, of course.
+
+00:31:03.600 --> 00:31:04.600
+ …get in other people's way.
+
+00:31:04.600 --> 00:31:05.600
+ Yeah.
+
+00:31:05.600 --> 00:31:12.240
+ Tachyon moves a bunch of state management and transmission of data…
+
+00:31:12.240 --> 00:31:13.240
+ Yes.
+
+00:31:13.240 --> 00:31:14.240
+ …off of the blockchain.
+
+00:31:14.240 --> 00:31:15.240
+ So, that's great.
+
+00:31:15.240 --> 00:31:19.240
+ That's a huge improvement, although it immediately raises the question of, okay, then who does
+
+00:31:19.240 --> 00:31:20.440
+ all that state management…
+
+00:31:20.440 --> 00:31:21.440
+ Yeah.
+
+00:31:21.440 --> 00:31:22.440
+ Yeah.
+
+00:31:22.440 --> 00:31:23.440
+ …and transmission?
+
+00:31:23.440 --> 00:31:24.840
+ But even if we can…
+
+00:31:24.840 --> 00:31:28.000
+ If the Tachyon team can solve all that, we can get it deployed, get all the wallets or
+
+00:31:28.000 --> 00:31:35.440
+ some wallets to support it, that extra bandwidth can be used for post-quantum signatures and
+
+00:31:35.440 --> 00:31:42.320
+ encryption, but that doesn't protect against a quantum computer counterfeiting Zcash, which
+
+00:31:42.320 --> 00:31:47.520
+ is almost like the… would be… if you could just pick one thing to protect… to prevent
+
+00:31:47.520 --> 00:31:49.120
+ quantum computers for doing…
+
+00:31:49.120 --> 00:31:50.120
+ Yeah.
+
+00:31:50.120 --> 00:31:51.120
+ Yeah.
+
+00:31:51.120 --> 00:31:52.120
+ …preventing them from counterfeiting Zcash would be a great pick.
+
+00:31:52.120 --> 00:31:53.120
+ Yeah.
+
+00:31:53.120 --> 00:31:54.120
+ Yeah.
+
+00:31:54.120 --> 00:31:55.120
+ I agree.
+
+00:31:55.120 --> 00:31:56.120
+ I agree.
+
+00:31:56.120 --> 00:31:57.120
+ It's the thing they would probably want to do most if…
+
+00:31:57.120 --> 00:31:58.120
+ Yes.
+
+00:31:58.120 --> 00:31:59.120
+ …if they could do stuff to you.
+
+00:31:59.120 --> 00:32:00.120
+ Yeah.
+
+00:32:00.120 --> 00:32:01.120
+ Yeah.
+
+00:32:01.120 --> 00:32:04.280
+ And it makes sense the way the Tachyon team and the Valar team, of what little I understand
+
+00:32:04.280 --> 00:32:08.820
+ of how they've been sketching out this roadmap, is to sort of do the things that we know how
+
+00:32:08.820 --> 00:32:13.820
+ to do now, that we could do sooner, and the things that protect privacy against future
+
+00:32:13.820 --> 00:32:18.280
+ quantum attackers, because if they want to violate your privacy, they can look back in
+
+00:32:18.280 --> 00:32:19.280
+ time to violate your privacy.
+
+00:32:19.280 --> 00:32:20.280
+ Yeah.
+
+00:32:20.280 --> 00:32:21.280
+ So those are really good things to schedule first.
+
+00:32:21.280 --> 00:32:22.280
+ Yeah.
+
+00:32:22.280 --> 00:32:27.280
+ But it's like the end of the roadmap is sort of like a big question mark on the
+
+00:32:27.280 --> 00:32:28.280
+ last step.
+
+00:32:28.280 --> 00:32:29.280
+ Yes.
+
+00:32:29.280 --> 00:32:31.280
+ And now we invent a way to prevent quantum computers from counterfeiting Zcash.
+
+00:32:31.280 --> 00:32:32.280
+ Yeah.
+
+00:32:32.280 --> 00:32:35.280
+ And Tachyon doesn't help with that as far as I understand.
+
+00:32:35.280 --> 00:32:38.280
+ My understanding is that that's also like a much harder problem, which will…
+
+00:32:38.280 --> 00:32:39.280
+ I think so.
+
+00:32:39.280 --> 00:32:41.280
+ …which will take probably, yeah, I'm guessing years.
+
+00:32:41.280 --> 00:32:48.160
+ You know, speaking of the initiatives of Shiloh Labs, I think you mentioned Shiloh Labs has
+
+00:32:48.160 --> 00:32:55.160
+ recently been helping miners, exchanges, etc. to, you know, run on Zcash, build on Zcash.
+
+00:32:55.160 --> 00:32:57.700
+ You know, can you say more about that?
+
+00:32:57.700 --> 00:33:04.400
+ We are offering like professional support services, and like, it's like enterprise
+
+00:33:04.400 --> 00:33:07.580
+ software support, right?
+
+00:33:07.580 --> 00:33:13.400
+ So we're prioritizing companies that are willing and able to pay us to do this, so we can afford
+
+00:33:13.400 --> 00:33:16.040
+ to spend all the time to do it.
+
+00:33:16.040 --> 00:33:17.040
+ And our dream…
+
+00:33:17.040 --> 00:33:18.040
+ And I don't…
+
+00:33:18.040 --> 00:33:22.540
+ I don't know how, like, if these companies are going to want to do this, and how well
+
+00:33:22.540 --> 00:33:28.000
+ it will work for all the other orgs in the Zcash ecosystem, but I imagine it'll be good
+
+00:33:28.000 --> 00:33:32.120
+ for all the orgs that Shiloh Labs becomes the point of contact for like, you know, staying
+
+00:33:32.120 --> 00:33:38.700
+ up all night responding to security concerns, and then other people can focus on their building
+
+00:33:38.700 --> 00:33:39.700
+ instead.
+
+00:33:39.700 --> 00:33:40.700
+ Okay.
+
+00:33:40.700 --> 00:33:46.720
+ So we have like three more questions to go, so first question is, I think last year, two
+
+00:33:46.720 --> 00:33:47.920
+ years ago…
+
+00:33:47.920 --> 00:33:48.920
+ Yeah.
+
+00:33:48.920 --> 00:33:53.160
+ You did a podcast with Arjun Kumani and Josh Swihart.
+
+00:33:53.160 --> 00:33:59.720
+ In that podcast, at some point, you guys had a disagreement on T-addresses, whether or
+
+00:33:59.720 --> 00:34:02.040
+ not they should be deprecated.
+
+00:34:02.040 --> 00:34:07.560
+ My understanding, if I recall correctly, is that Josh was in favor of deprecating them
+
+00:34:07.560 --> 00:34:10.580
+ and just go fully shielded.
+
+00:34:10.580 --> 00:34:14.720
+ I think you liked the optionality of having T-addresses.
+
+00:34:14.720 --> 00:34:16.920
+ Any updated thoughts on that?
+
+00:34:16.920 --> 00:34:17.800
+ Yeah.
+
+00:34:17.800 --> 00:34:23.280
+ Well, this is also not one of my jobs at Shiloh Labs, so I don't want to interfere with other
+
+00:34:23.280 --> 00:34:28.580
+ people's work, but also it's a really good example of how like my opinions or other people's
+
+00:34:28.580 --> 00:34:35.480
+ opinions – you can go to the higher level and say the users – the devs are not in
+
+00:34:35.480 --> 00:34:36.480
+ control.
+
+00:34:36.480 --> 00:34:37.480
+ Yeah.
+
+00:34:37.480 --> 00:34:38.480
+ Right?
+
+00:34:38.480 --> 00:34:39.480
+ Which is great.
+
+00:34:39.480 --> 00:34:40.480
+ That's cool.
+
+00:34:40.480 --> 00:34:41.480
+ Yeah.
+
+00:34:41.480 --> 00:34:46.800
+ It's a fascinating, surprising thing about blockchains and open permission systems, unlike
+
+00:34:46.800 --> 00:34:51.080
+ the previous few decades of software, where basically the devs could do anything they wanted
+
+00:34:51.080 --> 00:34:55.720
+ and the users had no choice in the matter, other than stop using that software.
+
+00:34:55.720 --> 00:34:56.720
+ Yeah.
+
+00:34:56.720 --> 00:34:57.720
+ That was your one option.
+
+00:34:57.720 --> 00:34:58.720
+ Yeah.
+
+00:34:58.720 --> 00:35:05.480
+ But now, suppose all of the devs – there's a bunch of different Zcash development organizations
+
+00:35:05.480 --> 00:35:06.760
+ now, which is pretty awesome.
+
+00:35:06.760 --> 00:35:08.380
+ I'm starting to lose count.
+
+00:35:08.380 --> 00:35:15.840
+ There's like six or seven funded, skilled, dedicated, Zcash-focused development orgs,
+
+00:35:15.840 --> 00:35:16.680
+ which is amazing.
+
+00:35:16.680 --> 00:35:17.680
+ Wow.
+
+00:35:17.680 --> 00:35:25.160
+ Okay, so imagine, hypothetically, all seven or however many got together and said, "Let's
+
+00:35:25.160 --> 00:35:26.660
+ turn off T-addresses."
+
+00:35:26.660 --> 00:35:31.320
+ And suppose – whatever, we can keep going – the Zcash Foundation's advisory panel
+
+00:35:31.320 --> 00:35:35.260
+ all voted 80% were in favor of turning off Z-addresses.
+
+00:35:35.260 --> 00:35:38.800
+ The coin holders all voted 80% in favor of turning off T-addresses.
+
+00:35:38.800 --> 00:35:39.800
+ Okay.
+
+00:35:39.800 --> 00:35:44.840
+ Suppose new full nodes and wallet software got uploaded to the App Store, and the difference
+
+00:35:44.840 --> 00:35:46.560
+ is, when you install this one…
+
+00:35:46.560 --> 00:35:50.560
+ When you install this one, all your money that is in a T-address is now…
+
+00:35:50.560 --> 00:35:51.560
+ Shielded.
+
+00:35:51.560 --> 00:35:52.560
+ Yeah.
+
+00:35:52.560 --> 00:35:53.560
+ No.
+
+00:35:53.560 --> 00:35:54.560
+ I was going to say it's now inaccessible.
+
+00:35:54.560 --> 00:35:55.560
+ Oh, okay.
+
+00:35:55.560 --> 00:35:56.560
+ Right?
+
+00:35:56.560 --> 00:35:57.560
+ Like, you can't…
+
+00:35:57.560 --> 00:35:58.560
+ Let's just say, whatever, like…
+
+00:35:58.560 --> 00:35:59.560
+ Yeah, hypothetically.
+
+00:35:59.560 --> 00:36:04.100
+ The easy way to do it is just make T-addresses invalid in the blockchain, which effectively
+
+00:36:04.100 --> 00:36:07.600
+ means burning everyone's money that's currently in T-addresses.
+
+00:36:07.600 --> 00:36:12.040
+ There's no way to, like, force-shield it all.
+
+00:36:12.040 --> 00:36:16.440
+ So let's just say, for the sake – the point of this story is, the devs cannot…
+
+00:36:16.440 --> 00:36:19.360
+ Take away a feature from the users, right?
+
+00:36:19.360 --> 00:36:24.060
+ So if we did all that, we went through that process, we uploaded all that software, any
+
+00:36:24.060 --> 00:36:27.700
+ users who still wanted to keep their money that was currently in a T-address, or they
+
+00:36:27.700 --> 00:36:31.700
+ still wanted to be able to send and receive with T-addresses, they just wouldn't install
+
+00:36:31.700 --> 00:36:35.260
+ that software, they'd keep using the software they currently have, which currently works
+
+00:36:35.260 --> 00:36:36.260
+ for them.
+
+00:36:36.260 --> 00:36:41.440
+ Like, I do think there's, like, a very important aspect of T-addresses for, like,
+
+00:36:41.440 --> 00:36:46.320
+ institutions, for exchanges, where, for example, as we were speaking of…
+
+00:36:46.320 --> 00:36:52.140
+ Earlier, you wouldn't necessarily want an entity like Cypherpunk, for example, to have
+
+00:36:52.140 --> 00:36:57.520
+ their coins shielded, because that would prevent transparency.
+
+00:36:57.520 --> 00:37:02.080
+ So users would not be able to audit that Cypherpunk does indeed hold these tokens.
+
+00:37:02.080 --> 00:37:04.820
+ Yeah, transparency is good for some purposes.
+
+00:37:04.820 --> 00:37:06.820
+ Yes.
+
+00:37:06.820 --> 00:37:10.700
+ And that optional, you know, and especially for exchanges who want to, you know, stay
+
+00:37:10.700 --> 00:37:14.200
+ within the law, they may be forced to, you know…
+
+00:37:14.200 --> 00:37:15.200
+ Well, also…
+
+00:37:15.200 --> 00:37:16.200
+ The law…
+
+00:37:16.200 --> 00:37:28.400
+ Well, also, if they're custodying someone else's funds, funds owned by someone else,
+
+00:37:28.400 --> 00:37:32.140
+ I mean, I would rather they did that transparently, so we can all watch what they're doing.
+
+00:37:32.140 --> 00:37:35.040
+ You could have a view key on the other end.
+
+00:37:35.040 --> 00:37:36.180
+ That would be less…
+
+00:37:36.180 --> 00:37:39.100
+ That would be sort of a mixture…
+
+00:37:39.100 --> 00:37:40.100
+ How would that be better?
+
+00:37:40.100 --> 00:37:46.080
+ I mean, I guess you could then say, "Oh, we're fully shielded," but if you want to
+
+00:37:46.080 --> 00:37:47.080
+ have transparency, you can use a view key.
+
+00:37:47.080 --> 00:37:48.080
+ It's kind of like the same thing, but…
+
+00:37:48.080 --> 00:37:49.080
+ It's the same thing.
+
+00:37:49.080 --> 00:37:50.080
+ It's just more steps.
+
+00:37:50.080 --> 00:37:51.080
+ It's transparency with more steps.
+
+00:37:51.080 --> 00:37:52.080
+ Yeah.
+
+00:37:52.080 --> 00:37:57.080
+ And more steps is bad, because that makes it harder for the users.
+
+00:37:57.080 --> 00:38:01.080
+ It makes it easier for people to get confused or to get scammed or tricked.
+
+00:38:01.080 --> 00:38:07.400
+ So, anyway, I agree with you, or I agree with what you were saying, that transparency has
+
+00:38:07.400 --> 00:38:08.400
+ its uses.
+
+00:38:08.400 --> 00:38:09.400
+ Yeah.
+
+00:38:09.400 --> 00:38:14.080
+ And also, just in general, like, if the users…
+
+00:38:14.080 --> 00:38:15.080
+ I really like a certain kind of humility.
+
+00:38:15.080 --> 00:38:16.080
+ Yeah.
+
+00:38:16.080 --> 00:38:23.080
+ Like, if I think 80% of the people out there should behave differently than they do…
+
+00:38:23.080 --> 00:38:24.080
+ Yeah.
+
+00:38:24.080 --> 00:38:26.580
+ It's like, "I'm not wrong.
+
+00:38:26.580 --> 00:38:27.580
+ The children are wrong."
+
+00:38:27.580 --> 00:38:28.580
+ Right?
+
+00:38:28.580 --> 00:38:33.160
+ Like, maybe they know something I don't about their lives and their priorities and
+
+00:38:33.160 --> 00:38:34.160
+ their situation.
+
+00:38:34.160 --> 00:38:35.160
+ Yeah.
+
+00:38:35.160 --> 00:38:42.160
+ Second question is, regarding Crosslink, I mean, as I'm guessing you're well aware,
+
+00:38:42.160 --> 00:38:45.960
+ there's been a lot of back and forth around that in the community of people.
+
+00:38:45.960 --> 00:38:51.120
+ People in favor of people against it, like, you know, we were speaking earlier in this
+
+00:38:51.120 --> 00:38:55.960
+ conversation about, like, some critiques and the case for it, obviously.
+
+00:38:55.960 --> 00:39:02.960
+ What's the realistic political path for Crosslink to get to Mainnet?
+
+00:39:02.960 --> 00:39:03.960
+ Do you have any timeline?
+
+00:39:03.960 --> 00:39:06.960
+ What are the next plans, the roadmap?
+
+00:39:06.960 --> 00:39:07.960
+ Yeah.
+
+00:39:07.960 --> 00:39:10.960
+ I don't know about the political future.
+
+00:39:10.960 --> 00:39:12.960
+ Like, how will people's feelings change?
+
+00:39:12.960 --> 00:39:13.960
+ I can guess or speculate.
+
+00:39:13.960 --> 00:39:14.960
+ Mm-hmm.
+
+00:39:14.960 --> 00:39:19.960
+ I mean, one thing I really think is coin prices influence people's feelings.
+
+00:39:19.960 --> 00:39:20.960
+ Yeah.
+
+00:39:20.960 --> 00:39:21.960
+ Yeah, for sure.
+
+00:39:21.960 --> 00:39:24.960
+ Like, when the price is going up, everyone says, "Don't change anything and ruin it."
+
+00:39:24.960 --> 00:39:25.960
+ It's working.
+
+00:39:25.960 --> 00:39:26.960
+ Don't ruin it.
+
+00:39:26.960 --> 00:39:27.960
+ It's working.
+
+00:39:27.960 --> 00:39:28.960
+ Yeah.
+
+00:39:28.960 --> 00:39:29.960
+ Like, don't touch it.
+
+00:39:29.960 --> 00:39:30.960
+ And when the price is going down, everyone says, "Devs, do something."
+
+00:39:30.960 --> 00:39:31.960
+ Yes.
+
+00:39:31.960 --> 00:39:38.600
+ And also, a lot of the opposition to Crosslink and a lot of the other recent, like, governance
+
+00:39:38.600 --> 00:39:44.840
+ and strategic and mimetic debates within Zcash have been about comparing Zcash to Bitcoin.
+
+00:39:44.840 --> 00:39:45.840
+ Yeah.
+
+00:39:45.840 --> 00:39:46.840
+ Yeah.
+
+00:39:46.840 --> 00:39:47.840
+ And so, that whole movement was the Zcash equals encrypted Bitcoin movement.
+
+00:39:47.840 --> 00:39:48.840
+ Yeah.
+
+00:39:48.840 --> 00:39:49.840
+ Yeah.
+
+00:39:49.840 --> 00:39:50.840
+ Yeah.
+
+00:39:50.840 --> 00:39:51.840
+ And so, that's where I think, as long as the Bitcoin price languishes, that movement
+
+00:39:51.840 --> 00:39:52.840
+ will lose steam.
+
+00:39:52.840 --> 00:39:53.840
+ Yeah.
+
+00:39:53.840 --> 00:39:54.840
+ It'll be less and less exciting to people to be like encrypted Bitcoin if Bitcoin is
+
+00:39:54.840 --> 00:39:55.840
+ not going up.
+
+00:39:55.840 --> 00:39:56.840
+ Yeah.
+
+00:39:56.840 --> 00:39:57.840
+ Yeah.
+
+00:39:57.840 --> 00:39:58.840
+ If Bitcoin starts going up again, then everyone's going to start saying, "Let's be more like
+
+00:39:58.840 --> 00:39:59.840
+ Bitcoin."
+
+00:39:59.840 --> 00:40:00.840
+ Yeah.
+
+00:40:00.840 --> 00:40:01.840
+ But, okay.
+
+00:40:01.840 --> 00:40:02.840
+ So, I don't know about politics.
+
+00:40:02.840 --> 00:40:03.840
+ Hard to predict.
+
+00:40:03.840 --> 00:40:04.840
+ Whatever.
+
+00:40:04.840 --> 00:40:05.840
+ What we're doing, spending a lot of effort on, and I'm excited about how I think it will
+
+00:40:05.840 --> 00:40:06.840
+ be also useful for the future.
+
+00:40:06.840 --> 00:40:07.840
+ Yeah.
+
+00:40:07.840 --> 00:40:08.840
+ Yeah.
+
+00:40:08.840 --> 00:40:09.840
+ Yeah.
+
+00:40:09.840 --> 00:40:10.840
+ Yeah.
+
+00:40:10.840 --> 00:40:11.840
+ Yeah.
+
+00:40:11.840 --> 00:40:12.840
+ Yeah.
+
+00:40:12.840 --> 00:40:17.720
+ And I'm excited about how I think it will be also useful for Tachyon and other things
+
+00:40:17.720 --> 00:40:18.720
+ in the future.
+
+00:40:18.720 --> 00:40:19.720
+ Yeah.
+
+00:40:19.720 --> 00:40:28.840
+ Is assume you don't know about politics, assume there's conflicting opinions or opinions
+
+00:40:28.840 --> 00:40:37.480
+ change over time, but you can develop and test and get people to start using the thing.
+
+00:40:37.480 --> 00:40:38.480
+ Yeah.
+
+00:40:38.480 --> 00:40:42.720
+ The more you do that, then the more knowledge and understanding people have, the more mature
+
+00:40:42.720 --> 00:40:49.660
+ the thing is, and the more you and others can judge what are the actual trade-offs of
+
+00:40:49.660 --> 00:40:50.660
+ this.
+
+00:40:50.660 --> 00:40:51.660
+ Yeah.
+
+00:40:51.660 --> 00:40:54.140
+ There might or might not be a future.
+
+00:40:54.140 --> 00:40:55.680
+ So that's what we're currently doing with Crosslink.
+
+00:40:55.680 --> 00:40:58.660
+ We've got this prototype that we've implemented.
+
+00:40:58.660 --> 00:41:04.600
+ It's very buggy, which is very good opportunity to find bugs and learn how things can go wrong.
+
+00:41:04.600 --> 00:41:05.600
+ Yeah.
+
+00:41:05.600 --> 00:41:12.600
+ And we've got a very active community of developers who are building their own block
+
+00:41:12.600 --> 00:41:15.640
+ servers and patches and stuff.
+
+00:41:15.640 --> 00:41:18.540
+ And just users who want to run it and see how it runs.
+
+00:41:18.540 --> 00:41:23.360
+ So there's a really good feedback loop, both we're learning from them and they're learning
+
+00:41:23.360 --> 00:41:25.940
+ from Shield Labs, et cetera, et cetera, et cetera.
+
+00:41:25.940 --> 00:41:28.140
+ I think that's a really good process.
+
+00:41:28.140 --> 00:41:32.800
+ In the past, we had the opposite process in Zcash, which was like the whole community
+
+00:41:32.800 --> 00:41:35.120
+ will decide if this is a good idea.
+
+00:41:35.120 --> 00:41:39.540
+ Having made that decision, then some developers will go off for the next few years and implement
+
+00:41:39.540 --> 00:41:40.540
+ the thing.
+
+00:41:40.540 --> 00:41:41.540
+ Yeah.
+
+00:41:41.540 --> 00:41:42.920
+ And that's the wrong way around.
+
+00:41:42.920 --> 00:41:45.380
+ And a good example is ZSAs.
+
+00:41:45.380 --> 00:41:50.940
+ Like three years ago, the entire Zcash community, except for me, said, "That's a great idea.
+
+00:41:50.940 --> 00:41:54.780
+ We should definitely prioritize that as one of the most important priorities."
+
+00:41:54.780 --> 00:41:58.900
+ So now a bunch of developers have spent three years and millions of dollars implementing
+
+00:41:58.900 --> 00:42:06.600
+ that thing, at which point some faction or one-thirds or two-thirds or whatever of the
+
+00:42:06.600 --> 00:42:09.420
+ Zcash community said, "Actually, we don't want that thing."
+
+00:42:09.420 --> 00:42:10.420
+ Yeah.
+
+00:42:10.420 --> 00:42:11.420
+ Yeah.
+
+00:42:11.420 --> 00:42:13.460
+ It's too late and too early.
+
+00:42:13.460 --> 00:42:17.420
+ We don't even know how ZSAs would work in practice, because no one's ever implemented
+
+00:42:17.420 --> 00:42:23.140
+ a wallet and ever, to my knowledge, maybe someone has, but I've never seen a wallet
+
+00:42:23.140 --> 00:42:26.040
+ that could actually use a ZSA for anything.
+
+00:42:26.040 --> 00:42:29.980
+ But it's also too late, because we've already spent millions of dollars and many years of
+
+00:42:29.980 --> 00:42:32.140
+ skilled teams' time to implement it.
+
+00:42:32.140 --> 00:42:35.720
+ Anyway, so we're trying to do things in the other order with Crosslink, where you implement
+
+00:42:35.720 --> 00:42:40.740
+ it first, you can see how it works, what it does and doesn't do, what the trade-offs are,
+
+00:42:40.740 --> 00:42:45.820
+ and then either the Zcash community changes their -- well, the ones who currently oppose
+
+00:42:45.820 --> 00:42:49.580
+ it change their minds and say, "Actually, that doesn't look so bad," and then we could
+
+00:42:49.580 --> 00:42:56.040
+ collectively -- the whole Zcash ecosystem and community could upgrade the central main
+
+00:42:56.040 --> 00:43:03.180
+ net to add Crosslink, especially because we designed it to be very modular and sort of
+
+00:43:03.180 --> 00:43:05.360
+ deployable.
+
+00:43:05.360 --> 00:43:09.100
+ Or if they're still not into it, then we have this interesting situation where you've got
+
+00:43:09.100 --> 00:43:10.620
+ this like...
+
+00:43:10.620 --> 00:43:11.880
+ It's kind of like a sidechain.
+
+00:43:11.880 --> 00:43:19.180
+ It doesn't have the economic linkage to real Zec, but it has the community and the functionality.
+
+00:43:19.180 --> 00:43:20.180
+ I don't know.
+
+00:43:20.180 --> 00:43:26.160
+ There may be some way to keep it growing on the side.
+
+00:43:26.160 --> 00:43:32.520
+ Anyway, I wouldn't be surprised if this same sort of process turns out to be good for Tachyon.
+
+00:43:32.520 --> 00:43:33.520
+ Yeah.
+
+00:43:33.520 --> 00:43:34.520
+ Yeah.
+
+00:43:34.520 --> 00:43:40.500
+ Speaking of the sidechain, I think one of the proposals someone has floated around was
+
+00:43:40.500 --> 00:43:46.960
+ the idea of having some sort of cannery network, as they call it, sort of like Polkadot or Kusama
+
+00:43:46.960 --> 00:43:53.320
+ I think it's called, where we can kind of like go crazy and like -- I mean, go crazy
+
+00:43:53.320 --> 00:43:54.320
+ with a certain bounce, right?
+
+00:43:54.320 --> 00:43:55.320
+ Right.
+
+00:43:55.320 --> 00:43:59.540
+ Like move fast and break things in a safe space.
+
+00:43:59.540 --> 00:44:04.660
+ So that we can be maybe more conservative on the main chain and then only really implement
+
+00:44:04.660 --> 00:44:06.860
+ like the really very, very solid stuff.
+
+00:44:06.860 --> 00:44:07.860
+ Right.
+
+00:44:07.860 --> 00:44:08.860
+ Yeah.
+
+00:44:08.860 --> 00:44:09.860
+ That's a very interesting proposal in my opinion.
+
+00:44:09.860 --> 00:44:10.380
+ Yeah.
+
+00:44:10.380 --> 00:44:11.820
+ And I think that's one of the best turnstiles.
+
+00:44:11.820 --> 00:44:18.620
+ One of my other favorite technologies, also underappreciated for many years, but now people
+
+00:44:18.620 --> 00:44:22.140
+ appreciate them because they've saved our bacon multiple times.
+
+00:44:22.140 --> 00:44:29.640
+ And it's one of those Zcash innovations that I hope other cryptocurrencies and technologies
+
+00:44:29.640 --> 00:44:35.900
+ will sort of start -- I think they'll eventually realize once they have the hard experience
+
+00:44:35.900 --> 00:44:39.260
+ themselves of, "Oh, if only we had had a turnstile here, wouldn't that be great?"
+
+00:44:39.260 --> 00:44:40.260
+ Yes.
+
+00:44:40.260 --> 00:44:46.280
+ And turnstiles like these side chains and this canary network, it's like you could imagine
+
+00:44:46.280 --> 00:44:49.720
+ hypothetically -- I don't know how this would work, but you can imagine we're going to make
+
+00:44:49.720 --> 00:44:57.120
+ a pool that is going to be interoperable with the Zcash main chain, but this is a dangerous,
+
+00:44:57.120 --> 00:44:58.720
+ risky technology.
+
+00:44:58.720 --> 00:45:01.700
+ So it has a turnstile and there's like a limit.
+
+00:45:01.700 --> 00:45:05.500
+ You can't have more than 10,000 Zcash in this pool at a time.
+
+00:45:05.500 --> 00:45:06.500
+ Yeah.
+
+00:45:06.500 --> 00:45:07.500
+ Interesting.
+
+00:45:07.500 --> 00:45:10.140
+ Or you can't move more than 100 Zcash a day into this pool.
+
+00:45:10.140 --> 00:45:11.900
+ Or something like that.
+
+00:45:11.900 --> 00:45:17.140
+ Then if this one has a catastrophic failure, it's not going to hurt everyone else who chose
+
+00:45:17.140 --> 00:45:18.140
+ to not risk it.
+
+00:45:18.140 --> 00:45:19.140
+ Yeah, the exposure is limited.
+
+00:45:19.140 --> 00:45:20.140
+ Yeah.
+
+00:45:20.140 --> 00:45:21.140
+ It's interesting.
+
+00:45:21.140 --> 00:45:22.140
+ I don't know.
+
+00:45:22.140 --> 00:45:23.140
+ There's a lot of possibilities for the future.
+
+00:45:23.140 --> 00:45:24.140
+ Yeah.
+
+00:45:24.140 --> 00:45:26.300
+ It's definitely something that should be considered.
+
+00:45:26.300 --> 00:45:27.300
+ For sure.
+
+00:45:27.300 --> 00:45:28.300
+ I agree.
+
+00:45:28.300 --> 00:45:29.300
+ Yeah.
+
+00:45:29.300 --> 00:45:32.200
+ Last question is for the future of Zcash.
+
+00:45:32.200 --> 00:45:33.200
+ What's your vision?
+
+00:45:33.200 --> 00:45:40.020
+ I know you wrote this blog post, was it a year or two ago, about like honoring the holder.
+
+00:45:40.020 --> 00:45:46.480
+ What's your vision of Zcash for the next decade or so?
+
+00:45:46.480 --> 00:45:48.260
+ How do you envision Zcash?
+
+00:45:48.260 --> 00:45:53.860
+ I know a lot of people have now started really thinking of Zcash as a store of value.
+
+00:45:53.860 --> 00:45:57.860
+ But I mean, there's like cash in the name Zcash.
+
+00:45:57.860 --> 00:46:06.780
+ So have you a particular opinion about that, about the use cases, about your vision of
+
+00:46:06.780 --> 00:46:07.780
+ Zcash?
+
+00:46:07.780 --> 00:46:08.780
+ Has that changed?
+
+00:46:08.780 --> 00:46:09.900
+ I think of...
+
+00:46:09.900 --> 00:46:15.720
+ I don't really separate money into store of value and medium of exchange.
+
+00:46:15.720 --> 00:46:19.600
+ I think it's like two sides of the same coin or whatever, the chicken and the egg.
+
+00:46:19.600 --> 00:46:23.340
+ It's really the same thing.
+
+00:46:23.340 --> 00:46:39.780
+ My vision is Zcash continues to grow in distribution, users, and security and sustainability.
+
+00:46:39.780 --> 00:46:40.780
+ I think it's the same thing.
+
+00:46:40.780 --> 00:46:41.780
+ I think it's the same kind of thing.
+
+00:46:41.780 --> 00:46:42.780
+ I think it's the same kind of thing.
+
+00:46:42.780 --> 00:46:43.780
+ I think it's the same kind of thing.
+
+00:46:43.780 --> 00:46:44.780
+ I think it's the same kind of thing.
+
+00:46:44.780 --> 00:46:45.780
+ I think it's the same kind of thing.
+
+00:46:45.780 --> 00:46:46.780
+ I think it's the same kind of thing.
+
+00:46:46.780 --> 00:46:47.780
+ I think it's the same kind of thing.
+
+00:46:47.780 --> 00:46:48.780
+ I think it's the same kind of thing.
+
+00:46:48.780 --> 00:46:49.780
+ I think it's the same kind of thing.
+
+00:46:49.780 --> 00:46:50.780
+ I think it's the same kind of thing.
+
+00:46:50.780 --> 00:46:51.780
+ I think it's the same kind of thing.
+
+00:46:51.780 --> 00:46:52.780
+ I think it's the same kind of thing.
+
+00:46:52.780 --> 00:46:53.780
+ I think it's the same kind of thing.
+
+00:46:53.780 --> 00:46:54.780
+ I think it's the same kind of thing.
+
+00:46:54.780 --> 00:46:55.780
+ I think it's the same kind of thing.
+
+00:46:55.780 --> 00:46:56.780
+ I think it's the same kind of thing.
+
+00:46:56.780 --> 00:46:57.780
+ I think it's the same kind of thing.
+
+00:46:57.780 --> 00:46:58.780
+ I think it's the same kind of thing.
+
+00:46:58.780 --> 00:46:59.780
+ I think it's the same kind of thing.
+
+00:46:59.780 --> 00:47:00.780
+ I think it's the same kind of thing.
+
+00:47:00.780 --> 00:47:01.780
+ I think it's the same kind of thing.
+
+00:47:01.780 --> 00:47:02.780
+ I think it's the same kind of thing.
+
+00:47:02.780 --> 00:47:03.780
+ I think it's the same kind of thing.
+
+00:47:03.780 --> 00:47:04.780
+ I think it's the same kind of thing.
+
+00:47:04.780 --> 00:47:05.780
+ I think it's the same kind of thing.
+
+00:47:05.780 --> 00:47:06.780
+ I think it's the same kind of thing.
+
+00:47:06.780 --> 00:47:07.780
+ I think it's the same kind of thing.
+
+00:47:07.780 --> 00:47:08.780
+ I think it's the same kind of thing.
+
+00:47:08.780 --> 00:47:09.780
+ I think it's the same kind of thing.
+
+00:47:09.780 --> 00:47:10.780
+ I think it's the same kind of thing.
+
+00:47:10.780 --> 00:47:11.780
+ I think it's the same kind of thing.
+
+00:47:11.780 --> 00:47:12.780
+ I think it's the same kind of thing.
+
+00:47:12.780 --> 00:47:13.780
+ I think it's the same kind of thing.
+
+00:47:13.780 --> 00:47:14.780
+ I think it's the same kind of thing.
+
+00:47:14.780 --> 00:47:15.780
+ I think it's the same kind of thing.
+
+00:47:15.780 --> 00:47:16.780
+ I think it's the same kind of thing.
+
+00:47:16.780 --> 00:47:17.780
+ I think it's the same kind of thing.
+
+00:47:17.780 --> 00:47:18.780
+ I think it's the same kind of thing.
+
+00:47:18.780 --> 00:47:19.780
+ I think it's the same kind of thing.
+
+00:47:19.780 --> 00:47:20.780
+ I think it's the same kind of thing.
+
+00:47:20.780 --> 00:47:21.780
+ I think it's the same kind of thing.
+
+00:47:21.780 --> 00:47:22.780
+ I think it's the same kind of thing.
+
+00:47:22.780 --> 00:47:23.780
+ I think it's the same kind of thing.
+
+00:47:23.780 --> 00:47:24.780
+ I think it's the same kind of thing.
+
+00:47:24.780 --> 00:47:25.780
+ I think it's the same kind of thing.
+
+00:47:25.780 --> 00:47:26.780
+ I think it's the same kind of thing.
+
+00:47:26.780 --> 00:47:27.780
+ I think it's the same kind of thing.
+
+00:47:27.780 --> 00:47:28.780
+ I think it's the same kind of thing.
+
+00:47:28.780 --> 00:47:29.780
+ I think it's the same kind of thing.
+
+00:47:29.780 --> 00:47:30.780
+ I think it's the same kind of thing.
+
+00:47:30.780 --> 00:47:31.780
+ I think it's the same kind of thing.
+
+00:47:31.780 --> 00:47:32.780
+ I think it's the same kind of thing.
+
+00:47:32.780 --> 00:47:33.780
+ I think it's the same kind of thing.
+
+00:47:33.780 --> 00:47:34.780
+ I think it's the same kind of thing.
+
+00:47:34.780 --> 00:47:35.780
+ I think it's the same kind of thing.
+
+00:47:35.780 --> 00:47:36.780
+ I think it's the same kind of thing.
+
+00:47:36.780 --> 00:47:37.780
+ I think it's the same kind of thing.
+
+00:47:37.780 --> 00:47:38.780
+ I think it's the same kind of thing.
+
+00:47:38.780 --> 00:47:39.780
+ I think it's the same kind of thing.
+
+00:47:39.780 --> 00:47:40.780
+ I think it's the same kind of thing.
+
+00:47:40.780 --> 00:47:41.780
+ I think it's the same kind of thing.
+
+00:47:41.780 --> 00:47:42.780
+ I think it's the same kind of thing.
+
+00:47:42.780 --> 00:47:43.780
+ I think it's the same kind of thing.
+
+00:47:43.780 --> 00:47:44.780
+ I think it's the same kind of thing.
+
+00:47:44.780 --> 00:47:45.780
+ I think it's the same kind of thing.
+
+00:47:45.780 --> 00:47:46.780
+ I think it's the same kind of thing.
+
+00:47:46.780 --> 00:47:47.780
+ I think it's the same kind of thing.
+
+00:47:47.780 --> 00:47:48.780
+ I think it's the same kind of thing.
+
+00:47:48.780 --> 00:47:49.780
+ I think it's the same kind of thing.
+
+00:47:49.780 --> 00:47:50.780
+ I think it's the same kind of thing.
+
+00:47:50.780 --> 00:47:51.780
+ I think it's the same kind of thing.
+
+00:47:51.780 --> 00:47:52.780
+ I think it's the same kind of thing.
+
+00:47:52.780 --> 00:47:53.780
+ I think it's the same kind of thing.
+
+00:47:53.780 --> 00:47:54.780
+ I think it's the same kind of thing.
+
+00:47:54.780 --> 00:47:55.780
+ I think it's the same kind of thing.
+
+00:47:55.780 --> 00:47:56.780
+ I think it's the same kind of thing.
+
+00:47:56.780 --> 00:47:57.780
+ I think it's the same kind of thing.
+
+00:47:57.780 --> 00:47:58.780
+ I think it's the same kind of thing.
+
+00:47:58.780 --> 00:47:59.780
+ I think it's the same kind of thing.
+
+00:47:59.780 --> 00:48:00.780
+ I think it's the same kind of thing.
+
+00:48:00.780 --> 00:48:01.780
+ I think it's the same kind of thing.
+
+00:48:01.780 --> 00:48:02.780
+ I think it's the same kind of thing.
+
+00:48:02.780 --> 00:48:03.780
+ I think it's the same kind of thing.
+
+00:48:03.780 --> 00:48:04.780
+ I think it's the same kind of thing.
+
+00:48:04.780 --> 00:48:05.780
+ I think it's the same kind of thing.
+
+00:48:05.780 --> 00:48:06.780
+ I think it's the same kind of thing.
+
+00:48:06.780 --> 00:48:07.780
+ I think it's the same kind of thing.
+
+00:48:07.780 --> 00:48:08.780
+ I think it's the same kind of thing.
+
+00:48:08.780 --> 00:48:09.780
+ I think it's the same kind of thing.
+
+00:48:09.780 --> 00:48:10.780
+ I think it's the same kind of thing.
+
+00:48:10.780 --> 00:48:11.780
+ I think it's the same kind of thing.
+
+00:48:11.780 --> 00:48:12.780
+ I think it's the same kind of thing.
+
+00:48:12.780 --> 00:48:13.780
+ I think it's the same kind of thing.
+
+00:48:13.780 --> 00:48:14.780
+ I think it's the same kind of thing.
+
+00:48:14.780 --> 00:48:15.780
+ I think it's the same kind of thing.
+
+00:48:15.780 --> 00:48:16.780
+ I think it's the same kind of thing.
+
+00:48:16.780 --> 00:48:17.780
+ I think it's the same kind of thing.
+
+00:48:17.780 --> 00:48:18.780
+ I think it's the same kind of thing.
+
+00:48:18.780 --> 00:48:19.780
+ I think it's the same kind of thing.
+
+00:48:19.780 --> 00:48:20.780
+ I think it's the same kind of thing.
+
+00:48:20.780 --> 00:48:21.780
+ I think it's the same kind of thing.
+
+00:48:21.780 --> 00:48:22.780
+ I think it's the same kind of thing.
+
+00:48:22.780 --> 00:48:23.780
+ I think it's the same kind of thing.
+
+00:48:23.780 --> 00:48:24.780
+ I think it's the same kind of thing.
+
+00:48:24.780 --> 00:48:25.780
+ I think it's the same kind of thing.
+
+00:48:25.780 --> 00:48:26.780
+ I think it's the same kind of thing.
+
+00:48:26.780 --> 00:48:27.780
+ I think it's the same kind of thing.
+
+00:48:27.780 --> 00:48:28.780
+ I think it's the same kind of thing.
+
+00:48:28.780 --> 00:48:29.780
+ I think it's the same kind of thing.
+
+00:48:29.780 --> 00:48:30.780
+ I think it's the same kind of thing.
+
+00:48:30.780 --> 00:48:31.780
+ I think it's the same kind of thing.
+
+00:48:31.780 --> 00:48:32.780
+ I think it's the same kind of thing.
+
+00:48:32.780 --> 00:48:33.780
+ I think it's the same kind of thing.
+
+00:48:33.780 --> 00:48:34.780
+ I think it's the same kind of thing.
+
+00:48:34.780 --> 00:48:35.780
+ I think it's the same kind of thing.
+
+00:48:35.780 --> 00:48:36.780
+ I think it's the same kind of thing.
+

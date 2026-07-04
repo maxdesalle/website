@@ -1,6 +1,6 @@
 ---
 title: "This Cryptographer Has a 10-Year Plan for Zcash — Zooko Wilcox"
-description: "A conversation with Zooko Wilcox."
+description: "My first interview with Zooko Wilcox, co-founder of Zcash."
 date: 2026-06-03
 episode: 1
 season: 1
@@ -20,4 +20,21 @@ apple_url: ""
 spotify_url: ""
 ---
 
-Show notes go here.
+**Chapters**
+
+- 00:00 — Intro
+- 00:40 — Why Zooko joined Cypherpunk as advisor
+- 01:42 — Quantum computing & Zcash's position
+- 05:09 — Bitcoin vs Zcash culture
+- 07:18 — What is Crosslink?
+- 09:35 — Crosslink benefits: irreversible finality & security budget
+- 14:24 — Bitcoin's security budget problem & NSM
+- 18:20 — The complexity critique of Crosslink
+- 21:23 — NSM, dynamic fees & voting confusion
+- 25:14 — Coin-weighted voting
+- 27:55 — Tachyon: scalability and post-quantum
+- 32:35 — Shielded Labs' enterprise support services
+- 33:38 — The T-addresses debate
+- 38:30 — The political path forward for Crosslink
+- 43:25 — Turnstiles & canary networks
+- 45:28 — Zooko's 10-year vision for Zcash

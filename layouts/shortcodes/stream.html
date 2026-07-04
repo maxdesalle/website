@@ -1,7 +1,15 @@
 {{- $uid := .Get "uid" -}}
 {{- $code := site.Params.stream_customer_code -}}
-<div class="stream-embed" style="position:relative;padding-top:56.25%;margin:1.5rem 0">
+{{- $date := .Get "date" -}}
+{{- $caption := .Get "caption" -}}
+<div class="stream-embed" style="position:relative;padding-top:56.25%;margin:1.5rem 0 0.25rem">
   <iframe src="https://customer-{{ $code }}.cloudflarestream.com/{{ $uid }}/iframe"
     loading="lazy" style="border:none;position:absolute;top:0;left:0;height:100%;width:100%"
     allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture;" allowfullscreen="true"></iframe>
 </div>
+{{- if or $caption $date }}
+<p style="font-size:75%;color:#808080;margin-top:0">
+  {{- with $caption }}{{ . }}{{ end -}}
+  {{- if and $caption $date }} — {{ end -}}
+  {{- with $date }}{{ (time.AsTime .).Format "Jan 2, 2006" }}{{ end -}}
+</p>{{ end }}

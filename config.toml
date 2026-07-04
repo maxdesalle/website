@@ -14,7 +14,7 @@ pygmentsUseClasses = true
   math = true
   stream_customer_code = "REPLACE_WITH_STREAM_CUSTOMER_CODE"
   author = "Maxime Desalle"
-  email = "REPLACE_WITH_OWNER_EMAIL"
+  email = "rss@maxdesalle.com"
   # images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]

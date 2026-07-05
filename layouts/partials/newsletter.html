@@ -9,7 +9,7 @@
         <button id="nl-submit" type="submit">Subscribe</button>
       </div>
       {{- with .Site.Params.turnstile_sitekey }}
-      <div class="cf-turnstile nl-turnstile" data-sitekey="{{ . }}" data-size="flexible"></div>
+      <div class="cf-turnstile nl-turnstile" data-sitekey="{{ . }}" data-appearance="interaction-only" data-size="flexible"></div>
       {{- end }}
       <p id="nl-status" role="status" aria-live="polite" hidden></p>
     </form>

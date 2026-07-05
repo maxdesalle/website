@@ -54,13 +54,6 @@ enableRobotsTXT = true
     url = "/resources/"
     weight = 20
 
-  [[menu.main]]
-    identifier = "search"
-    name = "search"
-    title = "Search (⌘K)"
-    url = "#search"
-    weight = 22
-
   [[menu.socials]]
     identifier = "x"
     name = "x"

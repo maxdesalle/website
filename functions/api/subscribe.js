@@ -85,13 +85,7 @@ export async function onRequestPost(context) {
     const verification = await verificationResponse.json();
 
     if (verification.success !== true) {
-      const codes = Array.isArray(verification["error-codes"])
-        ? verification["error-codes"].join(", ")
-        : "unknown";
-      return jsonResponse(
-        { ok: false, message: `Verification failed (${codes}).` },
-        400,
-      );
+      return jsonResponse({ ok: false, message: "Verification failed." }, 400);
     }
 
     const token = createToken();

@@ -88,4 +88,10 @@
 	` $css.RelPermalink | safeHTML }}
 
 	{{ partial "schema.html" . }}
+
+	<style>
+		/* Breathing room between the header rule and page content
+		   (scoped to the top <main>, not the footer's duplicate #content) */
+		body > main#content { margin-top: 1.75rem; }
+	</style>
 </head>

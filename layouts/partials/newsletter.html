@@ -1,0 +1,106 @@
+<section id="newsletter" aria-labelledby="newsletter-heading">
+  <div id="newsletter-card">
+    <h3 id="newsletter-heading">Subscribe</h3>
+    <p class="nl-blurb">Get an email when I publish something new — essays, podcast episodes, talks. No spam, unsubscribe anytime.</p>
+    <form id="newsletter-form" novalidate>
+      <div class="nl-row">
+        <input id="nl-email" name="email" type="email" required autocomplete="email"
+               placeholder="you@example.com" aria-label="Email address" />
+        <button id="nl-submit" type="submit">Subscribe</button>
+      </div>
+      {{- with .Site.Params.turnstile_sitekey }}
+      <div class="cf-turnstile nl-turnstile" data-sitekey="{{ . }}" data-size="flexible"></div>
+      {{- end }}
+      <p id="nl-status" role="status" aria-live="polite" hidden></p>
+    </form>
+  </div>
+</section>
+
+{{- with .Site.Params.turnstile_sitekey }}
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+{{- end }}
+
+<style>
+  #newsletter { margin: 2.5rem 0; }
+  #newsletter-card {
+    background: rgb(245, 245, 245);
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem 1.5rem;
+  }
+  #newsletter-card h3 { margin: 0 0 0.35rem; font-size: 1.15rem; color: #313a3d; }
+  #newsletter-card .nl-blurb { margin: 0 0 1rem; font-size: 0.92rem; color: #767676; line-height: 1.5; }
+  #newsletter-form .nl-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  #nl-email {
+    flex: 1 1 220px; min-width: 0; box-sizing: border-box;
+    padding: 9px 12px; font-size: 15px; color: #313a3d;
+    background: #ffffff; border: 1px solid #d8d8d8; border-radius: 3px; outline: none;
+  }
+  #nl-email:focus { border-color: #a9a9a9; }
+  #nl-email::placeholder { color: #999; }
+  #nl-submit {
+    flex: 0 0 auto; padding: 9px 18px; font-size: 15px; cursor: pointer;
+    color: #ffffff; background: #313a3d; border: 1px solid #313a3d; border-radius: 3px;
+  }
+  #nl-submit:hover { background: #23292b; }
+  #nl-submit:disabled { opacity: 0.55; cursor: default; }
+  .nl-turnstile { margin-top: 12px; }
+  #nl-status { margin: 12px 0 0; font-size: 0.9rem; }
+  #nl-status.nl-ok { color: #2e7d32; }
+  #nl-status.nl-err { color: #b3261e; }
+</style>
+
+<script>
+(function () {
+  var form = document.getElementById("newsletter-form");
+  if (!form) return;
+  var email = document.getElementById("nl-email");
+  var submit = document.getElementById("nl-submit");
+  var status = document.getElementById("nl-status");
+
+  function show(msg, ok) {
+    status.textContent = msg;
+    status.className = ok ? "nl-ok" : "nl-err";
+    status.hidden = false;
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var addr = (email.value || "").trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(addr)) {
+      show("Please enter a valid email address.", false);
+      email.focus();
+      return;
+    }
+    var ts = form.querySelector('[name="cf-turnstile-response"]');
+    var payload = { email: addr };
+    if (ts && ts.value) payload["cf-turnstile-response"] = ts.value;
+
+    submit.disabled = true;
+    show("Submitting…", true);
+    fetch("/api/subscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (d) {
+        return { ok: r.ok, d: d };
+      });
+    }).then(function (res) {
+      if (res.ok && res.d && res.d.ok !== false) {
+        form.querySelector(".nl-row").hidden = true;
+        var t = form.querySelector(".nl-turnstile");
+        if (t) t.hidden = true;
+        show(res.d.message || "Check your inbox to confirm your subscription.", true);
+      } else {
+        submit.disabled = false;
+        show((res.d && res.d.message) || "Something went wrong. Please try again.", false);
+        if (window.turnstile) try { window.turnstile.reset(); } catch (_) {}
+      }
+    }).catch(function () {
+      submit.disabled = false;
+      show("Network error. Please try again.", false);
+    });
+  });
+})();
+</script>

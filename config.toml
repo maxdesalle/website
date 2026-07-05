@@ -7,6 +7,9 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 enableRobotsTXT = true
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
   description = "Maxime Desalle — essays, a podcast, and talks on cryptography, Zcash, quantum mechanics, and investing."
   dark = "off"
@@ -17,6 +20,9 @@ enableRobotsTXT = true
   author = "Maxime Desalle"
   email = "rss@maxdesalle.com"
   twitter = "maxdesalle"
+  # Public Turnstile site key for the newsletter widget. Replace after creating
+  # the Turnstile widget in the Cloudflare dashboard (the secret key is a Pages secret).
+  turnstile_sitekey = "0x4AAAAAADvvyUm3hv0n8vl8"
   # images = ["https://maxdesalle.com/social_image.jpg"]
 
 [menu]
@@ -47,6 +53,13 @@ enableRobotsTXT = true
     title = "resources"
     url = "/resources/"
     weight = 20
+
+  [[menu.main]]
+    identifier = "search"
+    name = "search"
+    title = "Search (⌘K)"
+    url = "#search"
+    weight = 22
 
   [[menu.socials]]
     identifier = "x"

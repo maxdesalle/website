@@ -1,0 +1,9 @@
+name = "maxdesalle-website"
+compatibility_date = "2024-09-01"
+pages_build_output_dir = "public"
+
+# RESEND_API_KEY and TURNSTILE_SECRET_KEY are set via the Cloudflare Pages dashboard, not in this file.
+[[d1_databases]]
+binding = "DB"
+database_name = "newsletter"
+database_id = "ab840cc1-9530-404d-8454-ecea75b9ca1f"

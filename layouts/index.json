@@ -1,0 +1,12 @@
+{{- $index := slice -}}
+{{- range where site.RegularPages "Params.hidden" "!=" true -}}
+  {{- $entry := dict
+      "title" .Title
+      "description" (or .Description (.Summary | plainify | truncate 160))
+      "permalink" .RelPermalink
+      "section" .Section
+      "tags" (or .Params.tags slice)
+  -}}
+  {{- $index = $index | append $entry -}}
+{{- end -}}
+{{- $index | jsonify -}}

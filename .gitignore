@@ -1,6 +1,16 @@
 .DS_Store
+**/.DS_Store
 public/
 resources/
 .hugo_build.lock
 media-work/
 media-pipeline-out/
+
+# Secrets / local dev (Cloudflare Pages Functions, wrangler)
+.env
+.env.*
+.dev.vars
+.wrangler/
+
+# Raw source image (consumed by favicon generation, not shipped)
+new_profile_image.jpeg

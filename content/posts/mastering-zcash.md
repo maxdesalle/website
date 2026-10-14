@@ -456,7 +456,7 @@ If the result matches the known root, then we can conclude that `cm1` is in the 
 
 The commitment tree contains every shielded note commitment ever created, equalling millions of leaves (commitments). So, when you spend a note, you prove (inside the zk-SNARK) that you know a commitment and the valid Merkle path to the current root, without revealing which commitment is yours.
 
-The commitment tree is stored by nodes, as part of the chain state they maintain. Each block introduces new note commitments which nodes append to their local copy of the tree, updating the root accordingly.. The current root, known as the anchor, is what transactions reference when proving membership.
+The commitment tree is stored by nodes, as part of the chain state they maintain. Each block introduces new note commitments which nodes append to their local copy of the tree, updating the root accordingly. The current root, known as the anchor, is what transactions reference when proving membership.
 
 #### Nullifiers
 

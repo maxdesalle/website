@@ -280,7 +280,7 @@ transcribe_media() {
     local prefix="$TRANSCRIPT_DIR/$SLUG.whisper"
     ffmpeg -y -i "$input" -ar 16000 -ac 1 -c:a pcm_s16le "$wav" >/dev/null 2>&1 \
       || die "ffmpeg failed to produce 16 kHz wav from: $input"
-    "$WHISPER_BIN" -m "$MODEL" -f "$wav" -l en -otxt -ovtt -of "$prefix" >&2 \
+    "$WHISPER_BIN" -m "$MODEL" -f "$wav" -l en -mc 0 -otxt -ovtt -of "$prefix" >&2 \
       || die "whisper.cpp transcription failed"
     mv -f "$prefix.vtt" "$VTT"
     mv -f "$prefix.txt" "$PLAIN_TXT"
@@ -389,7 +389,7 @@ upload_r2_object() {
 
 verify_size() {
   local file=$1 url=$2 label=$3 local_bytes remote_bytes
-  local_bytes=$(stat -f%z "$file")
+  local_bytes=$(wc -c < "$file" | tr -d " ")
   remote_bytes=$({ curl -sI "$url" || true; } | \
     awk -F': ' 'tolower($1)=="content-length" {gsub(/\r/, "", $2); print $2; exit}')
   if [[ -z "$remote_bytes" ]]; then
@@ -431,7 +431,7 @@ duration_hms() {
 
 print_backfill() {
   local video_bytes audio_bytes duration cdn_root
-  if [[ -s "$VIDEO" ]]; then video_bytes=$(stat -f%z "$VIDEO"); else video_bytes=0; fi
+  if [[ -s "$VIDEO" ]]; then video_bytes=$(wc -c < "$VIDEO" | tr -d " "); else video_bytes=0; fi
   duration=$(duration_hms)
   cdn_root=${CDN_BASE:-<CDN_BASE>}
   cdn_root=${cdn_root%/}
@@ -441,7 +441,7 @@ print_backfill() {
   printf 'VIDEO_URL=%s\n' "$cdn_root/$KIND/$SLUG.mp4"
   printf 'VIDEO_BYTES=%s\n' "$video_bytes"
   if [[ "$AUDIO" == true ]]; then
-    audio_bytes=$(stat -f%z "$MP3")
+    audio_bytes=$(wc -c < "$MP3" | tr -d " ")
     printf 'AUDIO_URL=%s\n' "$cdn_root/$KIND/$SLUG.mp3"
     printf 'AUDIO_BYTES=%s\n' "$audio_bytes"
   fi
@@ -453,7 +453,7 @@ print_backfill() {
 }
 
 cleanup_media() {
-  [[ "$CLEANUP" == true ]] || return
+  [[ "$CLEANUP" == true ]] || return 0
   if [[ "$NO_UPLOAD" == true ]]; then
     log "[cleanup] Skipping cleanup because nothing was uploaded (--no-upload)"
     return

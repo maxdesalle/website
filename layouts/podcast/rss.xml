@@ -6,7 +6,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Title | default site.Title }}</title>
+    <title>{{ .Params.feed_title | default .Title }}</title>
     <link>{{ .Permalink }}</link>
     <language>{{ .Params.language | default site.LanguageCode | default "en-us" }}</language>
     <description>{{ $summary | html }}</description>

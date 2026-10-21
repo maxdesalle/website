@@ -1,5 +1,6 @@
 ---
 title: "Podcast"
+feed_title: "Maxime Desalle"
 description: "Conversations about technology, investing, science, and ambitious ideas."
 summary: "Conversations about technology, investing, science, and ambitious ideas."
 author: "Maxime Desalle"

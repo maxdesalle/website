@@ -16,7 +16,7 @@ language: "en-us"
 # show's identity across hosts and directories. Never change it.
 podcast_guid: "057dc2d0-261e-5b71-978f-1c2d4bd07b27"
 # Directory pages, shown as subscribe links on every episode once set.
-apple_url: ""
+apple_url: "https://podcasts.apple.com/us/podcast/maxime-desalle/id6825672690"
 spotify_url: "https://open.spotify.com/show/2Wu556fvL54DeueWMhCY9f"
 outputs: ["HTML", "RSS"]
 cascade:

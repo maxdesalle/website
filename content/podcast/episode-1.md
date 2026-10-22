@@ -11,15 +11,13 @@ guid: "podcast-0001"
 stream_uid: "036b8cf3ff7b84345241134bcb9fd09b"
 video_url: "https://cdn.maxdesalle.com/podcast/episode-1.mp4"
 video_bytes: 962421441
-video_type: "video/mp4"
 audio_url: "https://cdn.maxdesalle.com/podcast/episode-1.mp3"
-audio_bytes: 46670637
-audio_type: "audio/mpeg"
+audio_bytes: 47021905
 transcript_file: "transcripts/episode-1.md"
+guests:
+  - { name: "Zooko Wilcox", x: "zooko" }
 youtube_url: "https://www.youtube.com/watch?v=6G2GtyCkgM0"
 x_url: "https://x.com/maxdesalle/status/2062165560259908084"
-apple_url: ""
-spotify_url: ""
 ---
 
 **Chapters**

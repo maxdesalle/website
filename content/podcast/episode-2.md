@@ -11,15 +11,13 @@ guid: "podcast-0002"
 stream_uid: "db9aff1c4992ea112b5c7c6f117f0b70"
 video_url: "https://cdn.maxdesalle.com/podcast/episode-2.mp4"
 video_bytes: 771788738
-video_type: "video/mp4"
 audio_url: "https://cdn.maxdesalle.com/podcast/episode-2.mp3"
-audio_bytes: 47773485
-audio_type: "audio/mpeg"
+audio_bytes: 48125213
 transcript_file: "transcripts/episode-2.md"
+guests:
+  - { name: "Sam Kuypers", x: "Sam_kuyp" }
 youtube_url: "https://www.youtube.com/watch?v=s6R0q6Fn_Zo"
 x_url: "https://x.com/maxdesalle/status/2072647772331802701"
-apple_url: ""
-spotify_url: ""
 ---
 
 **Chapters**

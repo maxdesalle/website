@@ -27,8 +27,9 @@
   <div class="download-links">
     {{ with .Params.youtube_url }}<a href="{{ . }}">YouTube</a>{{ end }}
     {{ with .Params.x_url }}<a href="{{ . }}">Watch on X</a>{{ end }}
-    {{ with .Params.apple_url }}<a href="{{ . }}">Apple Podcasts</a>{{ end }}
-    {{ with .Params.spotify_url }}<a href="{{ . }}">Spotify</a>{{ end }}
+    {{ with .Parent.Params.apple_url }}<a href="{{ . }}">Apple Podcasts</a>{{ end }}
+    {{ with .Parent.Params.spotify_url }}<a href="{{ . }}">Spotify</a>{{ end }}
+    {{ with .Parent.OutputFormats.Get "RSS" }}<a href="{{ .Permalink }}" type="application/rss+xml">RSS</a>{{ end }}
     {{ with .Params.video_url }}<a href="{{ . }}">Download video</a>{{ end }}
     {{ with .Params.audio_url }}<a href="{{ . }}">Download audio</a>{{ end }}
   </div>

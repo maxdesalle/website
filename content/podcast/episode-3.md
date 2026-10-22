@@ -11,15 +11,12 @@ guid: "podcast-0003"
 stream_uid: "aa1ad0eb5945ef9c00a103b5eb8f5484"
 video_url: "https://cdn.maxdesalle.com/podcast/episode-3.mp4"
 video_bytes: 605617091
-video_type: "video/mp4"
 audio_url: "https://cdn.maxdesalle.com/podcast/episode-3.mp3"
-audio_bytes: 36031148
-audio_type: "audio/mpeg"
+audio_bytes: 36382830
 transcript_file: "transcripts/episode-3.md"
+guests:
+  - { name: "Will McEvoy", x: "will__mcevoy" }
 youtube_url: "https://www.youtube.com/watch?v=LgPsMHpCJ8o"
-x_url: ""
-apple_url: ""
-spotify_url: ""
 ---
 
 **Chapters**

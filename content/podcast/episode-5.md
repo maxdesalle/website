@@ -11,15 +11,13 @@ guid: "podcast-0005"
 stream_uid: "f60330a317f1825f917e2e50e7e0c268"
 video_url: "https://cdn.maxdesalle.com/podcast/episode-5.mp4"
 video_bytes: 369825065
-video_type: "video/mp4"
 audio_url: "https://cdn.maxdesalle.com/podcast/episode-5.mp3"
-audio_bytes: 29611820
-audio_type: "audio/mpeg"
+audio_bytes: 29963797
 transcript_file: "transcripts/episode-5.md"
+guests:
+  - { name: "Cameron Winklevoss", x: "cameron" }
+  - { name: "Tyler Winklevoss", x: "tyler" }
 youtube_url: "https://www.youtube.com/watch?v=fezWpms2z3I"
-x_url: ""
-apple_url: ""
-spotify_url: ""
 ---
 
 **Chapters**

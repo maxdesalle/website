@@ -1,1292 +1,1198 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:02.400
- I think back in 2012, you guys invested in Bitcoin.
+I think back in 2012, you guys invested in Bitcoin.
 
 00:00:02.400 --> 00:00:03.760
- What was the thesis back then?
+What was the thesis back then?
 
-00:00:03.760 --> 00:00:06.800
- So the thesis in 2012 was digital gold.
+00:00:03.760 --> 00:00:09.440
+So the thesis in 2012 was digital gold. Gold is scarce, but it's not a fixed supply.
 
-00:00:06.800 --> 00:00:09.440
- Gold is scarce, but it's not a fixed supply.
+00:00:09.440 --> 00:00:14.123
+Whereas Bitcoin is actually fixed at 21 million, and that supply will never increase
 
-00:00:09.440 --> 00:00:12.240
- Whereas Bitcoin is actually fixed at 21 million,
+00:00:14.123 --> 00:00:19.600
+no matter how much demand there is. I guess the one thing it doesn't was the privacy factor.
 
-00:00:12.240 --> 00:00:16.320
- and that supply will never increase no matter how much demand there is.
-
-00:00:16.320 --> 00:00:19.600
- I guess the one thing it doesn't was the privacy factor.
-
-00:00:19.600 --> 00:00:22.000
- Satoshi was talking about zero-knowledge proofs,
-
-00:00:22.000 --> 00:00:24.160
- but he didn't know how to implement them.
+00:00:19.600 --> 00:00:24.160
+Satoshi was talking about zero-knowledge proofs, but he didn't know how to implement them.
 
 00:00:24.160 --> 00:00:28.480
- And Zcash completes the arc because it's decentralized money that is private.
+And Zcash completes the arc because it's decentralized money that is private.
 
 00:00:28.480 --> 00:00:32.240
- How has your conviction in Zcash evolved with AI?
+How has your conviction in Zcash evolved with AI?
 
 00:00:32.240 --> 00:00:33.600
- What is it looking like today?
+What is it looking like today?
 
-00:00:33.600 --> 00:00:35.280
- I would say that it only...
+00:00:33.600 --> 00:00:36.800
+I would say that it only...
 
 00:00:36.800 --> 00:00:38.320
- Hey guys, it's good to be here.
+Hey guys, it's good to be here.
 
-00:00:38.320 --> 00:00:39.280
- Yeah, hey Max.
+00:00:38.320 --> 00:00:40.400
+Yeah, hey Max. Good to be here as well.
 
-00:00:39.280 --> 00:00:40.400
- Good to be here as well.
+00:00:40.400 --> 00:00:44.640
+Yeah, so... And where are we? I mean, we're here in Singapore.
 
-00:00:40.400 --> 00:00:41.280
- Yeah, so...
+00:00:44.640 --> 00:00:49.045
+And I guess my first question was, you guys invested, I think,
 
-00:00:41.280 --> 00:00:41.840
- And where are we?
+00:00:49.045 --> 00:00:52.880
+by 2012 first in Bitcoin. What was the thesis back then?
 
-00:00:43.200 --> 00:00:44.640
- I mean, we're here in Singapore.
-
-00:00:44.640 --> 00:00:50.880
- And I guess my first question was, you guys invested, I think, by 2012 first in Bitcoin.
-
-00:00:50.880 --> 00:00:52.880
- What was the thesis back then?
-
-00:00:52.880 --> 00:00:56.160
- So the thesis in 2012 was digital gold.
-
-00:00:56.160 --> 00:00:58.400
- When we looked at the properties of Bitcoin,
+00:00:52.880 --> 00:00:58.480
+So the thesis in 2012 was digital gold. When we looked at the properties of Bitcoin,
 
 00:00:58.480 --> 00:01:04.480
- and compared them to gold, so the supply, it either equaled or exceeded gold.
+and compared them to gold, so the supply, it either equaled or exceeded gold.
 
 00:01:04.480 --> 00:01:09.360
- So supply, for example, gold is scarce, but it's not a fixed supply.
+So supply, for example, gold is scarce, but it's not a fixed supply.
 
-00:01:09.360 --> 00:01:12.240
- Whereas Bitcoin is actually fixed at 21 million,
+00:01:09.360 --> 00:01:14.455
+Whereas Bitcoin is actually fixed at 21 million, and that supply will never increase
 
-00:01:12.240 --> 00:01:17.040
- and that supply will never increase no matter how much demand there is.
+00:01:14.455 --> 00:01:17.040
+no matter how much demand there is.
 
-00:01:17.040 --> 00:01:18.720
- It's more portable than gold.
-
-00:01:18.720 --> 00:01:20.400
- Gold bars are actually pretty heavy.
+00:01:17.040 --> 00:01:21.440
+It's more portable than gold. Gold bars are actually pretty heavy.
 
 00:01:21.440 --> 00:01:23.200
- That's what we call the die-hard problem.
+That's what we call the die-hard problem.
 
-00:01:23.200 --> 00:01:25.840
- Like, you can sort of rob the Federal Reserve.
+00:01:23.200 --> 00:01:28.400
+Like, you can sort of rob the Federal Reserve.
 
-00:01:25.840 --> 00:01:26.800
- You have to load it up with trucks.
-
-00:01:26.800 --> 00:01:26.800
- You have to load it up with trucks.
-
-00:01:26.800 --> 00:01:26.800
- You have to load it up with trucks.
-
-00:01:26.800 --> 00:01:27.360
- You have to load it up with trucks.
-
-00:01:27.360 --> 00:01:28.000
- You have to load it up with trucks.
-
-00:01:28.000 --> 00:01:28.080
- You have to load it up with trucks.
-
-00:01:28.080 --> 00:01:28.400
- You have to load it up with trucks.
-
-00:01:28.400 --> 00:01:29.440
- You have to load it up with trucks.
-
-00:01:29.440 --> 00:01:31.760
- And then somehow cart it out of the city.
+00:01:28.400 --> 00:01:31.760
+You have to load it up with trucks. And then somehow cart it out of the city.
 
 00:01:31.760 --> 00:01:35.760
- It's actually pretty hard to move large quantities of gold.
+It's actually pretty hard to move large quantities of gold.
 
 00:01:35.760 --> 00:01:37.920
- And the divisibility is greater.
+And the divisibility is greater.
 
-00:01:37.920 --> 00:01:40.160
- So if you just go down the characteristics,
+00:01:37.920 --> 00:01:42.720
+So if you just go down the characteristics, I think we charted out nine.
 
-00:01:40.160 --> 00:01:42.000
- I think we charted out nine.
+00:01:42.720 --> 00:01:48.991
+Bitcoin exceeded gold. I guess the one thing it doesn't, and at the time we didn't probably
 
-00:01:42.720 --> 00:01:44.880
- Bitcoin exceeded gold.
-
-00:01:44.880 --> 00:01:46.880
- I guess the one thing it doesn't,
-
-00:01:46.880 --> 00:01:50.800
- and at the time we didn't probably give it a ton of attention,
-
-00:01:50.800 --> 00:01:52.480
- was the privacy factor.
+00:01:48.991 --> 00:01:52.480
+give it a ton of attention, was the privacy factor.
 
 00:01:52.480 --> 00:01:55.920
- If you have a bar of gold, nobody really knows that except for you.
+If you have a bar of gold, nobody really knows that except for you.
 
 00:01:55.920 --> 00:01:57.920
- And that is not the case with Bitcoin.
+And that is not the case with Bitcoin.
 
 00:01:57.920 --> 00:02:03.120
- And it was clear that Bitcoin was an open public blockchain back in the day.
+And it was clear that Bitcoin was an open public blockchain back in the day.
 
 00:02:03.120 --> 00:02:10.320
- And it was always sort of a misconception that Bitcoin was used for nefarious activities
+And it was always sort of a misconception that Bitcoin was used for nefarious activities
 
-00:02:10.320 --> 00:02:11.440
- or bad actors.
+00:02:10.320 --> 00:02:16.300
+or bad actors. And one of our sort of pushbacks on that was that Bitcoin,
 
-00:02:11.440 --> 00:02:17.920
- And one of our sort of pushbacks on that was that Bitcoin, it's a public blockchain.
-
-00:02:17.920 --> 00:02:18.560
- It's auditable.
+00:02:16.300 --> 00:02:18.560
+it's a public blockchain. It's auditable.
 
 00:02:18.560 --> 00:02:22.240
- It's actually a really bad place to do bad activity.
+It's actually a really bad place to do bad activity.
 
-00:02:22.240 --> 00:02:23.280
- Yeah.
-
-00:02:23.280 --> 00:02:25.600
- Actions are recorded forever, permanent.
+00:02:22.240 --> 00:02:25.600
+Yeah. Actions are recorded forever, permanent.
 
 00:02:25.600 --> 00:02:26.240
- So, yeah.
+So, yeah.
 
-00:02:26.240 --> 00:02:26.800
- Yeah.
+00:02:26.240 --> 00:02:31.374
+Yeah. To a fault. I think the other dimension is the technology.
 
-00:02:27.440 --> 00:02:33.520
- to a fault. I think the other dimension is the technology. So Bitcoin works like your email,
+00:02:31.374 --> 00:02:37.487
+So Bitcoin works like your email, and it was the first money that was purpose-built for
 
-00:02:33.920 --> 00:02:40.340
- and it was the first money that was purpose-built for the internet. And so Bitcoin is actually two
+00:02:37.487 --> 00:02:40.779
+the internet. And so Bitcoin is actually two things.
 
-00:02:40.340 --> 00:02:46.920
- things. It's a protocol, Bitcoin capital B, and it's also an asset, Bitcoin lowercase b,
+00:02:40.779 --> 00:02:47.420
+It's a protocol, Bitcoin capital B, and it's also an asset, Bitcoin lowercase b,
 
-00:02:47.420 --> 00:02:55.420
- of the protocol. And so it is the first money that is really internet native, and that's very
+00:02:47.420 --> 00:02:48.753
+of the protocol.
 
-00:02:55.420 --> 00:03:03.360
- different than wire or ACH. And so the protocol and the technology aspect was a big aha moment
+00:02:48.753 --> 00:02:54.087
+And so it is the first money that is really internet native,
 
-00:03:03.360 --> 00:03:11.420
- for us. We said, hey, this is the internet of money. So this is a very big deal, and money
+00:02:54.087 --> 00:02:57.626
+and that's very different than wire or ACH.
 
-00:03:11.420 --> 00:03:15.900
- is the greatest social network of all time. Right, right. That makes sense. Moving then
+00:02:57.626 --> 00:03:04.166
+And so the protocol and the technology aspect was a big aha moment for us.
 
-00:03:15.900 --> 00:03:21.920
- forward to 2016, you participated in the seed round for Zcash. What was the thesis then?
+00:03:04.166 --> 00:03:07.793
+We said, hey, this is the internet of money.
 
-00:03:21.920 --> 00:03:25.200
- It's the same thesis as it is today, that financial
+00:03:07.793 --> 00:03:13.809
+So this is a very big deal, and money is the greatest social network of all time.
 
-00:03:25.200 --> 00:03:30.520
- privacy is important. And Bitcoin actually affords less than the traditional system,
+00:03:13.809 --> 00:03:17.029
+Right, right. That makes sense. Moving then forward to 2016,
 
-00:03:30.820 --> 00:03:36.640
- ironically. If I wire you money, other than our banks and you and I, nobody else sees that
+00:03:17.029 --> 00:03:20.039
+you participated in the seed round for Zcash.
 
-00:03:36.640 --> 00:03:43.440
- movement of funds. And that is more private. Or if I use physical cash, that is more private than
+00:03:20.039 --> 00:03:21.920
+What was the thesis then?
 
-00:03:43.440 --> 00:03:49.440
- the Bitcoin blockchain. And so we saw that Zcash was solving that critical problem. And obviously,
+00:03:21.920 --> 00:03:26.530
+It's the same thesis as it is today, that financial privacy is important.
 
-00:03:49.440 --> 00:03:54.880
- privacy, why is that important? It's important for a free and open society. And I think Satoshi,
+00:03:26.530 --> 00:03:30.820
+And Bitcoin actually affords less than the traditional system,
 
-00:03:54.980 --> 00:04:01.460
- would have included it in the original protocol, if zero-knowledge proofs were further along,
+00:03:30.820 --> 00:03:35.347
+ironically. If I wire you money, other than our banks and you and I,
 
-00:04:01.460 --> 00:04:06.840
- but they were brand new, they were much larger. I think there are size and issues in the block
+00:03:35.347 --> 00:03:37.714
+nobody else sees that movement of funds.
 
-00:04:06.840 --> 00:04:12.640
- size. And so similar to like how the original internet would have included probably a money
+00:03:37.714 --> 00:03:44.565
+And that is more private. Or if I use physical cash, that is more private than the Bitcoin blockchain.
 
-00:04:12.640 --> 00:04:19.360
- over IP, or, you know, internet money, if it existed at that time, at the dawn of the
+00:03:44.565 --> 00:03:48.690
+And so we saw that Zcash was solving that critical problem.
 
-00:04:19.360 --> 00:04:24.760
- internet, I think Satoshi would have put privacy into Bitcoin, because I think at the top,
+00:03:48.690 --> 00:03:51.040
+And obviously, privacy, why is that important?
 
-00:04:24.760 --> 00:04:30.260
- you know, the abstract of the white paper says electronic cash, but it's actually not cash,
+00:03:51.040 --> 00:03:53.600
+It's important for a free and open society.
 
-00:04:30.320 --> 00:04:37.200
- because it's public. So I think that we saw that problem, we felt it was an important thing to
+00:03:53.600 --> 00:03:58.683
+And I think Satoshi would have included it in the original protocol,
 
-00:04:37.200 --> 00:04:42.200
- solve. And that was the thesis. And it's true to this day, even more so. And this is, of course,
+00:03:58.683 --> 00:04:02.876
+if zero-knowledge proofs were further along, but they were brand new,
 
-00:04:42.840 --> 00:04:47.000
- pre the major breakthroughs in AI over the past couple of years.
+00:04:02.876 --> 00:04:07.203
+they were much larger. I think there are size and issues in the block size.
 
-00:04:47.000 --> 00:04:54.540
- Yeah, privacy is normal. And money has been private for most of its existence. If you go
+00:04:07.203 --> 00:04:12.640
+And so similar to like how the original internet would have included probably a money
 
-00:04:54.540 --> 00:05:02.820
- back to, let's say, I don't know, is it 10,000 years? Shells, precious metals, gold, paperback
+00:04:12.640 --> 00:04:17.493
+over IP, or, you know, internet money, if it existed at that time,
 
-00:05:02.820 --> 00:05:09.200
- by gold, or gold is a precious metal. But it's only in the last, let's say, 50 years or so when
+00:04:17.493 --> 00:04:22.735
+at the dawn of the internet, I think Satoshi would have put privacy into Bitcoin,
 
-00:05:09.200 --> 00:05:16.900
- we started making money digital, that it was so traceable and so public in a way. Yes, I think
+00:04:22.735 --> 00:04:28.198
+because I think at the top, you know, the abstract of the white paper says electronic
 
-00:05:16.900 --> 00:05:22.320
- Satoshi was talking about zero-knowledge proofs, but he didn't know how to implement them. And so
+00:04:28.198 --> 00:04:31.406
+cash, but it's actually not cash, because it's public.
 
-00:05:24.320 --> 00:05:28.620
- that's where I think we're kind of completing that arc. True, like you said, electronic cash,
+00:04:31.406 --> 00:04:37.450
+So I think that we saw that problem, we felt it was an important thing to solve.
 
-00:05:28.920 --> 00:05:38.000
- true cyberpunk ethos. And money has been misused by governments to manipulate populations forever,
+00:04:37.450 --> 00:04:40.950
+And that was the thesis. And it's true to this day, even more so.
 
-00:05:38.000 --> 00:05:47.220
- either through capital controls or abuse through hyperinflation. And so they kind of achieve the
+00:04:40.950 --> 00:04:47.000
+And this is, of course, pre the major breakthroughs in AI over the past couple of years.
 
-00:05:47.220 --> 00:05:52.940
- separation of money and state, where the state no longer has a money monopoly.
+00:04:47.000 --> 00:04:53.209
+Yeah, privacy is normal. And money has been private for most of its existence.
 
-00:05:54.100 --> 00:06:00.920
- Imagine if the state had a monopoly on math and innovation, and that wouldn't go that well.
+00:04:53.209 --> 00:05:00.232
+If you go back to, let's say, I don't know, is it 10,000 years?
 
-00:06:01.080 --> 00:06:08.480
- The separation of money and state is important, but the true separation of money and state is making that money private.
+00:05:00.232 --> 00:05:05.250
+Shells, precious metals, gold, paper backed by gold, or gold is a precious metal.
 
-00:06:08.480 --> 00:06:20.740
- Because it's one thing if money is separated and it's Bitcoin, but if the government can surveil it and it's a panopticon, then you haven't fully achieved that separation.
+00:05:05.250 --> 00:05:11.226
+But it's only in the last, let's say, 50 years or so when we started making money digital,
 
-00:06:21.180 --> 00:06:26.260
- And so I think of privacy as this boundary where the state ends and you begin.
+00:05:11.226 --> 00:05:15.684
+that it was so traceable and so public in a way.
+
+00:05:15.684 --> 00:05:18.932
+Yes, I think Satoshi was talking about zero-knowledge proofs,
+
+00:05:18.932 --> 00:05:21.642
+but he didn't know how to implement them.
+
+00:05:21.642 --> 00:05:27.008
+And so that's where I think we're kind of completing that arc.
+
+00:05:27.008 --> 00:05:30.866
+True, like you said, electronic cash, true cypherpunk ethos.
+
+00:05:30.866 --> 00:05:38.000
+And money has been misused by governments to manipulate populations forever,
+
+00:05:38.000 --> 00:05:42.917
+either through capital controls or abuse through hyperinflation.
+
+00:05:42.917 --> 00:05:49.263
+And so they kind of achieve the separation of money and state,
+
+00:05:49.263 --> 00:05:54.100
+where the state no longer has a money monopoly.
+
+00:05:54.100 --> 00:06:01.080
+Imagine if the state had a monopoly on math and innovation, and that wouldn't go that well.
+
+00:06:01.080 --> 00:06:06.366
+The separation of money and state is important, but the true separation of money and
+
+00:06:06.366 --> 00:06:12.285
+state is making that money private. Because it's one thing if money is separated and
+
+00:06:12.285 --> 00:06:17.781
+it's Bitcoin, but if the government can surveil it and it's a panopticon,
+
+00:06:17.781 --> 00:06:21.180
+then you haven't fully achieved that separation.
+
+00:06:21.180 --> 00:06:26.660
+And so I think of privacy as this boundary where the state ends and you begin.
 
 00:06:26.660 --> 00:06:31.840
- Your individual freedom, your self-sovereignty, those boundaries are important.
+Your individual freedom, your self-sovereignty, those boundaries are important.
 
-00:06:31.840 --> 00:06:40.360
- And we see this with property. We see this in the Fourth Amendment, the unreasonable search and seizures of the government of your property.
+00:06:31.840 --> 00:06:36.455
+And we see this with property. We see this in the Fourth Amendment,
 
-00:06:40.700 --> 00:06:50.840
- I think to some extent, obviously, gun rates backstop the First Amendment, but they also help you preserve your sovereignty against crime.
+00:06:36.455 --> 00:06:40.700
+the unreasonable search and seizures of the government of your property.
 
-00:06:51.180 --> 00:06:54.480
- Tyranny. It's the difference between citizen and subject.
+00:06:40.700 --> 00:06:46.231
+I think to some extent, obviously, gun rights backstop the First Amendment,
 
-00:06:55.080 --> 00:06:58.440
- And the private money also achieves that.
+00:06:46.231 --> 00:06:51.180
+but they also help you preserve your sovereignty against crime.
+
+00:06:51.180 --> 00:06:55.080
+Tyranny. It's the difference between citizen and subject.
+
+00:06:55.080 --> 00:06:58.640
+And the private money also achieves that.
 
 00:06:58.640 --> 00:07:03.960
- And encryption is the peaceful, nonviolent version of the Second Amendment.
+And encryption is the peaceful, nonviolent version of the Second Amendment.
 
-00:07:03.960 --> 00:07:20.960
- So when you think of the values of the founding fathers and the country and what makes America great, privacy, self-sovereignty, property rights, your boundary, your space, including around your money, is super important.
+00:07:03.960 --> 00:07:12.460
+So when you think of the values of the founding fathers and the country and what makes
 
-00:07:21.180 --> 00:07:33.060
- And we always have to fight to preserve that and curb the encroachment of government, which only goes in one direction, but it never goes the other way.
+00:07:12.460 --> 00:07:16.460
+America great, privacy, self-sovereignty, property rights, your boundary,
 
-00:07:33.660 --> 00:07:39.920
- And I think Milton Friedman said that there is nothing so permanent as a temporary government program.
+00:07:16.460 --> 00:07:21.180
+your space, including around your money, is super important.
 
-00:07:40.580 --> 00:07:41.380
- Yeah, that makes sense.
+00:07:21.180 --> 00:07:27.544
+And we always have to fight to preserve that and curb the encroachment of government,
+
+00:07:27.544 --> 00:07:33.660
+which only goes in one direction, but it never goes the other way.
+
+00:07:33.660 --> 00:07:40.580
+And I think Milton Friedman said that there is nothing so permanent as a temporary government program.
+
+00:07:40.580 --> 00:07:41.400
+Yeah, that makes sense.
 
 00:07:41.400 --> 00:07:44.480
- So we have to always back and stay vigilant.
+So we have to always back and stay vigilant.
 
-00:07:44.480 --> 00:07:46.960
- So cash was centralized but private.
+00:07:44.480 --> 00:07:50.152
+So cash was centralized but private. Bitcoin took a big leap forward in creating decentralized
 
-00:07:47.200 --> 00:07:50.480
- Bitcoin took a big leap forward in creating decentralized money.
+00:07:50.152 --> 00:07:56.976
+money, but it's public and Zcash completes the arc because it's decentralized money that
 
-00:07:51.180 --> 00:07:57.480
- Bitcoin took a big leap forward in creating decentralized money, but it's public and Zcash completes the art because it's decentralized money that is private.
+00:07:56.976 --> 00:07:57.480
+is private.
 
-00:07:57.480 --> 00:07:59.160
- Right, very well put.
+00:07:57.480 --> 00:08:04.216
+Right, very well put. How has your conviction in Zcash evolved with AI,
 
-00:07:59.160 --> 00:08:05.340
- How has your conviction in Zcash evolved with AI, with quantum?
+00:08:04.216 --> 00:08:06.600
+with quantum? What is it looking like today?
 
-00:08:05.340 --> 00:08:06.600
- What is it looking like today?
+00:08:06.600 --> 00:08:14.314
+I would say that it's an accelerant. And so AI lays bare how public the Bitcoin blockchain
 
-00:08:06.600 --> 00:08:08.620
- I would say that it's an accelerant.
+00:08:14.314 --> 00:08:18.300
+is or many blockchains that aren't private.
 
-00:08:08.620 --> 00:08:18.300
- And so AI lays bare how public the Bitcoin blockchain is or many blockchains that aren't private.
+00:08:18.300 --> 00:08:26.828
+The advances in quantum will only make Bitcoin less secure because it is not Shor resistant
 
-00:08:18.300 --> 00:08:20.940
- The advances in quantum.
+00:08:26.828 --> 00:08:34.679
+and Shor is an algorithm that will speed up the breaking of RSA or elliptical curve,
 
-00:08:20.940 --> 00:08:35.660
- Will only make Bitcoin less secure because it is not shore resistant and shore is an algorithm that will speed up the breaking of RSA or elliptical curve, ECDSA, cryptography.
+00:08:34.679 --> 00:08:35.660
+ECDSA, cryptography.
 
-00:08:35.660 --> 00:08:47.440
- And so Bitcoin is underpinned by the kind of cryptography that advancements in quantum, they're not shore resistance and quantum, shore is a quantum algorithm to break.
+00:08:35.660 --> 00:08:41.768
+And so Bitcoin is underpinned by the kind of cryptography that advancements in quantum,
+
+00:08:41.768 --> 00:08:47.440
+they're not Shor resistant and quantum, Shor is a quantum algorithm to break.
 
 00:08:47.440 --> 00:08:50.740
- I think it's either you're factoring primes, large integers.
+I think it's either you're factoring primes, large integers.
 
 00:08:50.740 --> 00:08:54.160
- You're factoring primes and then discrete algorithm problem.
+You're factoring primes and then discrete logarithm problem.
 
 00:08:54.160 --> 00:09:00.820
- Whereas Zcash is quantum resistant to shores because you can't break what you can't see.
+Whereas Zcash is quantum resistant to Shor's because you can't break what you can't see.
 
-00:09:00.820 --> 00:09:02.500
- And of course, it's prident.
+00:09:00.820 --> 00:09:05.697
+And of course, it's prident. So if you use the shielded pool like Ironwood,
 
-00:09:02.500 --> 00:09:11.380
- So if you use the shielded pool like Ironwood, no matter how good the AI is, it's not going to be able to surveil that.
+00:09:05.697 --> 00:09:11.380
+no matter how good the AI is, it's not going to be able to surveil that.
 
-00:09:11.380 --> 00:09:20.540
- I think if you're bullish on AI, you have to be bullish on Zcash, even if you don't know it, because if you believe that AI is going to continue to accelerate or improve, then that means.
+00:09:11.380 --> 00:09:14.846
+I think if you're bullish on AI, you have to be bullish on Zcash,
 
-00:09:20.540 --> 00:09:26.700
- Your financial privacy will continue to deteriorate and therefore Zcash will solve that problem.
+00:09:14.846 --> 00:09:19.302
+even if you don't know it, because if you believe that AI is going to continue to accelerate
 
-00:09:26.700 --> 00:09:27.660
- That makes sense.
+00:09:19.302 --> 00:09:24.500
+or improve, then that means your financial privacy will continue to deteriorate and therefore
 
-00:09:27.660 --> 00:09:32.240
- What's the place of Bitcoin in a world where Zcash exists?
+00:09:24.500 --> 00:09:26.700
+Zcash will solve that problem.
 
-00:09:32.240 --> 00:09:38.780
- I mean, one could argue that had Bitcoin come after Zcash, no one would be using Bitcoin, right?
+00:09:26.700 --> 00:09:32.240
+That makes sense. What's the place of Bitcoin in a world where Zcash exists?
 
-00:09:38.780 --> 00:09:39.540
- What does that look like?
+00:09:32.240 --> 00:09:38.417
+I mean, one could argue that had Bitcoin come after Zcash, no one would be using Bitcoin,
 
-00:09:39.540 --> 00:09:47.540
- So I think there's some use cases where being publicly verifiable or auditable is actually a feature, not a bug.
+00:09:38.417 --> 00:09:39.540
+right? What does that look like?
 
-00:09:47.540 --> 00:09:50.340
- And so there's going to be some institutions that want to say.
+00:09:39.540 --> 00:09:45.540
+So I think there's some use cases where being publicly verifiable or auditable is actually
 
-00:09:50.340 --> 00:09:52.380
- Hey, here's our Bitcoin address.
+00:09:45.540 --> 00:09:50.340
+a feature, not a bug. And so there's going to be some institutions that want to say,
 
-00:09:52.380 --> 00:09:53.840
- Take a look at our balances.
+00:09:50.340 --> 00:09:53.840
+hey, here's our Bitcoin address. Take a look at our balances.
 
-00:09:53.840 --> 00:09:55.640
- This is what we have.
+00:09:53.840 --> 00:09:58.840
+This is what we have. Don't take it from us, but look at the blockchain.
 
-00:09:55.640 --> 00:09:58.840
- Don't take it from us, but look at the blockchain.
+00:09:58.840 --> 00:10:04.208
+So I think there's scenarios, maybe central banks or some institutions want to hold their
 
-00:09:58.840 --> 00:10:05.640
- So I think there's scenarios, maybe central banks or some institutions want to hold their balances in that way.
+00:10:04.208 --> 00:10:05.640
+balances in that way.
 
 00:10:05.640 --> 00:10:07.840
- And also, I think Bitcoin is probably not going anywhere.
+And also, I think Bitcoin is probably not going anywhere.
 
-00:10:07.840 --> 00:10:10.340
- It's sort of started this revolution.
-
-00:10:10.340 --> 00:10:13.340
- It's got almost two decades of track record.
+00:10:07.840 --> 00:10:13.340
+It's sort of started this revolution. It's got almost two decades of track record.
 
 00:10:13.340 --> 00:10:20.140
- And for a lot of people, just having exposure to a store of value that has a fixed supply.
+And for a lot of people, just having exposure to a store of value that has a fixed supply
 
-00:10:20.140 --> 00:10:20.940
- Is enough.
+00:10:20.140 --> 00:10:27.075
+is enough. And that's great. But I think if you're going to actually use something for
 
-00:10:20.940 --> 00:10:22.640
- And that's great.
+00:10:27.075 --> 00:10:31.914
+transactions and cash, then you're probably swapping out of Bitcoin into Zcash,
 
-00:10:22.640 --> 00:10:35.140
- But I think if you're going to actually use something for transactions and cash, then you're probably swapping out of Bitcoin into Zcash, transacting, and maybe you're going to swap back.
+00:10:31.914 --> 00:10:35.140
+transacting, and maybe you're going to swap back.
 
-00:10:35.140 --> 00:10:43.640
- And I still think that the Bitcoin story, even though for us, we've been living it for, you know, close to probably, you know, 15 years or so.
+00:10:35.140 --> 00:10:38.783
+And I still think that the Bitcoin story, even though for us,
 
-00:10:43.640 --> 00:10:46.340
- It's still early for a lot of people.
+00:10:38.783 --> 00:10:42.426
+we've been living it for, you know, close to probably, you know,
+
+00:10:42.426 --> 00:10:46.340
+15 years or so. It's still early for a lot of people.
 
 00:10:46.340 --> 00:10:49.940
- And so I think Bitcoin story is early and Zcash is very early.
+And so I think Bitcoin story is early and Zcash is very early.
 
 00:10:49.940 --> 00:10:53.440
- Where do you see Zcash in say like five, 10 years from now?
+Where do you see Zcash in say like five, 10 years from now?
 
 00:10:53.440 --> 00:10:57.940
- Does it like follow the Bitcoin trajectory of like cycle after cycle getting adoption?
+Does it like follow the Bitcoin trajectory of like cycle after cycle getting adoption?
 
 00:10:57.940 --> 00:10:59.440
- Like, how do you think of that?
+Like, how do you think of that?
 
-00:10:59.440 --> 00:11:06.440
- Yeah, I mean, I think the first major moment I think we experienced in Bitcoin was the Cyprus bail-in.
+00:10:59.440 --> 00:11:05.703
+Yeah, I mean, I think the first major moment I think we experienced in Bitcoin was the
 
-00:11:06.440 --> 00:11:13.940
- And while people weren't necessarily in Bitcoin at that time, a lot of people, they saw what happened were basically deposit holders.
+00:11:05.703 --> 00:11:09.849
+Cyprus bail-in. And while people weren't necessarily in Bitcoin at that time,
+
+00:11:09.849 --> 00:11:13.940
+a lot of people, they saw what happened were basically deposit holders.
 
 00:11:13.940 --> 00:11:19.740
- I think above 100,000 euros in Cyprus and banks, they got a haircut.
+I think above 100,000 euros in Cyprus and banks, they got a haircut.
 
 00:11:19.740 --> 00:11:21.240
- And it was taken away.
+And it was taken away.
 
-00:11:21.240 --> 00:11:29.240
- And I think that was one of the big inflection points for the general awareness and consciousness of Bitcoin.
+00:11:21.240 --> 00:11:28.398
+And I think that was one of the big inflection points for the general awareness and consciousness
 
-00:11:29.240 --> 00:11:33.740
- Why this this decentralized non-governmental money is really important.
+00:11:28.398 --> 00:11:33.740
+of Bitcoin. Why this decentralized non-governmental money is really important.
 
-00:11:33.740 --> 00:11:45.240
- And I think that there's probably going to be moments like that in Zcash where the importance of financial privacy will be sort of illustrated in very clear terms.
+00:11:33.740 --> 00:11:40.481
+And I think that there's probably going to be moments like that in Zcash where the importance
+
+00:11:40.481 --> 00:11:45.240
+of financial privacy will be sort of illustrated in very clear terms.
 
 00:11:45.240 --> 00:11:49.540
- And so there will be moments like that, like whether it follows a cycle.
+And so there will be moments like that, like whether it follows a cycle.
 
-00:11:49.540 --> 00:11:58.040
- A four year cycle like Bitcoin, I think is unclear, but it's probably most correlated to advancements in AI, in which case it's its own.
+00:11:49.540 --> 00:11:54.640
+A four year cycle like Bitcoin, I think is unclear, but it's probably most correlated
+
+00:11:54.640 --> 00:11:58.040
+to advancements in AI, in which case it's its own.
 
 00:11:58.040 --> 00:12:00.840
- It doesn't the emissions cycle of four year.
+It doesn't the emissions cycle of four year.
 
-00:12:00.840 --> 00:12:08.840
- The halving of the block reward is maybe less important than breakthroughs in AI and advancements in those models.
+00:12:00.840 --> 00:12:07.156
+The halving of the block reward is maybe less important than breakthroughs in AI and
 
-00:12:08.840 --> 00:12:15.840
- It may just be much more tethered to those advancements than the actual halving cycle.
+00:12:07.156 --> 00:12:13.507
+advancements in those models. It may just be much more tethered to those advancements
+
+00:12:13.507 --> 00:12:15.840
+than the actual halving cycle.
 
 00:12:15.840 --> 00:12:19.340
- Yeah, I would never consider Zcash a trade.
+Yeah, I would never consider Zcash a trade.
 
 00:12:19.340 --> 00:12:23.340
- But it is the other side of the AI coin.
+But it is the other side of the AI coin.
 
-00:12:23.340 --> 00:12:34.840
- And so the more parabolic and meteoric the rise of AI, the more scarce an asset privacy is going to become.
+00:12:23.340 --> 00:12:32.650
+And so the more parabolic and meteoric the rise of AI, the more scarce an asset privacy
 
-00:12:34.840 --> 00:12:44.340
- And so I think if you're looking for the AI hedge in crypto or the quantum hedge in crypto, that's going to be Zcash.
+00:12:32.650 --> 00:12:40.778
+is going to become. And so I think if you're looking for the AI hedge in crypto or the
 
-00:12:44.340 --> 00:12:49.140
- And as AI continues to grow at the pace of Zcash.
+00:12:40.778 --> 00:12:44.340
+quantum hedge in crypto, that's going to be Zcash.
 
-00:12:49.140 --> 00:12:53.140
- And capture the minds of the world.
+00:12:44.340 --> 00:12:53.140
+And as AI continues to grow at the pace of Zcash and capture the minds of the world,
 
-00:12:53.140 --> 00:12:57.340
- I think Zcash is on that same wave.
+00:12:53.140 --> 00:13:01.416
+I think Zcash is on that same wave. So I don't know that we're going to see the same
 
-00:12:57.340 --> 00:13:03.640
- So I don't know that we're going to see the same cycles that we saw in Bitcoin.
+00:13:01.416 --> 00:13:08.526
+cycles that we saw in Bitcoin. There was no, the transformer hadn't been invented in
 
-00:13:03.640 --> 00:13:11.240
- There was no, the transformer hadn't been invented in 2012 or 2013 or 14.
+00:13:08.526 --> 00:13:13.140
+2012 or 2013 or 14. And so these catalysts weren't there.
 
-00:13:11.240 --> 00:13:13.140
- And so these catalysts weren't there.
+00:13:13.140 --> 00:13:17.740
+There wasn't the quantum catalyst. There wasn't the AI catalyst.
 
-00:13:13.140 --> 00:13:14.840
- There wasn't the quantum catalyst.
+00:13:17.740 --> 00:13:25.644
+And so I think it's hard to predict. I think it would be probably a mistake to say,
 
-00:13:14.840 --> 00:13:17.740
- There wasn't the AI catalyst.
-
-00:13:17.740 --> 00:13:18.940
- And so.
-
-00:13:18.940 --> 00:13:21.340
- I think it's hard to predict.
-
-00:13:21.340 --> 00:13:31.240
- I think it would be probably a mistake to say, okay, well, we'll just look at Bitcoin's chart and it will mirror Zcash.
+00:13:25.644 --> 00:13:31.240
+okay, well, we'll just look at Bitcoin's chart and it will mirror Zcash.
 
 00:13:31.240 --> 00:13:33.840
- I think we're in unchartered territory.
+I think we're in unchartered territory.
 
-00:13:33.840 --> 00:13:42.940
- There's a trillion dollars committed in data center build outs by the frontier labs over the next, I don't know what the period of time is.
+00:13:33.840 --> 00:13:39.090
+There's a trillion dollars committed in data center build outs by the frontier labs over
+
+00:13:39.090 --> 00:13:42.940
+the next, I don't know what the period of time is.
 
 00:13:42.940 --> 00:13:44.940
- It's probably the next five years, let's say.
+It's probably the next five years, let's say.
 
-00:13:44.940 --> 00:13:45.440
- Five years.
+00:13:44.940 --> 00:13:48.240
+Five years. It's maybe the biggest swing.
 
-00:13:45.440 --> 00:13:48.240
- It's maybe the biggest swing.
+00:13:48.240 --> 00:13:52.390
+The country. More than the commercial internet, laying fiber optic,
 
-00:13:48.240 --> 00:13:48.740
- The country.
-
-00:13:48.740 --> 00:13:56.040
- More than the commercial internet, laying fiber optic, more than railroads, more than the telecom revolution.
+00:13:52.390 --> 00:13:56.040
+more than railroads, more than the telecom revolution.
 
 00:13:56.040 --> 00:14:00.040
- I mean, this is the biggest technology infrastructure build out ever.
+I mean, this is the biggest technology infrastructure build out ever.
 
-00:14:00.040 --> 00:14:00.840
- Yeah.
+00:14:00.040 --> 00:14:04.759
+Yeah. So if we're right about that being a catalyst for Zcash,
 
-00:14:00.840 --> 00:14:06.540
- So if we're right about that being a catalyst for Zcash, it's quite a big catalyst.
+00:14:04.759 --> 00:14:10.880
+it's quite a big catalyst. But I think one of the easy ways to sort of think about Zcash
 
-00:14:06.540 --> 00:14:12.740
- But I think one of the easy ways to sort of think about Zcash is also in reference to Bitcoin.
+00:14:10.880 --> 00:14:16.500
+is also in reference to Bitcoin. And right now, I think the market cap of Zcash is somewhere
 
-00:14:12.740 --> 00:14:17.440
- And right now, I think the market cap of Zcash is somewhere around $25 billion.
-
-00:14:17.440 --> 00:14:18.540
- And I think it's about $2 billion.
+00:14:16.500 --> 00:14:18.540
+around $25 billion. And I think it's about $2 billion.
 
 00:14:18.540 --> 00:14:22.140
- It's about 2% of the size of the Bitcoin market cap.
+It's about 2% of the size of the Bitcoin market cap.
 
-00:14:22.140 --> 00:14:24.340
- So what is the value of privacy?
-
-00:14:24.340 --> 00:14:26.940
- Is it 10% of Bitcoin?
+00:14:22.140 --> 00:14:26.940
+So what is the value of privacy? Is it 10% of Bitcoin?
 
 00:14:26.940 --> 00:14:30.640
- And we love Bitcoin and I don't think it's going anywhere.
+And we love Bitcoin and I don't think it's going anywhere.
 
 00:14:30.640 --> 00:14:34.740
- But I think that privacy is probably worth more than 2% of Bitcoin.
+But I think that privacy is probably worth more than 2% of Bitcoin.
 
-00:14:34.740 --> 00:14:37.140
- And so let's say it's worth 10%.
+00:14:34.740 --> 00:14:38.759
+And so let's say it's worth 10%. Then you have a 5X, you know,
 
-00:14:37.140 --> 00:14:40.840
- Then you have a 5X, you know, you can sort of back into that very easily.
+00:14:38.759 --> 00:14:40.840
+you can sort of back into that very easily.
 
 00:14:40.840 --> 00:14:46.540
- And you find yourself, I think, easily above $5,000 a coin.
+And you find yourself, I think, easily above $5,000 a coin.
 
-00:14:46.540 --> 00:14:48.340
- And there's clearly a path to it.
+00:14:46.540 --> 00:14:49.940
+And there's clearly a path to it. I think a $10,000 coin.
 
-00:14:48.340 --> 00:14:49.940
- I think a $10,000 coin.
+00:14:49.940 --> 00:14:55.505
+And just to build on that point, I'm not sure a lot of people know this,
 
-00:14:49.940 --> 00:14:57.940
- And just to build on that point, I'm not sure a lot of people know this, but Zcash is a fork of Bitcoin.
+00:14:55.505 --> 00:15:00.640
+but Zcash is a fork of Bitcoin. And so it's a private Bitcoin.
 
-00:14:57.940 --> 00:15:00.640
- And so it's a private Bitcoin.
-
-00:15:00.640 --> 00:15:02.440
- It's encrypted Bitcoin.
-
-00:15:02.440 --> 00:15:04.940
- It's not starting from scratch.
+00:15:00.640 --> 00:15:04.940
+It's encrypted Bitcoin. It's not starting from scratch.
 
 00:15:04.940 --> 00:15:07.640
- It's standing on the shoulder of giants.
+It's standing on the shoulder of giants.
 
-00:15:07.640 --> 00:15:18.140
- And so to think of it as a percentage of Bitcoin is, I think, a good and reasonable framework because its origin is,
+00:15:07.640 --> 00:15:14.031
+And so to think of it as a percentage of Bitcoin is, I think,
 
-00:15:18.140 --> 00:15:20.940
- ultimately, Bitcoin.
+00:15:14.031 --> 00:15:19.540
+a good and reasonable framework because its origin is, ultimately,
+
+00:15:19.540 --> 00:15:20.940
+Bitcoin.
 
 00:15:20.940 --> 00:15:24.740
- Obviously, it's much different in terms of where it's gone.
+Obviously, it's much different in terms of where it's gone.
 
 00:15:24.740 --> 00:15:29.740
- But I think matching it as a percentage of Bitcoin is a good way to think about it.
+But I think matching it as a percentage of Bitcoin is a good way to think about it.
 
 00:15:29.740 --> 00:15:32.140
- Because they both have 21 million supply.
+Because they both have 21 million supply.
 
 00:15:32.140 --> 00:15:35.440
- They both have the four-year happening cycle.
+They both have the four-year halving cycle.
 
 00:15:35.440 --> 00:15:39.040
- And so people who understand Bitcoin, you understand Zcash.
+And so people who understand Bitcoin, you understand Zcash.
 
 00:15:39.040 --> 00:15:41.740
- It's essentially encrypted Bitcoins.
+It's essentially encrypted Bitcoins.
 
-00:15:41.740 --> 00:15:42.340
- Right.
+00:15:41.740 --> 00:15:44.240
+Right. But they sort of left that part out.
 
-00:15:42.340 --> 00:15:44.240
- But they sort of left that part out.
+00:15:44.240 --> 00:15:51.440
+But the forking of one coiner. Obviously, Zcash has zero-knowledge proofs and it's very
 
-00:15:44.240 --> 00:15:47.040
- But the forking of one coiner.
-
-00:15:47.040 --> 00:15:47.940
- Obviously,
-
-00:15:47.940 --> 00:15:52.440
- Zcash has zero-knowledge proofs and it's very different technology.
-
-00:15:52.440 --> 00:15:57.140
- But the important things like fixed supply of 21 million coins.
+00:15:51.440 --> 00:15:57.140
+different technology. But the important things like fixed supply of 21 million coins.
 
 00:15:57.140 --> 00:15:58.940
- There will never be more.
+There will never be more.
 
 00:15:58.940 --> 00:16:03.840
- And going back to the early part of the conversation of comparing Bitcoin to gold.
+And going back to the early part of the conversation of comparing Bitcoin to gold.
 
-00:16:03.840 --> 00:16:05.440
- Gold is scarce.
-
-00:16:05.440 --> 00:16:09.240
- We're still finding and mining more gold.
+00:16:03.840 --> 00:16:09.240
+Gold is scarce. We're still finding and mining more gold.
 
 00:16:09.240 --> 00:16:12.640
- You can't mine more than 21 million Bitcoin.
+You can't mine more than 21 million Bitcoin.
 
 00:16:12.640 --> 00:16:17.740
- You will never be able to mine more than 21 million Zcash.
+You will never be able to mine more than 21 million Zcash.
 
-00:16:17.740 --> 00:16:19.940
- A lot of people don't understand that.
+00:16:17.740 --> 00:16:22.054
+A lot of people don't understand that. And when you tell them that simple fact,
 
-00:16:19.940 --> 00:16:23.640
- And when you tell them that simple fact, they're like, aha, I get it.
+00:16:22.054 --> 00:16:23.640
+they're like, aha, I get it.
 
 00:16:23.640 --> 00:16:26.640
- Because gold is actually abundance in the universe, right?
+Because gold is actually abundance in the universe, right?
 
-00:16:26.640 --> 00:16:27.340
- Right.
+00:16:26.640 --> 00:16:29.440
+Right. Yeah, we've made this point.
 
-00:16:27.340 --> 00:16:29.440
- Yeah, we've made this point.
+00:16:29.440 --> 00:16:33.140
+Exactly. We made this point years ago. And people are like, what are you talking about?
 
-00:16:29.440 --> 00:16:30.040
- Exactly.
+00:16:33.140 --> 00:16:37.340
+It's actually very serious. Yeah, there's like trillions and trillions of dollars of
 
-00:16:30.040 --> 00:16:31.540
- We made this point years ago.
-
-00:16:31.540 --> 00:16:33.140
- And people are like, what are you talking about?
-
-00:16:33.140 --> 00:16:34.440
- It's actually very serious.
-
-00:16:34.440 --> 00:16:40.240
- Yeah, there's like trillions and trillions of dollars of gold floating on asteroids, you know, right around us.
+00:16:37.340 --> 00:16:40.240
+gold floating on asteroids, you know, right around us.
 
 00:16:40.240 --> 00:16:45.040
- And it's actually as plentiful as sand in the universe.
+And it's actually as plentiful as sand in the universe.
 
-00:16:45.040 --> 00:16:47.540
- It's only scarce on Earth.
-
-00:16:47.540 --> 00:16:49.640
- They're precious on Earth.
+00:16:45.040 --> 00:16:49.640
+It's only scarce on Earth. They're precious on Earth.
 
 00:16:49.640 --> 00:16:52.240
- So we've made this point, but I think it bears repeating.
+So we've made this point, but I think it bears repeating.
 
-00:16:52.240 --> 00:16:52.640
- Yeah.
+00:16:52.240 --> 00:16:52.740
+Yeah.
 
-00:16:52.640 --> 00:16:57.240
- Yeah, it was a little too early in 2020 when we first made this point.
+00:16:52.740 --> 00:16:57.240
+Yeah, it was a little too early in 2020 when we first made this point.
 
-00:16:57.240 --> 00:16:59.240
- And people's heads exploded.
+00:16:57.240 --> 00:17:01.840
+And people's heads exploded. And they said, that's crazy.
 
-00:16:59.240 --> 00:17:01.840
- And they said, that's crazy.
+00:17:01.840 --> 00:17:04.240
+That's too sci-fi. What are you talking about?
 
-00:17:01.840 --> 00:17:03.140
- That's too sci-fi.
+00:17:04.240 --> 00:17:10.593
+But today, people are more open to that idea because Elon's talking about data centers
 
-00:17:03.140 --> 00:17:04.240
- What are you talking about?
+00:17:10.593 --> 00:17:16.057
+in space. Well, if we can do that, why can't we get to an asteroid and put a probe on
 
-00:17:04.240 --> 00:17:11.440
- But today, people are more open to that idea because Elon's talking about data centers in space.
+00:17:16.057 --> 00:17:17.340
+it and potentially mine it?
 
-00:17:11.440 --> 00:17:17.340
- Well, if we can do that, why can't we get to an asteroid and put a probe on it and potentially mine it?
+00:17:17.340 --> 00:17:23.107
+And so I think the time is right. And I've started to hear other people make this point
 
-00:17:17.340 --> 00:17:19.440
- And so I think the time is right.
-
-00:17:19.440 --> 00:17:23.840
- And I've started to hear other people make this point on X.
-
-00:17:23.840 --> 00:17:25.740
- And people are like, yeah, yeah, yeah.
+00:17:23.107 --> 00:17:25.740
+on X. And people are like, yeah, yeah, yeah.
 
 00:17:25.740 --> 00:17:27.440
- But you heard it first.
+But you heard it first.
 
-00:17:27.440 --> 00:17:28.040
- Yeah.
-
-00:17:28.040 --> 00:17:29.840
- The OGs, yeah.
+00:17:27.440 --> 00:17:29.840
+Yeah. The OGs, yeah.
 
 00:17:29.840 --> 00:17:33.140
- A little over a year ago, you started PsychoPunk.
+A little over a year ago, you started Cypherpunk.
 
 00:17:33.140 --> 00:17:35.440
- That was, in retrospect, exceptional timing.
+That was, in retrospect, exceptional timing.
 
 00:17:35.440 --> 00:17:39.840
- What was the decision factor in starting it at that time specifically?
+What was the decision factor in starting it at that time specifically?
 
 00:17:39.840 --> 00:17:44.240
- So we wanted to give people access to Zcash.
+So we wanted to give people access to Zcash.
 
-00:17:44.240 --> 00:17:47.140
- So Gemini listed Zcash in 2020.
-
-00:17:47.140 --> 00:17:48.840
- And then in 2018.
+00:17:44.240 --> 00:17:48.840
+So Gemini listed Zcash in 2020. And then in 2018.
 
 00:17:48.840 --> 00:17:53.040
- And so I think we were probably the first regulated exchange ever to list it.
+And so I think we were probably the first regulated exchange ever to list it.
 
-00:17:53.040 --> 00:17:54.740
- And we were very proud of that.
+00:17:53.040 --> 00:17:57.640
+And we were very proud of that. And we've been supporting Zcash ever since.
 
-00:17:54.740 --> 00:17:57.640
- And we've been supporting Zcash ever since.
+00:17:57.640 --> 00:18:02.540
+But a lot of people, they need to access assets through an equity wrapper,
 
-00:17:57.640 --> 00:18:03.240
- But a lot of people, they need to access assets through an equity wrapper, let's say.
-
-00:18:03.240 --> 00:18:10.740
- So we wanted to increase the ability for people to gain exposure to Zcash.
+00:18:02.540 --> 00:18:10.740
+let's say. So we wanted to increase the ability for people to gain exposure to Zcash.
 
 00:18:10.740 --> 00:18:16.940
- So we started by essentially buying Zcash and then expanding.
+So we started by essentially buying Zcash and then expanding.
 
 00:18:16.940 --> 00:18:19.640
- And that's how we became PsychoPunk, the company.
+And that's how we became Cypherpunk, the company.
 
 00:18:19.640 --> 00:18:26.640
- The goal is to support PsychoPunk ethos and invest in privacy technologies.
+The goal is to support cypherpunk ethos and invest in privacy technologies.
 
-00:18:26.640 --> 00:18:27.140
- Right.
+00:18:26.640 --> 00:18:31.384
+Right. So it's definitely not a DAT. It started by buying Zcash,
 
-00:18:27.140 --> 00:18:28.940
- So it's definitely not a debt.
+00:18:31.384 --> 00:18:38.700
+but now we're mining. And ultimately, we want to support, invest in,
 
-00:18:28.940 --> 00:18:33.340
- It started by buying Zcash, but now we're mining.
+00:18:38.700 --> 00:18:44.730
+foster privacy-promoting technology, technologies that promote the First Amendment,
 
-00:18:33.340 --> 00:18:46.740
- And ultimately, we want to support, invest in, foster privacy-promoting technology, technologies that promote the First Amendment, the Second Amendment,
-
-00:18:46.740 --> 00:18:48.840
- the Fourth Amendment, American values.
+00:18:44.730 --> 00:18:48.840
+the Second Amendment, the Fourth Amendment, American values.
 
 00:18:48.840 --> 00:18:54.840
- So it starts with Zcash, then it's evolved to Zcash, Zcash mining.
+So it starts with Zcash, then it's evolved to Zcash, Zcash mining.
 
 00:18:54.840 --> 00:19:00.340
- But really anything privacy, any privacy technology is on the table.
+But really anything privacy, any privacy technology is on the table.
 
 00:19:00.340 --> 00:19:04.640
- So how do you think of the politics around Zcash?
+So how do you think of the politics around Zcash?
 
 00:19:04.640 --> 00:19:09.240
- I mean, obviously, there's been like a war on crypto in the past.
+I mean, obviously, there's been like a war on crypto in the past.
 
 00:19:09.240 --> 00:19:12.340
- Is there a risk of having like a war on privacy?
+Is there a risk of having like a war on privacy?
 
 00:19:12.340 --> 00:19:15.240
- I mean, I'm thinking, for example, of vlog cameras.
+I mean, I'm thinking, for example, of Flock cameras.
 
-00:19:15.240 --> 00:19:16.540
- Yeah. What are your thoughts on that?
+00:19:15.240 --> 00:19:15.740
+Yeah.
+
+00:19:15.740 --> 00:19:16.540
+What are your thoughts on that?
 
 00:19:16.540 --> 00:19:19.740
- I think there probably will be a war on privacy.
+I think there probably will be a war on privacy.
 
-00:19:19.740 --> 00:19:22.140
- The question is not if, it's when.
-
-00:19:22.140 --> 00:19:26.640
- But I think that Zcash is unstoppable private money.
+00:19:19.740 --> 00:19:26.640
+The question is not if, it's when. But I think that Zcash is unstoppable private money.
 
 00:19:26.640 --> 00:19:29.140
- And we made the same arguments about Bitcoin.
+And we made the same arguments about Bitcoin.
 
-00:19:29.140 --> 00:19:31.140
- It's very hard to stop Bitcoin.
+00:19:29.140 --> 00:19:33.809
+It's very hard to stop Bitcoin. It's easier than Zcash to stop Bitcoin,
 
-00:19:31.140 --> 00:19:37.240
- It's easier than Zcash to stop Bitcoin, but it is very hard to stop decentralized money.
+00:19:33.809 --> 00:19:37.240
+but it is very hard to stop decentralized money.
 
 00:19:37.240 --> 00:19:39.340
- You pretty much have to stop the internet.
+You pretty much have to stop the internet.
 
 00:19:39.340 --> 00:19:44.040
- So I think we will win the war, but I think there unfortunately probably will be one.
+So I think we will win the war, but I think there unfortunately probably will be one.
 
-00:19:44.040 --> 00:19:44.640
- I agree.
+00:19:44.040 --> 00:19:46.340
+I agree. We were actually talking about this earlier.
 
-00:19:44.640 --> 00:19:46.340
- We were actually talking about this earlier.
-
-00:19:46.340 --> 00:19:49.940
- Today, the war on crypto happened.
-
-00:19:49.940 --> 00:19:52.940
- It was, I don't know, maybe it was four years.
+00:19:46.340 --> 00:19:52.940
+Today, the war on crypto happened. It was, I don't know, maybe it was four years.
 
 00:19:52.940 --> 00:19:57.240
- But there already is a war, a quiet war, let's say, on privacy.
+But there already is a war, a quiet war, let's say, on privacy.
 
 00:19:57.240 --> 00:20:03.440
- So going to the vlog cameras, a lot of people don't actually understand what they're doing.
+So going to the Flock cameras, a lot of people don't actually understand what they're doing.
 
-00:20:03.440 --> 00:20:12.940
- They think they've confused them with the cameras that take a picture of your license plate after you've broken the speed limit.
+00:20:03.440 --> 00:20:09.917
+They think they've confused them with the cameras that take a picture of your license
 
-00:20:12.940 --> 00:20:14.840
- And they've conflated the two.
+00:20:09.917 --> 00:20:12.940
+plate after you've broken the speed limit.
 
-00:20:14.840 --> 00:20:16.140
- They think they're the same.
+00:20:12.940 --> 00:20:16.140
+And they've conflated the two. They think they're the same.
 
-00:20:16.140 --> 00:20:25.140
- It's completely different because one is focusing on your license plate and after you've allegedly broken the speed limit.
+00:20:16.140 --> 00:20:22.772
+It's completely different because one is focusing on your license plate and after you've
 
-00:20:25.140 --> 00:20:31.740
- The other is surveilling everything and there's no trigger.
+00:20:22.772 --> 00:20:31.740
+allegedly broken the speed limit. The other is surveilling everything and there's no trigger.
 
-00:20:31.740 --> 00:20:35.740
- There's no allegedly breaking the law.
-
-00:20:35.740 --> 00:20:39.740
- It's just always on and always surveilling.
+00:20:31.740 --> 00:20:39.740
+There's no allegedly breaking the law. It's just always on and always surveilling.
 
 00:20:39.740 --> 00:20:45.940
- I've had a number of conversations where people thought they were the same thing.
+I've had a number of conversations where people thought they were the same thing.
 
 00:20:45.940 --> 00:20:50.940
- It started with the license plate and speeding.
+It started with the license plate and speeding.
 
-00:20:50.940 --> 00:20:57.340
- You can argue that, fine, but let's just table that argument whether that should even happen or not.
+00:20:50.940 --> 00:20:56.273
+You can argue that, fine, but let's just table that argument whether that should even
 
-00:20:57.340 --> 00:21:06.140
- And of course, it only moved and progressed into we'll surveil everything, not just the license plate, but the car.
+00:20:56.273 --> 00:21:02.620
+happen or not. And of course, it only moved and progressed into we'll surveil everything,
+
+00:21:02.620 --> 00:21:06.140
+not just the license plate, but the car.
 
 00:21:06.140 --> 00:21:10.740
- And law-abiding citizens who are just going to work and going about their daily lives.
+And law-abiding citizens who are just going to work and going about their daily lives.
 
-00:21:10.740 --> 00:21:14.440
- And we're also going to put it in a centralized database.
+00:21:10.740 --> 00:21:15.740
+And we're also going to put it in a centralized database.
 
-00:21:14.440 --> 00:21:15.740
- Mm-hmm.
+00:21:15.740 --> 00:21:22.921
+It's all stitched together. It's not like, hey, here's the traffic light camera of one
 
-00:21:15.740 --> 00:21:16.940
- It's all stitched together.
+00:21:22.921 --> 00:21:30.031
+municipality or city or town. It's sort of strung all together in a centralized database
 
-00:21:16.940 --> 00:21:25.640
- It's not like, hey, here's the traffic light camera of one municipality or city or town.
-
-00:21:25.640 --> 00:21:35.740
- It's sort of strung all together in a centralized database with AI tooling, right, where you can just put it together even better.
+00:21:30.031 --> 00:21:35.740
+with AI tooling, right, where you can just put it together even better.
 
 00:21:35.740 --> 00:21:39.740
- And ultimately, we know where that ends.
+And ultimately, we know where that ends.
 
 00:21:39.740 --> 00:21:45.540
- When you centralize data, it's a good target and people are going to want to hack it.
+When you centralize data, it's a good target and people are going to want to hack it.
 
-00:21:45.540 --> 00:21:54.040
- So you have all this information on people that's just sitting and being collected by the government, and that's probably not going to end well.
+00:21:45.540 --> 00:21:50.640
+So you have all this information on people that's just sitting and being collected by
+
+00:21:50.640 --> 00:21:54.040
+the government, and that's probably not going to end well.
 
 00:21:54.040 --> 00:21:58.440
- I guess how we got to that was the war on privacy is always happening.
+I guess how we got to that was the war on privacy is always happening.
 
 00:21:58.440 --> 00:22:06.240
- Governments only want to get more powerful, larger trample on your rights.
+Governments only want to get more powerful, larger, trample on your rights.
 
-00:22:06.240 --> 00:22:10.140
- That's just the only direction it goes.
+00:22:06.240 --> 00:22:15.340
+That's just the only direction it goes. But will the war on privacy be explicit?
 
-00:22:10.140 --> 00:22:15.340
- But will the war on privacy be explicit?
+00:22:15.340 --> 00:22:17.840
+Like the war on crypto?
 
-00:22:15.340 --> 00:22:16.840
- Like the war on crypto?
+00:22:17.840 --> 00:22:24.440
+Yes. I mean, if history is any indication, I think that just like the internet,
 
-00:22:16.840 --> 00:22:17.840
- Mm-hmm.
+00:22:24.440 --> 00:22:28.840
+the government fought encryption and they treated it as a munition.
 
-00:22:17.840 --> 00:22:18.840
- Yes.
+00:22:28.840 --> 00:22:36.007
+And they're completely wrong. And then eventually they understood that encryption is
 
-00:22:18.840 --> 00:22:28.840
- I mean, if history is any indication, I think that just like the internet, the government fought encryption and they treated it as a munition.
+00:22:36.007 --> 00:22:43.340
+important and the internet can only thrive and work if there actually is encryption on it.
 
-00:22:28.840 --> 00:22:32.340
- And they're completely wrong.
-
-00:22:32.340 --> 00:22:43.340
- And then eventually they understood that encryption is important and the internet can only thrive and work if there actually is encryption on it.
-
-00:22:43.340 --> 00:22:45.140
- So we analogize.
-
-00:22:45.140 --> 00:22:50.640
- We analogize Zcash to -- or let's say Bitcoin is HTTP.
+00:22:43.340 --> 00:22:50.640
+So we analogize Zcash to -- or let's say Bitcoin is HTTP.
 
 00:22:50.640 --> 00:22:55.640
- It's Web 1 where you put your credit card in to buy a plane ticket.
+It's Web 1 where you put your credit card in to buy a plane ticket.
 
-00:22:55.640 --> 00:22:57.140
- It's in the clear.
-
-00:22:57.140 --> 00:23:02.140
- Everyone can read your information, your PII.
+00:22:55.640 --> 00:23:02.140
+It's in the clear. Everyone can read your information, your PII.
 
 00:23:02.140 --> 00:23:09.640
- And then Zcash is like HTTPS, secure, SSL, TLS, encrypted.
+And then Zcash is like HTTPS, secure, SSL, TLS, encrypted.
 
 00:23:09.640 --> 00:23:13.140
- And the government fought this for a while.
+And the government fought this for a while.
 
-00:23:13.140 --> 00:23:14.940
- And then eventually it completed.
+00:23:13.140 --> 00:23:20.203
+And then eventually it completed. It completely changed its tune and 180ed on this and
 
-00:23:14.940 --> 00:23:24.940
- It completely changed its tune and 180ed on this and said, oh, all government websites must actually be HTTPS.
+00:23:20.203 --> 00:23:24.940
+said, oh, all government websites must actually be HTTPS.
 
-00:23:24.940 --> 00:23:25.940
- Right.
+00:23:24.940 --> 00:23:31.940
+Right. So there's probably good reason to believe that they will start fighting it.
 
-00:23:25.940 --> 00:23:31.940
- So there's probably good reason to believe that they will start fighting it.
+00:23:31.940 --> 00:23:37.940
+They'll realize it's inevitable. They can't shut it down without shutting down the internet.
 
-00:23:31.940 --> 00:23:34.940
- They'll realize it's inevitable.
+00:23:37.940 --> 00:23:43.967
+Can't really do that. And then they'll accept the fact that they have to work and live
 
-00:23:34.940 --> 00:23:37.940
- They can't shut it down without shutting down the internet.
-
-00:23:37.940 --> 00:23:38.940
- Can't really do that.
-
-00:23:38.940 --> 00:23:44.740
- And then they'll accept the fact that they have to work and live with it.
-
-00:23:44.740 --> 00:23:47.740
- So ultimately I think we win, but I think there will be a fight.
+00:23:43.967 --> 00:23:47.740
+with it. So ultimately I think we win, but I think there will be a fight.
 
 00:23:47.740 --> 00:23:54.740
- Yeah, I think ultimately the government will realize that Zcash is safer for citizens.
+Yeah, I think ultimately the government will realize that Zcash is safer for citizens.
 
-00:23:54.740 --> 00:23:56.740
- And they will come around to that.
+00:23:54.740 --> 00:23:58.740
+And they will come around to that. But it will probably take time.
 
-00:23:56.740 --> 00:23:58.740
- But it will probably take time.
+00:23:58.740 --> 00:24:03.990
+But if we look at the number of attacks in crypto, pipe wrench attacks,
 
-00:23:58.740 --> 00:24:07.740
- But if we look at the number of attacks in crypto, pipe wrench attacks, I think there's been 40 in France alone this year.
+00:24:03.990 --> 00:24:07.740
+I think there's been 40 in France alone this year.
 
 00:24:07.740 --> 00:24:12.740
- And so having your money open on the blockchain, is it dangerous?
+And so having your money open on the blockchain, is it dangerous?
 
 00:24:12.740 --> 00:24:14.540
- It's not good for your citizens.
+It's not good for your citizens.
 
 00:24:14.540 --> 00:24:21.540
- The same is a centralized large surveillance database on your citizens' movements and whereabouts.
+The same is a centralized large surveillance database on your citizens' movements and whereabouts.
 
-00:24:21.540 --> 00:24:23.540
- That's also not a good thing.
+00:24:21.540 --> 00:24:26.267
+That's also not a good thing. And I think the government hopefully will come around to
 
-00:24:23.540 --> 00:24:32.540
- And I think the government hopefully will come around to the idea that it's actually not a good thing to centralize all this information or be so public and so open about it.
+00:24:26.267 --> 00:24:30.631
+the idea that it's actually not a good thing to centralize all this information or be
+
+00:24:30.631 --> 00:24:32.540
+so public and so open about it.
 
 00:24:32.540 --> 00:24:34.540
- But it will take time, to Tyler's point.
+But it will take time, to Tyler's point.
 
-00:24:34.540 --> 00:24:37.540
- Like encryption, that arc took a while.
+00:24:34.540 --> 00:24:40.969
+Like encryption, that arc took a while. And now governments will advise citizens to use
 
-00:24:37.540 --> 00:24:43.540
- And now governments will advise citizens to use things like encryption to protect themselves.
+00:24:40.969 --> 00:24:43.540
+things like encryption to protect themselves.
 
-00:24:43.540 --> 00:24:44.340
- Yeah.
-
-00:24:44.340 --> 00:24:49.340
- They still probably hate it, but have accepted that it's the better alternative.
+00:24:43.540 --> 00:24:49.340
+Yeah. They still probably hate it, but have accepted that it's the better alternative.
 
 00:24:49.340 --> 00:24:52.340
- And I guess there's also like little they can do against this.
+And I guess there's also like little they can do against this.
 
-00:24:52.340 --> 00:25:03.340
- I mean, I think I remember people printing PGP keys on paper because it's basically free speech and circumventing these restrictions that way.
+00:24:52.340 --> 00:24:59.992
+I mean, I think I remember people printing PGP keys on paper because it's basically free
 
-00:25:03.340 --> 00:25:08.340
- And similarly, it's very hard to stop Zcash and technologies like Bitcoin, as you said, Cameron.
+00:24:59.992 --> 00:25:03.340
+speech and circumventing these restrictions that way.
 
-00:25:08.340 --> 00:25:14.140
- I guess as a final question, one of the general remarks people have with regards to privacy is,
+00:25:03.340 --> 00:25:07.090
+And similarly, it's very hard to stop Zcash and technologies like Bitcoin,
 
-00:25:14.140 --> 00:25:16.140
- "Oh, I have nothing to hide."
+00:25:07.090 --> 00:25:08.340
+as you said, Cameron.
 
-00:25:16.140 --> 00:25:18.140
- What's your rebuttal to that?
+00:25:08.340 --> 00:25:13.818
+I guess as a final question, one of the general remarks people have with regards to privacy
+
+00:25:13.818 --> 00:25:18.140
+is, "Oh, I have nothing to hide." What's your rebuttal to that?
 
 00:25:18.140 --> 00:25:25.140
- I think of, so why did Satoshi not put his name to the white paper in Bitcoin?
+I think of, so why did Satoshi not put his name to the white paper in Bitcoin?
 
 00:25:25.140 --> 00:25:31.140
- And I think he's a great example where ideas like Bitcoin are dangerous.
+And I think he's a great example where ideas like Bitcoin are dangerous.
 
-00:25:31.140 --> 00:25:42.140
- And he clearly realized that putting his own identity to Bitcoin was dangerous for him personally, from a safety perspective.
+00:25:31.140 --> 00:25:39.390
+And he clearly realized that putting his own identity to Bitcoin was dangerous for him
 
-00:25:42.140 --> 00:25:43.940
- And so...
+00:25:39.390 --> 00:25:43.940
+personally, from a safety perspective. And so...
 
-00:25:43.940 --> 00:25:55.940
- Or you can go back hundreds of years to Copernicus and his dangerous idea that the earth actually revolves around the sun and not vice versa.
+00:25:43.940 --> 00:25:51.786
+Or you can go back hundreds of years to Copernicus and his dangerous idea that the earth
+
+00:25:51.786 --> 00:25:55.940
+actually revolves around the sun and not vice versa.
 
 00:25:55.940 --> 00:26:01.940
- And that was a very dangerous idea when he first came up with it.
+And that was a very dangerous idea when he first came up with it.
 
-00:26:01.940 --> 00:26:13.740
- So there's many reasons why privacy fosters intellectual curiosity, discoveries, innovation, ideas that are cutting edge.
+00:26:01.940 --> 00:26:08.578
+So there's many reasons why privacy fosters intellectual curiosity,
 
-00:26:13.740 --> 00:26:22.740
- That challenge the status quo, challenge the government, challenge our worldview, how we think about things.
+00:26:08.578 --> 00:26:13.740
+discoveries, innovation, ideas that are cutting edge.
 
-00:26:22.740 --> 00:26:25.740
- And there's many, many examples of that.
+00:26:13.740 --> 00:26:19.928
+That challenge the status quo, challenge the government, challenge our worldview,
+
+00:26:19.928 --> 00:26:25.740
+how we think about things. And there's many, many examples of that.
 
 00:26:25.740 --> 00:26:29.740
- You know, we could just continue to look back in history along the way.
+You know, we could just continue to look back in history along the way.
 
 00:26:29.740 --> 00:26:32.740
- But I think Satoshi is the most obvious example.
+But I think Satoshi is the most obvious example.
 
-00:26:32.740 --> 00:26:41.740
- And also Satoshi, I think the Bitcoin that Satoshi mined, he couldn't even move it at this point because it's sitting there.
+00:26:32.740 --> 00:26:39.285
+And also Satoshi, I think the Bitcoin that Satoshi mined, he couldn't even move it at
 
-00:26:41.740 --> 00:26:43.540
- And it's just too dangerous.
+00:26:39.285 --> 00:26:43.540
+this point because it's sitting there. And it's just too dangerous.
 
-00:26:43.540 --> 00:26:44.540
- Too dangerous to move.
-
-00:26:44.540 --> 00:26:48.540
- So I think that those are the reasons I would say.
+00:26:43.540 --> 00:26:48.540
+Too dangerous to move. So I think that those are the reasons I would say.
 
 00:26:48.540 --> 00:26:51.540
- Yeah, I mean, you might say like, oh, I don't need privacy.
+Yeah, I mean, you might say like, oh, I don't need privacy.
 
-00:26:51.540 --> 00:27:01.540
- But you want people like Satoshi to have privacy because they might be inventing Bitcoin that you benefit from.
+00:26:51.540 --> 00:26:59.435
+But you want people like Satoshi to have privacy because they might be inventing Bitcoin
 
-00:27:01.540 --> 00:27:09.540
- And so, yes, like Bitcoin is very threatening to governments, central banks, power structures.
+00:26:59.435 --> 00:27:07.254
+that you benefit from. And so, yes, like Bitcoin is very threatening to governments,
 
-00:27:09.540 --> 00:27:13.340
- And you may not have it without privacy.
+00:27:07.254 --> 00:27:13.340
+central banks, power structures. And you may not have it without privacy.
 
 00:27:13.340 --> 00:27:18.340
- So a lot of Einstein's ideas challenged the establishment.
+So a lot of Einstein's ideas challenged the establishment.
 
 00:27:18.340 --> 00:27:22.340
- And he actually wasn't in a university at the time.
+And he actually wasn't in a university at the time.
 
 00:27:22.340 --> 00:27:27.340
- He was working as a patent officer in Bern, Switzerland.
+He was working as a patent officer in Bern, Switzerland.
 
-00:27:27.340 --> 00:27:36.340
- So he didn't have to worry about ruffling feathers of the professors above him that might be upset and blackball him for tenure.
+00:27:27.340 --> 00:27:33.601
+So he didn't have to worry about ruffling feathers of the professors above him that might
 
-00:27:36.340 --> 00:27:38.340
- He wasn't in that political structure.
+00:27:33.601 --> 00:27:38.340
+be upset and blackball him for tenure. He wasn't in that political structure.
 
 00:27:38.340 --> 00:27:43.140
- And that gave him freedom of thought, right, to think outside of the box.
+And that gave him freedom of thought, right, to think outside of the box,
 
-00:27:43.140 --> 00:27:44.140
- Let's say.
-
-00:27:44.140 --> 00:27:51.140
- But also freedom from political retribution on his career path.
+00:27:43.140 --> 00:27:51.140
+let's say. But also freedom from political retribution on his career path.
 
 00:27:51.140 --> 00:27:58.140
- And so ultimately, he didn't need privacy to publish his papers.
+And so ultimately, he didn't need privacy to publish his papers.
 
 00:27:58.140 --> 00:28:00.140
- But there still might have been resistance.
+But there still might have been resistance.
 
 00:28:00.140 --> 00:28:06.140
- And maybe he would have needed it if he was a professor in a university system.
+And maybe he would have needed it if he was a professor in a university system.
 
-00:28:06.140 --> 00:28:12.940
- And so there's many reasons why privacy is important, even if you don't think you need it for yourself.
+00:28:06.140 --> 00:28:11.866
+And so there's many reasons why privacy is important, even if you don't think you need
 
-00:28:12.940 --> 00:28:25.940
- Just like I really like what Snowden says about he has a riff on freedom of speech and saying that it's something about, like, I don't care about it because I have nothing good to say.
+00:28:11.866 --> 00:28:12.940
+it for yourself.
 
-00:28:25.940 --> 00:28:26.940
- I'm getting it wrong.
+00:28:12.940 --> 00:28:19.440
+Just like I really like what Snowden says about he has a riff on freedom of speech and
 
-00:28:26.940 --> 00:28:34.940
- But freedom of speech is important, even if you don't want to exercise it or you don't.
+00:28:19.440 --> 00:28:24.857
+saying that it's something about, like, I don't care about it because I have nothing
+
+00:28:24.857 --> 00:28:29.764
+good to say. I'm getting it wrong. But freedom of speech is important,
+
+00:28:29.764 --> 00:28:34.940
+even if you don't want to exercise it or you don't.
 
 00:28:34.940 --> 00:28:39.940
- Maybe you're not going on X and you just, you know, not using it.
+Maybe you're not going on X and you just, you know, not using it.
 
 00:28:39.940 --> 00:28:42.740
- You still want that free marketplace of ideas.
+You still want that free marketplace of ideas.
 
 00:28:42.740 --> 00:28:48.740
- You still want it to to occur and to happen because it's better for society.
+You still want it to occur and to happen because it's better for society.
 
-00:28:48.740 --> 00:28:49.740
- It's better for outcomes.
+00:28:48.740 --> 00:28:50.740
+It's better for outcomes. It's better for innovation.
 
-00:28:49.740 --> 00:28:50.740
- It's better for innovation.
+00:28:50.740 --> 00:28:57.026
+It's better for progress. It's more likely to build an iPhone that you may purchase and
 
-00:28:50.740 --> 00:28:52.740
- It's better for progress.
+00:28:57.026 --> 00:28:57.740
+may use.
 
-00:28:52.740 --> 00:28:57.740
- It's more likely to build an iPhone that you may purchase and may use.
+00:28:57.740 --> 00:29:02.828
+And so there's all these knock on effects that make privacy,
 
-00:28:57.740 --> 00:29:12.540
- And so there's all these knock on effects that make privacy, freedom of speech, freedom, liberty super valuable to you, even if you don't think you need to exercise them directly yourself.
+00:29:02.828 --> 00:29:09.765
+freedom of speech, freedom, liberty super valuable to you, even if you don't think you
+
+00:29:09.765 --> 00:29:12.540
+need to exercise them directly yourself.
 
 00:29:12.540 --> 00:29:14.540
- And I think it avoids people from, like, self censoring.
+And I think it avoids people from, like, self censoring.
 
-00:29:14.540 --> 00:29:27.540
- If you think of, like, the current state of academia, like how many how many professors and intellectuals have to censor their actual beliefs and what they're doing because they'll get canceled.
+00:29:14.540 --> 00:29:21.852
+If you think of, like, the current state of academia, like how many professors and intellectuals
 
-00:29:27.540 --> 00:29:28.540
- Exactly.
+00:29:21.852 --> 00:29:27.540
+have to censor their actual beliefs and what they're doing because they'll get canceled.
 
-00:29:28.540 --> 00:29:33.540
- So it's very important for freedom of thought and that type of inquiry.
+00:29:27.540 --> 00:29:33.540
+Exactly. So it's very important for freedom of thought and that type of inquiry.
 
 00:29:33.540 --> 00:29:37.540
- And it should, at a minimum, be sort of default privacy.
+And it should, at a minimum, be sort of default privacy.
 
-00:29:37.540 --> 00:29:38.540
- And you can opt out.
-
-00:29:38.540 --> 00:29:42.340
- But default public is not where we want to be.
+00:29:37.540 --> 00:29:42.340
+And you can opt out. But default public is not where we want to be.
 
 00:29:42.340 --> 00:29:47.340
- It also forces people to engage on the idea.
+It also forces people to engage on the idea.
 
-00:29:47.340 --> 00:29:48.340
- Right.
+00:29:47.340 --> 00:29:51.340
+Right. So let's say Satoshi wasn't worried about his safety.
 
-00:29:48.340 --> 00:29:51.340
- So let's say Satoshi wasn't worried about his safety.
+00:29:51.340 --> 00:29:56.590
+But if you there's only one thing to look at, which is the source code,
 
-00:29:51.340 --> 00:29:58.340
- But if you there's only one thing to look at, which is the source code, you can't attack the person.
-
-00:29:58.340 --> 00:30:02.340
- You can't, like, confuse the two or conflate the two.
+00:29:56.590 --> 00:30:02.340
+you can't attack the person. You can't, like, confuse the two or conflate the two.
 
 00:30:02.340 --> 00:30:08.340
- You have to focus on the idea and the contents and separate that.
+You have to focus on the idea and the contents and separate that.
 
-00:30:08.340 --> 00:30:12.140
- And that's super powerful because it's not about judging.
+00:30:08.340 --> 00:30:13.504
+And that's super powerful because it's not about judging the person behind the idea,
 
-00:30:12.140 --> 00:30:15.140
- The person behind the idea, it's just you have to focus.
+00:30:13.504 --> 00:30:20.828
+it's just you have to focus. You have no choice but to speak to the idea and the facts
 
-00:30:15.140 --> 00:30:22.140
- You have no choice but to speak to the idea and the facts and its merit.
+00:30:20.828 --> 00:30:27.140
+and its merit. And so privacy focuses the conversation to where it should be.
 
-00:30:22.140 --> 00:30:27.140
- And so privacy focuses the conversation to where it should be.
+00:30:27.140 --> 00:30:32.140
+Right. That makes sense. Yeah. And that's why, you know, people use pseuds on X.
 
-00:30:27.140 --> 00:30:28.140
- Right.
+00:30:32.140 --> 00:30:39.196
+Maybe not because they want to not be public, but they just want you to have to address,
 
-00:30:28.140 --> 00:30:29.140
- That makes sense.
-
-00:30:29.140 --> 00:30:30.140
- Yeah.
-
-00:30:30.140 --> 00:30:32.140
- And that's why, you know, people use soothes on X.
-
-00:30:32.140 --> 00:30:41.940
- Maybe not because they want to not be public, but they just want you to have to address, like, what they're saying in the tweets.
+00:30:39.196 --> 00:30:41.940
+like, what they're saying in the tweets.
 
 00:30:41.940 --> 00:30:43.940
- And just stick it there.
+And just stick it there.
 
-00:30:43.940 --> 00:30:44.940
- Right.
+00:30:43.940 --> 00:30:45.940
+Right. Yeah.
 
-00:30:44.940 --> 00:30:45.940
- Yeah.
+00:30:45.940 --> 00:30:47.940
+Thank you, guys. It's been a pleasure.
 
-00:30:45.940 --> 00:30:46.940
- Thank you, guys.
-
-00:30:46.940 --> 00:30:47.940
- It's been a pleasure.
-
-00:30:47.940 --> 00:30:48.940
- Thank you.
-
-00:30:48.940 --> 00:30:49.940
- Thanks for having us.
-
-00:30:49.940 --> 00:30:50.940
- Great questions.
-
+00:30:47.940 --> 00:30:52.440
+Thank you. Thanks for having us. Great questions.

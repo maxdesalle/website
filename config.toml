@@ -10,6 +10,13 @@ enableRobotsTXT = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+# Podcasting 2.0 chapters (podcast:chapters), one per episode.
+[outputFormats.chapters]
+  mediaType = "application/json"
+  baseName = "chapters"
+  isPlainText = true
+  notAlternative = true
+
 [params]
   description = "Maxime Desalle — essays, a podcast, and talks on cryptography, Zcash, quantum mechanics, and investing."
   dark = "off"

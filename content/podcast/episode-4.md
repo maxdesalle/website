@@ -11,15 +11,12 @@ guid: "podcast-0004"
 stream_uid: "76932b50b9c1054edd10da3ad32f3970"
 video_url: "https://cdn.maxdesalle.com/podcast/episode-4.mp4"
 video_bytes: 763013461
-video_type: "video/mp4"
 audio_url: "https://cdn.maxdesalle.com/podcast/episode-4.mp3"
-audio_bytes: 47970092
-audio_type: "audio/mpeg"
+audio_bytes: 48322747
 transcript_file: "transcripts/episode-4.md"
+guests:
+  - { name: "Josh Swihart", x: "jswihart" }
 youtube_url: "https://www.youtube.com/watch?v=otqYllQjAKw"
-x_url: ""
-apple_url: ""
-spotify_url: ""
 ---
 
 **Chapters**

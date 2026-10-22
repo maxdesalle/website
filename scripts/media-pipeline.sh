@@ -149,6 +149,7 @@ fi
 require_command yt-dlp
 require_command ffmpeg
 require_command ffprobe
+[[ "$AUDIO" == false ]] || require_command jq
 if [[ "$NO_UPLOAD" == false ]]; then
   require_command curl
 
@@ -181,7 +182,6 @@ VTT="$TRANSCRIPT_DIR/$SLUG.vtt"
 PLAIN_TXT="$TRANSCRIPT_DIR/$SLUG.txt"
 CLEAN_TXT="$TRANSCRIPT_DIR/$SLUG.clean.txt"
 ASSET_MD="$ASSET_TRANSCRIPT_DIR/$SLUG.md"
-ASSET_VTT="$ASSET_TRANSCRIPT_DIR/$SLUG.vtt"
 STREAM_UID=""
 STREAM_UID_FILE="$WORKDIR/.stream-uid"
 if [[ -s "$STREAM_UID_FILE" ]]; then
@@ -239,9 +239,34 @@ prepare_audio() {
     return
   fi
 
-  log "[3/6] Encoding 128 kbps MP3"
-  yt-dlp -f bestaudio -o - "$URL" | \
-    ffmpeg -i - -vn -c:a libmp3lame -b:a 128k "$MP3"
+  # Listeners hear every episode at Apple's -16 LUFS target, and every app
+  # sees the same title, cover, and chapters: two-pass loudnorm (measure,
+  # then apply linearly) with ID3v2.3 tags, attached cover art, and CHAP
+  # frames built from the source's own chapter list.
+  log "[3/6] Encoding loudness-normalized 128 kbps MP3 with tags and chapters"
+  local src="$WORKDIR/$SLUG.audio" info="$WORKDIR/$SLUG.audio.info.json"
+  local meta="$WORKDIR/$SLUG.ffmeta" cover="$WORKDIR/cover.jpg" m
+  [[ -s "$src" ]] || yt-dlp -f bestaudio --write-info-json -o "$src" "$URL"
+  [[ -s "$cover" ]] || curl -fsSL -o "$cover" "${PODCAST_COVER_URL:-https://cdn.maxdesalle.com/podcast/cover.jpg}"
+
+  m=$(ffmpeg -hide_banner -nostats -i "$src" \
+        -af loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json -f null - 2>&1 | \
+      sed -n '/^{/,/^}/p')
+  jq -r '";FFMETADATA1",
+    "title=\(.title | gsub(" - "; " — "))",
+    "artist=Maxime Desalle", "album_artist=Maxime Desalle", "album=Maxime Desalle",
+    "genre=Podcast", "date=\(.upload_date[0:4])",
+    (.chapters // [] | .[] |
+      "[CHAPTER]", "TIMEBASE=1/1000",
+      "START=\(.start_time * 1000 | floor)", "END=\(.end_time * 1000 | floor)",
+      "title=\(.title)")' "$info" > "$meta"
+
+  ffmpeg -hide_banner -loglevel error -y -i "$src" -i "$meta" -i "$cover" \
+    -map 0:a -map 2:v -map_metadata 1 -map_chapters 1 \
+    -af "loudnorm=I=-16:TP=-1.5:LRA=11:linear=true:$(jq -r \
+      '"measured_I=\(.input_i):measured_TP=\(.input_tp):measured_LRA=\(.input_lra):measured_thresh=\(.input_thresh):offset=\(.target_offset)"' <<<"$m")" \
+    -ar 44100 -c:a libmp3lame -b:a 128k -c:v copy -disposition:v attached_pic \
+    -id3v2_version 3 "$MP3"
   [[ -s "$MP3" ]] || die "Audio stage did not produce: $MP3"
 }
 
@@ -314,11 +339,9 @@ PY
   else
     log "[4/6] Site Markdown transcript exists; skipping: $ASSET_MD"
   fi
-  if [[ ! -s "$ASSET_VTT" ]]; then
-    cp "$VTT" "$ASSET_VTT"
-  else
-    log "[4/6] Site VTT transcript exists; skipping: $ASSET_VTT"
-  fi
+  # The published VTT carries the edited text, so it is derived only after the
+  # caller's cleanup pass on $ASSET_MD; whisper's raw VTT stays in $WORKDIR:
+  #   scripts/retime-transcript.py "$VTT" "$ASSET_MD" > assets/transcripts/$SLUG.vtt
 }
 
 parse_stream_uid() {

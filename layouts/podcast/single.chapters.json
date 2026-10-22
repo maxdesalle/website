@@ -1,0 +1,8 @@
+{{- /* podcast:chapters (JSON Chapters 1.2.0), parsed from the episode's own "[mm:ss](#t=mm:ss) — Title" list. */ -}}
+{{- $chapters := slice -}}
+{{- range findRESubmatch `(?m)^- \[([\d:]+)\]\(#t=[\d:]+\) — (.+)$` .RawContent -}}
+  {{- $secs := 0 -}}
+  {{- range split (index . 1) ":" }}{{ $secs = add (mul $secs 60) (int (strings.TrimLeft "0" . | default "0")) }}{{ end -}}
+  {{- $chapters = $chapters | append (dict "startTime" $secs "title" (index . 2)) -}}
+{{- end -}}
+{{- dict "version" "1.2.0" "chapters" $chapters | jsonify (dict "indent" "  ") -}}

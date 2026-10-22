@@ -1,1784 +1,2320 @@
 WEBVTT
 
-00:00:00.000 --> 00:00:05.940
- Especially in this day and age with AI, how could you not recognize that privacy on Bitcoin right now is a huge issue?
+00:00:00.000 --> 00:00:04.390
+Especially in this day and age with AI, how could you not recognize that privacy on Bitcoin
 
-00:00:06.080 --> 00:00:17.040
- I think there's also quantum, which to me is just shocking, especially now with the US administration that accelerated the deadline to, I think it's 2031 now, from 2035 previously.
+00:00:04.390 --> 00:00:10.099
+right now is a huge issue? I think there's also quantum, which to me is just shocking,
 
-00:00:17.240 --> 00:00:25.640
- And knowing that Bitcoin will take years to upgrade to post-quantum, once there is consensus on it, it feels irresponsible, frankly.
+00:00:10.099 --> 00:00:14.117
+especially now with the US administration that accelerated the deadline to,
 
-00:00:25.640 --> 00:00:33.200
- If you're optimizing for usable money that protects people's security and safety and all those things, then you have to optimize for something else.
+00:00:14.117 --> 00:00:17.240
+I think it's 2031 now, from 2035 previously.
 
-00:00:33.380 --> 00:00:38.360
- But this should be the goal, is to optimize for this thing and not optimize for just the price going up.
+00:00:17.240 --> 00:00:21.640
+And knowing that Bitcoin will take years to upgrade to post-quantum,
 
-00:00:38.580 --> 00:00:39.740
- Hi, Josh Weihardt.
+00:00:21.640 --> 00:00:25.640
+once there is consensus on it, it feels irresponsible, frankly.
 
-00:00:40.060 --> 00:00:41.080
- Hey, how are you?
+00:00:25.640 --> 00:00:29.735
+If you're optimizing for usable money that protects people's security and safety and
 
-00:00:42.600 --> 00:00:43.040
- Starting.
+00:00:29.735 --> 00:00:33.380
+all those things, then you have to optimize for something else.
 
-00:00:44.080 --> 00:00:45.300
- Yeah, no, it's been great.
+00:00:33.380 --> 00:00:37.411
+But this should be the goal, is to optimize for this thing and not optimize for just
 
-00:00:45.440 --> 00:00:49.080
- First question, like sort of like starting with the history of Zcash.
+00:00:37.411 --> 00:00:38.580
+the price going up.
 
-00:00:49.220 --> 00:00:53.500
- I mean, you've been involved since quite a while now in Zcash and helping building it.
+00:00:38.580 --> 00:00:40.060
+Hi, Josh Swihart.
 
-00:00:53.680 --> 00:01:01.300
- Did you ever think that at some point before sort of like the Zcash comeback, Zcash was sort of dying?
+00:00:40.060 --> 00:00:42.600
+Hey, how are you?
 
-00:01:01.660 --> 00:01:02.820
- It was objectively dying.
+00:00:42.600 --> 00:00:47.867
+Starting. Yeah, no, it's been great. First question, like sort of like starting with
 
-00:01:02.820 --> 00:01:18.820
- So that was like in 2023, like I resigned from ECC and I resigned from what I thought would be my life's work, like what would be where I ended my career, what I would do for the rest of my life.
+00:00:47.867 --> 00:00:52.698
+the history of Zcash. I mean, you've been involved since quite a while now in Zcash and
 
-00:01:19.560 --> 00:01:21.160
- I didn't resign from Zcash.
+00:00:52.698 --> 00:00:59.014
+helping building it. Did you ever think that at some point, before sort of like the Zcash
 
-00:01:21.300 --> 00:01:27.780
- resigned from ECC and in part because I felt like there was change that needed to be made in order
+00:00:59.014 --> 00:01:01.660
+comeback, Zcash was sort of dying?
 
-00:01:27.780 --> 00:01:36.340
- to uh for the project to be successful so we had languished for quite some time the price was in
+00:01:01.660 --> 00:01:07.010
+It was objectively dying. So that was like in 2023, like I resigned from ECC,
 
-00:01:36.340 --> 00:01:44.100
- the doldrums maybe uh you know 20 and a dip below that I think objectively that's a measure of
+00:01:07.010 --> 00:01:13.487
+and I resigned from what I thought would be my life's work, like what would be where
 
-00:01:44.100 --> 00:01:50.260
- whether or not there's success because of the limited supply we would joke internally that
+00:01:13.487 --> 00:01:19.560
+I ended my career, what I would do for the rest of my life.
 
-00:01:50.260 --> 00:01:55.140
- there were probably 30 people in the world that cared about the project and we kept talking to
+00:01:19.560 --> 00:01:24.864
+I didn't resign from Zcash. I resigned from ECC, and in part because I felt like there
 
-00:01:55.140 --> 00:02:00.020
- those 30 people some of that was happening during the time where there was this sandblasting attack
+00:01:24.864 --> 00:01:31.204
+was change that needed to be made in order for the project to be successful.
 
-00:02:00.660 --> 00:02:06.900
- where people couldn't use zek at all it was effectively bricked somebody who goes by
+00:01:31.204 --> 00:01:34.628
+So we had languished for quite some time.
 
-00:02:06.900 --> 00:02:13.540
- peacemonger was running a project called jour and was doing user studies and doing interviews
+00:01:34.628 --> 00:01:41.241
+The price was in the doldrums, maybe, you know, $20, and a dip below that.
 
-00:02:13.540 --> 00:02:18.980
- with with users and one of the things she was tracking was net promoter score like would you
+00:01:41.241 --> 00:01:46.153
+I think objectively that's a measure of whether or not there's success,
 
-00:02:18.980 --> 00:02:27.540
- recommend this to a friend um and it was like as far negative as you could go so even the people
+00:01:46.153 --> 00:01:51.616
+because of the limited supply. We would joke internally that there were probably 30 people
 
-00:02:27.540 --> 00:02:34.820
- that were diehard zcashers were hating on zcash yeah and people wanted to use it and they couldn't
+00:01:51.616 --> 00:01:56.001
+in the world that cared about the project, and we kept talking to those 30 people.
 
-00:02:34.820 --> 00:02:39.300
- use it and they were frustrated and they were frustrated with things where things were going
+00:01:56.001 --> 00:02:00.660
+Some of that was happening during the time where there was this sandblasting attack,
 
-00:02:40.740 --> 00:02:46.180
- and so i had resigned before uh z con i don't remember which number that was but that was in
+00:02:00.660 --> 00:02:05.236
+where people couldn't use ZEC at all. It was effectively bricked.
 
-00:02:46.740 --> 00:02:53.700
- barcelona and so barcelona that was like my last day and i had started writing and some others had
+00:02:05.236 --> 00:02:11.769
+Somebody who goes by Peacemonger was running a project called Jour and was doing user
 
-00:02:53.700 --> 00:03:00.180
- started writing on the forums about what needed to change somebody else had made a post about it
+00:02:11.769 --> 00:02:17.469
+studies and doing interviews with users, and one of the things she was tracking was net
 
-00:03:00.180 --> 00:03:06.100
- being like a grand stadium that had been built and nobody's showing up to the stadium yeah and i got
+00:02:17.469 --> 00:02:21.426
+promoter score, like would you recommend this to a friend.
 
-00:03:06.100 --> 00:03:11.940
- to zikon and the whole thing was dark like the rooms were all dark there were just a few people
+00:02:21.426 --> 00:02:25.910
+And it was like as far negative as you could go.
 
-00:03:11.940 --> 00:03:17.540
- there compared to like the first econ which is in montreal um it's econ zero where it was just
+00:02:25.910 --> 00:02:30.776
+So even the people that were diehard Zcashers were hating on Zcash.
 
-00:03:17.540 --> 00:03:22.020
- vibrant and alive and all of these people were there and not just e-cash people but people that
+00:02:30.776 --> 00:02:31.276
+Yeah.
 
-00:03:22.020 --> 00:03:28.260
- were across the crypto ecosystem and kind of were interested in this new novel thing that had been
+00:02:31.276 --> 00:02:36.500
+And people wanted to use it, and they couldn't use it, and they were frustrated,
 
-00:03:28.260 --> 00:03:34.100
- built and i left that conference thinking man this was like the right decision to leave because it is
+00:02:36.500 --> 00:02:40.740
+and they were frustrated with where things were going.
 
-00:03:34.100 --> 00:03:42.540
- uh yeah it felt so dead what do you think revived it was it the um was it the price action i mean i
+00:02:40.740 --> 00:02:45.092
+And so I had resigned before Zcon. I don't remember which number that was,
 
-00:03:42.540 --> 00:03:50.260
- have my take i think it's it's the zashi effect but was it um solving the the ux is it like a
+00:02:45.092 --> 00:02:50.403
+but that was in Barcelona. And so Barcelona, that was like my last day.
 
-00:03:50.260 --> 00:03:54.560
- combination of those things like what it would actually led to the comeback yeah i think it was
+00:02:50.403 --> 00:02:56.220
+And I had started writing, and some others had started writing on the forums about what
 
-00:03:54.560 --> 00:04:00.540
- a convergence of things so first it wasn't usable and people didn't have a wallet that they actually
+00:02:56.220 --> 00:03:01.956
+needed to change. Somebody else had made a post about it being like a grand stadium that
 
-00:04:00.540 --> 00:04:06.440
- liked or they trusted or they wanted to use and for a long time ECC strategy was
+00:03:01.956 --> 00:03:04.916
+had been built, and nobody's showing up to the stadium.
 
-00:04:06.440 --> 00:04:14.220
- very confused so like when I even first interviewed I had mentioned that ECC
+00:03:04.916 --> 00:03:05.416
+Yeah.
 
-00:04:14.220 --> 00:04:21.700
- needed a wallet and that was back in I think I first interviewed in 17 2017 to
+00:03:05.416 --> 00:03:08.436
+And I got to Zcon, and the whole thing was dark.
 
-00:04:21.700 --> 00:04:26.780
- come on board and the response was nah somebody else will build it we're just
+00:03:08.436 --> 00:03:12.235
+Like the rooms were all dark. There were just a few people there,
 
-00:04:26.780 --> 00:04:30.220
- gonna focus on the protocol yeah it's like but the user experience this is
+00:03:12.235 --> 00:03:16.361
+compared to like the first Zcon, which is in Montreal, it's Zcon0,
 
-00:04:30.220 --> 00:04:34.300
- terrible right in order to send a shielded transaction you know at the time it's still
+00:03:16.361 --> 00:03:20.029
+where it was just vibrant and alive, and all of these people were there,
 
-00:04:34.300 --> 00:04:40.240
- command line and um it just wasn't it wasn't usable it wasn't going to get adoption yeah
+00:03:20.029 --> 00:03:24.447
+and not just Zcash people, but people that were across the crypto ecosystem and kind
 
-00:04:40.240 --> 00:04:44.220
- and so it's like well we don't want to do it we don't want to have a crowding out so
+00:03:24.447 --> 00:03:28.567
+of were interested in this new novel thing that had been built.
 
-00:04:44.220 --> 00:04:48.920
- we're going to build the sdks and yeah and i think at the time even like the shielded transaction
+00:03:28.567 --> 00:03:33.178
+And I left that conference thinking, man, this was like the right decision to leave,
 
-00:04:48.920 --> 00:04:54.760
- the share of shielded transactions was like single digit percentage numbers right like
+00:03:33.178 --> 00:03:34.452
+because it is...
 
-00:04:54.760 --> 00:05:00.900
- it was just so hard to make a shielded transaction due to like the cryptography required and how long
+00:03:34.452 --> 00:03:38.320
+Yeah, it felt so dead. What do you think revived it?
 
-00:05:00.900 --> 00:05:07.520
- it took um yeah it's just not a day compared to today yeah you had to be like way to the left of
+00:03:38.320 --> 00:03:43.593
+Was it the price action? I mean, I have my take.
 
-00:05:07.520 --> 00:05:14.780
- the adoption curve yeah in order to use zack it was just impossible and part of that was the nature
+00:03:43.593 --> 00:03:48.856
+I think it's the Zashi effect. But was it solving the UX?
 
-00:05:14.780 --> 00:05:20.320
- of the cryptography so we were still on sprout the initial shielded pool it was not performant
+00:03:48.856 --> 00:03:51.216
+Is it like a combination of those things?
 
-00:05:20.320 --> 00:05:25.080
- you couldn't run it you couldn't create a proof on a mobile device so if you're going to use it
+00:03:51.216 --> 00:03:53.366
+Like what actually led to the comeback?
 
-00:05:25.080 --> 00:05:29.900
- you had to basically you had to use transparent transactions any exchanges no exchanges could
+00:03:53.366 --> 00:03:55.889
+Yeah, I think it was a convergence of things.
 
-00:05:29.900 --> 00:05:38.240
- use it didn't scale um and so you know sapling didn't arrive until the end of 2018 at that point
+00:03:55.889 --> 00:04:00.887
+So first, it wasn't usable, and people didn't have a wallet that they actually liked
 
-00:05:38.240 --> 00:05:46.140
- it could be used but it was still our ecc's our strategy at the time was still to like provide
+00:04:00.887 --> 00:04:07.551
+or they trusted or they wanted to use. And for a long time, ECC strategy was very confused.
 
-00:05:46.140 --> 00:05:50.660
- SDKs and maybe sometime provide a wallet and started working on a wallet and started working
+00:04:07.551 --> 00:04:15.540
+So like when I even first interviewed, I had mentioned that ECC needed a wallet,
 
-00:05:50.660 --> 00:05:55.320
- on a reference wallet. And it didn't really work and it was way too clumsy. There were some things
+00:04:15.540 --> 00:04:21.260
+and that was back in, I think I first interviewed in '17, 2017,
 
-00:05:55.320 --> 00:06:03.140
- structurally within ECC that were broken that didn't allow us to ship really well. And so then
+00:04:21.260 --> 00:04:26.103
+to come on board. And the response was, nah, somebody else will build it,
 
-00:06:03.140 --> 00:06:08.680
- by the time we got to like the sandblasting attack, which then lasted a year, it was just
+00:04:26.103 --> 00:04:28.009
+we're just gonna focus on the protocol.
 
-00:06:08.680 --> 00:06:16.380
- god-awful. So what changed was a combination of we needed to change the structure of ECC and how
+00:04:28.009 --> 00:04:28.509
+Yeah.
 
-00:06:16.380 --> 00:06:22.320
- engineers were working together and how we prioritized our work. We needed to create
+00:04:28.509 --> 00:04:30.730
+It's like, but the user experience, this is terrible, right?
 
-00:06:22.320 --> 00:06:27.940
- an opinionated wallet where we could say this is best in class and this is how a wallet should be
+00:04:30.730 --> 00:04:34.999
+In order to send a shielded transaction, you know, at the time it's still command line,
 
-00:06:27.940 --> 00:06:34.600
- built. Get that launched, get user feedback on what is working, what is not working, use that
+00:04:34.999 --> 00:04:39.891
+and it just wasn't usable. It wasn't going to get adoption.
 
-00:06:34.600 --> 00:06:39.560
- user feedback to determine what we build into the protocol and we started iterating on that
+00:04:39.891 --> 00:04:40.391
+Yeah.
 
-00:06:39.560 --> 00:06:46.100
- and as soon as we released that that wallet uh adoption of the shielded curve started to to grow
+00:04:40.391 --> 00:04:44.021
+And so it's like, well, we don't want to do it, we don't want to have a crowding out,
 
-00:06:46.100 --> 00:06:52.300
- and then there was this other convergence of things where the market i think was starting
+00:04:44.021 --> 00:04:45.952
+so we're going to build the SDKs.
 
-00:06:52.300 --> 00:06:58.560
- to catch up it was usable we added hardware support uh with keystone partnership with
+00:04:45.952 --> 00:04:48.920
+Yeah, and I think at the time, even like the shielded transaction,
 
-00:06:58.560 --> 00:07:10.300
- Keystone late 2024 and then the shielded pool started to grow exponentially at that point
+00:04:48.920 --> 00:04:53.862
+the share of shielded transactions was like single-digit percentage numbers,
 
-00:07:10.300 --> 00:07:17.040
- and then recognized that we needed actually swaps in and out. And that was the big factor yeah
+00:04:53.862 --> 00:04:57.992
+right? Like it was just so hard to make a shielded transaction,
 
-00:07:17.040 --> 00:07:25.020
- swaps like to me integrating near intense into Zadal formalization was really such a good call
+00:04:57.992 --> 00:05:01.763
+due to like the cryptography required and how long it took.
 
-00:07:25.020 --> 00:07:31.080
- like it's in retrospect such an obvious decision i don't know if i would have expected it to work
+00:05:01.763 --> 00:05:02.263
+Yeah.
 
-00:07:31.080 --> 00:07:36.860
- as well as it did prior to that um because i mean many wallets have like built-in swaps right like
+00:05:02.263 --> 00:05:04.354
+It's just not the same compared to today.
 
-00:07:36.860 --> 00:07:41.660
- it and it didn't strike me as such like oh it's obviously going to work i think for zcash like
+00:05:04.354 --> 00:05:08.609
+Yeah, you had to be like way to the left of the adoption curve.
 
-00:07:41.660 --> 00:07:46.420
- the differentiating effect was privacy right like there's the swap but you don't know where it comes
+00:05:08.609 --> 00:05:09.109
+Yeah.
 
-00:07:46.420 --> 00:07:50.880
- from you don't know where to you know yeah that was such a good call um yeah yeah it was it was
+00:05:09.109 --> 00:05:12.239
+In order to use ZEC. It was just impossible.
 
-00:07:50.880 --> 00:07:57.040
- of those things where we were exploring it some other people that are z cashers were working also
+00:05:12.239 --> 00:05:15.758
+And part of that was the nature of the cryptography.
 
-00:07:57.040 --> 00:08:00.880
- engaged they've engaged with the near ecosystem and it started they made some introductions and
+00:05:15.758 --> 00:05:19.016
+So we were still on Sprout, the initial shielded pool.
 
-00:08:00.880 --> 00:08:04.720
- started meeting with your team your team at first was like we're not going to support privacy it's
+00:05:19.016 --> 00:05:23.414
+It was not performant. You couldn't run it, you couldn't create a proof on a mobile device.
 
-00:08:04.720 --> 00:08:11.200
- like too scary too risky tornado cash yeah yeah and so everybody was afraid of it like we had yeah
+00:05:23.414 --> 00:05:28.293
+So if you're going to use it, you had to basically, you had to use transparent transactions.
 
-00:08:11.200 --> 00:08:15.520
- we with we had worked started trying to work with thor chain like a long time ago and thor chain was
+00:05:28.293 --> 00:05:30.525
+Any exchanges, no exchanges could use it.
 
-00:08:15.520 --> 00:08:19.040
- just like we're not touching it right after tornado cash so we started working with near
+00:05:30.525 --> 00:05:31.985
+It didn't scale.
 
-00:08:19.040 --> 00:08:24.640
- nero's like okay we'll support shield the trans or trans transparent transactions but no way we're
+00:05:31.985 --> 00:05:36.989
+And so, you know, Sapling didn't arrive until the end of 2018.
 
-00:08:24.640 --> 00:08:30.320
- doing anything with shielded um and then some other people were very skeptical that it would
+00:05:36.989 --> 00:05:44.955
+At that point it could be used, but it was still, ECC's strategy at the time was still
 
-00:08:30.320 --> 00:08:34.880
- work like how can you have a single currency wallet and allow swaps in it in and out like
+00:05:44.955 --> 00:05:51.641
+to like provide SDKs and maybe sometime provide a wallet, and started working on a reference wallet.
 
-00:08:34.880 --> 00:08:39.200
- nobody's gonna use it yeah and it proved to be just the opposite yeah i know it's the contrary
+00:05:51.641 --> 00:05:54.339
+And it didn't really work, and it was way too clumsy.
 
-00:08:39.200 --> 00:08:44.400
- it's exceptional yeah that's really great you mentioned things were like broken at ecc what
+00:05:54.339 --> 00:05:59.920
+There were some things structurally within ECC that were broken that didn't allow us
 
-00:08:44.400 --> 00:08:49.680
- were some of those things i think you've already expressed the fact that um the funding model for
+00:05:59.920 --> 00:06:06.218
+to ship really well. And so then by the time we got to like the sandblasting attack,
 
-00:08:49.680 --> 00:08:56.480
- acc was sort of like broken because you i think you were relying on like um block revenues
+00:06:06.218 --> 00:06:09.108
+which then lasted a year, it was just god-awful.
 
-00:08:56.480 --> 00:09:02.880
- essentially um is there was that part of what was broken was there something else as well um
+00:06:09.108 --> 00:06:16.380
+So what changed was a combination of: we needed to change the structure of ECC and how
 
-00:09:03.520 --> 00:09:09.680
- yeah so that creates so ecc at one point was a for-profit company when it launched so it was
+00:06:16.380 --> 00:06:20.623
+engineers were working together and how we prioritized our work.
 
-00:09:09.680 --> 00:09:16.640
- zcash company created the open source then a decision was made at ecc uh to move it under
+00:06:20.623 --> 00:06:24.287
+We needed to create an opinionated wallet where we could say,
 
-00:09:16.640 --> 00:09:22.160
- a non-for-profit structure um there's various views on why that was done like internally there
+00:06:24.287 --> 00:06:28.332
+this is best in class and this is how a wallet should be built.
 
-00:09:22.160 --> 00:09:28.320
- was conversations about what is optics is that people want if we're going to continue to receive
+00:06:28.332 --> 00:06:33.816
+Get that launched, get user feedback on what is working, what is not working,
 
-00:09:28.320 --> 00:09:32.800
- block rewards people want that to go to a non-for-profit not for for-profit i think there
+00:06:33.816 --> 00:06:37.700
+use that user feedback to determine what we build into the protocol.
 
-00:09:32.800 --> 00:09:40.240
- was a desire to clean the cap table and and so bootstrap was created uh so bootstrap is a 501c3
+00:06:37.700 --> 00:06:43.002
+And we started iterating on that, and as soon as we released that wallet,
 
-00:09:40.800 --> 00:09:46.880
- and then rather than try to convert ecc into a 501c3 which would be very difficult all of the
+00:06:43.002 --> 00:06:46.100
+adoption of the shielded curve started to grow.
 
-00:09:46.880 --> 00:09:50.640
- people on the cap table donated their shares to bootstrap because they had effectively already
+00:06:46.100 --> 00:06:50.750
+And then there was this other convergence of things, where the market,
 
-00:09:50.640 --> 00:09:56.800
- been paid out by mining rewards or founders rewards years back so they all donated their
+00:06:50.750 --> 00:06:54.804
+I think, was starting to catch up. It was usable.
 
-00:09:56.800 --> 00:10:03.280
- shares and so then ecc was under bootstrap and ecc was effectively a not-for-profit with a
+00:06:54.804 --> 00:06:59.343
+We added hardware support with Keystone, partnership with Keystone,
+
+00:06:59.343 --> 00:07:10.300
+late 2024, and then the shielded pool started to grow exponentially at that point.
+
+00:07:10.300 --> 00:07:14.419
+And then recognized that we needed actually swaps in and out.
+
+00:07:14.419 --> 00:07:17.539
+And that was the big factor. Yeah, swaps.
+
+00:07:17.539 --> 00:07:22.028
+Like to me, integrating NEAR Intents into Zodl, formerly Zashi,
+
+00:07:22.028 --> 00:07:27.572
+was really such a good call. Like it's, in retrospect, such an obvious decision.
+
+00:07:27.572 --> 00:07:33.681
+I don't know if I would have expected it to work as well as it did prior to that,
+
+00:07:33.681 --> 00:07:37.100
+because, I mean, many wallets have like built-in swaps, right?
+
+00:07:37.100 --> 00:07:40.460
+And it didn't strike me as such, like, oh, it's obviously going to work.
+
+00:07:40.460 --> 00:07:43.060
+I think for Zcash, like the differentiating effect was privacy,
+
+00:07:43.060 --> 00:07:46.623
+right? Like there's the swap, but you don't know where it comes from,
+
+00:07:46.623 --> 00:07:49.664
+you don't know where to, you know. Yeah, that was such a good call.
+
+00:07:49.664 --> 00:07:53.618
+Yeah, yeah. It was one of those things where we were exploring it.
+
+00:07:53.618 --> 00:07:57.296
+Some other people that are Zcashers were working, also engaged,
+
+00:07:57.296 --> 00:08:01.093
+they've engaged with the NEAR ecosystem, and they made some introductions and started
+
+00:08:01.093 --> 00:08:03.227
+meeting with the NEAR team. The NEAR team at first was like,
+
+00:08:03.227 --> 00:08:06.340
+we're not going to support privacy, it's like too scary, too risky.
+
+00:08:06.340 --> 00:08:06.988
+Tornado Cash.
+
+00:08:06.988 --> 00:08:09.904
+Yeah, yeah. And so everybody was afraid of it.
+
+00:08:09.904 --> 00:08:14.697
+Like we had, yeah, we had started trying to work with THORChain like a long time ago,
+
+00:08:14.697 --> 00:08:17.720
+and THORChain was just like, we're not touching it, right after Tornado Cash.
+
+00:08:17.720 --> 00:08:23.240
+So we started working with NEAR. NEAR's like, okay, we'll support transparent transactions,
+
+00:08:23.240 --> 00:08:26.415
+but no way we're doing anything with shielded.
+
+00:08:26.415 --> 00:08:30.560
+And then some other people were very skeptical that it would work.
+
+00:08:30.560 --> 00:08:33.920
+Like, how can you have a single-currency wallet and allow swaps in it,
+
+00:08:33.920 --> 00:08:35.789
+in and out? Like, nobody's gonna use it.
+
+00:08:35.789 --> 00:08:36.289
+Yeah.
+
+00:08:36.289 --> 00:08:37.836
+And it proved to be just the opposite.
+
+00:08:37.836 --> 00:08:39.893
+Yeah, I know, it's the contrary. It's exceptional.
+
+00:08:39.893 --> 00:08:44.053
+Yeah, that's really great. You mentioned things were like broken at ECC.
+
+00:08:44.053 --> 00:08:49.093
+What were some of those things? I think you've already expressed the fact that the funding
+
+00:08:49.093 --> 00:08:56.102
+model for ECC was sort of like broken, because, I think, you were relying on like block
+
+00:08:56.102 --> 00:09:00.391
+revenues, essentially. Was that part of what was broken?
+
+00:09:00.391 --> 00:09:03.520
+Was there something else as well?
+
+00:09:03.520 --> 00:09:08.707
+Yeah, so that creates... So ECC at one point was a for-profit company when it launched.
+
+00:09:08.707 --> 00:09:12.000
+So it was Zcash Company, created the open source.
+
+00:09:12.000 --> 00:09:18.112
+Then a decision was made at ECC to move it under a not-for-profit structure.
+
+00:09:18.112 --> 00:09:21.056
+There's various views on why that was done.
+
+00:09:21.056 --> 00:09:24.334
+Like internally, there was conversations about what is optics,
+
+00:09:24.334 --> 00:09:28.880
+is that people want, if we're going to continue to receive block rewards,
+
+00:09:28.880 --> 00:09:31.960
+people want that to go to a not-for-profit, not for a for-profit.
+
+00:09:31.960 --> 00:09:35.776
+I think there was a desire to clean the cap table.
+
+00:09:35.776 --> 00:09:40.800
+And so Bootstrap was created. So Bootstrap is a 501(c)(3).
+
+00:09:40.800 --> 00:09:45.920
+And then, rather than try to convert ECC into a 501(c)(3), which would be very difficult,
+
+00:09:45.920 --> 00:09:49.387
+all of the people on the cap table donated their shares to Bootstrap,
+
+00:09:49.387 --> 00:09:52.950
+because they had effectively already been paid out by mining rewards,
+
+00:09:52.950 --> 00:09:57.205
+or founders' rewards, years back. So they all donated their shares,
+
+00:09:57.205 --> 00:10:03.280
+and so then ECC was under Bootstrap, and ECC was effectively a not-for-profit with a
 
 00:10:03.280 --> 00:10:09.520
- guaranteed funding stream so the you know bootstraps address and the zcash foundation's
+guaranteed funding stream. So, you know, Bootstrap's address and the Zcash Foundation's
 
-00:10:09.520 --> 00:10:15.760
- address were actually baked into the chain so we were guaranteed to receive insane yeah insane so
+00:10:09.520 --> 00:10:12.089
+address were actually baked into the chain.
 
-00:10:15.760 --> 00:10:21.360
- as a public good as a public good it just doesn't work and it creates these crazy incentives and we
+00:10:12.089 --> 00:10:14.292
+So we were guaranteed to receive...
 
-00:10:21.360 --> 00:10:25.440
- had these internal conversations like the incentives are all broken it was like no no this
+00:10:14.292 --> 00:10:14.792
+Insane.
 
-00:10:25.440 --> 00:10:31.840
- is fine this is fine um they'll continue to fund us and i was like nothing freaking works yeah how
+00:10:14.792 --> 00:10:19.120
+Yeah, insane. So as a public good, as a public good, it just doesn't work,
 
-00:10:31.840 --> 00:10:37.040
- can you expect the community the only reason that the community is funding us is because we wrote
+00:10:19.120 --> 00:10:22.380
+and it creates these crazy incentives. And we had these internal conversations,
 
-00:10:37.040 --> 00:10:41.200
- the code that put our address into the chain we needed to change it we need to break up that
+00:10:22.380 --> 00:10:26.080
+like, the incentives are all broken. It was like, no, no, this is fine,
 
-00:10:41.200 --> 00:10:45.280
- structure there are some other kind of structural things where our mobile team is completely
+00:10:26.080 --> 00:10:28.960
+this is fine, they'll continue to fund us.
 
-00:10:45.280 --> 00:10:50.640
- separated from our core engineering team so you can't like have create these internal walls we're
+00:10:28.960 --> 00:10:31.200
+And I was like, nothing freaking works.
 
-00:10:50.640 --> 00:10:52.280
- way too...
+00:10:31.200 --> 00:10:31.700
+Yeah.
 
-00:10:52.280 --> 00:10:54.380
- We needed to bring them together.
+00:10:31.700 --> 00:10:35.884
+How can you expect the community... The only reason that the community is funding us
 
-00:10:54.540 --> 00:10:56.700
- I feel like it's actually quite surprising that
+00:10:35.884 --> 00:10:38.912
+is because we wrote the code that put our address into the chain.
 
-00:10:56.700 --> 00:10:58.740
- there was this idea
+00:10:38.912 --> 00:10:41.472
+We needed to change it, we need to break up that structure.
 
-00:10:58.740 --> 00:11:00.520
- of, oh yeah, it's baked in
+00:10:41.472 --> 00:10:45.615
+There are some other kind of structural things, where our mobile team is completely separated
 
-00:11:00.520 --> 00:11:02.320
- like the revenue stream.
+00:10:45.615 --> 00:10:50.305
+from our core engineering team. So you can't like have, create these internal walls.
 
-00:11:02.660 --> 00:11:04.920
- It's fine to have it directly baked in through the chain
+00:10:50.305 --> 00:10:54.540
+We're way too... We needed to bring them together.
 
-00:11:04.920 --> 00:11:06.400
- because it looks
+00:10:54.540 --> 00:10:59.037
+I feel like it's actually quite surprising that there was this idea of,
 
-00:11:06.400 --> 00:11:08.580
- awfully a lot like a
+00:10:59.037 --> 00:11:04.098
+oh yeah, it's baked in, like the revenue stream, it's fine to have it directly baked
 
-00:11:08.580 --> 00:11:10.620
- government where no matter
+00:11:04.098 --> 00:11:09.090
+in through the chain, because it looks awfully a lot like a government,
 
-00:11:10.620 --> 00:11:12.680
- what you do, the taxes keep coming,
+00:11:09.090 --> 00:11:15.020
+where no matter what you do, the taxes keep coming, the inflation keeps going.
 
-00:11:12.820 --> 00:11:14.060
- the inflation keeps going.
+00:11:15.020 --> 00:11:19.800
+And I feel like that's sort of like exactly what Zcash is struggling against.
 
-00:11:15.020 --> 00:11:16.780
- And I feel like that's
+00:11:19.800 --> 00:11:21.452
+It's, yeah, it's actually quite surprising that...
 
-00:11:16.780 --> 00:11:18.480
- sort of like exactly what Seacash
+00:11:21.452 --> 00:11:23.834
+Yeah, I mean, there were some people basically were thinking,
 
-00:11:18.480 --> 00:11:19.560
- is struggling against.
+00:11:23.834 --> 00:11:27.539
+well, people have the option, is to either opt out or to fork the chain.
 
-00:11:19.800 --> 00:11:23.340
- it's yeah it's actually quite surprising that yeah i mean there were some people basically
+00:11:27.539 --> 00:11:29.480
+And so there was a fork.
 
-00:11:23.340 --> 00:11:28.280
- were thinking well people have the option is to either opt out or to fork the chain and so there
+00:11:29.480 --> 00:11:33.380
+So I feel like the fork excuse is used too often.
 
-00:11:28.280 --> 00:11:35.180
- was a fork um so i feel like the the fork excuse is is used too often it's like oh if you disagree
+00:11:33.380 --> 00:11:36.056
+It's like, oh, if you disagree, you can just fork.
 
-00:11:35.180 --> 00:11:40.000
- you can just fork but like no like you still need to be able to like kind of like counter and like
+00:11:36.056 --> 00:11:40.356
+But like, no, like you still need to be able to like kind of like counter and like fight,
 
-00:11:40.000 --> 00:11:45.340
- fight and like it's it's yeah it's the final governance decision it says when everything
+00:11:40.356 --> 00:11:41.780
+and like it's...
 
-00:11:45.340 --> 00:11:49.800
- else is broken it's last yeah it's last resort or if somebody just has a completely different
+00:11:41.780 --> 00:11:43.916
+Yeah, it's the final governance decision.
 
-00:11:49.800 --> 00:11:53.980
- vision of what they want to do like they want to add some kind of capability or something because
+00:11:43.916 --> 00:11:46.652
+It says, when everything else is broken, it's last...
 
-00:11:53.980 --> 00:11:58.240
- they think and the rest of the community is not on board i think there was enough kind of discord
+00:11:46.652 --> 00:11:47.701
+Yeah, it's last resort.
 
-00:11:58.240 --> 00:12:03.500
- within the within the community and saying like look like we need to get rid of this whole direct
+00:11:47.701 --> 00:11:51.340
+Or if somebody just has a completely different vision of what they want to do.
 
-00:12:03.500 --> 00:12:07.740
- dev fund model yeah and i was one of those people that were just like the incentives are all broken
+00:11:51.340 --> 00:11:54.406
+Like they want to add some kind of capability or something, because they think,
 
-00:12:07.740 --> 00:12:15.060
- and what it does is the dev fund incentivizes us to try to continue to get the dev fund yes it
+00:11:54.406 --> 00:11:56.536
+and the rest of the community is not on board.
 
-00:12:15.060 --> 00:12:19.300
- doesn't incentivize us to actually build better yes and so we needed to shift so that we could
+00:11:56.536 --> 00:12:00.178
+I think there was enough kind of discord within the community and saying,
 
-00:12:19.300 --> 00:12:25.600
- build better so this directly leads us then to the the transition to zottle which then basically
+00:12:00.178 --> 00:12:04.136
+like, look, like we need to get rid of this whole direct dev fund model.
 
-00:12:25.600 --> 00:12:32.980
- transitions scc back from a non-profit now to a for-profit what was the reasoning there was it
+00:12:04.136 --> 00:12:04.636
+Yeah.
 
-00:12:32.980 --> 00:12:39.160
- again like better incentives yeah it was it was better incentive so we through that you know when
+00:12:04.636 --> 00:12:07.740
+And I was one of those people that were just like, the incentives are all broken,
 
-00:12:39.160 --> 00:12:44.780
- the when the price is in the in the doldrums we were no longer so what i did was refuse to take
+00:12:07.740 --> 00:12:14.363
+and what it does is the dev fund incentivizes us to try to continue to get the dev fund.
 
-00:12:44.780 --> 00:12:49.380
- any further debt funding so if you bake this in for the foundation or the community says we're
+00:12:14.363 --> 00:12:14.863
+Yes.
 
-00:12:49.380 --> 00:12:53.160
- going to do it we're just not going to take the money and so we need to figure out how to be
+00:12:14.863 --> 00:12:16.709
+It doesn't incentivize us to actually build better.
 
-00:12:53.160 --> 00:13:01.040
- self-sustainable by delivering products that people actually want to use yeah and and not be
+00:12:16.709 --> 00:12:17.209
+Yes.
 
-00:13:01.040 --> 00:13:10.120
- relying on on this kind of effective taxation and so um but by doing so you know paradoxically i'm
+00:12:17.209 --> 00:12:20.041
+And so we needed to shift so that we could build better.
 
-00:13:10.120 --> 00:13:14.280
- saying i'm cutting our revenue so yes and i don't know where our revenue is going to come yes yeah
+00:12:20.041 --> 00:12:26.034
+So this directly leads us then to the transition to Zodl, which then basically transitions
 
-00:13:14.280 --> 00:13:21.800
- and so uh it was a very risky move and and it hurt us for some time right so we used the funding that
+00:12:26.034 --> 00:12:29.941
+ECC back from a non-profit now to a for-profit.
 
-00:13:21.800 --> 00:13:27.920
- we had um we were about 30 to 50 percent understaffed so we were trying to grow grow out of
+00:12:29.941 --> 00:12:34.353
+What was the reasoning there? Was it again like better incentives?
 
-00:13:27.920 --> 00:13:34.800
- it with the release of zashi in early 2024 um and we're starting to see good progress there but i
+00:12:34.353 --> 00:12:38.817
+Yeah, it was better incentives. So we, through that, you know,
 
-00:13:34.800 --> 00:13:44.400
- this conversation with Balaji in Singapore late that year late 2025 Balaji asked he said like this
+00:12:38.817 --> 00:12:42.736
+when the price is in the doldrums, we were no longer...
 
-00:13:44.400 --> 00:13:51.420
- is one of the most important projects in the world not just for crypto cryptocurrencies but for
+00:12:42.736 --> 00:12:45.802
+So what I did was refuse to take any further dev funding.
 
-00:13:51.420 --> 00:14:00.260
- mankind are you funded well enough we need to get really big fast yeah so that it's too hard to kill
+00:12:45.802 --> 00:12:50.067
+So if you bake this in for the Foundation, or the community says we're going to do it,
 
-00:14:00.260 --> 00:14:05.620
- yeah and peter van velkenberg had talked about something similar down at devcon not specific to
+00:12:50.067 --> 00:12:53.685
+we're just not going to take the money. And so we need to figure out how to be self-sustainable
 
-00:14:05.620 --> 00:14:11.240
- uh z cash but to tornado he's talking about tornado cash and then if you're too small the
+00:12:53.685 --> 00:12:58.413
+by delivering products that people actually want to use.
 
-00:14:11.240 --> 00:14:14.980
- government will go after you and they'll try to make an example of you and there'll be a chilling
+00:12:58.413 --> 00:12:58.939
+Yeah.
 
-00:14:14.980 --> 00:14:19.440
- effect and that's exactly what happened with a lot of privacy projects that's like that's what we saw
+00:12:58.939 --> 00:13:04.863
+And not be relying on this kind of effective taxation.
 
-00:14:19.440 --> 00:14:24.140
- with with thorchain like backing out and saying like no way and so we have to be too big to kill
+00:13:04.863 --> 00:13:11.160
+And so, but by doing so, you know, paradoxically, I'm saying I'm cutting our revenue,
 
-00:14:24.140 --> 00:14:28.600
- and are you positioned his question is are you positioned to be too big to kill
+00:13:11.160 --> 00:13:11.660
+so...
 
-00:14:28.600 --> 00:14:35.580
- effectively i said no we're building as fast as we can yeah we'll get there he's like well i know
+00:13:11.660 --> 00:13:12.160
+Yes.
 
-00:14:35.580 --> 00:14:39.480
- how to raise money let's raise money and so we started down that path of saying we need to raise
+00:13:12.160 --> 00:13:13.864
+And I don't know where our revenue is going to come from.
 
-00:14:39.480 --> 00:14:46.060
- money but in order to raise money we really needed to be a for-profit entity and a16z had put out a
+00:13:13.864 --> 00:13:14.364
+Yes, yeah.
 
-00:14:46.060 --> 00:14:50.340
- paper talked about how foundations are dead some people disagree or agree with that but i believe
+00:13:14.364 --> 00:13:19.607
+And so it was a very risky move, and it hurt us for some time,
 
-00:14:50.340 --> 00:14:57.920
- in market alignment and market incentives and so uh ultimately getting um now zottle to a place
+00:13:19.607 --> 00:13:22.718
+right? So we used the funding that we had.
 
-00:14:57.920 --> 00:14:59.700
- where it's up to the market
+00:13:22.718 --> 00:13:25.166
+We were about 30 to 50 percent understaffed.
 
-00:14:59.700 --> 00:15:01.820
- as to whether or not we succeed or fail,
+00:13:25.166 --> 00:13:31.360
+So we were trying to grow out of it with the release of Zashi in early 2024,
 
-00:15:01.960 --> 00:15:02.900
- I think it's much healthier.
+00:13:31.360 --> 00:13:34.112
+and we're starting to see good progress there.
 
-00:15:03.540 --> 00:15:06.300
- This episode is sponsored by Cypherpunk.
+00:13:34.112 --> 00:13:39.882
+But I had this conversation with Balaji in Singapore late that year,
 
-00:15:06.920 --> 00:15:09.960
- Cypherpunk is the first public company
+00:13:39.882 --> 00:13:47.704
+late 2025. Balaji asked, he said, like, this is one of the most important projects in
 
-00:15:09.960 --> 00:15:12.640
- entirely built around privacy
+00:13:47.704 --> 00:13:51.841
+the world, not just for crypto, cryptocurrencies, but for mankind.
 
-00:15:12.640 --> 00:15:15.960
- and they are hardcore believers in Zcash.
+00:13:51.841 --> 00:13:56.892
+Are you funded well enough? We need to get really big, fast.
 
-00:15:16.440 --> 00:15:18.300
- And they aren't just holding Zcash,
+00:13:56.892 --> 00:13:57.392
+Yeah.
 
-00:15:18.440 --> 00:15:20.300
- they are actively accelerating it,
+00:13:57.392 --> 00:14:00.260
+So that it's too hard to kill.
 
-00:15:20.780 --> 00:15:23.720
- investing in, acquiring, and building
+00:14:00.260 --> 00:14:00.760
+Yeah.
 
-00:15:23.720 --> 00:15:26.600
- a constellation of wallets, tools,
+00:14:00.760 --> 00:14:04.615
+And Peter Van Valkenburgh had talked about something similar down at Devcon.
 
-00:15:26.880 --> 00:15:34.540
- companies around zack that turns private money into something people actually use if you care
+00:14:04.615 --> 00:14:09.054
+Not specific to Zcash, but to Tornado, he's talking about Tornado Cash.
 
-00:15:34.540 --> 00:15:40.280
- about where the zcash ecosystem goes next cypherpunk is where it's at follow along at
+00:14:09.054 --> 00:14:12.224
+And then if you're too small, the government will go after you,
 
-00:15:40.280 --> 00:15:48.260
- cypherpunk.com i repeat cypherpunk.com back to the video it lines the incentives and i think
+00:14:12.224 --> 00:14:15.228
+and they'll try to make an example of you, and there'll be a chilling effect.
 
-00:15:48.260 --> 00:15:54.000
- right now zala is really in a position to be able to uh finally ship i mean you guys raised a really
+00:14:15.228 --> 00:14:17.953
+And that's exactly what happened with a lot of privacy projects.
 
-00:15:54.000 --> 00:15:57.720
- great round with a lot of great investors including people that i didn't expect would
+00:14:17.953 --> 00:14:21.230
+That's what we saw with THORChain, like backing out and saying,
 
-00:15:57.720 --> 00:16:03.520
- be in zcash like david freeberg yes very like oh okay nice uh yeah we have him on speaking of
+00:14:21.230 --> 00:14:21.902
+like, no way.
 
-00:16:03.520 --> 00:16:08.380
- zottle what are your your new plans then because i remember seeing i think back in 2024 you had
+00:14:21.902 --> 00:14:25.255
+And so we have to be too big to kill. And are you positioned,
 
-00:16:08.380 --> 00:16:14.260
- released sort of like a roadmap of stuff you had planned for for zashi back in the day um including
+00:14:25.255 --> 00:14:28.949
+his question is, are you positioned to be too big to kill, effectively?
 
-00:16:14.260 --> 00:16:19.140
- like a vault feature and like over vault app and you know there were all these things that were
+00:14:28.949 --> 00:14:32.439
+I said no, we're building as fast as we can.
 
-00:16:19.140 --> 00:16:25.300
- plans is is that still in the works like what are the what can we expect from zottle coming up in
+00:14:32.439 --> 00:14:32.939
+Yeah.
 
-00:16:25.300 --> 00:16:30.340
- the future yeah so i'll start big and i can go to some more granular things some of it we're
+00:14:32.939 --> 00:14:36.360
+We'll get there. He's like, well, I know how to raise money,
 
-00:16:30.340 --> 00:16:36.080
- going to talk about this week let's go yeah and so people may be hearing some pieces of it for
+00:14:36.360 --> 00:14:39.793
+let's raise money. And so we started down that path of saying we need to raise money.
 
-00:16:36.080 --> 00:16:42.560
- the first time this week as we get together but fundamentally i believe um we're in this place
+00:14:39.793 --> 00:14:44.180
+But in order to raise money, we really needed to be a for-profit entity.
 
-00:16:42.560 --> 00:16:48.340
- we're in prague there was this thing that happened here called the velvet revolution under communism
+00:14:44.180 --> 00:14:47.822
+And a16z had put out a paper, talked about how foundations are dead.
 
-00:16:48.340 --> 00:16:55.280
- right as the wall was coming down and everything was breaking apart and the communist the
+00:14:47.822 --> 00:14:53.015
+Some people disagree or agree with that, but I believe in market alignment and market incentives.
 
-00:16:55.280 --> 00:17:01.860
- communistic system was very controlling right and there was a group of people benda vlakov havel
+00:14:53.015 --> 00:15:00.407
+And so ultimately getting now Zodl to a place where it's up to the market as to whether
 
-00:17:01.860 --> 00:17:10.760
- some musicians some other people that kind of formulated this idea that we can't actually
+00:15:00.407 --> 00:15:03.540
+or not we succeed or fail, I think it's much healthier.
 
-00:17:10.760 --> 00:17:16.620
- change that system from within that system under that system's rules yeah that we have to
+00:15:03.540 --> 00:15:06.920
+This episode is sponsored by Cypherpunk.
 
-00:17:16.620 --> 00:17:23.060
- fundamentally create a parallel society yeah it's not unlike biology's network state yeah and we
+00:15:06.920 --> 00:15:12.640
+Cypherpunk is the first public company entirely built around privacy,
 
-00:17:23.060 --> 00:17:30.160
- will we will um have our own art we'll have our own music yeah we'll have our own writing we'll
+00:15:12.640 --> 00:15:16.440
+and they are hardcore believers in Zcash.
 
-00:17:30.160 --> 00:17:36.980
- have our own money and we'll transact and we'll operate as a society in parallel with the existing
+00:15:16.440 --> 00:15:20.780
+And they aren't just holding Zcash, they are actively accelerating it,
 
-00:17:36.980 --> 00:17:44.360
- society we don't have to move and so that the parallel polis uh that idea was created right here
+00:15:20.780 --> 00:15:26.024
+investing in, acquiring, and building a constellation of wallets,
 
-00:17:44.360 --> 00:17:52.400
- and i learned about that actually in my 20s because i would come out here during the summers
+00:15:26.024 --> 00:15:33.008
+tools, companies around ZEC that turns private money into something people actually use.
 
-00:17:52.400 --> 00:17:58.340
- and teach english and the students would tell me about the history of the country and it's a very
+00:15:33.008 --> 00:15:39.132
+If you care about where the Zcash ecosystem goes next, Cypherpunk is where it's at.
 
-00:17:58.340 --> 00:18:05.000
- beautiful idea and likewise with our traditional financial system i don't think you can change that
+00:15:39.132 --> 00:15:42.408
+Follow along at cypherpunk.com. I repeat, cypherpunk.com.
 
-00:18:05.000 --> 00:18:10.800
- from within in our current governmental systems you can't change that with with from within it's
+00:15:42.408 --> 00:15:44.536
+Back to the video.
 
-00:18:10.800 --> 00:18:15.480
- too hard it will take a long time even if you could do it it would take a long time but there's
+00:15:44.536 --> 00:15:51.130
+It aligns the incentives, and I think right now Zodl is really in a position to be able
 
-00:18:15.480 --> 00:18:22.540
- too many entrenched powers so what do we have to do we have to create a parallel society a parallel
+00:15:51.130 --> 00:15:55.984
+to finally ship. I mean, you guys raised a really great round with a lot of great investors,
 
-00:18:22.540 --> 00:18:28.380
- financial system and so what we're looking at is like what do we need to create a parallel
+00:15:55.984 --> 00:15:59.460
+including people that I didn't expect would be in Zcash, like David Friedberg.
 
-00:18:28.380 --> 00:18:33.860
- financial system what are all of the pieces that need to be there so that you can do that without
+00:15:59.460 --> 00:15:59.960
+Yes.
 
-00:18:33.860 --> 00:18:41.940
- trust without having to trust an intermediary um so what does it mean like not to have a bank
+00:15:59.960 --> 00:16:01.490
+Very, like, oh, okay, nice.
 
-00:18:41.940 --> 00:18:46.740
- yeah we have a bank today we kyc aml we have all this stuff there's all these rules in place
+00:16:01.490 --> 00:16:02.940
+Yeah, we have him on.
 
-00:18:46.740 --> 00:18:53.220
- let's not try to be a bank what is that we really need from first principles for a new financial
+00:16:02.940 --> 00:16:05.566
+Speaking of Zodl, what are your new plans then?
 
-00:18:53.220 --> 00:18:59.180
- system and there's a whole bunch of things that aren't there yet so we we have a need to be able
+00:16:05.566 --> 00:16:10.144
+Because I remember seeing, I think back in 2024, you had released sort of like a roadmap
 
-00:18:59.180 --> 00:19:04.640
- to save and store our wealth to be able to recover it or have family members recover it
+00:16:10.144 --> 00:16:15.544
+of stuff you had planned for Zashi back in the day, including like a vault feature and
 
-00:19:04.640 --> 00:19:10.520
- if we were to pass away or if we were to kind of lose our phone or something like that this kind
+00:16:15.544 --> 00:16:19.433
+like a vault app, and, you know, there were all these things that were plans.
 
-00:19:10.520 --> 00:19:16.340
- of whole notion of a seed phrase that we have to either commit to memory or write down on a scrap
+00:16:19.433 --> 00:16:25.804
+Is that still in the works? Like what can we expect from Zodl coming up in the future?
 
-00:19:16.340 --> 00:19:21.360
- of paper or put it into metal and bury it in concrete in our backyard or something like that
+00:16:25.804 --> 00:16:29.332
+Yeah, so I'll start big, and I can go to some more granular things.
 
-00:19:21.360 --> 00:19:28.800
- is very antiquated and not modern and so we need those kinds of solutions we need that full stack
+00:16:29.332 --> 00:16:32.062
+Some of it we're going to talk about this week.
 
-00:19:28.800 --> 00:19:32.960
- so that we can build this alternative financial system so anywhere there's gaps that's what we're
+00:16:32.062 --> 00:16:32.636
+Let's go.
 
-00:19:33.520 --> 00:19:39.340
- focused on building and removing all of the friction points because things like a seed
+00:16:32.636 --> 00:16:38.240
+Yeah, and so people may be hearing some pieces of it for the first time this week as
 
-00:19:39.340 --> 00:19:43.240
- phrase is a friction point i have to think about it like what does this mean it makes me very
+00:16:38.240 --> 00:16:42.560
+we get together. But fundamentally, I believe we're in this place...
 
-00:19:43.240 --> 00:19:49.560
- nervous i'm scared what happens if i you know lose my phone or something like that um so those are
+00:16:42.560 --> 00:16:47.618
+We're in Prague. There was this thing that happened here called the Velvet Revolution,
 
-00:19:49.560 --> 00:19:55.880
- the problems that that we need to solve there's other things that are more mundane like um sync
+00:16:47.618 --> 00:16:53.545
+under communism, right, as the wall was coming down and everything was breaking apart.
 
-00:19:55.880 --> 00:20:00.100
- time like i don't want to open my wallet and sit there and wait for it to sync with the chain
+00:16:53.545 --> 00:16:57.748
+And the communistic system was very controlling, right?
 
-00:20:00.100 --> 00:20:06.860
- for a minute while i'm standing in line to you know yeah pay a shop so that's something we've
+00:16:57.748 --> 00:17:03.047
+And there was a group of people, Benda, Václav Havel, some musicians,
 
-00:20:06.860 --> 00:20:12.820
- actually fixed we haven't rolled out yet let's go um but uh but there's things like that that's
+00:17:03.047 --> 00:17:11.493
+some other people, that kind of formulated this idea that we can't actually change that
 
-00:20:12.820 --> 00:20:17.320
- that's what we're working i feel like the the citrus thing is it it's sort of at the same time
+00:17:11.493 --> 00:17:14.789
+system from within that system, under that system's rules.
 
-00:20:17.320 --> 00:20:22.060
- very very powerful because technically you could remember like memorize your seed phrase and
+00:17:14.789 --> 00:17:15.289
+Yeah.
 
-00:20:22.060 --> 00:20:24.560
- literally have unseizable money.
+00:17:15.289 --> 00:17:18.767
+That we have to fundamentally create a parallel society.
 
-00:20:25.440 --> 00:20:26.680
- Like literally no one, I mean,
+00:17:18.767 --> 00:17:21.772
+Yeah, it's not unlike Balaji's network state.
 
-00:20:27.100 --> 00:20:29.420
- unless we start to, we recently invent
+00:17:21.772 --> 00:17:27.675
+Yeah. And we will have our own art, we'll have our own music.
 
-00:20:29.420 --> 00:20:31.800
- like some brain scanning technology,
+00:17:27.675 --> 00:17:28.175
+Yeah.
 
-00:20:32.200 --> 00:20:33.860
- you literally could not take it out of your head.
+00:17:28.175 --> 00:17:32.812
+We'll have our own writing, we'll have our own money, and we'll transact,
 
-00:20:34.720 --> 00:20:36.420
- But at the same time, it's such a killer
+00:17:32.812 --> 00:17:37.368
+and we'll operate as a society in parallel with the existing society.
 
-00:20:36.420 --> 00:20:39.280
- in terms of user experience.
+00:17:37.368 --> 00:17:44.360
+We don't have to move. And so the parallel polis, that idea was created right here.
 
-00:20:40.320 --> 00:20:41.780
- Like the vast majority of people
+00:17:44.360 --> 00:17:51.953
+And I learned about that actually in my 20s, because I would come out here during the
 
-00:20:41.780 --> 00:20:45.640
- lose that seed phrase, will store it in the cloud.
+00:17:51.953 --> 00:17:57.089
+summers and teach English, and the students would tell me about the history of the country.
 
-00:20:46.240 --> 00:20:49.100
- I mean, I've been onboarding some friends to Zcash
+00:17:57.089 --> 00:17:59.172
+And it's a very beautiful idea.
 
-00:20:49.100 --> 00:20:51.880
- recently who are not, you know, into crypto.
+00:17:59.172 --> 00:18:05.000
+And likewise with our traditional financial system, I don't think you can change that
 
-00:20:52.060 --> 00:20:57.300
- and you actually do realize how terrible it is
+00:18:05.000 --> 00:18:10.438
+from within. In our current governmental systems, you can't change that from within.
 
-00:20:57.300 --> 00:21:01.100
- for them to have to figure out how to, you know,
+00:18:10.438 --> 00:18:12.502
+It's too hard, it will take a long time.
 
-00:21:01.160 --> 00:21:03.680
- store the seed phrase and what, and like, it's so, it's so,
+00:18:12.502 --> 00:18:16.892
+Even if you could do it, it would take a long time, but there's too many entrenched powers.
 
-00:21:03.760 --> 00:21:05.600
- if anyone sees it, you lose your funds.
+00:18:16.892 --> 00:18:21.834
+So what do we have to do? We have to create a parallel society,
 
-00:21:05.700 --> 00:21:07.160
- We really ought to get past that,
+00:18:21.834 --> 00:18:23.189
+a parallel financial system.
 
-00:21:07.380 --> 00:21:09.980
- especially the day of, like, Passkeys
+00:18:23.189 --> 00:18:28.928
+And so what we're looking at is, like, what do we need to create a parallel financial system?
 
-00:21:09.980 --> 00:21:12.200
- and all these new technologies that we now have.
+00:18:28.928 --> 00:18:34.285
+What are all of the pieces that need to be there, so that you can do that without trust,
 
-00:21:12.480 --> 00:21:13.880
- Yeah, like, I've been giving out Zcash
+00:18:34.285 --> 00:18:37.262
+without having to trust an intermediary?
 
-00:21:13.880 --> 00:21:15.360
- to friends and family for many years,
+00:18:37.262 --> 00:18:41.940
+So what does it mean, like, not to have a bank?
 
-00:21:15.880 --> 00:21:18.360
- and the majority have lost it.
+00:18:41.940 --> 00:18:45.300
+Yeah, we have a bank today, we KYC, AML, we have all this stuff,
 
-00:21:18.440 --> 00:21:18.640
- Yeah.
+00:18:45.300 --> 00:18:49.008
+there's all these rules in place. Let's not try to be a bank.
 
-00:21:18.860 --> 00:21:20.180
- And that includes my kids, like,
+00:18:49.008 --> 00:18:53.504
+What is it that we really need, from first principles, for a new financial system?
 
-00:21:20.260 --> 00:21:21.740
- paying my kids allowances or whatever.
+00:18:53.504 --> 00:18:56.626
+And there's a whole bunch of things that aren't there yet.
 
-00:21:21.940 --> 00:21:28.460
- in in zcash so so many wallets were lost yes like i started saying okay i'm gonna hold your
+00:18:56.626 --> 00:19:02.820
+So we have a need to be able to save and store our wealth, to be able to recover it,
 
-00:21:28.460 --> 00:21:33.940
- seed phrase for you yeah which is insane which is insane right if my teenagers can't figure it out
+00:19:02.820 --> 00:19:08.382
+or have family members recover it if we were to pass away, or if we were to kind of lose
 
-00:21:33.940 --> 00:21:38.940
- yeah um or it's just like there's too much friction with it and they're just lazy
+00:19:08.382 --> 00:19:12.460
+our phone or something like that. This kind of whole notion of a seed phrase,
 
-00:21:38.940 --> 00:21:44.580
- yeah um and then it's like oh my gosh that like 20 worth of zcash that you gave me is now worth
+00:19:12.460 --> 00:19:16.868
+that we have to either commit to memory or write down on a scrap of paper,
 
-00:21:44.580 --> 00:21:50.880
- four or five hundred dollars like i'm trying to get it i can't you know uh yeah that doesn't work
+00:19:16.868 --> 00:19:21.360
+or put it into metal and bury it in concrete in our backyard or something like that,
 
-00:21:50.880 --> 00:21:52.280
- for an alternative financial system.
+00:19:21.360 --> 00:19:26.842
+is very antiquated and not modern. And so we need those kinds of solutions.
 
-00:21:52.520 --> 00:21:53.860
- Yeah, it's really just like recreating
+00:19:26.842 --> 00:19:31.140
+We need that full stack so that we can build this alternative financial system.
 
-00:21:53.860 --> 00:21:56.900
- all the financial system in parallel in a way.
+00:19:31.140 --> 00:19:34.684
+So anywhere there's gaps, that's what we're focused on building,
 
-00:21:57.460 --> 00:22:00.200
- So I guess logically this would lead you to think
+00:19:34.684 --> 00:19:37.400
+and removing all of the friction points.
 
-00:22:00.200 --> 00:22:01.220
- there's a mobile wallet.
+00:19:37.400 --> 00:19:40.315
+Because things like a seed phrase is a friction point.
 
-00:22:01.540 --> 00:22:03.500
- Eventually, I'm guessing that there will be a desktop wallet.
+00:19:40.315 --> 00:19:42.460
+I have to think about it, like, what does this mean?
 
-00:22:03.820 --> 00:22:06.540
- I'm guessing there will probably also something
+00:19:42.460 --> 00:19:46.084
+It makes me very nervous, I'm scared, what happens if I, you know,
 
-00:22:06.540 --> 00:22:08.200
- being with Frost,
+00:19:46.084 --> 00:19:52.369
+lose my phone or something like that. So those are the problems that we need to solve.
+
+00:19:52.369 --> 00:19:56.081
+There's other things that are more mundane, like sync time.
+
+00:19:56.081 --> 00:20:00.100
+Like, I don't want to open my wallet and sit there and wait for it to sync with the chain
+
+00:20:00.100 --> 00:20:04.014
+for a minute while I'm standing in line to, you know...
+
+00:20:04.014 --> 00:20:05.437
+Yeah, pay a shop.
+
+00:20:05.437 --> 00:20:07.522
+So that's something we've actually fixed.
+
+00:20:07.522 --> 00:20:09.178
+We haven't rolled out yet.
+
+00:20:09.178 --> 00:20:10.833
+Let's go.
+
+00:20:10.833 --> 00:20:13.720
+But there's things like that. That's what we're working...
+
+00:20:13.720 --> 00:20:17.659
+I feel like the seed phrase thing is, it's sort of at the same time very,
+
+00:20:17.659 --> 00:20:21.721
+very powerful, because technically you could remember, like memorize your seed phrase
+
+00:20:21.721 --> 00:20:27.100
+and literally have unseizable money. Like literally no one, I mean,
+
+00:20:27.100 --> 00:20:32.200
+unless we start to, we recently invent like some brain-scanning technology,
+
+00:20:32.200 --> 00:20:34.720
+you literally could not take it out of your head.
+
+00:20:34.720 --> 00:20:40.320
+But at the same time, it's such a killer in terms of user experience.
+
+00:20:40.320 --> 00:20:46.240
+Like the vast majority of people lose that seed phrase, will store it in the cloud.
+
+00:20:46.240 --> 00:20:50.490
+I mean, I've been onboarding some friends to Zcash recently who are not,
+
+00:20:50.490 --> 00:20:58.682
+you know, into crypto, and you actually do realize how terrible it is for them to have
+
+00:20:58.682 --> 00:21:02.420
+to figure out how to, you know, store the seed phrase and what...
+
+00:21:02.420 --> 00:21:05.700
+And like, it's so... If anyone sees it, you lose your funds.
+
+00:21:05.700 --> 00:21:09.547
+We really ought to get past that, especially in the day of, like,
+
+00:21:09.547 --> 00:21:12.480
+passkeys and all these new technologies that we now have.
+
+00:21:12.480 --> 00:21:15.880
+Yeah, like, I've been giving out Zcash to friends and family for many years,
+
+00:21:15.880 --> 00:21:18.440
+and the majority have lost it.
+
+00:21:18.440 --> 00:21:18.940
+Yeah.
+
+00:21:18.940 --> 00:21:23.313
+And that includes my kids, like paying my kids allowances or whatever in Zcash.
+
+00:21:23.313 --> 00:21:25.028
+So many wallets were lost.
+
+00:21:25.028 --> 00:21:25.528
+Yes.
+
+00:21:25.528 --> 00:21:29.614
+Like, I started saying, okay, I'm gonna hold your seed phrase for you.
+
+00:21:29.614 --> 00:21:30.767
+Yeah, which is insane.
+
+00:21:30.767 --> 00:21:33.940
+Which is insane, right? If my teenagers can't figure it out...
+
+00:21:33.940 --> 00:21:34.565
+Yeah.
+
+00:21:34.565 --> 00:21:38.940
+Or it's just like there's too much friction with it, and they're just lazy.
+
+00:21:38.940 --> 00:21:39.453
+Yeah.
+
+00:21:39.453 --> 00:21:44.324
+And then it's like, oh my gosh, that like $20 worth of Zcash that you gave me is now
+
+00:21:44.324 --> 00:21:48.045
+worth four or five hundred dollars. Like, I'm trying to get it,
+
+00:21:48.045 --> 00:21:49.620
+I can't, you know.
+
+00:21:49.620 --> 00:21:50.120
+Yeah.
+
+00:21:50.120 --> 00:21:52.520
+That doesn't work for an alternative financial system.
+
+00:21:52.520 --> 00:21:55.887
+Yeah, it's really just like recreating all the financial system in parallel,
+
+00:21:55.887 --> 00:22:01.540
+in a way. So I guess logically this would lead you to think there's a mobile wallet.
+
+00:22:01.540 --> 00:22:03.820
+Eventually, I'm guessing that there will be a desktop wallet.
+
+00:22:03.820 --> 00:22:08.520
+I'm guessing there will probably also something being with FROST,
 
 00:22:08.520 --> 00:22:11.380
- like some multi-signature type of thing for like whales.
+like some multi-signature type of thing for like whales.
 
-00:22:11.380 --> 00:22:13.440
- Is that where things are going?
+00:22:11.380 --> 00:22:13.860
+Is that where things are going?
 
-00:22:13.860 --> 00:22:14.160
- Yeah, yeah.
+00:22:13.860 --> 00:22:19.353
+Yeah, yeah. We already have an internal beta desktop wallet for macOS that's already
 
-00:22:14.160 --> 00:22:18.580
- We already have an internal beta desktop wallet for macOS
+00:22:19.353 --> 00:22:24.180
+built, just not released. In fact, I think it just got approved by the App Store.
 
-00:22:18.580 --> 00:22:19.740
- that's already built.
+00:22:24.180 --> 00:22:24.680
+Nice.
 
-00:22:20.000 --> 00:22:24.180
- just not released in fact i think it just got approved by the app store
+00:22:24.680 --> 00:22:29.191
+Maybe within the last 24 hours. So we'll have those kinds of capabilities,
 
-00:22:24.180 --> 00:22:29.780
- nice maybe within the last 24 hours so we'll have those kind of those kind of capabilities and then
+00:22:29.191 --> 00:22:32.959
+and then we'll be able to add kind of additional richness on top of the desktop product.
 
-00:22:29.780 --> 00:22:33.640
- we'll be able to add kind of additional richness on top of desktop product there's some challenges
+00:22:32.959 --> 00:22:36.966
+There's some challenges with desktop. It's typically less secure than mobile.
 
-00:22:33.640 --> 00:22:39.460
- with desktop it's typically less secure than mobile yeah there's questions about key storage
+00:22:36.966 --> 00:22:37.466
+Yeah.
 
-00:22:39.460 --> 00:22:44.760
- you know what can be captured one of the things that i love about this team is we're so close to
+00:22:37.466 --> 00:22:40.974
+There's questions about key storage, you know, what can be captured.
 
-00:22:44.760 --> 00:22:48.620
- the protocol and like we've been working on security things for such a long time the way
+00:22:40.974 --> 00:22:45.214
+One of the things that I love about this team is we're so close to the protocol,
 
-00:22:48.620 --> 00:22:52.380
- we think about edge cases the way that the engineering team thinks about its cases like
+00:22:45.214 --> 00:22:48.166
+and like we've been working on security things for such a long time.
 
-00:22:52.380 --> 00:22:57.580
- absolutely world-class amazing and so you say okay we can like somebody can go and they can
+00:22:48.166 --> 00:22:51.910
+The way we think about edge cases, the way that the engineering team thinks about edge
 
-00:22:58.380 --> 00:23:03.820
- vibe vibe code up a wallet or stuff like that and then there's decisions they make about like how
+00:22:51.910 --> 00:22:53.298
+cases, like, absolutely world-class, amazing.
 
-00:23:03.820 --> 00:23:08.860
- the key material is stored what if they're rotating t addresses like is there linkability between those
+00:22:53.298 --> 00:23:00.098
+And so you say, okay, we can, like, somebody can go and they can vibe code up a wallet
 
-00:23:08.860 --> 00:23:13.100
- g addresses and they don't necessarily think about those things and so it takes us a little bit
+00:23:00.098 --> 00:23:03.247
+or stuff like that, and then there's decisions they make about,
 
-00:23:13.100 --> 00:23:18.140
- longer i think in some cases for for some of the engineering in order to ensure that we have it
+00:23:03.247 --> 00:23:07.081
+like, how the key material is stored. What if they're rotating t-addresses?
 
-00:23:18.140 --> 00:23:22.080
- right and then we under there's always trade-offs with everything yeah but that they're that uh
+00:23:07.081 --> 00:23:09.331
+Like, is there linkability between those t-addresses?
 
-00:23:22.080 --> 00:23:26.040
- we're thinking about the trade-offs well that the user is well informed they're not making an
+00:23:09.331 --> 00:23:11.216
+And they don't necessarily think about those things.
 
-00:23:26.040 --> 00:23:31.160
- assumption about privacy when it's actually not true when it can expose them and so then we take
+00:23:11.216 --> 00:23:14.612
+And so it takes us a little bit longer, I think, in some cases,
 
-00:23:31.160 --> 00:23:34.520
- that we put that in the right form factor where people want to use like a desktop or mobile or
+00:23:14.612 --> 00:23:18.386
+for some of the engineering, in order to ensure that we have it right.
 
-00:23:34.520 --> 00:23:41.180
- whatever hardware devices um there's uh questions about infrastructure and who's running the
+00:23:18.386 --> 00:23:20.602
+And then there's always trade-offs with everything.
 
-00:23:41.180 --> 00:23:44.560
- infrastructure what can the people that are running the infrastructure like client services
+00:23:20.602 --> 00:23:21.102
+Yeah.
 
-00:23:44.560 --> 00:23:49.520
- in the future if there's pir private information retrieval services if there's oblivious syncing
+00:23:21.102 --> 00:23:25.050
+But that we're thinking about the trade-offs well, that the user is well informed,
 
-00:23:49.520 --> 00:23:55.120
- services with tachyon coming like what does that all mean in terms of who's running those services
+00:23:25.050 --> 00:23:28.316
+they're not making an assumption about privacy when it's actually not true,
 
-00:23:55.120 --> 00:24:01.600
- and what can be seen um and then there's the features that um that people need so some some
+00:23:28.316 --> 00:23:32.672
+when it can expose them. And so then we take that, we put that in the right form factor
 
-00:24:01.600 --> 00:24:05.840
- of those things are cryptographic primitives when we have things like multi-sig or threshold sigs
+00:23:32.672 --> 00:23:35.032
+where people want to use, like a desktop or mobile or whatever,
 
-00:24:06.720 --> 00:24:12.960
- but it also might include things like time locks or if you think about um like how you interact
+00:23:35.032 --> 00:23:41.440
+hardware devices. There's questions about infrastructure and who's running the infrastructure.
 
-00:24:12.960 --> 00:24:18.000
- with a traditional bank account or something like that you may limit the amount that can be
+00:23:41.440 --> 00:23:45.269
+What can the people that are running the infrastructure, like client services in the
 
-00:24:18.000 --> 00:24:22.720
- transferred at any given time so maybe you have a limit today on your wire transfers or you have
+00:23:45.269 --> 00:23:48.103
+future, if there's PIR, private information retrieval services,
 
-00:24:22.720 --> 00:24:31.200
- a limit on um you know how much money can be moved over ach for you know per 24 hours well users can
+00:23:48.103 --> 00:23:51.167
+if there's oblivious syncing services with Tachyon coming, like,
 
-00:24:31.200 --> 00:24:35.760
- kind of set that up themselves as well in a decentralized fashion if we build the right
+00:23:51.167 --> 00:23:57.166
+what does that all mean in terms of who's running those services and what can be seen?
 
-00:24:35.760 --> 00:24:40.480
- primitive such that i can say okay i'm going to have this wallet and i'm not comfortable moving
+00:23:57.166 --> 00:24:00.577
+And then there's the features that people need.
 
-00:24:40.480 --> 00:24:46.840
- more than x amount of zcash out per day and so i'm going to kind of lock that in um and then i
+00:24:00.577 --> 00:24:04.992
+So some of those things are cryptographic primitives, when we have things like multisig
 
-00:24:46.840 --> 00:24:51.420
- can have these kind of you know safeguards safeguards in place yeah how do you view like
+00:24:04.992 --> 00:24:09.676
+or threshold sigs. But it also might include things like time locks.
 
-00:24:51.420 --> 00:24:56.340
- the evolution of bitcoin compared to zcash right now and in the past i guess a few months and years
+00:24:09.676 --> 00:24:15.035
+Or if you think about, like, how you interact with a traditional bank account or something
 
-00:24:56.340 --> 00:25:02.100
- yeah both of those things are true let's go bitcoin has bitcoin has failed and has been
+00:24:15.035 --> 00:24:19.242
+like that, you may limit the amount that can be transferred at any given time.
 
-00:25:02.100 --> 00:25:12.100
- captured and zcash is thriving um no bitcoin is just not usable as digital electronic cash like
+00:24:19.242 --> 00:24:24.195
+So maybe you have a limit today on your wire transfers, or you have a limit on,
 
-00:25:12.100 --> 00:25:17.320
- it's not so you can just say like okay this evolved into something else and now it's like
+00:24:24.195 --> 00:24:28.988
+you know, how much money can be moved over ACH, for, you know,
 
-00:25:17.320 --> 00:25:23.500
- digital gold for tradfi and and that's okay uh i don't think that's okay i don't think that's
+00:24:28.988 --> 00:24:30.094
+per 24 hours.
 
-00:25:23.500 --> 00:25:28.440
- what the world needs it's fine maybe the world wants that um that's not what i'm interested in
+00:24:30.094 --> 00:24:34.419
+Well, users can kind of set that up themselves as well, in a decentralized fashion,
 
-00:25:28.440 --> 00:25:35.260
- and but but you what you saw happen with bitcoin is they tried to change the system from within
+00:24:34.419 --> 00:24:39.169
+if we build the right primitive, such that I can say, okay, I'm going to have this wallet,
 
-00:25:35.260 --> 00:25:41.060
- the system and the system is too powerful and it captured it so you have the black rocks of the
+00:24:39.169 --> 00:24:42.969
+and I'm not comfortable moving more than X amount of Zcash out per day.
 
-00:25:41.060 --> 00:25:46.460
- world you have the michael saylors of the world financializing this asset within and they're
+00:24:42.969 --> 00:24:48.187
+And so I'm going to kind of lock that in, and then I can have these kind of,
 
-00:25:46.460 --> 00:25:52.860
- saying like we need these controls in order to manage the system so please government step in
+00:24:48.187 --> 00:24:49.804
+you know, safeguards in place.
 
-00:25:52.860 --> 00:25:58.180
- then provide us the right governance and regulations and things like that.
+00:24:49.804 --> 00:24:53.634
+Yeah. How do you view, like, the evolution of Bitcoin compared to Zcash right now,
+
+00:24:53.634 --> 00:24:56.340
+and in the past, I guess, few months and years?
+
+00:24:56.340 --> 00:24:58.712
+Yeah, both of those things are true.
+
+00:24:58.712 --> 00:24:59.389
+Let's go.
+
+00:24:59.389 --> 00:25:05.629
+Bitcoin has failed and has been captured, and Zcash is thriving.
+
+00:25:05.629 --> 00:25:11.512
+No, Bitcoin is just not usable as digital electronic cash.
+
+00:25:11.512 --> 00:25:16.160
+Like, it's not. So you can just say, like, okay, this evolved into something else,
+
+00:25:16.160 --> 00:25:20.410
+and now it's like digital gold for TradFi, and that's okay.
+
+00:25:20.410 --> 00:25:24.598
+I don't think that's okay. I don't think that's what the world needs.
+
+00:25:24.598 --> 00:25:28.799
+It's fine, maybe the world wants that. That's not what I'm interested in.
+
+00:25:28.799 --> 00:25:35.550
+But what you saw happen with Bitcoin is they tried to change the system from within the
+
+00:25:35.550 --> 00:25:38.740
+system, and the system is too powerful, and it captured it.
+
+00:25:38.740 --> 00:25:44.300
+So you have the BlackRocks of the world, you have the Michael Saylors of the world,
+
+00:25:44.300 --> 00:25:49.095
+financializing this asset within, and they're saying, like, we need these controls in
+
+00:25:49.095 --> 00:25:55.077
+order to manage the system, so please, government, step in, then provide us the right
+
+00:25:55.077 --> 00:25:59.060
+governance and regulations and things like that.
 
 00:25:59.060 --> 00:26:05.120
- And government says, oh, sure, like, we're totally happy to do this and put you in this
+And government says, oh, sure, like, we're totally happy to do this and put you in this
 
-00:26:05.120 --> 00:26:05.640
- little box.
+00:26:05.120 --> 00:26:07.700
+little box. And that is what's happened with Bitcoin.
 
-00:26:05.840 --> 00:26:07.300
- And that is what's happened with Bitcoin.
+00:26:07.700 --> 00:26:11.380
+And so I think it's sad. I don't think it can be saved.
 
-00:26:07.700 --> 00:26:09.740
- And so I think it's sad.
+00:26:11.380 --> 00:26:17.795
+I think it's too far gone. It is what it is at this point, which is a regulated digital
 
-00:26:09.820 --> 00:26:10.920
- I don't think it can be saved.
+00:26:17.795 --> 00:26:20.860
+financial asset within the traditional system.
 
-00:26:11.380 --> 00:26:12.580
- I think it's too far gone.
+00:26:20.860 --> 00:26:26.819
+But I think we saw a lot of Bitcoiners, or I have personally seen a lot of Bitcoiners,
 
-00:26:12.580 --> 00:26:19.400
- It is what it is at this point, which is a regulated digital financial asset within the
+00:26:26.819 --> 00:26:32.778
+who started to question whether or not this is the thing that they signed up for or got
 
-00:26:19.400 --> 00:26:20.180
- traditional system.
+00:26:32.778 --> 00:26:37.984
+excited about. So they've either exited the system, or in a number of cases they've hedged,
 
-00:26:20.860 --> 00:26:33.440
- But I think we saw a lot of Bitcoiners or I have personally seen a lot of Bitcoiners who started to question whether or not this is the thing that they signed up for or got excited about.
+00:26:37.984 --> 00:26:43.776
+and they said, OK, I still believe in Bitcoin, but I'm going to take 10 percent of my
 
-00:26:33.480 --> 00:26:48.280
- So they've either exited the system or in a number of cases they've hedged and they said, OK, I still believe in Bitcoin, but I'm going to take 10 percent of my holdings and I'm going to put it in Zcash as a hedge against Bitcoin.
+00:26:43.776 --> 00:26:48.800
+holdings and I'm going to put it in Zcash as a hedge against Bitcoin.
 
-00:26:48.800 --> 00:26:50.740
- And some have completely flipped.
+00:26:48.800 --> 00:26:55.620
+And some have completely flipped and are now Zcashers who have left Bitcoin.
 
-00:26:50.860 --> 00:26:55.280
- and are now Zcashers who have left Bitcoin.
+00:26:55.620 --> 00:27:01.240
+I fully agree. How do you prevent that capture from those actors happening?
 
-00:26:55.620 --> 00:26:56.080
- I fully agree.
+00:27:01.240 --> 00:27:04.300
+The purpose of a decentralized financial system is that it's decentralized,
 
-00:26:56.500 --> 00:27:00.940
- How do you prevent that capture from those actors happening?
+00:27:04.300 --> 00:27:11.722
+so no one can block someone like Saylor or BlackRock or anyone else of starting those
 
-00:27:01.240 --> 00:27:04.020
- The purpose of a decentralized financial system is that it's decentralized,
+00:27:11.722 --> 00:27:18.460
+either DATs or whatever entities that are going to do that capture of the network.
 
-00:27:04.300 --> 00:27:09.300
- so no one can block someone like Saylor or BlackRock or anyone else
+00:27:18.460 --> 00:27:21.800
+How do we ensure that that doesn't happen?
 
-00:27:09.300 --> 00:27:15.760
- of starting those either DATs or whatever entities
-
-00:27:15.760 --> 00:27:18.460
- that are going to do that capture of the network.
-
-00:27:18.460 --> 00:27:21.480
- How do we ensure that that doesn't happen?
-
-00:27:21.800 --> 00:27:24.980
- We have to keep building and not ossifying.
+00:27:21.800 --> 00:27:25.920
+We have to keep building and not ossifying.
 
 00:27:25.920 --> 00:27:31.460
- There is engagement with regulators and government officials
+There is engagement with regulators and government officials,
 
-00:27:31.460 --> 00:27:35.520
- and a recognition that doors may be open for a little while.
+00:27:31.460 --> 00:27:35.700
+and a recognition that doors may be open for a little while.
 
-00:27:35.700 --> 00:27:39.460
- A regime change happens within a given regulatory entity.
+00:27:35.700 --> 00:27:40.580
+A regime change happens within a given regulatory entity, those doors close.
 
-00:27:39.580 --> 00:27:40.360
- Those doors close.
+00:27:40.580 --> 00:27:45.711
+They may open back up. But if you kowtow to those interests,
 
-00:27:40.580 --> 00:27:41.640
- They may open back up.
+00:27:45.711 --> 00:27:48.537
+you will eventually lose. You will lose.
 
-00:27:42.440 --> 00:27:47.580
- But if you kowtow to those interests, you will eventually lose.
+00:27:48.537 --> 00:27:51.728
+So we can't... We have to stay focused on this.
 
-00:27:47.580 --> 00:27:54.600
- you will lose so we can't we have to stay focused on this we have to stay focused on this new system
+00:27:51.728 --> 00:27:56.022
+We have to stay focused on this new system, allow people to opt in.
 
-00:27:54.600 --> 00:27:59.720
- allow people to opt in if people opt in we'll be successful if we're not delivering something that
+00:27:56.022 --> 00:27:59.993
+If people opt in, we'll be successful. If we're not delivering something that people
 
-00:27:59.720 --> 00:28:04.640
- people actually want because they want to be under government control then it's just going to be a
+00:27:59.993 --> 00:28:02.727
+actually want, because they want to be under government control,
 
-00:28:04.640 --> 00:28:08.280
- little tribe over here on the side that's that's continuing to work and i think that tribe will
+00:28:02.727 --> 00:28:07.067
+then it's just going to be a little tribe over here on the side that's continuing to work.
 
-00:28:08.280 --> 00:28:15.200
- always continue to exist but we have to make this more mainstream too big to kill without kind of
+00:28:07.067 --> 00:28:12.651
+And I think that tribe will always continue to exist, but we have to make this more mainstream,
 
-00:28:15.200 --> 00:28:20.580
- focusing on it like the whole thing with bitcoin for a long time was like institutions are coming
+00:28:12.651 --> 00:28:16.097
+too big to kill, without kind of focusing on it.
 
-00:28:20.580 --> 00:28:27.040
- institutions are coming everybody got excited like bitcoin's now on the cme right and so um
+00:28:16.097 --> 00:28:19.683
+Like, the whole thing with Bitcoin for a long time was like,
 
-00:28:27.040 --> 00:28:32.460
- yay this is going to make the price of the coin go up yeah and you want the price of the coin go
+00:28:19.683 --> 00:28:21.791
+institutions are coming, institutions are coming.
 
-00:28:32.460 --> 00:28:36.140
- up and that's very reflexive everything is from the size of the shielded pool to the price of the
+00:28:21.791 --> 00:28:25.829
+Everybody got excited. Like, Bitcoin's now on the CME, right?
 
-00:28:36.140 --> 00:28:42.980
- coin to to market interest that all stuff is very reflexive but if you focus on just the price and
+00:28:25.829 --> 00:28:30.103
+And so, yay, this is going to make the price of the coin go up.
 
-00:28:42.980 --> 00:28:48.320
- that's the only attribute of the thing uh then ultimately you're going to be captured i feel like
+00:28:30.103 --> 00:28:30.603
+Yeah.
 
-00:28:48.320 --> 00:28:54.400
- in in a lot of ways we're sort of like at least right now protected against that with ccash given
+00:28:30.603 --> 00:28:33.428
+And you want the price of the coin to go up, and that's very reflexive.
 
-00:28:54.400 --> 00:29:01.380
- there's also this huge focus on increasing the shielded pool which i i just don't see like a
+00:28:33.428 --> 00:28:37.850
+Everything, from the size of the shielded pool to the price of the coin to market interest,
 
-00:29:01.380 --> 00:29:07.200
- black rock or any you know any of those entities partaking in uh growing the shielded pool and you
+00:28:37.850 --> 00:28:42.638
+that all stuff is very reflexive. But if you focus on just the price,
 
-00:29:07.200 --> 00:29:12.440
- know going sort of like against the government's interests the structure of zcash i feel like
+00:28:42.638 --> 00:28:47.430
+and that's the only attribute of the thing, then ultimately you're going to be captured.
 
-00:29:12.440 --> 00:29:19.280
- prevents by default that capture because those entities are just not going to partake in privacy
+00:28:47.430 --> 00:28:52.576
+I feel like in a lot of ways we're sort of, like, at least right now,
 
-00:29:19.280 --> 00:29:23.420
- but i guess you could have said the same thing about bitcoin in its early days as well and they
+00:28:52.576 --> 00:28:57.502
+protected against that with Zcash, given there's also this huge focus on increasing the
 
-00:29:23.420 --> 00:29:28.580
- ended up partaking in it as well do you think that etfs would be good for zcash i don't care about
+00:28:57.502 --> 00:29:02.605
+shielded pool, which I just don't see, like, a BlackRock or any,
 
-00:29:28.580 --> 00:29:34.360
- them yeah i think there's there could be some value in that they create more cat there's more
+00:29:02.605 --> 00:29:06.587
+you know, any of those entities partaking in, growing the shielded pool,
 
-00:29:34.360 --> 00:29:39.100
- capital inflow so it helps with the moneyness because you don't want massive price changes
+00:29:06.587 --> 00:29:10.148
+and, you know, going sort of, like, against the government's interests.
 
-00:29:39.100 --> 00:29:46.360
- and you need liquidity for you know large buyers and sellers uh so there could be some advantages
+00:29:10.148 --> 00:29:14.578
+The structure of Zcash, I feel like, prevents by default that capture,
 
-00:29:46.360 --> 00:29:53.180
- but that's i think that's uh it's not what i'm interested in personally i don't think a lot of
+00:29:14.578 --> 00:29:19.280
+because those entities are just not going to partake in privacy.
 
-00:29:53.180 --> 00:29:56.980
- z cashers it's not what they're interested like somebody can go stuff their 401k so they get a
+00:29:19.280 --> 00:29:23.006
+But I guess you could have said the same thing about Bitcoin in its early days as well,
 
-00:29:56.980 --> 00:30:02.380
- price exposure but it actually that's working within the traditional financial system and it's
+00:29:23.006 --> 00:29:25.140
+and they ended up partaking in it as well.
 
-00:30:02.380 --> 00:30:07.540
- not actually building anything new or or novel or ultimately anything that really kind of benefits
+00:29:25.140 --> 00:29:27.597
+Do you think that ETFs would be good for Zcash?
 
-00:30:07.540 --> 00:30:13.180
- the world and i think it's a net negative in that that becomes the focus then the price becomes the
+00:29:27.597 --> 00:29:28.901
+I don't care about them.
 
-00:30:13.180 --> 00:30:18.820
- focus is my portfolio my retirement portfolio um increasing over time rather than are we actually
+00:29:28.901 --> 00:29:29.401
+Yeah.
 
-00:30:18.820 --> 00:30:25.000
- driving uh and delivering a new system uh that is uh that is usable for people to protect themselves
+00:29:29.401 --> 00:29:32.433
+I think there could be some value in that.
 
-00:30:25.000 --> 00:30:31.520
- regarding bitcoin what do you think is the biggest lie that the bitcoin maximalists tell themselves
+00:29:32.433 --> 00:29:36.888
+They create more capital, there's more capital inflow, so it helps with the moneyness,
 
-00:30:31.520 --> 00:30:37.480
- zcash doesn't matter or zcash is a shit coin yeah i don't know if that's the biggest lie but that's
+00:29:36.888 --> 00:29:41.117
+because you don't want massive price changes, and you need liquidity for,
 
-00:30:37.480 --> 00:30:45.320
- the most irritating one because there's a lack of intellectual honesty from many where they see
+00:29:41.117 --> 00:29:46.360
+you know, large buyers and sellers. So there could be some advantages.
 
-00:30:45.320 --> 00:30:50.580
- they you know they they see what is actually happening and then they make up shit they make
+00:29:46.360 --> 00:29:51.026
+But I think it's not what I'm interested in personally.
 
-00:30:50.580 --> 00:30:55.700
- up their own narrative about what they think is happening and it's like you know there's these
+00:29:51.026 --> 00:29:54.658
+I don't think a lot of Zcashers... It's not what they're interested in.
 
-00:30:55.700 --> 00:31:00.680
- kind of ideas where we see it across society not just within bitcoiners but you get into a tribe
+00:29:54.658 --> 00:29:57.751
+Like, somebody can go stuff their 401(k) so they get price exposure,
 
-00:31:00.680 --> 00:31:06.380
- and you get so locked into a religion and all evidence can point you to something else and you
+00:29:57.751 --> 00:30:01.609
+but it's actually, that's working within the traditional financial system,
 
-00:31:06.380 --> 00:31:10.680
- stop thinking about first principles you stop thinking about what's actually happening because
+00:30:01.609 --> 00:30:06.572
+and it's not actually building anything new or novel, or ultimately anything that really
 
-00:31:10.680 --> 00:31:17.020
- you're so married to this idea so there's people will go on interviews i've seen them on coindesk
+00:30:06.572 --> 00:30:10.078
+kind of benefits the world. And I think it's a net negative,
 
-00:31:17.020 --> 00:31:22.360
- or other places um and they make these outrageous statements that are just not and they're smart
+00:30:10.078 --> 00:30:13.532
+in that that becomes the focus. Then the price becomes the focus:
 
-00:31:22.360 --> 00:31:28.520
- people yeah not rooted in any truth it's just like they're so blind to what the actual truth is
+00:30:13.532 --> 00:30:17.058
+is my portfolio, my retirement portfolio, increasing over time?
+
+00:30:17.058 --> 00:30:24.024
+Rather than, are we actually driving and delivering a new system that is usable for people
+
+00:30:24.024 --> 00:30:25.000
+to protect themselves?
+
+00:30:25.000 --> 00:30:30.705
+Regarding Bitcoin, what do you think is the biggest lie that the Bitcoin maximalists
+
+00:30:30.705 --> 00:30:31.520
+tell themselves?
+
+00:30:31.520 --> 00:30:34.202
+Zcash doesn't matter, or Zcash is a shitcoin.
+
+00:30:34.202 --> 00:30:34.702
+Yeah.
+
+00:30:34.702 --> 00:30:39.440
+I don't know if that's the biggest lie, but that's the most irritating one,
+
+00:30:39.440 --> 00:30:45.612
+because there's a lack of intellectual honesty from many, where they see,
+
+00:30:45.612 --> 00:30:49.996
+you know, they see what is actually happening, and then they make up shit.
+
+00:30:49.996 --> 00:30:53.592
+They make up their own narrative about what they think is happening.
+
+00:30:53.592 --> 00:30:58.059
+And it's like, you know, there's these kind of ideas where we see it across society,
+
+00:30:58.059 --> 00:31:03.080
+not just within Bitcoiners, but you get into a tribe and you get so locked into a religion,
+
+00:31:03.080 --> 00:31:08.034
+and all evidence can point you to something else, and you stop thinking about first principles.
+
+00:31:08.034 --> 00:31:12.793
+You stop thinking about what's actually happening, because you're so married to this idea.
+
+00:31:12.793 --> 00:31:18.276
+So there's people, they'll go on interviews, I've seen them on CoinDesk or other places,
+
+00:31:18.276 --> 00:31:21.418
+and they make these outrageous statements that are just not...
+
+00:31:21.418 --> 00:31:22.684
+And they're smart people.
+
+00:31:22.684 --> 00:31:23.184
+Yeah.
+
+00:31:23.184 --> 00:31:28.520
+Not rooted in any truth. It's just like they're so blind to what the actual truth is,
 
 00:31:28.520 --> 00:31:33.920
- because they're so locked in they're just they don't have the i don't know if it's a mental
+because they're so locked in. They just don't have the, I don't know if it's a mental
 
-00:31:33.920 --> 00:31:39.880
- clarity um or you know they're able to kind of change their thinking i think because i mean you
+00:31:33.920 --> 00:31:37.998
+clarity, or, you know, they're able to kind of change their thinking.
 
-00:31:39.880 --> 00:31:44.880
- know they're clearly you know all their bags are in bitcoin so i guess they're clearly incentivized
+00:31:37.998 --> 00:31:41.351
+I think because, I mean, you know, they're clearly, you know,
 
-00:31:44.880 --> 00:31:51.600
- to to go to go promote it there's the denial that of the importance of privacy uh which i think is
+00:31:41.351 --> 00:31:47.120
+all their bags are in Bitcoin, so I guess they're clearly incentivized to go promote it.
+
+00:31:47.120 --> 00:31:51.600
+There's the denial of the importance of privacy, which I think is,
 
 00:31:51.600 --> 00:31:56.800
- especially in this day and age with ai is how could you not recognize that privacy on bitcoin
+especially in this day and age with AI, how could you not recognize that privacy on Bitcoin
 
-00:31:56.800 --> 00:32:03.280
- right now is a huge issue i think there's also quantum which to me is just shocking uh especially
+00:31:56.800 --> 00:32:02.939
+right now is a huge issue? I think there's also quantum, which to me is just shocking,
 
-00:32:03.280 --> 00:32:12.300
- now with the US administration that accelerated the deadline to, I think it's 2031 now, from 2035
+00:32:02.939 --> 00:32:08.586
+especially now with the US administration that accelerated the deadline to,
 
-00:32:12.300 --> 00:32:19.720
- previously. And knowing that Bitcoin will take years to upgrade to post-quantum, once there is
+00:32:08.586 --> 00:32:12.795
+I think it's 2031 now, from 2035 previously.
 
-00:32:19.720 --> 00:32:26.380
- consensus on it, it feels irresponsible, frankly. It is irresponsible. So post-quantum is great.
+00:32:12.795 --> 00:32:18.236
+And knowing that Bitcoin will take years to upgrade to post-quantum,
 
-00:32:26.620 --> 00:32:31.260
- That's a great example. There's different opinions on where we're going to see the first
+00:32:18.236 --> 00:32:23.050
+once there is consensus on it, it feels irresponsible, frankly.
 
-00:32:31.260 --> 00:32:40.760
- um kind of demonstratable quantum computer yeah and those seem to be inching forward not away so
+00:32:23.050 --> 00:32:27.857
+It is irresponsible. So post-quantum is great, that's a great example.
 
-00:32:40.760 --> 00:32:46.040
- we had like 2035 then it became like 2031 like i've heard new estimates of 2028 could be where
+00:32:27.857 --> 00:32:33.495
+There's different opinions on where we're going to see the first kind of demonstrable
 
-00:32:46.040 --> 00:32:50.420
- we see the first i mean no one knows but yeah it's like start rating till we have q day and so
+00:32:33.495 --> 00:32:34.613
+quantum computer.
 
-00:32:50.420 --> 00:32:57.500
- you have to be prepared for that outcome even if you don't believe that you say oh it's gonna be
+00:32:34.613 --> 00:32:35.172
+Yeah.
 
-00:32:57.500 --> 00:33:02.080
- 10 years off i've heard the estimates for for bitcoin like to get a change in to get a whatever
+00:32:35.172 --> 00:32:40.201
+And those seem to be inching forward, not away.
 
-00:33:02.080 --> 00:33:08.160
- it's probably at least five years if you believe that that is a possibility to your point it's
+00:32:40.201 --> 00:32:43.261
+So we had like 2035, then it became like 2031.
 
-00:33:08.160 --> 00:33:13.120
- totally irresponsible to say oh it's like i don't i don't because i don't think so
+00:32:43.261 --> 00:32:46.836
+Like, I've heard new estimates of 2028 could be where we see the first...
 
-00:33:13.120 --> 00:33:20.580
- i have no knowledge but i don't think so then therefore we won't do anything ridiculous and
+00:32:46.836 --> 00:32:48.031
+I mean, no one knows, but...
 
-00:33:20.580 --> 00:33:24.880
- the privacy is the other yeah it's another one as you mentioned where and that's been out there for
+00:32:48.031 --> 00:32:50.022
+Yeah, it's like, start waiting till we have Q-Day.
 
-00:33:24.880 --> 00:33:32.200
- a long time and it kind of varies from well it's verifiability that is like the key attribute and
+00:32:50.022 --> 00:32:55.376
+And so you have to be prepared for that outcome, even if you don't believe that.
 
-00:33:32.200 --> 00:33:36.240
- that's the key attribute because it's the key attribute for for number go up and so then that
+00:32:55.376 --> 00:32:58.187
+You say, oh, it's gonna be 10 years off.
 
-00:33:36.240 --> 00:33:43.840
- becomes more important than privacy privacy is absolutely absolutely necessary for uh a crypto
+00:32:58.187 --> 00:33:01.164
+I've heard the estimates for Bitcoin, like, to get a change in,
 
-00:33:43.840 --> 00:33:48.260
- that can't be captured that can't be censored then that disregard and then there's others that will
+00:33:01.164 --> 00:33:04.107
+to get a whatever, it's probably at least five years.
 
-00:33:48.260 --> 00:33:53.380
- say okay we could have privacy if we want it we're just gonna like add a side chain we'll add it
+00:33:04.107 --> 00:33:08.780
+If you believe that that is a possibility, to your point, it's totally irresponsible
 
-00:33:53.380 --> 00:33:57.940
- later that was the original thing with with zcash right is the bitcoin core dev said well we'll add
+00:33:08.780 --> 00:33:14.875
+to say, oh, it's like, I don't, because I don't think so, I have no knowledge,
 
-00:33:57.940 --> 00:34:05.460
- it later if if zcash technology looks starts to look good and usable and it did but they're like
+00:33:14.875 --> 00:33:19.702
+but I don't think so, then therefore we won't do anything.
 
-00:34:05.460 --> 00:34:11.240
- no no no we're too busy trying to work within the traditional financial system and they don't want
+00:33:19.702 --> 00:33:20.202
+Ridiculous.
 
-00:34:11.240 --> 00:34:17.840
- that so yeah this episode is brought to you by cypherpunk surveillance is now one api call away
+00:33:20.202 --> 00:33:23.296
+And the privacy is the other. Yeah, it's another one, as you mentioned,
 
-00:34:17.840 --> 00:34:25.840
- and your data has never been more valuable cypherpunk is the public company backing zcash
+00:33:23.296 --> 00:33:28.347
+where, and that's been out there for a long time, and it kind of varies from,
 
-00:34:25.840 --> 00:34:32.220
- and building up the zcash ecosystem to make financial privacy default learn more about
+00:33:28.347 --> 00:33:31.815
+well, it's verifiability that is like the key attribute.
 
-00:34:32.220 --> 00:34:39.740
- cypherpunk at cypherpunk.com back to the episode i've seen like a tweet from um peter todd who is
+00:33:31.815 --> 00:33:35.342
+And that's the key attribute because it's the key attribute for number go up.
 
-00:34:39.740 --> 00:34:46.280
- a real smart guy like he participated in the i'm understanding he's participated in the zcash
+00:33:35.342 --> 00:33:38.954
+And so then that becomes more important than privacy.
 
-00:34:46.280 --> 00:34:52.440
- ceremony brilliant developer i'm sure um who basically was stating oh because of the you know
+00:33:38.954 --> 00:33:44.880
+Privacy is absolutely, absolutely necessary for a crypto that can't be captured,
 
-00:34:52.440 --> 00:34:57.100
- i think it was reacting to the soundness uh bug that happened like you know a few weeks ago it
+00:33:44.880 --> 00:33:46.700
+that can't be censored. Then that disregard...
 
-00:34:57.100 --> 00:35:02.860
- was reacting uh well this is why uh bitcoin will never have privacy uh you know there are all these
+00:33:46.700 --> 00:33:50.698
+And then there's others that will say, okay, we could have privacy if we want it,
 
-00:35:02.860 --> 00:35:11.260
- risks and it's like this was like a patchable bug it was patched so so what he's saying is okay so
+00:33:50.698 --> 00:33:53.620
+we're just gonna, like, add a sidechain, we'll add it later.
 
-00:35:11.260 --> 00:35:15.100
- we're going to let Bitcoin become a surveillance chain
+00:33:53.620 --> 00:33:55.780
+That was the original thing with Zcash, right?
 
-00:35:15.100 --> 00:35:17.020
- because this is literally what it will lead to
+00:33:55.780 --> 00:34:01.502
+Is the Bitcoin Core devs said, well, we'll add it later, if Zcash technology starts to
 
-00:35:17.020 --> 00:35:18.160
- with advanced AI.
+00:34:01.502 --> 00:34:06.423
+look good and usable. And it did, but they're like, no, no, no,
 
-00:35:18.880 --> 00:35:20.240
- Once you can, I mean, you can already,
+00:34:06.423 --> 00:34:09.956
+we're too busy trying to work within the traditional financial system,
 
-00:35:20.480 --> 00:35:23.040
- arguably with Chainalysis and other companies
+00:34:09.956 --> 00:34:11.973
+and they don't want that. So...
 
-00:35:23.040 --> 00:35:24.280
- track all the transactions,
+00:34:11.973 --> 00:34:15.273
+Yeah. This episode is brought to you by Cypherpunk.
 
-00:35:25.000 --> 00:35:27.260
- but going to let it become a surveillance chain
+00:34:15.273 --> 00:34:22.107
+Surveillance is now one API call away, and your data has never been more valuable.
 
-00:35:27.260 --> 00:35:30.360
- all because of one or two patchable bugs
+00:34:22.107 --> 00:34:29.030
+Cypherpunk is the public company backing Zcash and building up the Zcash ecosystem to
 
-00:35:30.360 --> 00:35:33.720
- that could have been, you know,
+00:34:29.030 --> 00:34:33.473
+make financial privacy default. Learn more about Cypherpunk at cypherpunk.com.
 
-00:35:33.760 --> 00:35:34.960
- could have been found in production.
+00:34:33.473 --> 00:34:35.144
+Back to the episode.
 
-00:35:35.100 --> 00:35:37.740
- I feel like that's just, again,
+00:34:35.144 --> 00:34:41.375
+I've seen, like, a tweet from Peter Todd, who is a real smart guy.
 
-00:35:37.800 --> 00:35:39.100
- it's irresponsible, it feels like.
+00:34:41.375 --> 00:34:46.665
+Like, he participated in the, I'm understanding he's participated in the Zcash ceremony,
 
-00:35:39.500 --> 00:35:40.180
- Well, let's be clear.
+00:34:46.665 --> 00:34:50.515
+brilliant developer, I'm sure, who basically was stating, oh,
 
-00:35:41.080 --> 00:35:42.620
- I mean, Bitcoin had inflation bugs.
+00:34:50.515 --> 00:34:55.236
+because of the, you know, I think it was reacting to the soundness bug that happened,
 
-00:35:43.040 --> 00:35:43.480
- Yes.
+00:34:55.236 --> 00:35:00.268
+like, you know, a few weeks ago. It was reacting, well, this is why Bitcoin will never
 
-00:35:43.980 --> 00:35:45.660
- So it's a ridiculous.
+00:35:00.268 --> 00:35:03.260
+have privacy, you know, there are all these risks.
 
-00:35:45.860 --> 00:35:46.140
- Exactly.
+00:35:03.260 --> 00:35:08.460
+And it's like, this was like a patchable bug, it was patched.
 
-00:35:46.480 --> 00:35:50.820
- And then took action to be able to kind of address those things.
+00:35:08.460 --> 00:35:15.100
+So what he's saying is, okay, so we're going to let Bitcoin become a surveillance chain,
 
-00:35:51.280 --> 00:35:56.740
- But it depends on what you're optimizing for and what your incentives are, which goes back to kind of this conversation about incentives.
+00:35:15.100 --> 00:35:18.880
+because this is literally what it will lead to with advanced AI.
 
-00:35:56.740 --> 00:36:07.380
- If you're maximizing or optimizing for incentives for price, if that's the only thing that matters, that's kind of what his argument rests on.
+00:35:18.880 --> 00:35:23.040
+Once you can, I mean, you can already, arguably, with Chainalysis and other companies,
 
-00:36:07.660 --> 00:36:16.260
- If you're optimizing for usable money that protects people's security and safety and all of those things, then you have to optimize for something else.
+00:35:23.040 --> 00:35:28.035
+track all the transactions. But going to let it become a surveillance chain all because
 
-00:36:16.620 --> 00:36:17.860
- And there's trade-offs with all those things.
+00:35:28.035 --> 00:35:33.760
+of one or two patchable bugs that could have been, you know,
 
-00:36:17.940 --> 00:36:22.060
- Now, we can get better and better with soundness and ensuring that we have it.
+00:35:33.760 --> 00:35:37.300
+could have been found in production. I feel like that's just,
 
-00:36:22.700 --> 00:36:24.540
- And that work is happening now.
+00:35:37.300 --> 00:35:39.500
+again, it's irresponsible, it feels like.
 
-00:36:24.660 --> 00:36:25.520
- It's happening with Ironwood.
+00:35:39.500 --> 00:35:43.040
+Well, let's be clear. I mean, Bitcoin had inflation bugs.
 
-00:36:25.640 --> 00:36:28.140
- It'll happen further with formal verification and things that we're doing.
+00:35:43.040 --> 00:35:43.980
+Yes.
 
-00:36:28.520 --> 00:36:34.820
- But this should be the goal is to optimize for this thing and not optimize for just the price going up.
+00:35:43.980 --> 00:35:45.860
+So it's ridiculous.
 
-00:36:34.820 --> 00:36:39.760
- A lot of people have positioned Zcash sort of like as an insurance for Bitcoin.
+00:35:45.860 --> 00:35:46.480
+Exactly.
 
-00:36:40.160 --> 00:36:49.120
- Do you think Zcash will at some point overtake Bitcoin or do you think it will stay sort of like the silver to Bitcoin's gold essentially?
+00:35:46.480 --> 00:35:51.280
+And then took action to be able to kind of address those things.
 
-00:36:49.600 --> 00:36:52.560
- Yeah, it's not the silver to Bitcoin's gold. It's the alternative to Bitcoin.
+00:35:51.280 --> 00:35:54.366
+But it depends on what you're optimizing for and what your incentives are,
 
-00:36:53.000 --> 00:36:55.420
- So it just ultimately depends on what people want in the world.
+00:35:54.366 --> 00:35:56.740
+which goes back to kind of this conversation about incentives.
 
-00:36:55.420 --> 00:37:05.160
- If they want to live within the traditional financial system under the constraints of, you know, these world leaders, these central banks, then they will opt into Bitcoin.
+00:35:56.740 --> 00:36:00.730
+If you're maximizing or optimizing for incentives for price,
 
-00:37:05.420 --> 00:37:14.540
- If they want an alternative where they're free, then they will opt into Zcash as an alternative to that, this kind of new financial system.
+00:36:00.730 --> 00:36:07.660
+if that's the only thing that matters, that's kind of what his argument rests on.
 
-00:37:15.480 --> 00:37:17.300
- Ultimately, I think people want to be free.
+00:36:07.660 --> 00:36:12.132
+If you're optimizing for usable money that protects people's security and safety and
 
-00:37:19.220 --> 00:37:20.720
- So that answers your question.
+00:36:12.132 --> 00:36:16.620
+all of those things, then you have to optimize for something else.
 
-00:37:22.060 --> 00:37:25.240
- What does success look like for Zcash in 5-10 years?
+00:36:16.620 --> 00:36:17.940
+And there's trade-offs with all those things.
 
-00:37:25.420 --> 00:37:30.460
- zcash in the hands of billions of people that's the goal if it's just in the hands of 30 50 people
+00:36:17.940 --> 00:36:22.700
+Now, we can get better and better with soundness and ensuring that we have it.
 
-00:37:30.460 --> 00:37:38.300
- like it it doesn't matter it's fine for um for purpose that way but yeah the goal is mass
+00:36:22.700 --> 00:36:25.640
+And that work is happening now. It's happening with Ironwood.
 
-00:37:38.300 --> 00:37:44.060
- adoption do you think more of zcash has a store of value or as a as a currency i don't care about
+00:36:25.640 --> 00:36:28.520
+It'll happen further with formal verification and things that we're doing.
 
-00:37:44.060 --> 00:37:50.060
- that either like i know people like to have this debate yeah and create this dichotomy but like
+00:36:28.520 --> 00:36:33.620
+But this should be the goal, is to optimize for this thing and not optimize for just
 
-00:37:50.620 --> 00:37:54.940
- even thinking about it in terms of traditional sense is the us dollar a store of value or is
+00:36:33.620 --> 00:36:34.820
+the price going up.
 
-00:37:54.940 --> 00:38:01.180
- a medium exchange or is it a unit of account it's all of those things right i take um i've got some
+00:36:34.820 --> 00:36:40.160
+A lot of people have positioned Zcash sort of like as an insurance for Bitcoin.
 
-00:38:01.180 --> 00:38:08.540
- savings i want to put it in to a bank account i want to earn some yield on it maybe it's not that
+00:36:40.160 --> 00:36:46.018
+Do you think Zcash will at some point overtake Bitcoin, or do you think it will stay
 
-00:38:08.540 --> 00:38:14.140
- much yield compared to other securities or other assets that are higher risk but it's a lower risk
+00:36:46.018 --> 00:36:49.600
+sort of like the silver to Bitcoin's gold, essentially?
 
-00:38:14.140 --> 00:38:19.260
- store of value because i'm betting on the us you know the us dollar to maintain some stable rate
+00:36:49.600 --> 00:36:51.422
+Yeah, it's not the silver to Bitcoin's gold.
 
-00:38:19.260 --> 00:38:23.980
- plus i get my you know maybe three and a half percent on a high yield account but then so i
+00:36:51.422 --> 00:36:55.017
+It's the alternative to Bitcoin. So it just ultimately depends on what people want in
 
-00:38:23.980 --> 00:38:31.180
- store it in like a battery until i want to move it until i want to go buy a car or pay for my
+00:36:55.017 --> 00:36:58.899
+the world. If they want to live within the traditional financial system,
 
-00:38:31.180 --> 00:38:35.280
- kids college or something like that and then i remove it as a store of value and it becomes a
+00:36:58.899 --> 00:37:03.073
+under the constraints of, you know, these world leaders, these central banks,
 
-00:38:35.280 --> 00:38:41.040
- medium of exchange it changes the the dynamics of it changes so i see zcash in this in the same way
+00:37:03.073 --> 00:37:08.338
+then they will opt into Bitcoin. If they want an alternative where they're free,
 
-00:38:41.040 --> 00:38:47.120
- uh i don't i don't see it any different regarding the um shell transactions i believe you did a
+00:37:08.338 --> 00:37:15.480
+then they will opt into Zcash as an alternative to that, this kind of new financial system.
 
-00:38:47.120 --> 00:38:53.080
- podcast i think was a year or two ago with origin as well as zuko was there i think where
+00:37:15.480 --> 00:37:19.220
+Ultimately, I think people want to be free.
 
-00:38:53.980 --> 00:38:56.320
- I think Zuko was thinking sort of like the other side
+00:37:19.220 --> 00:37:22.060
+So that answers your question.
 
-00:38:56.320 --> 00:38:58.460
- and you were sort of like defending the position
+00:37:22.060 --> 00:37:25.420
+What does success look like for Zcash in 5–10 years?
 
-00:38:58.460 --> 00:39:02.160
- that we should basically just remove the transparent pool
+00:37:25.420 --> 00:37:27.340
+Zcash in the hands of billions of people.
 
-00:39:02.160 --> 00:39:05.980
- or like, you know, long-term downsize it
+00:37:27.340 --> 00:37:30.460
+That's the goal. If it's just in the hands of 30, 50 people,
 
-00:39:05.980 --> 00:39:09.320
- and eventually kill it in favor of just shielded only.
+00:37:30.460 --> 00:37:36.649
+like, it doesn't matter. It's fine for purpose that way, but yeah,
 
-00:39:10.000 --> 00:39:11.220
- Is that something you still believe?
+00:37:36.649 --> 00:37:38.562
+the goal is mass adoption.
 
-00:39:11.420 --> 00:39:14.580
- The primary argument for the transparent pool would be,
+00:37:38.562 --> 00:37:43.013
+Do you think more of Zcash as a store of value or as a currency?
 
-00:39:14.760 --> 00:39:15.880
- well, it helps with exchanges.
+00:37:43.013 --> 00:37:47.727
+I don't care about that either. Like, I know people like to have this debate.
 
-00:39:16.420 --> 00:39:18.840
- It helps, I guess, reassure a bit the regulators.
+00:37:47.727 --> 00:37:48.227
+Yeah.
 
-00:39:19.700 --> 00:39:21.880
- It can help with compliance,
+00:37:48.227 --> 00:37:52.439
+And create this dichotomy. But, like, even thinking about it in terms of the traditional
 
-00:39:22.020 --> 00:39:23.920
- although we do have like a few winkies and stuff.
+00:37:52.439 --> 00:37:55.791
+sense, is the US dollar a store of value, or is it a medium of exchange,
 
-00:39:23.980 --> 00:39:53.960
- Yeah, I mean, list who you mentioned exchanges, which are now banks, regulated banks, and regulators. And so again, like, who are you optimizing for? Yeah, in order for this to work at mass scale, in order to protect everybody's security, anytime you do any kind of transaction, there's leaky information, right? You always is when you move money, there's always something that leaks. Doesn't matter how private even a US dollar, right? I hand you a $20 bill, maybe there's a camera in the room.
+00:37:55.791 --> 00:38:00.329
+or is it a unit of account? It's all of those things, right?
 
-00:39:53.980 --> 00:39:58.600
- room all this kind of stuff so there's but you want to remove as much leakage as possible the
+00:38:00.329 --> 00:38:04.700
+I've got some savings, I want to put it into a bank account,
 
-00:39:58.600 --> 00:40:02.600
- more you have transparent address the more information leaks so how do we remove all of
+00:38:04.700 --> 00:38:10.407
+I want to earn some yield on it. Maybe it's not that much yield compared to other securities
 
-00:40:02.600 --> 00:40:07.420
- those leakages or as much of those leakages as we can so that people don't have the mental load
+00:38:10.407 --> 00:38:14.948
+or other assets that are higher risk, but it's a lower-risk store of value,
+
+00:38:14.948 --> 00:38:19.260
+because I'm betting on the US, you know, the US dollar, to maintain some stable rate.
+
+00:38:19.260 --> 00:38:23.081
+Plus I get my, you know, maybe three and a half percent on a high-yield account.
+
+00:38:23.081 --> 00:38:27.580
+But then, so I store it in, like, a battery until I want to move it,
+
+00:38:27.580 --> 00:38:32.410
+until I want to go buy a car, or pay for my kids' college or something like that.
+
+00:38:32.410 --> 00:38:36.103
+And then I remove it as a store of value and it becomes a medium of exchange.
+
+00:38:36.103 --> 00:38:42.000
+It changes the dynamics of it. So I see Zcash in the same way.
+
+00:38:42.000 --> 00:38:43.920
+I don't see it any different.
+
+00:38:43.920 --> 00:38:47.418
+Regarding the shielded transactions, I believe you did a podcast,
+
+00:38:47.418 --> 00:38:52.186
+I think it was a year or two ago, with Origin, as well as Zooko was there,
+
+00:38:52.186 --> 00:38:56.320
+I think, where I think Zooko was thinking sort of like the other side,
+
+00:38:56.320 --> 00:39:00.927
+and you were sort of like defending the position that we should basically just remove
+
+00:39:00.927 --> 00:39:07.316
+the transparent pool, or, like, you know, long-term downsize it and eventually kill it
+
+00:39:07.316 --> 00:39:11.420
+in favor of just shielded only. Is that something you still believe?
+
+00:39:11.420 --> 00:39:14.984
+The primary argument for the transparent pool would be, well,
+
+00:39:14.984 --> 00:39:19.700
+it helps with exchanges. It helps, I guess, reassure a bit the regulators.
+
+00:39:19.700 --> 00:39:23.980
+It can help with compliance, although we do have, like, viewing keys and stuff.
+
+00:39:23.980 --> 00:39:28.163
+Yeah, I mean, list who you mentioned: exchanges, which are now banks,
+
+00:39:28.163 --> 00:39:32.695
+regulated banks, and regulators. And so again, like, who are you optimizing for?
+
+00:39:32.695 --> 00:39:38.273
+Yeah, in order for this to work at mass scale, in order to protect everybody's security...
+
+00:39:38.273 --> 00:39:41.759
+Anytime you do any kind of transaction, there's leaky information,
+
+00:39:41.759 --> 00:39:46.291
+right? There always is. When you move money, there's always something that leaks.
+
+00:39:46.291 --> 00:39:49.428
+Doesn't matter how private, even a US dollar, right?
+
+00:39:49.428 --> 00:39:55.925
+I hand you a $20 bill, maybe there's a camera in the room, all this kind of stuff.
+
+00:39:55.925 --> 00:39:58.357
+But you want to remove as much leakage as possible.
+
+00:39:58.357 --> 00:40:00.850
+The more you have transparent addresses, the more information leaks.
+
+00:40:00.850 --> 00:40:05.391
+So how do we remove all of those leakages, or as much of those leakages as we can,
+
+00:40:05.391 --> 00:40:07.420
+so that people don't have the mental load?
 
 00:40:07.420 --> 00:40:12.420
- and that's like if you think okay i'm i want to spend this but am i spending it privately
+And that's like, if you think, okay, I want to spend this, but am I spending it privately?
 
-00:40:12.420 --> 00:40:17.180
- what am i revealing who am i revealing to the world yeah um and you've got to do that on every
+00:40:12.420 --> 00:40:14.913
+What am I revealing? Who am I revealing to the world?
 
-00:40:17.180 --> 00:40:23.060
- transaction right the mental load associated with that like it just doesn't work so like remove that
+00:40:14.913 --> 00:40:15.413
+Yeah.
 
-00:40:23.060 --> 00:40:27.480
- friction of what has to go on and people and and people don't even understand right they don't
+00:40:15.413 --> 00:40:17.872
+And you've got to do that on every transaction, right?
 
-00:40:27.480 --> 00:40:33.800
- understand many in many cases like we had like i had a z cacher who was a whale that i was talking
+00:40:17.872 --> 00:40:21.676
+The mental load associated with that, like, it just doesn't work.
 
-00:40:33.800 --> 00:40:40.360
- to and and i was i was asking him what wallet he was on i won't name the wall but he was he was
+00:40:21.676 --> 00:40:24.779
+So, like, remove that friction of what has to go on.
 
-00:40:40.360 --> 00:40:45.520
- using a wallet and all of his z cash was transparent oh well but he thought it was
+00:40:24.779 --> 00:40:26.989
+And people don't even understand, right?
 
-00:40:45.520 --> 00:40:49.360
- all shielded he's like i'm in z cash for the privacy i was like do you realize i was like
+00:40:26.989 --> 00:40:28.916
+They don't understand, in many cases.
 
-00:40:49.360 --> 00:40:54.960
- wallet are you using he's like do you realize that none of yours he cashes private and he's like what
+00:40:28.916 --> 00:40:34.073
+Like, I had a Zcasher who was a whale that I was talking to,
 
-00:40:54.960 --> 00:41:01.760
- yeah because the brand is privacy yeah um but he didn't understand even though he had made
+00:40:34.073 --> 00:40:37.627
+and I was asking him what wallet he was on.
 
-00:41:01.760 --> 00:41:07.920
- significant investment into it yeah that he was transparent yeah what was leaking so we have to
+00:40:37.627 --> 00:40:44.087
+I won't name the wallet, but he was using a wallet, and all of his Zcash was transparent.
 
-00:41:07.920 --> 00:41:12.320
- close those leakages remove that mental friction so that we don't have to do it through education
+00:40:44.087 --> 00:40:47.632
+But he thought it was all shielded. He's like, I'm in Zcash for the privacy.
 
-00:41:12.320 --> 00:41:17.200
- if we have to do it through education we've freaking failed yeah it just has to work and
+00:40:47.632 --> 00:40:53.840
+I was like, what wallet are you using? Do you realize that none of your Zcash is private?
 
-00:41:17.200 --> 00:41:23.040
- it has to be usable um so i think t addresses ultimately they were a nice tool for
+00:40:53.840 --> 00:40:54.960
+And he's like, what?
 
-00:41:24.080 --> 00:41:29.280
- onboarding the world um with like exchanges and stuff because like sprout again you couldn't an
+00:40:54.960 --> 00:40:55.460
+Yeah.
 
-00:41:29.280 --> 00:41:35.360
- exchange couldn't support shielded transactions out of the gate um but even those exchanges today
+00:40:55.460 --> 00:40:57.360
+Because the brand is privacy.
 
-00:41:35.360 --> 00:41:41.760
- there is no reason there is no compliance reason that they can't support the transactions so even
+00:40:57.360 --> 00:40:58.160
+Yeah.
 
-00:41:41.760 --> 00:41:49.520
- if you buy into that system which i don't and you buy into the kyc system which i don't um they kyc
+00:40:58.160 --> 00:41:03.209
+But he didn't understand, even though he had made significant investment into it...
 
-00:41:49.520 --> 00:41:54.240
- all their customers yeah so they know who the customers are yeah and right now most exchanges
+00:41:03.209 --> 00:41:03.709
+Yeah.
 
-00:41:54.240 --> 00:42:01.120
- in the world with exceptional binance you can send from a shielded uh address to a transparent
+00:41:03.709 --> 00:41:05.021
+That he was transparent.
 
-00:42:01.120 --> 00:42:05.680
- address on the exchange and the exchange can't see the source of funds you have to ask they do
+00:41:05.021 --> 00:41:05.521
+Yeah.
 
-00:42:05.680 --> 00:42:11.360
- due diligence and they say ah this huge chunk of money came in um where did the where did it come
+00:41:05.521 --> 00:41:09.732
+What was leaking. So we have to close those leakages, remove that mental friction,
 
-00:42:11.360 --> 00:42:16.480
- from so they follow the due diligence process under their regulatory regime likewise if you
+00:41:09.732 --> 00:41:12.320
+so that we don't have to do it through education.
 
-00:42:16.480 --> 00:42:23.920
- send out from an exchange there's no reason there's no regulatory reason that they can't send
+00:41:12.320 --> 00:41:15.302
+If we have to do it through education, we've freaking failed.
 
-00:42:23.920 --> 00:42:29.440
- to a shielded address it's all technical yeah so there's one exchange gemini that made the decision
+00:41:15.302 --> 00:41:15.802
+Yeah.
 
-00:42:30.000 --> 00:42:33.680
- that we're going to support shielded address it took engineering work they had to make an
+00:41:15.802 --> 00:41:19.147
+It just has to work, and it has to be usable.
 
-00:42:33.680 --> 00:42:37.760
- an investment they had to modify some curves on their hsms in order to make this stuff to work
+00:41:19.147 --> 00:41:25.380
+So I think t-addresses, ultimately, they were a nice tool for onboarding the world,
 
-00:42:37.760 --> 00:42:43.800
- but they did it for the benefit of the users and it actually provides more security for the users
+00:41:25.380 --> 00:41:28.955
+with, like, exchanges and stuff, because, like, Sprout, again,
 
-00:42:43.800 --> 00:42:49.420
- than any other exchange because any other exchange you're sending from binance for example yeah to a
+00:41:28.955 --> 00:41:33.333
+an exchange couldn't support shielded transactions out of the gate.
 
-00:42:49.420 --> 00:42:56.300
- transparent address it's leaking all kinds of information um gemini can still comply under
+00:41:33.333 --> 00:41:39.125
+But even those exchanges today, there is no reason, there is no compliance reason that
 
-00:42:56.300 --> 00:43:02.360
- ny dfs the most restrictive financial regulator in the world yeah can still deploy you know um
+00:41:39.125 --> 00:41:43.876
+they can't support the transactions. So even if you buy into that system,
 
-00:43:02.360 --> 00:43:06.420
- can use due diligence appropriately.
+00:41:43.876 --> 00:41:48.815
+which I don't, and you buy into the KYC system, which I don't,
 
-00:43:08.420 --> 00:43:10.380
- And so the reasons behind it,
+00:41:48.815 --> 00:41:50.353
+they KYC all their customers.
 
-00:43:10.420 --> 00:43:11.680
- like I worked with Coinbase
+00:41:50.353 --> 00:41:50.853
+Yeah.
 
-00:43:11.680 --> 00:43:14.160
- and Coinbase was great
+00:41:50.853 --> 00:41:52.574
+So they know who the customers are.
 
-00:43:14.160 --> 00:43:17.340
- and it was great for accessibility
+00:41:52.574 --> 00:41:53.074
+Yeah.
 
-00:43:17.340 --> 00:43:18.720
- so more people could get access.
+00:41:53.074 --> 00:41:56.668
+And right now, most exchanges in the world, with the exception of Binance,
 
-00:43:18.860 --> 00:43:20.340
- There were no DEXs or anything available
+00:41:56.668 --> 00:42:02.080
+you can send from a shielded address to a transparent address on the exchange,
 
-00:43:20.340 --> 00:43:21.800
- for Zcash at the time.
+00:42:02.080 --> 00:42:04.240
+and the exchange can't see the source of funds.
 
-00:43:23.260 --> 00:43:24.960
- And they weren't going to support
+00:42:04.240 --> 00:42:10.278
+You have to ask. They do due diligence, and they say, this huge chunk of money came in,
 
-00:43:24.960 --> 00:43:26.960
- shielded addresses.
+00:42:10.278 --> 00:42:15.456
+where did it come from? So they follow the due diligence process under their regulatory regime.
 
-00:43:28.500 --> 00:43:31.240
- But they decided just to allow for the one way
+00:42:15.456 --> 00:42:20.200
+Likewise, if you send out from an exchange, there's no reason,
 
-00:43:31.240 --> 00:43:32.160
- and not the other way.
+00:42:20.200 --> 00:42:25.219
+there's no regulatory reason that they can't send to a shielded address.
 
-00:43:32.360 --> 00:43:47.780
- Why? They said, because until the market tells us that we need to support it, we're not going to invest the engineering resources because we're going to invest engineering resources in the coins, adding more coins that the rest of the world wants in order to increase their revenue and not make the investment.
+00:42:25.219 --> 00:42:26.193
+It's all technical.
 
-00:43:47.980 --> 00:43:51.580
- So I think as Zcash gets bigger, more people start to demand it.
+00:42:26.193 --> 00:42:26.693
+Yeah.
 
-00:43:51.860 --> 00:43:58.400
- Even those regulated entities who can still comply with the regulators will be able to support shielded Zcash.
+00:42:26.693 --> 00:42:31.610
+So there's one exchange, Gemini, that made the decision that we're going to support shielded addresses.
 
-00:43:58.400 --> 00:44:16.280
- I think one of the core arguments on top of what you said about all the friction it causes and just working within the constraints of the traditional financial system is also quantum, which is that the shillet pool is just objectively more secure given public keys are not exposed.
+00:42:31.610 --> 00:42:34.109
+It took engineering work. They had to make an investment.
 
-00:44:16.700 --> 00:44:22.560
- And so if only for that, it would make sense to transition fully to a shillet pool eventually.
+00:42:34.109 --> 00:42:37.760
+They had to modify some curves on their HSMs in order to make this stuff work.
 
-00:44:22.560 --> 00:44:27.320
- This leads me to like quantum recoverability, which should be added to Zcash soon.
+00:42:37.760 --> 00:42:42.846
+But they did it for the benefit of the users, and it actually provides more security
 
-00:44:27.940 --> 00:44:32.460
- Is that something that will be available like in this Zottle app?
+00:42:42.846 --> 00:42:46.445
+for the users than any other exchange. Because any other exchange,
 
-00:44:32.560 --> 00:44:38.120
- Like how will that UX work of recovering your funds in case a quantum attack happens?
+00:42:46.445 --> 00:42:48.428
+you're sending from Binance, for example...
 
-00:44:38.920 --> 00:44:44.260
- Yeah, well, first the pool itself, the Ironwood pool itself will be quantum recoverable.
+00:42:48.428 --> 00:42:48.928
+Yeah.
 
-00:44:44.260 --> 00:44:55.780
- So in the case, in the advent that a quantum adversary shows up, QDA happens, then funds can easily move to another pool without exposing users to that risk.
+00:42:48.928 --> 00:42:53.843
+To a transparent address, it's leaking all kinds of information.
 
-00:44:56.300 --> 00:44:58.460
- But a lot more work needs to happen.
+00:42:53.843 --> 00:42:59.865
+Gemini can still comply under NYDFS, the most restrictive financial regulator in the world.
 
-00:44:58.880 --> 00:45:06.680
- There's still elliptic curve cryptography, which is susceptible to quantum attack in Zcash.
+00:42:59.865 --> 00:43:00.365
+Yeah.
 
-00:45:06.940 --> 00:45:09.160
- And so that still needs to be resolved.
+00:43:00.365 --> 00:43:08.420
+Can still deploy, you know, can use due diligence appropriately.
+
+00:43:08.420 --> 00:43:11.680
+And so the reasons behind it... Like, I worked with Coinbase,
+
+00:43:11.680 --> 00:43:18.860
+and Coinbase was great, and it was great for accessibility, so more people could get access.
+
+00:43:18.860 --> 00:43:23.260
+There were no DEXs or anything available for Zcash at the time.
+
+00:43:23.260 --> 00:43:30.144
+And they weren't going to support shielded addresses, but they decided just to allow
+
+00:43:30.144 --> 00:43:32.646
+for the one way and not the other way. Why?
+
+00:43:32.646 --> 00:43:36.643
+They said, because until the market tells us that we need to support it,
+
+00:43:36.643 --> 00:43:40.641
+we're not going to invest the engineering resources, because we're going to invest engineering
+
+00:43:40.641 --> 00:43:44.639
+resources in the coins, adding more coins that the rest of the world wants,
+
+00:43:44.639 --> 00:43:47.980
+in order to increase their revenue, and not make the investment.
+
+00:43:47.980 --> 00:43:51.860
+So I think as Zcash gets bigger, more people start to demand it.
+
+00:43:51.860 --> 00:43:55.857
+Even those regulated entities, who can still comply with the regulators,
+
+00:43:55.857 --> 00:43:58.400
+will be able to support shielded Zcash.
+
+00:43:58.400 --> 00:44:04.837
+I think one of the core arguments, on top of what you said about all the friction it
+
+00:44:04.837 --> 00:44:09.128
+causes and just working within the constraints of the traditional financial system,
+
+00:44:09.128 --> 00:44:14.134
+is also quantum, which is that the shielded pool is just objectively more secure,
+
+00:44:14.134 --> 00:44:20.607
+given public keys are not exposed. And so if only for that, it would make sense to transition
+
+00:44:20.607 --> 00:44:24.260
+fully to a shielded pool eventually. This leads me to, like,
+
+00:44:24.260 --> 00:44:27.940
+quantum recoverability, which should be added to Zcash soon.
+
+00:44:27.940 --> 00:44:32.560
+Is that something that will be available, like, in this Zodl app?
+
+00:44:32.560 --> 00:44:38.920
+Like, how will that UX work of recovering your funds in case a quantum attack happens?
+
+00:44:38.920 --> 00:44:42.734
+Yeah, well, first, the pool itself, the Ironwood pool itself,
+
+00:44:42.734 --> 00:44:49.027
+will be quantum recoverable. So in the case, in the advent that a quantum adversary shows
+
+00:44:49.027 --> 00:44:54.588
+up, Q-Day happens, then funds can easily move to another pool without exposing users
+
+00:44:54.588 --> 00:44:58.880
+to that risk. But a lot more work needs to happen.
+
+00:44:58.880 --> 00:45:05.480
+There's still elliptic curve cryptography, which is susceptible to quantum attack,
+
+00:45:05.480 --> 00:45:09.320
+in Zcash. And so that still needs to be resolved.
 
 00:45:09.320 --> 00:45:11.900
- But it puts us in a place where we can move quickly.
+But it puts us in a place where we can move quickly.
 
-00:45:11.900 --> 00:45:14.100
- We know how to make it post-quantum.
+00:45:11.900 --> 00:45:14.260
+We know how to make it post-quantum.
 
-00:45:14.260 --> 00:45:19.820
- There is conversations that we'll have this week with all the developers here in Prague,
+00:45:14.260 --> 00:45:20.000
+There is conversations that we'll have this week with all the developers here in Prague,
 
-00:45:20.000 --> 00:45:24.760
- where we'll talk about what that roadmap looks like, how that intersects with Tachyon.
+00:45:20.000 --> 00:45:24.940
+where we'll talk about what that roadmap looks like, how that intersects with Tachyon.
 
-00:45:24.940 --> 00:45:27.700
- There's some decisions and prioritization that needs to be made.
+00:45:24.940 --> 00:45:28.480
+There's some decisions and prioritization that needs to be made.
 
-00:45:28.480 --> 00:45:36.220
- But I think we're in the position that if we want it, we can have it within the next one to two years.
+00:45:28.480 --> 00:45:34.874
+But I think we're in the position that if we want it, we can have it within the next
 
-00:45:36.220 --> 00:45:39.880
- It just depends on how we want to prioritize things and accelerate things.
+00:45:34.874 --> 00:45:40.040
+one to two years. It just depends on how we want to prioritize things and accelerate things.
 
-00:45:40.040 --> 00:45:41.480
- So there's a clear roadmap there.
+00:45:40.040 --> 00:45:44.260
+So there's a clear roadmap there. We know how to do it.
 
-00:45:42.160 --> 00:45:43.400
- We know how to do it.
+00:45:44.260 --> 00:45:47.100
+It will be in there as soon as it's needed.
 
-00:45:44.260 --> 00:45:46.820
- It will be in there as soon as it's needed.
-
-00:45:47.100 --> 00:45:49.260
- And in the interim, it's quantum recoverable.
+00:45:47.100 --> 00:45:49.380
+And in the interim, it's quantum recoverable.
 
 00:45:49.380 --> 00:45:52.360
- What the user experience looks like, I think, is still to be determined
+What the user experience looks like, I think, is still to be determined,
 
-00:45:52.360 --> 00:45:57.440
- and will be determined based on where things kind of roll out on the roadmap.
+00:45:52.360 --> 00:45:58.140
+and will be determined based on where things kind of roll out on the roadmap.
 
 00:45:58.140 --> 00:46:01.400
- Do you think it's fair to say that Zcash is or is becoming at least
+Do you think it's fair to say that Zcash is, or is becoming at least,
 
-00:46:01.400 --> 00:46:06.020
- the safest, most secure place to store your funds right now in crypto?
+00:46:01.400 --> 00:46:06.980
+the safest, most secure place to store your funds right now in crypto?
 
-00:46:06.980 --> 00:46:07.820
- Yes, full stop.
+00:46:06.980 --> 00:46:10.100
+Yes, full stop. We're leading the way with quantum.
 
-00:46:08.000 --> 00:46:09.600
- We're leading the way with quantum.
+00:46:10.100 --> 00:46:14.100
+Now with formal verification, it's getting even better.
 
-00:46:10.100 --> 00:46:13.880
- Now with formal verification, it's getting even better.
+00:46:14.100 --> 00:46:19.120
+Privacy, generally speaking, is already also just a security benefit in and of itself.
 
-00:46:14.100 --> 00:46:18.620
- Privacy, generally speaking, is already also just a security benefit in and of itself.
+00:46:19.120 --> 00:46:25.232
+What is your timeline for when I can literally just tap and pay with,
 
-00:46:19.120 --> 00:46:24.840
- What is your timeline for when I can literally just tap and pay
+00:46:25.232 --> 00:46:31.320
+like, maybe a Zodl card or something at a store, and, like, just instant payments?
 
-00:46:24.840 --> 00:46:31.120
- with like maybe a Zottel card or something at a store and like just instant payments?
+00:46:31.320 --> 00:46:34.060
+Right now, yeah, you could technically pay.
 
-00:46:31.320 --> 00:46:33.500
- Right now, yeah, you could technically pay.
+00:46:34.060 --> 00:46:36.280
+I've never actually tried the Flexa integration.
 
-00:46:34.060 --> 00:46:36.040
- I've never actually tried the Flex integration.
+00:46:36.280 --> 00:46:41.740
+I really should. I don't know how quick it would be, but with the block times and stuff,
 
-00:46:36.280 --> 00:46:37.320
- I really should.
+00:46:41.740 --> 00:46:46.633
+and with all that, I'm guessing it would still take, like, some time for the transaction
 
-00:46:37.940 --> 00:46:41.740
- I don't know how quick it would be, but with the block times and stuff
+00:46:46.633 --> 00:46:50.200
+to go through. So the UX is probably not there yet, I'm assuming.
 
-00:46:41.740 --> 00:46:44.820
- And with all that, I'm guessing it would still take
+00:46:50.200 --> 00:46:52.380
+Yeah, what is your timeline for that?
 
-00:46:44.820 --> 00:46:47.540
- like some time for the transaction to go through.
+00:46:52.380 --> 00:46:55.660
+Yeah, as soon as possible. Again, we'll talk about that a little bit this week.
 
-00:46:47.660 --> 00:46:49.760
- So the UX is probably not there yet, I'm assuming.
+00:46:55.660 --> 00:47:01.000
+We need to do some R&D. Part of that is with a vendor.
 
-00:46:50.200 --> 00:46:51.940
- Yeah, what is your timeline for that?
+00:47:01.000 --> 00:47:05.580
+One of the nice things with a vendor, they need to accept whatever they're going to accept.
 
-00:46:52.380 --> 00:46:53.100
- Yeah, as soon as possible.
+00:47:05.580 --> 00:47:11.640
+So the timeline for which each vendor around the world accepts shielded ZEC,
 
-00:46:53.460 --> 00:46:55.260
- Again, we'll talk about that a little bit this week.
+00:47:11.640 --> 00:47:16.580
+that's a much longer timeline. But we don't have to wait for that.
 
-00:46:55.660 --> 00:46:57.060
- We need to do some R&D.
+00:47:16.580 --> 00:47:21.970
+So one of the things that Flexa did, which is great, is they integrate with legacy point-of-sale
 
-00:46:57.460 --> 00:46:59.740
- Part of that is with a vendor,
+00:47:21.970 --> 00:47:27.500
+systems, so that the stores don't have to change too much in terms of their internal technology.
 
-00:47:01.000 --> 00:47:02.500
- one of the nice things with a vendor,
+00:47:27.500 --> 00:47:33.456
+So I can go to Chipotle or Barnes & Noble or Ulta Beauty or wherever,
 
-00:47:02.660 --> 00:47:04.760
- they need to accept whatever they're going to accept.
+00:47:33.456 --> 00:47:38.300
+and I can pay, and it's instant, or very near instant, right?
 
-00:47:05.580 --> 00:47:09.900
- So the timeline for which each vendor around the world
+00:47:38.300 --> 00:47:42.860
+So you've got a line of people behind you, you know, you don't want to sit there forever
 
-00:47:10.300 --> 00:47:11.380
- accepts Shielded ZEK,
+00:47:42.860 --> 00:47:48.344
+waiting for a confirmation to confirm. And so what happens is then tokens are collateralized
 
-00:47:11.640 --> 00:47:13.620
- That's a much longer timeline.
+00:47:48.344 --> 00:47:53.180
+on the back end in order to allow that transaction to be effected,
 
-00:47:14.700 --> 00:47:16.580
- But we don't have to wait for that.
+00:47:53.180 --> 00:47:59.960
+even if the confirmation time for Zcash is slower than that particular instant.
 
-00:47:16.580 --> 00:47:27.360
- So one of the things that Flexa did, which is great, is they integrate with legacy point-of-sale systems so that the stores don't have to change too much in terms of their internal technology.
+00:47:59.960 --> 00:48:04.745
+And likewise, like what we do with swaps, we have something called CrossPay within Zodl
 
-00:47:27.500 --> 00:47:38.220
- So I can go to Chipotle or Barnes & Noble or Ulta Beauty or wherever, and I can pay, and it's instant or very near instant, right?
+00:48:04.745 --> 00:48:09.442
+that allows you to pay, like in USDC, for example, or Tether,
 
-00:47:38.300 --> 00:47:44.380
- So you've got a line of people behind you, you know, you don't want to sit there forever waiting for a confirmation to confirm.
+00:48:09.442 --> 00:48:14.945
+whatever, maybe whatever new stablecoin this whole group is coming up with,
 
-00:47:45.120 --> 00:47:53.000
- And so what happens is then tokens are collateralized on the back end in order to allow that transaction to be affected,
+00:48:14.945 --> 00:48:17.716
+whatever coin that the vendor is comfortable with.
 
-00:47:53.180 --> 00:47:59.320
- even if the confirmation time for Zcash is slower than that particular instant.
+00:48:17.716 --> 00:48:23.117
+We can pay, and we can pay near instantly with CrossPay.
 
-00:47:59.960 --> 00:48:06.240
- And likewise, like what we do with swaps, we have something called cross pay within Zottel that allow you to pay,
+00:48:23.117 --> 00:48:26.094
+Currently, that's leveraging NEAR Intents.
 
-00:48:06.240 --> 00:48:13.560
- like in USDC, for example, or Tether, whatever, maybe whatever new stable coin this whole group
+00:48:26.094 --> 00:48:29.980
+And again, there's market makers that are effectively collateralizing.
 
-00:48:13.560 --> 00:48:20.140
- is coming up with, whatever coin that the vendor is comfortable with, we can pay and we can pay
+00:48:29.980 --> 00:48:35.820
+So we can kind of speed up that whole process and allow those transactions to be effected quickly.
 
-00:48:20.140 --> 00:48:27.880
- near instantly with cross pay. Currently, that's leveraging near intense. And again, there's
+00:48:35.820 --> 00:48:40.876
+We want to minimize that. It needs to be as fast and as scalable as the traditional financial
 
-00:48:27.880 --> 00:48:33.480
- market makers that are effectively collateralizing. So we can kind of speed up that whole process
-
-00:48:33.480 --> 00:48:38.420
- and allow those those transactions to be affected quickly we want to minimize that it needs to be as
-
-00:48:38.420 --> 00:48:43.640
- fast and as scalable as the traditional financial system as the visas master cards of the world
+00:48:40.876 --> 00:48:43.640
+system, as the Visas, Mastercards of the world.
 
 00:48:43.640 --> 00:48:49.720
- so we've got work to do to to close that gap um but i think we have a roadmap to to do that
+So we've got work to do to close that gap, but I think we have a roadmap to do that.
 
-00:48:49.720 --> 00:48:56.180
- as soon as they adopt stable coins because with with crossbay you can effectively just
+00:48:49.720 --> 00:48:56.579
+As soon as they adopt stablecoins, because with CrossPay you can effectively just convert
 
-00:48:56.180 --> 00:49:02.960
- convert any uh zcash to any other currency that they accept so whatever crypto that they accept
+00:48:56.579 --> 00:49:00.567
+any Zcash to any other currency that they accept.
 
-00:49:02.960 --> 00:49:08.480
- as long as they accept one zcash will just work with it uh which is the power of cross vegas yeah
+00:49:00.567 --> 00:49:04.537
+So whatever crypto that they accept, as long as they accept one,
 
-00:49:08.480 --> 00:49:13.920
- and it's kind of the trojan horse in that we can say okay we're not uh trying to conform to the
+00:49:04.537 --> 00:49:08.217
+Zcash will just work with it, which is the power of CrossPay.
 
-00:49:13.920 --> 00:49:18.340
- traditional financial system yeah and like because we got asked for example we got asked to help
+00:49:08.217 --> 00:49:11.589
+Yeah, and it's kind of the Trojan horse, in that we can say,
 
-00:49:18.340 --> 00:49:26.840
- create a cdbc and we said no um and but all of these other groups do because they see stable
+00:49:11.589 --> 00:49:14.700
+okay, we're not trying to conform to the traditional financial system.
 
-00:49:26.840 --> 00:49:32.140
- coins are working yeah and people are buying into them they're effectively a cdbc they're just an
+00:49:14.700 --> 00:49:19.615
+Yeah, and like, because we got asked, for example, we got asked to help create a CBDC,
 
-00:49:32.140 --> 00:49:38.640
- outsource cdbc it's horrible um but if somebody wants to accept them then fine you can stay
+00:49:19.615 --> 00:49:27.775
+and we said no. But all of these other groups do, because they see stablecoins are working.
 
-00:49:38.640 --> 00:49:42.840
- private and we're gonna follow they're gonna create this massive wave and we're just gonna
+00:49:27.775 --> 00:49:28.275
+Yeah.
 
-00:49:42.840 --> 00:49:48.080
- surf it yeah and then people can people can pay and whatever that vendor wants to take
+00:49:28.275 --> 00:49:31.205
+And people are buying into them. They're effectively a CBDC,
 
-00:49:48.080 --> 00:49:55.120
- um and stay uh safe and secure and private yeah perfect well thanks to us and uh yeah
+00:49:31.205 --> 00:49:34.052
+they're just an outsourced CBDC. It's horrible.
 
-00:49:55.120 --> 00:49:57.860
- let's do this again soon all right awesome thank you thank you
+00:49:34.052 --> 00:49:37.493
+But if somebody wants to accept them, then fine.
 
+00:49:37.493 --> 00:49:40.040
+You can stay private, and we're gonna follow.
+
+00:49:40.040 --> 00:49:43.456
+They're gonna create this massive wave, and we're just gonna surf it.
+
+00:49:43.456 --> 00:49:43.956
+Yeah.
+
+00:49:43.956 --> 00:49:48.471
+And then people can pay in whatever that vendor wants to take,
+
+00:49:48.471 --> 00:49:51.600
+and stay safe and secure and private.
+
+00:49:51.600 --> 00:49:56.262
+Yeah, perfect. Well, thanks, Josh, and yeah, let's do this again soon.
+
+00:49:56.262 --> 00:49:57.403
+All right, awesome. Thank you.
+
+00:49:57.403 --> 00:49:59.632
+Thank you.

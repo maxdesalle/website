@@ -7,7 +7,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Params.feed_title | default .Title }}</title>
-    <link>{{ .Permalink }}</link>
+    <link>{{ site.BaseURL }}</link>
     <language>{{ .Params.language | default site.LanguageCode | default "en-us" }}</language>
     <description>{{ $summary | html }}</description>
     <itunes:summary>{{ $summary | html }}</itunes:summary>
@@ -33,7 +33,7 @@
     {{- $videoType := .Params.video_type | default "video/mp4" -}}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
+      <link>{{ site.BaseURL }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="false">{{ .Params.guid | default .File.UniqueID }}</guid>
       <description>{{ .Content | html }}</description>

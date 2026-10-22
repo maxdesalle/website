@@ -22,6 +22,7 @@
   </div>{{ end }}
 
   <div class="download-links">
+    {{ with .Params.youtube_url }}<a href="{{ . }}">YouTube</a>{{ end }}
     {{ with .Params.source_url }}<a href="{{ . }}">Watch on X</a>{{ end }}
     {{ with .Params.video_url }}<a href="{{ . }}">Download video</a>{{ end }}
   </div>

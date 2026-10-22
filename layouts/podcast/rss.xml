@@ -33,7 +33,7 @@
     {{- $videoType := .Params.video_type | default "video/mp4" -}}
     <item>
       <title>{{ .Title }}</title>
-      <link>{{ site.BaseURL }}</link>
+      <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <guid isPermaLink="false">{{ .Params.guid | default .File.UniqueID }}</guid>
       <description>{{ .Content | html }}</description>

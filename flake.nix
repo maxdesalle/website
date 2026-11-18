@@ -18,7 +18,8 @@
       devShells = forSystems (pkgs: {
         # Every tool a script in scripts/ or a config here actually invokes:
         #   hugo                 the site (config.toml, themes/etch)
-        #   wrangler             Cloudflare Pages/D1/R2 (wrangler.toml, media-pipeline.sh)
+        #   wrangler             Cloudflare Pages/D1 (wrangler.toml)
+        #   awscli2              R2 multipart uploads (media-pipeline.sh)
         #   pandoc texliveSmall  make-pdf-epub.sh (pandoc → pdflatex)
         #   yt-dlp ffmpeg        media-pipeline.sh (ffprobe ships in ffmpeg)
         #   jq python3           media-pipeline.sh (stdlib-only python)
@@ -28,6 +29,7 @@
           packages = with pkgs; [
             hugo
             wrangler
+            awscli2
             pandoc
             texliveSmall
             yt-dlp

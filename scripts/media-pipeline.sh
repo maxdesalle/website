@@ -152,9 +152,10 @@ require_command ffprobe
 [[ "$AUDIO" == false ]] || require_command jq
 if [[ "$NO_UPLOAD" == false ]]; then
   require_command curl
+  require_command aws
 
   missing=()
-  for name in CF_ACCOUNT_ID R2_BUCKET CDN_BASE; do
+  for name in CF_ACCOUNT_ID R2_BUCKET CDN_BASE R2_ACCESS_KEY_ID R2_SECRET_ACCESS_KEY; do
     [[ -n "${!name:-}" ]] || missing+=("$name")
   done
   if [[ -z "${CF_API_TOKEN:-}" ]]; then
@@ -403,11 +404,8 @@ upload_stream() {
   printf 'STREAM_UID=%s\n' "$STREAM_UID"
 }
 
-print_wrangler_command() {
-  local file=$1 key=$2
-  printf 'wrangler r2 object put %q --file=%q\n' "$R2_BUCKET/$key" "$file" >&2
-}
-
+# The S3 API, not wrangler: wrangler refuses objects over 300 MiB, and a 1080p
+# episode passes that in half an hour. aws s3 cp switches to multipart itself.
 upload_r2_object() {
   local file=$1 key=$2 marker
   marker="$WORKDIR/.r2-${key##*/}.uploaded"
@@ -415,13 +413,10 @@ upload_r2_object() {
     log "R2 upload already completed; skipping: $key"
     return
   fi
-  if command -v wrangler >/dev/null 2>&1; then
-    wrangler r2 object put "$R2_BUCKET/$key" --file="$file" --remote
-    : > "$marker"
-  else
-    log "wrangler is not installed; run this command after installing it:"
-    print_wrangler_command "$file" "$key"
-  fi
+  AWS_ACCESS_KEY_ID=$R2_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$R2_SECRET_ACCESS_KEY \
+  AWS_DEFAULT_REGION=auto aws s3 cp "$file" "s3://$R2_BUCKET/$key" --only-show-errors \
+    --endpoint-url "https://$CF_ACCOUNT_ID.r2.cloudflarestorage.com"
+  : > "$marker"
 }
 
 verify_size() {

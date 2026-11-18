@@ -344,23 +344,6 @@ PY
   #   scripts/retime-transcript.py "$VTT" "$ASSET_MD" > assets/transcripts/$SLUG.vtt
 }
 
-parse_stream_uid() {
-  local response=$1
-  if command -v jq >/dev/null 2>&1; then
-    jq -r '.result.uid // empty' "$response"
-  else
-    require_command python3
-    python3 - "$response" <<'PY'
-import json
-import sys
-
-with open(sys.argv[1], encoding="utf-8") as handle:
-    data = json.load(handle)
-print((data.get("result") or {}).get("uid") or "")
-PY
-  fi
-}
-
 upload_stream() {
   local response auth_args
   if [[ -s "$STREAM_UID_FILE" ]]; then
@@ -378,12 +361,43 @@ upload_stream() {
     auth_args=(-H "X-Auth-Email: $CF_ACCOUNT_EMAIL" -H "X-Auth-Key: $CLOUDFLARE_API_KEY")
   fi
 
-  log "[5/6] Uploading master to Cloudflare Stream"
-  curl --fail --silent --show-error -X POST \
-    "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/stream" \
-    "${auth_args[@]}" -F "file=@$MASTER" -o "$response"
-  STREAM_UID=$(parse_stream_uid "$response")
-  [[ -n "$STREAM_UID" ]] || die "Cloudflare Stream response did not contain result.uid"
+  # tus, not a multipart POST: Stream refuses basic uploads over 200 MB with a
+  # 413, and a 4K master of any real length is gigabytes. Chunks are 50 MiB
+  # (a multiple of tus's 256 KiB unit), so offsets stay whole MiB for dd.
+  # The upload URL and media id persist in $tus, so a dropped connection or a
+  # rerun resumes from the server's own Upload-Offset instead of restarting.
+  log "[5/6] Uploading master to Cloudflare Stream (tus)"
+  local size location offset tries=0 chunk=50 tus="$WORKDIR/.stream-tus"
+  size=$(wc -c < "$MASTER" | tr -d " ")
+  header() { awk -F': ' -v h="$1" 'tolower($1)==h {gsub(/\r/, "", $2); print $2}' "$response"; }
+  if [[ ! -s "$tus" ]]; then
+    curl --fail --silent --show-error -X POST -D "$response" -o /dev/null \
+      "https://api.cloudflare.com/client/v4/accounts/$CF_ACCOUNT_ID/stream" \
+      "${auth_args[@]}" -H "Tus-Resumable: 1.0.0" -H "Upload-Length: $size" \
+      -H "Upload-Metadata: name $(printf '%s' "$SLUG" | base64)"
+    printf '%s %s\n' "$(header location)" "$(header stream-media-id)" > "$tus"
+  fi
+  read -r location STREAM_UID < "$tus"
+  [[ -n "$location" && -n "$STREAM_UID" ]] || die "Stream tus create returned no Location/stream-media-id"
+  offset=-1
+  while ((offset < size)); do
+    if ((offset < 0)); then
+      ((tries++ < 5)) || die "Stream tus upload failed 5 times in a row"
+      curl --fail --silent --show-error -I -D "$response" -o /dev/null "$location" \
+        "${auth_args[@]}" -H "Tus-Resumable: 1.0.0" || { offset=-1; continue; }
+    elif dd if="$MASTER" bs=1048576 skip=$((offset / 1048576)) count=$chunk status=none | \
+      curl --fail --silent --show-error -X PATCH -D "$response" -o /dev/null "$location" \
+        "${auth_args[@]}" -H "Tus-Resumable: 1.0.0" -H "Upload-Offset: $offset" \
+        -H "Content-Type: application/offset+octet-stream" --data-binary @-; then
+      tries=0
+    else
+      log "  chunk at $offset failed; asking the server where to resume"
+      offset=-1; continue
+    fi
+    offset=$(header upload-offset); offset=${offset:--1}
+    ((offset < 0)) || log "  $((offset * 100 / size))% ($offset / $size bytes)"
+  done
+  rm -f "$tus"
   printf '%s\n' "$STREAM_UID" > "$STREAM_UID_FILE"
   rm -f "$response"
   printf 'STREAM_UID=%s\n' "$STREAM_UID"

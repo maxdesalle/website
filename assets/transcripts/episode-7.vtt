@@ -1,0 +1,4072 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.285
+What is the most misunderstood idea in physics?
+
+00:00:03.285 --> 00:00:06.159
+This was proof that nature is non-local.
+
+00:00:06.159 --> 00:00:10.241
+If you ask physicists, what's the lesson of the 2022 Nobel Prize?
+
+00:00:10.241 --> 00:00:12.795
+"Oh, it's because of the non-locality of physics."
+
+00:00:12.795 --> 00:00:15.186
+Is there faster than light communication?
+
+00:00:15.186 --> 00:00:18.822
+Whenever we have evidence of what looks like magic, like here,
+
+00:00:18.822 --> 00:00:22.760
+violating the Bell inequality with such a big winning rate, is evidence that there's
+
+00:00:22.760 --> 00:00:26.588
+something we have not yet understood. Everett was in the business of applying physics
+
+00:00:26.588 --> 00:00:31.580
+to the whole thing. Trying to build with classical Lego blocks quantum mechanics,
+
+00:00:31.580 --> 00:00:33.230
+this is promised to fail.
+
+00:00:33.230 --> 00:00:34.880
+Yes, yes. What's the alternative?
+
+00:00:34.880 --> 00:00:40.940
+Here we go. I hope every competent physicist would be extremely critical of the account
+
+00:00:40.940 --> 00:00:41.847
+I've given.
+
+00:00:41.847 --> 00:00:42.753
+Hi Charles.
+
+00:00:42.753 --> 00:00:45.825
+Hi Maxime, thank you for the invitation.
+
+00:00:45.825 --> 00:00:49.288
+What is the most misunderstood idea in physics?
+
+00:00:49.288 --> 00:00:58.805
+Well, I think that since Bell's theorem and the experiments that vindicated the violation
+
+00:00:58.805 --> 00:01:04.908
+of Bell inequalities, especially with the hype that all of this research program got
+
+00:01:04.908 --> 00:01:11.620
+with the 2022 Nobel Prize in Physics awarded to Aspect, Clauser and Zeilinger for establishing
+
+00:01:11.620 --> 00:01:16.624
+that nature does indeed violate Bell inequalities, I think that the most misunderstood
+
+00:01:16.624 --> 00:01:21.176
+idea in physics, or at least in the physics community around which I revolve,
+
+00:01:21.176 --> 00:01:24.300
+is that this was proof that nature is non-local.
+
+00:01:24.300 --> 00:01:29.460
+There's a lot of things to unpack, and I guess it's setting up the topic for a conversation here.
+
+00:01:29.460 --> 00:01:35.363
+We would need to unpack the hypotheses of Bell's theorem, what it means to violate a
+
+00:01:35.363 --> 00:01:40.313
+Bell inequality, what happens when we really see that indeed photons can violate Bell
+
+00:01:40.313 --> 00:01:43.389
+inequalities, or other quantum systems when they're entangled,
+
+00:01:43.389 --> 00:01:49.401
+and why do people conclude that, "Oh, this is therefore the only viable explanation is
+
+00:01:49.401 --> 00:01:52.880
+that we have non-local action," or that the world is non-local,
+
+00:01:52.880 --> 00:01:54.440
+or however this could be put.
+
+00:01:54.440 --> 00:01:58.760
+The explanation that remains fully local is basically the one that trusts quantum theory
+
+00:01:58.760 --> 00:02:03.467
+in the first place. So I've launched a few cues: wherever you want to rebound,
+
+00:02:03.467 --> 00:02:06.260
+we can start from the beginning, it's up to you.
+
+00:02:06.260 --> 00:02:11.260
+But I would say that the most misconceived idea is this idea that physics is non-local
+
+00:02:11.260 --> 00:02:13.180
+because of violation of Bell inequalities.
+
+00:02:13.180 --> 00:02:16.140
+Who are you as a physicist? What's your profile?
+
+00:02:16.140 --> 00:02:20.488
+Right. I'm a postdoctoral researcher at École de technologie supérieure,
+
+00:02:20.488 --> 00:02:26.140
+so I'm doing a postdoc with Claude Crépeau, who's my advisor and friend.
+
+00:02:26.140 --> 00:02:28.660
+It's funny because I keep following cryptographers.
+
+00:02:28.660 --> 00:02:32.620
+I was working with a cryptographer, Stefan Wolf, in Lugano before,
+
+00:02:32.620 --> 00:02:38.997
+and my PhD advisor is Gilles Brassard, who's well known for his work in quantum information
+
+00:02:38.997 --> 00:02:44.140
+theory and quantum cryptography, but he was also by training a cryptographer.
+
+00:02:44.140 --> 00:02:48.560
+I'm fascinated by cryptography. There's a lot of things to unpack here.
+
+00:02:48.560 --> 00:02:52.820
+But my heart in research has always been in the foundations of physics.
+
+00:02:52.820 --> 00:02:57.987
+And it turns out that the great cryptographers I had the chance to overlap with were
+
+00:02:57.987 --> 00:03:04.200
+always giving me not only freedom to explore these ideas, but also plenty of very interesting inputs.
+
+00:03:04.200 --> 00:03:09.762
+So that's my background, but I'd say I'm a theoretical physicist and also a theoretical
+
+00:03:09.762 --> 00:03:15.960
+computer scientist, mostly interested in fundamental aspects of physics and information theory.
+
+00:03:15.960 --> 00:03:20.113
+What are Bell inequalities? I mean, they're named after Bell,
+
+00:03:20.113 --> 00:03:23.720
+a well-known physicist, but what are the Bell inequalities?
+
+00:03:23.720 --> 00:03:27.780
+Bell's theorem was put forth in 1964. For this audience, right,
+
+00:03:27.780 --> 00:03:32.360
+I believe this audience is more generally interested in physics without being an expert.
+
+00:03:32.360 --> 00:03:35.040
+I would not recommend delving into Bell's paper.
+
+00:03:35.040 --> 00:03:40.800
+It contains integrals, and also the conclusion is not extremely sharp.
+
+00:03:40.800 --> 00:03:45.323
+You see the inequality and you see the fact that quantum theory predicts the violation
+
+00:03:45.323 --> 00:03:48.624
+of these inequalities. But nowadays we have easier versions.
+
+00:03:48.624 --> 00:03:54.063
+Notably, one of them is due to CHSH, and it's generally presented as a game.
+
+00:03:54.063 --> 00:03:58.237
+So if you want, I can take you on board with what is the CHSH game,
+
+00:03:58.237 --> 00:04:03.241
+how is it played, and how do we get this surprising news that quantum mechanics permits
+
+00:04:03.241 --> 00:04:04.890
+to violate a Bell inequality.
+
+00:04:04.890 --> 00:04:08.740
+I'm drawing my explanations that I did in this book.
+
+00:04:08.740 --> 00:04:12.079
+So this chapter in Bold Conjectures, Volume Two.
+
+00:04:12.079 --> 00:04:17.335
+It's a great volume put forth by the Conjecture Institute, edited by Logan Chipkin,
+
+00:04:17.335 --> 00:04:20.441
+and I contributed to a chapter. It's dedicated to a wide audience.
+
+00:04:20.441 --> 00:04:23.698
+So it's funny because I'm going to follow you through this argument here,
+
+00:04:23.698 --> 00:04:28.049
+and I believe it's a crisp way and vivid way to explain it.
+
+00:04:28.049 --> 00:04:31.516
+So the CHSH game is played between two players cooperatively.
+
+00:04:31.516 --> 00:04:36.444
+Let's name our players Alice and Bob, and they're initially co-located.
+
+00:04:36.444 --> 00:04:43.398
+They know the rules of the game, and they can initially agree on a strategy to beat the
+
+00:04:43.398 --> 00:04:46.648
+game, to try to achieve the highest possible score.
+
+00:04:46.648 --> 00:04:51.811
+Agree on a strategy, it means they could exchange pieces of information if they want.
+
+00:04:51.811 --> 00:04:54.634
+They can agree on some fixed instruction sets.
+
+00:04:54.634 --> 00:04:58.371
+They can also agree that the instruction sets will change at some time.
+
+00:04:58.371 --> 00:05:02.839
+They could do whatever they want to build a strategy to beat the game.
+
+00:05:02.839 --> 00:05:05.740
+However, when they'll be playing, they'll be separated.
+
+00:05:05.740 --> 00:05:13.420
+I like to think of Alice is going to Mercury and Bob is going to a moon around Jupiter.
+
+00:05:13.420 --> 00:05:19.260
+So that the isolation is an isolation in space, to make sure that they cannot communicate.
+
+00:05:19.260 --> 00:05:22.193
+They can't cheat, they can't exchange messages while playing the game.
+
+00:05:22.193 --> 00:05:27.744
+The game, they will receive a list of questions, similar to a quiz that one might receive,
+
+00:05:27.744 --> 00:05:32.108
+with a list of, say, 40 questions. And each question is a binary question,
+
+00:05:32.108 --> 00:05:36.940
+so it's kind of helpful to think of the question as being either zero or one.
+
+00:05:36.940 --> 00:05:41.309
+And then they must reply to each question an answer which is also binary,
+
+00:05:41.309 --> 00:05:42.366
+so zero or one.
+
+00:05:42.366 --> 00:05:45.274
+And I haven't yet told you the rules of the game.
+
+00:05:45.274 --> 00:05:48.920
+So what are the rules of the game? They're as follows.
+
+00:05:48.920 --> 00:05:53.864
+If one of the questions in the question pair contains a zero,
+
+00:05:53.864 --> 00:05:58.198
+Alice and Bob must try to produce the same answer.
+
+00:05:58.198 --> 00:06:02.180
+So, for example, you might be Alice, I'm Bob.
+
+00:06:02.180 --> 00:06:08.130
+You receive a 0, I receive a 1 on, say, the question round number 17.
+
+00:06:08.130 --> 00:06:10.820
+We have to try to output the same answer.
+
+00:06:10.820 --> 00:06:11.320
+Yes.
+
+00:06:11.320 --> 00:06:16.329
+And so, for example, if you output 0 and I output 0, we would mark a point for that round.
+
+00:06:16.329 --> 00:06:23.237
+However, when it's not the case that one of the two questions contains a zero,
+
+00:06:23.237 --> 00:06:26.569
+then Alice and Bob must try to output different bits.
+
+00:06:26.569 --> 00:06:29.809
+So just to recap so far, we have two people.
+
+00:06:29.809 --> 00:06:35.233
+One of them is on some far away planet, the other on some other far away planet,
+
+00:06:35.233 --> 00:06:41.335
+and depending on the number in the question, they need to output the same answer or different answer.
+
+00:06:41.335 --> 00:06:47.668
+Correct. So for a given round, say the first question, if the question pair contains
+
+00:06:47.668 --> 00:06:51.924
+a zero, Alice and Bob must try to produce the same answer.
+
+00:06:51.924 --> 00:06:59.363
+11 would be valid, 00 would be valid, but 01 would not be valid if they produce 01 and
+
+00:06:59.363 --> 00:07:01.626
+they did indeed contain a 0 as a question.
+
+00:07:01.626 --> 00:07:05.905
+However, if they both receive a 1, then they must try to produce different answers.
+
+00:07:05.905 --> 00:07:12.793
+If we only play the CHSH game once, we don't learn much, but I like to think of this
+
+00:07:12.793 --> 00:07:17.340
+as they receive 40 questions, and so does Bob, and these questions,
+
+00:07:17.340 --> 00:07:21.797
+you can think of them as being drawn at random, or produced by a process that Alice and
+
+00:07:21.797 --> 00:07:25.399
+Bob did not have access to when they were initially co-located.
+
+00:07:25.399 --> 00:07:28.370
+When they initially prepare their strategies, when they're together,
+
+00:07:28.370 --> 00:07:32.300
+they don't know which questions they'll be asked, and that's part of the difficulty.
+
+00:07:32.300 --> 00:07:32.800
+Okay.
+
+00:07:32.800 --> 00:07:36.384
+And I think it's good now to pause to really absorb the game,
+
+00:07:36.384 --> 00:07:39.620
+to put ourselves back in Alice's and Bob's shoes.
+
+00:07:39.620 --> 00:07:43.030
+While they know the rules of the game and they're initially co-located,
+
+00:07:43.030 --> 00:07:47.320
+what would be, you think, some strategy they could come up with?
+
+00:07:47.320 --> 00:07:51.265
+They could technically have an agreement beforehand, right, before heading to the planet.
+
+00:07:51.265 --> 00:07:53.454
+So they want to maximize their score, right?
+
+00:07:53.454 --> 00:07:56.932
+The rule is such that if one of the question pair contains a zero,
+
+00:07:56.932 --> 00:08:05.113
+they must output the same bit. And note that on average three quarters of the question
+
+00:08:05.113 --> 00:08:10.558
+pairs will contain a zero. It's kind of helpful to think of the questions that they'll
+
+00:08:10.558 --> 00:08:13.196
+receive as being sampled randomly and identically distributed,
+
+00:08:13.196 --> 00:08:17.980
+but note it will not be required for carrying out the experiment.
+
+00:08:17.980 --> 00:08:22.460
+Yeah. And it's three-fourths because it's either 00, 10, 01 or 11.
+
+00:08:22.460 --> 00:08:26.628
+Correct, exactly. There's a lot of ways in which a question pair can contain a zero.
+
+00:08:26.628 --> 00:08:27.128
+Yes.
+
+00:08:27.128 --> 00:08:29.996
+You named the three ways. So only if the question pair is 11,
+
+00:08:29.996 --> 00:08:31.696
+then they need to output different bits.
+
+00:08:31.696 --> 00:08:32.196
+Yes.
+
+00:08:32.196 --> 00:08:35.962
+So you might think, let's always output zero.
+
+00:08:35.962 --> 00:08:36.462
+Yes.
+
+00:08:36.462 --> 00:08:39.447
+That's a common strategy that makes a lot of sense.
+
+00:08:39.447 --> 00:08:44.289
+Alice and Bob, they will leave the planet Earth toward their station knowing that whenever
+
+00:08:44.289 --> 00:08:52.344
+the question contains a zero, so either 00, 01, or 10, they'll mark a point on that round.
+
+00:08:52.344 --> 00:08:56.957
+But whenever the question pair will be 11, since they both produce zeros,
+
+00:08:56.957 --> 00:09:00.837
+and they need to produce different outputs, they will not have a point on those rounds.
+
+00:09:00.837 --> 00:09:04.299
+And they should expect roughly a winning rate of 30 out of 40.
+
+00:09:04.299 --> 00:09:10.000
+And it's actually easy to prove that that's the case for the always output 00 strategy,
+
+00:09:10.000 --> 00:09:15.677
+if we then assume again a distribution on the questions, which is very helpful to think
+
+00:09:15.677 --> 00:09:16.270
+this way.
+
+00:09:16.270 --> 00:09:21.383
+But we're not done. We only proved that that strategy achieves three quarter winning rate.
+
+00:09:21.383 --> 00:09:24.772
+Obviously, they could also decide to output one all the time,
+
+00:09:24.772 --> 00:09:29.075
+and that doesn't change anything. They'll always mark a point whenever the question contains
+
+00:09:29.075 --> 00:09:33.964
+a zero, and they'll not mark a point when the question pair is 11.
+
+00:09:33.964 --> 00:09:41.340
+But we can start formalizing this a little bit, and one first step that is kind of helpful
+
+00:09:41.340 --> 00:09:44.400
+in the formalization is to study these deterministic strategies.
+
+00:09:44.400 --> 00:09:49.320
+When Alice receives her question, her output is going to be a function of the question.
+
+00:09:49.320 --> 00:09:54.340
+The deterministic strategy that we established, where the output function was the constant
+
+00:09:54.340 --> 00:09:58.868
+zero: Alice, whichever input she received, she outputs zero.
+
+00:09:58.868 --> 00:10:03.555
+That's a function, always zero. But she could have said, "You know what,
+
+00:10:03.555 --> 00:10:06.930
+I'm going to copy the question. If the question is zero, my answer is zero."
+
+00:10:06.930 --> 00:10:07.430
+Yeah.
+
+00:10:07.430 --> 00:10:09.720
+"If the question is one, my answer is one."
+
+00:10:09.720 --> 00:10:10.220
+Yeah.
+
+00:10:10.220 --> 00:10:13.112
+Or another deterministic function would be, "I'm going to flip the question.
+
+00:10:13.112 --> 00:10:14.796
+If the question is zero, I'll output one.
+
+00:10:14.796 --> 00:10:18.851
+If the question is one, I'll output zero." Or another deterministic function is the constant
+
+00:10:18.851 --> 00:10:22.133
+one: regardless of the question, I'm going to output one.
+
+00:10:22.133 --> 00:10:25.627
+And you're going to go, "Well, Charles, are you going forever enumerating the functions
+
+00:10:25.627 --> 00:10:30.513
+that Alice could possibly think of?" Well, no, I'm done.
+
+00:10:30.513 --> 00:10:36.140
+There aren't that many. Because it's a function of one bit, the domain is one bit,
+
+00:10:36.140 --> 00:10:40.402
+so it has two possibilities, into one bit, it has two possibilities of outcomes.
+
+00:10:40.402 --> 00:10:43.940
+You can list them all, and there's only four such functions.
+
+00:10:43.940 --> 00:10:44.940
+Yes.
+
+00:10:44.940 --> 00:10:48.589
+And we've already listed them all. And therefore the local deterministic functions for
+
+00:10:48.589 --> 00:10:52.566
+Alice, because Alice's response function, she doesn't know about Bob's input,
+
+00:10:52.566 --> 00:10:54.840
+so her function cannot depend on Bob's input.
+
+00:10:54.840 --> 00:10:55.840
+Yeah.
+
+00:10:55.840 --> 00:10:57.840
+Right? It's solely on her input.
+
+00:10:57.840 --> 00:10:58.840
+On her input, yeah.
+
+00:10:58.840 --> 00:11:02.420
+There's only four possible local functions for Alice and only four possible local functions
+
+00:11:02.420 --> 00:11:06.416
+for Bob. And therefore, there are 16 common strategies.
+
+00:11:06.416 --> 00:11:13.782
+And the both players always output zero strategy was one such strategy among the 16 joint strategies.
+
+00:11:13.782 --> 00:11:19.587
+But then we can start thinking, "Oh, what if Alice always outputs zero and Bob copies
+
+00:11:19.587 --> 00:11:23.596
+the question?" And then we can start mismatching these, right?
+
+00:11:23.596 --> 00:11:26.424
+We vary the four possibilities for Alice's deterministic functions,
+
+00:11:26.424 --> 00:11:33.120
+same for Bob. It's not so much work, but with a little work we realize that eight such
+
+00:11:33.120 --> 00:11:36.486
+joint strategies give you a winning rate of three quarters.
+
+00:11:36.486 --> 00:11:39.446
+You're always stuck on some question pair.
+
+00:11:39.446 --> 00:11:39.946
+Yes.
+
+00:11:39.946 --> 00:11:44.511
+And eight strategies are way worse. They give you a winning rate of one quarter.
+
+00:11:44.511 --> 00:11:45.011
+Yes.
+
+00:11:45.011 --> 00:11:47.816
+So suppose you're smart, you're Alice and Bob, you kind of realize that,
+
+00:11:47.816 --> 00:11:50.148
+okay, so the always zero strategy was pretty good.
+
+00:11:50.148 --> 00:11:52.152
+We have a winning rate of three quarters.
+
+00:11:52.152 --> 00:11:55.716
+To give you an intuition of how this works, the thing that's changing,
+
+00:11:55.716 --> 00:12:00.473
+if we change to another strategy that has a winning rate of three quarters,
+
+00:12:00.473 --> 00:12:04.991
+Alice and Bob will get the wrong answer on a different input.
+
+00:12:04.991 --> 00:12:09.621
+For example, you could secure the fact that they saved the 1-1 scenario.
+
+00:12:09.621 --> 00:12:14.720
+Whenever the question is 1-1, they output in such a way that it will give them the right answer.
+
+00:12:14.720 --> 00:12:20.834
+But then you can follow the chain of logic, which guarantees that they will get stuck
+
+00:12:20.834 --> 00:12:26.551
+on one question. Basically, in any scenario, as we've seen so far at least,
+
+00:12:26.551 --> 00:12:30.504
+you cannot get over three quarters of the answers right.
+
+00:12:30.504 --> 00:12:36.040
+So far, the scenarios we've investigated are those where Alice has a deterministic strategy.
+
+00:12:36.040 --> 00:12:42.655
+I call that a deterministic strategy, meaning that her answer is a function of her question.
+
+00:12:42.655 --> 00:12:45.013
+Yeah, it's fixed based on the input that she gets.
+
+00:12:45.013 --> 00:12:49.080
+Right. I basically gave an argument. You exhaustively search through these 16 deterministic
+
+00:12:49.080 --> 00:12:52.880
+strategies, and you make the table, and look for yourself: eight of them have a winning
+
+00:12:52.880 --> 00:12:55.743
+rate of three quarters, eight of them have a winning rate of one quarter.
+
+00:12:55.743 --> 00:13:00.741
+And now, one could say, "But that's not the most general thing Alice and Bob could do.
+
+00:13:00.741 --> 00:13:05.799
+They could answer at whim, just for fun." But know that if they start doing that,
+
+00:13:05.799 --> 00:13:11.593
+what they'll be doing is mixing randomly some of the response functions that are already
+
+00:13:11.593 --> 00:13:13.923
+encompassed in those deterministic strategies, right?
+
+00:13:13.923 --> 00:13:17.768
+For example, if you say she's just tossing a coin, and if it's heads,
+
+00:13:17.768 --> 00:13:20.620
+she's going to answer zero, if it's tails, she's going to answer one,
+
+00:13:20.620 --> 00:13:23.913
+regardless of the question. Well, that's an example of just mixing two of the deterministic
+
+00:13:23.913 --> 00:13:26.927
+strategies we've showed, the constant zero and the constant one,
+
+00:13:26.927 --> 00:13:33.191
+with randomness. But if you start mixing randomly strategies that are bounded by a winning
+
+00:13:33.191 --> 00:13:34.353
+rate of three quarters...
+
+00:13:34.353 --> 00:13:40.580
+Yes, it's not going to help. You're still stuck in this ceiling of three quarters.
+
+00:13:40.580 --> 00:13:43.820
+You can't do better than the deterministic approach.
+
+00:13:43.820 --> 00:13:46.624
+Okay. So there's always a caveat where you could get lucky.
+
+00:13:46.624 --> 00:13:47.124
+Yeah.
+
+00:13:47.124 --> 00:13:51.807
+And your coin flip was aligned with the question in such a way that you replied good
+
+00:13:51.807 --> 00:13:55.087
+answers for the first few trials, but eventually you'll get stuck.
+
+00:13:55.087 --> 00:13:57.540
+Yeah, statistically, with a large enough sample.
+
+00:13:57.540 --> 00:14:01.769
+Yeah, exactly. You increase the sample size.
+
+00:14:01.769 --> 00:14:02.420
+Answering randomly.
+
+00:14:02.420 --> 00:14:04.700
+And then you go, "Oh, but there's other things they could do." For example,
+
+00:14:04.700 --> 00:14:08.128
+I said there's a list of 40 questions, I guess it's 40 question rounds.
+
+00:14:08.128 --> 00:14:13.131
+Maybe they decide that on the even questions they do the always zero strategy.
+
+00:14:13.131 --> 00:14:13.631
+Right.
+
+00:14:13.631 --> 00:14:16.048
+And on the odd questions, they do something else.
+
+00:14:16.048 --> 00:14:17.300
+Yeah.
+
+00:14:17.300 --> 00:14:22.100
+But that would yet be just another way of mixing strategies that are capped at a three-quarter
+
+00:14:22.100 --> 00:14:26.756
+winning rate. And so they cannot expect to beat the three-quarter ceiling.
+
+00:14:26.756 --> 00:14:29.159
+So we're walking towards Bell's theorem.
+
+00:14:29.159 --> 00:14:36.603
+We actually have one half of Bell's theorem at the moment, or the CHSH version of Bell's theorem.
+
+00:14:36.603 --> 00:14:39.929
+This half is the ceiling, the Bell inequality.
+
+00:14:39.929 --> 00:14:44.953
+The three-quarter bound that we've just been discussing is called a Bell inequality.
+
+00:14:44.953 --> 00:14:52.402
+What it means is that all of these ways we can conceive of, of Alice discussing with
+
+00:14:52.402 --> 00:14:56.198
+Bob, exchanging classical pieces of information, exchanging instruction sets,
+
+00:14:56.198 --> 00:15:00.922
+like, "Oh, on even questions, do that, and if the question is...,
+
+00:15:00.922 --> 00:15:08.316
+do that," all of these ways of trying to beat the CHSH game are bounded statistically
+
+00:15:08.316 --> 00:15:13.027
+by three quarters. So that's the three quarters, the Bell inequality.
+
+00:15:13.027 --> 00:15:20.374
+And the other half of Bell's theorem is, I don't want to spoil what it is,
+
+00:15:20.374 --> 00:15:28.159
+I'll let you jump inside my story to make you think of the wonder of what it gives.
+
+00:15:28.159 --> 00:15:32.416
+Suppose you see Alice and Bob playing. They're discussing on Earth,
+
+00:15:32.416 --> 00:15:37.535
+and you see them exchange some stuff before they leave.
+
+00:15:37.535 --> 00:15:42.659
+Before Alice goes to Mercury, she carries some form of crystal,
+
+00:15:42.659 --> 00:15:47.263
+and Bob also carries a form of crystal when he's on Jupiter.
+
+00:15:47.263 --> 00:15:50.927
+You might think, okay, maybe they're superstitious and they think maybe this crystal
+
+00:15:50.927 --> 00:15:57.419
+might help them win the Bell test. And then they go back after the test and they score
+
+00:15:57.419 --> 00:16:04.018
+34 out of 40. Not bad. Those crystals, maybe they got lucky,
+
+00:16:04.018 --> 00:16:04.518
+right?
+
+00:16:04.518 --> 00:16:08.662
+So you go again and you say, "Okay, you know what, guys, we're going to play again.
+
+00:16:08.662 --> 00:16:13.136
+But since it seems like you have remarkable abilities to play the CHSH game,
+
+00:16:13.136 --> 00:16:18.338
+next time we play, it's not 40 rounds, it's going to be 40 billion."
+
+00:16:18.338 --> 00:16:18.952
+Nice.
+
+00:16:18.952 --> 00:16:23.727
+And then they exchange just more crystals, because they need one pair of crystals per question.
+
+00:16:23.727 --> 00:16:27.618
+So in that case, you see them exchanging 40 billion crystals,
+
+00:16:27.618 --> 00:16:32.460
+one crystal for Alice, one crystal for Bob, and the first crystal corresponds to the
+
+00:16:32.460 --> 00:16:35.849
+first crystal of Bob, and so on. They have 40 billion of them,
+
+00:16:35.849 --> 00:16:38.705
+but you don't understand. You don't know quantum mechanics.
+
+00:16:38.705 --> 00:16:41.405
+It's fine, play with crystals if you want.
+
+00:16:41.405 --> 00:16:46.699
+And then they go to their station. And obviously the setup is such that when the question
+
+00:16:46.699 --> 00:16:54.940
+sheet is given, the time that they're allowed to answer the question is such that no
+
+00:16:54.940 --> 00:16:58.240
+signal from Alice can reach Bob's station in time.
+
+00:16:58.240 --> 00:17:01.938
+So five minutes, if they're really on Mercury and Jupiter, five minutes does the job.
+
+00:17:01.938 --> 00:17:04.288
+So they have five minutes to answer all the questions.
+
+00:17:04.288 --> 00:17:08.344
+Why? Because it's such that even if Alice, as soon as she gets her questions,
+
+00:17:08.344 --> 00:17:10.360
+wants to signal her questions to Bob, then...
+
+00:17:10.360 --> 00:17:12.120
+It wouldn't arrive on time.
+
+00:17:12.120 --> 00:17:13.971
+Yeah. Bob does not have enough time.
+
+00:17:13.971 --> 00:17:16.087
+They will be declared as cheaters, or they...
+
+00:17:16.087 --> 00:17:19.916
+Yes. We will squeeze them. That's important, obviously, because I didn't make that point,
+
+00:17:19.916 --> 00:17:23.394
+but you understand that if Alice and Bob are secretly allowed to communicate...
+
+00:17:23.394 --> 00:17:23.894
+Yes.
+
+00:17:23.894 --> 00:17:27.216
+Then of course they can win this CHSH game with a hundred percent.
+
+00:17:27.216 --> 00:17:31.140
+That's why we isolate them. They're far away, you cannot communicate faster than light.
+
+00:17:31.140 --> 00:17:34.165
+Correct. Alice could just signal all her questions and her answers,
+
+00:17:34.165 --> 00:17:38.024
+for example, to Bob, and then Bob has all the information to match the risk and make
+
+00:17:38.024 --> 00:17:42.227
+sure he writes the right answer depending on his question, to fulfill the game's criterion.
+
+00:17:42.227 --> 00:17:45.840
+So they go with their 40 billion crystals, and they're separated across space,
+
+00:17:45.840 --> 00:17:50.700
+and they come back on Earth, and they secure not 34 out of 40,
+
+00:17:50.700 --> 00:17:55.380
+but they secure 30 billion-ish out of 40 billion.
+
+00:17:55.380 --> 00:17:59.235
+So chance is no longer a viable explanation.
+
+00:17:59.235 --> 00:18:05.295
+That is violating a Bell inequality, and that is why it's remarkable.
+
+00:18:05.295 --> 00:18:09.358
+I'm glad we're explaining this to people who are not trained in physics,
+
+00:18:09.358 --> 00:18:14.280
+because it's easy to explain, and it's easy to remark how remarkable that is.
+
+00:18:14.280 --> 00:18:16.840
+How on Earth do they do that, right?
+
+00:18:16.840 --> 00:18:18.360
+Yes, or across Earth.
+
+00:18:18.360 --> 00:18:21.660
+Yes, exactly. Across the solar system, do they do that?
+
+00:18:21.660 --> 00:18:25.629
+And those of us who are trained in quantum mechanics could look further:
+
+00:18:25.629 --> 00:18:30.083
+what do they do with their crystals? Do they just pray, or do they somehow relegate the
+
+00:18:30.083 --> 00:18:33.260
+question to the crystal? And indeed, that's what they do.
+
+00:18:33.260 --> 00:18:39.020
+So if we look at how Alice and Bob achieved to win 34 billion out of 40 billion,
+
+00:18:39.020 --> 00:18:44.696
+which is roughly 85% winning rate, that's what they can achieve by exchanging crystals,
+
+00:18:44.696 --> 00:18:47.342
+we should look at what they do. Arthur C.
+
+00:18:47.342 --> 00:18:52.860
+Clarke once said that any sufficiently advanced technology is indistinguishable from magic.
+
+00:18:52.860 --> 00:18:53.860
+Yes.
+
+00:18:53.860 --> 00:18:59.340
+David Deutsch clarified that this is because there's no place for magic in a comprehensible universe.
+
+00:18:59.340 --> 00:19:00.340
+Right.
+
+00:19:00.340 --> 00:19:03.655
+Whenever we have evidence of what looks like magic, like here,
+
+00:19:03.655 --> 00:19:08.435
+violating the Bell inequality with such a big winning rate, is evidence that there's
+
+00:19:08.435 --> 00:19:14.063
+something we have not yet understood. And so here we are, I'll walk you through what
+
+00:19:14.063 --> 00:19:14.760
+they do.
+
+00:19:14.760 --> 00:19:20.360
+Alice takes her question and basically relegates the question to the crystal.
+
+00:19:20.360 --> 00:19:26.850
+Inside the crystal, it could be an NV center, anything that basically acts as a quantum
+
+00:19:26.850 --> 00:19:32.115
+memory for a quantum system. And when Alice and Bob were initially co-located,
+
+00:19:32.115 --> 00:19:34.577
+they prepared systems in an entangled state.
+
+00:19:34.577 --> 00:19:40.022
+These entangled states are usually presented to people as a pair of systems that share
+
+00:19:40.022 --> 00:19:43.731
+a common wave function. There's one wave function for two particles.
+
+00:19:43.731 --> 00:19:48.029
+So they prepare these 40 billion pairs of particles this way.
+
+00:19:48.029 --> 00:19:51.278
+And Alice relegates her question. So if the question is zero,
+
+00:19:51.278 --> 00:19:54.845
+what she does is that she measures her particle directly, her qubit.
+
+00:19:54.845 --> 00:19:58.200
+The particle only needs to encode a quantum bit.
+
+00:19:58.200 --> 00:20:02.012
+She measures it directly, and suppose I use the convention that the outcomes of qubits
+
+00:20:02.012 --> 00:20:06.406
+are either zero or one, and that's helpful because my game needs an answer which is a
+
+00:20:06.406 --> 00:20:14.296
+zero or a one. And so if the qubit answers zero, she just writes down zero on her sheet.
+
+00:20:14.296 --> 00:20:19.000
+She just has a link between the question she receives and the particle,
+
+00:20:19.000 --> 00:20:22.624
+and she looks at the particle's answer, she writes it down.
+
+00:20:22.624 --> 00:20:26.520
+If the question is one, she does not measure the particle directly.
+
+00:20:26.520 --> 00:20:31.674
+She rotates it a little bit, by 45 degrees, before measuring it,
+
+00:20:31.674 --> 00:20:35.689
+and she writes down the outcome of the measurement.
+
+00:20:35.689 --> 00:20:39.388
+And Bob's strategy is very similar. If his question is zero,
+
+00:20:39.388 --> 00:20:43.739
+he rotates his particle by pi over eight, so 22.5 degrees, in the ket zero,
+
+00:20:43.739 --> 00:20:49.000
+ket one plane, whatever that means. It's just a transformation on his system that he
+
+00:20:49.000 --> 00:20:53.543
+does, given that the question is zero, and he replies whatever the qubit has replied.
+
+00:20:53.543 --> 00:20:58.245
+And if the question is one, then he rotates it minus pi over eight before measuring and
+
+00:20:58.245 --> 00:20:59.430
+writing down the outcome.
+
+00:20:59.430 --> 00:21:02.816
+If we carry on the calculation, so, an entangled state.
+
+00:21:02.816 --> 00:21:08.685
+If the question pair is 00, Alice makes no rotation, Bob makes a rotation by 22.5 degrees,
+
+00:21:08.685 --> 00:21:14.027
+then they measure. We realize some statistics, and the statistics of the joint measurements
+
+00:21:14.027 --> 00:21:21.260
+will be such that they get 00 with probability 85 divided by two,
+
+00:21:21.260 --> 00:21:30.840
+11 with probability 85 divided by two, I'm in percent, and therefore they win the CHSH
+
+00:21:30.840 --> 00:21:34.556
+game with probability 85 percent and lose on the remaining probability,
+
+00:21:34.556 --> 00:21:40.760
+15 percent. So they get to a win rate that is strictly superior to the three-quarter
+
+00:21:40.760 --> 00:21:44.752
+win rate that we had previously, and they get to 85.
+
+00:21:44.752 --> 00:21:49.120
+Correct. Which I guess leads to the question: is there faster than light communication?
+
+00:21:49.120 --> 00:21:53.440
+It leads to that question, correct. I like that question.
+
+00:21:53.440 --> 00:21:58.840
+If we've determined that Alice and Bob could not break the three-quarter ceiling,
+
+00:21:58.840 --> 00:22:01.000
+how can particles do it?
+
+00:22:01.000 --> 00:22:01.500
+Yes.
+
+00:22:01.500 --> 00:22:04.646
+How do they work so that they could do this?
+
+00:22:04.646 --> 00:22:05.146
+Yes.
+
+00:22:05.146 --> 00:22:09.377
+And then a sub-question is, do they communicate faster than light secretly?
+
+00:22:09.377 --> 00:22:13.326
+Because we've already established that if they could communicate their questions,
+
+00:22:13.326 --> 00:22:16.977
+say, to their partners instantaneously, and maybe their answers,
+
+00:22:16.977 --> 00:22:21.173
+then they could organize. The first thing to remark is that it would be a strange conspiracy
+
+00:22:21.173 --> 00:22:24.133
+that they do that, but they just fulfill an 85 percent win rate.
+
+00:22:24.133 --> 00:22:25.147
+You would expect 100.
+
+00:22:25.147 --> 00:22:27.940
+You could have, yeah, if they're communicating together.
+
+00:22:27.940 --> 00:22:33.560
+Yeah. By the way, there's a nice theoretical idealization put forth in the '90s by Sandu
+
+00:22:33.560 --> 00:22:37.960
+Popescu and Daniel Rohrlich, which is called the Popescu-Rohrlich box,
+
+00:22:37.960 --> 00:22:40.286
+which is a non-existent, non-physical device.
+
+00:22:40.286 --> 00:22:44.040
+So it doesn't exist, but it's this thought experiment where,
+
+00:22:44.040 --> 00:22:48.154
+imagine a device that allows you to win the CHSH game 100% of the time.
+
+00:22:48.154 --> 00:22:50.449
+Also, that device will not allow communication.
+
+00:22:50.449 --> 00:22:56.567
+It looks like one explanation why they could win the CHSH game 100% of the time is communication,
+
+00:22:56.567 --> 00:23:00.887
+but to use this as a physical device to communicate, you need to turn this around and
+
+00:23:00.887 --> 00:23:04.338
+say, "Okay, what should I do to this PR box, Popescu-Rohrlich box..."
+
+00:23:04.338 --> 00:23:04.838
+Yes.
+
+00:23:04.838 --> 00:23:10.208
+"...in order to send a bit?" So communication would be, Bob chooses what bit he wants
+
+00:23:10.208 --> 00:23:14.567
+to input, and that is the answer of Alice's outcome.
+
+00:23:14.567 --> 00:23:17.680
+That would be an example of instantaneous communication.
+
+00:23:17.680 --> 00:23:23.301
+But the Popescu-Rohrlich box does not allow communication, even though it beats the CHSH inequality.
+
+00:23:23.301 --> 00:23:29.143
+And so there's the entangled pairs. Entangled pairs, they do not permit instantaneous communication.
+
+00:23:29.143 --> 00:23:35.160
+So there's two aspects here. It's known for everybody who studied basic quantum mechanics,
+
+00:23:35.160 --> 00:23:40.962
+they can show the so-called non-signaling theorem, which means that whatever Alice does
+
+00:23:40.962 --> 00:23:48.363
+to her part of an entangled system, to her particle, there's nothing that will be observable
+
+00:23:48.363 --> 00:23:53.706
+on Bob's side after Alice's measurement or after Alice's operation.
+
+00:23:53.706 --> 00:23:56.203
+Nothing will be observable on Bob's side.
+
+00:23:56.203 --> 00:23:58.820
+So they cannot use that resource to communicate.
+
+00:23:58.820 --> 00:24:06.873
+But what you alluded to is a different question: maybe how it works is still that they
+
+00:24:06.873 --> 00:24:13.550
+secretly communicate behind the scenes, and that would be a way to explain their remarkable
+
+00:24:13.550 --> 00:24:20.369
+85% winning rate, but yet without giving us macroscopic users the ability to use these
+
+00:24:20.369 --> 00:24:22.431
+signaling abilities to communicate faster than light.
+
+00:24:22.431 --> 00:24:27.960
+Right. I think we can ponder here, because there's not just the faster than light communication
+
+00:24:27.960 --> 00:24:32.920
+program that is explicit when we study the CHSH game.
+
+00:24:32.920 --> 00:24:38.520
+So those who are vocal and say that, "Oh, the conclusion is that nature is non-local,"
+
+00:24:38.520 --> 00:24:43.427
+what they end up doing is taking very seriously that the only way in which particles
+
+00:24:43.427 --> 00:24:47.598
+can really achieve an 85 percent winning rate, because we proved that Alice and Bob could
+
+00:24:47.598 --> 00:24:52.610
+not do better than 75, is because they're exchanging information faster than light.
+
+00:24:52.610 --> 00:24:58.360
+Just to clarify, with local and non-local, what we mean is that there's no action at
+
+00:24:58.360 --> 00:25:01.811
+a distance, meaning that there's no faster than light communication.
+
+00:25:01.811 --> 00:25:05.080
+The last part, meaning that there's no faster than light communication,
+
+00:25:05.080 --> 00:25:11.080
+is too strong to define locality. Locality concerns what's your story of physics,
+
+00:25:11.080 --> 00:25:16.520
+and it need not concern your ability to send signals faster than light,
+
+00:25:16.520 --> 00:25:19.245
+because everybody knows that according to quantum mechanics,
+
+00:25:19.245 --> 00:25:22.120
+as I said, it's impossible to send signals faster than light.
+
+00:25:22.120 --> 00:25:24.764
+But what's your story of physics matters.
+
+00:25:24.764 --> 00:25:29.292
+If your story of physics is that when we have entangled particles,
+
+00:25:29.292 --> 00:25:33.753
+when Alice measures her particle, there's a collapse of the wave function.
+
+00:25:33.753 --> 00:25:41.339
+The fact that it collapses Alice's system is annoying, but not as annoying as the fact
+
+00:25:41.339 --> 00:25:47.542
+that it also collapses Bob's system instantaneously, according to the Copenhagen interpretation.
+
+00:25:47.542 --> 00:25:53.616
+When there's a joint wave function for two systems, a collapse is a collapse.
+
+00:25:53.616 --> 00:25:56.186
+It doesn't care about these local structures.
+
+00:25:56.186 --> 00:26:00.642
+So if one really adopts the worldview of a collapse of the wave function,
+
+00:26:00.642 --> 00:26:05.446
+that worldview has a non-local element, in that when Alice measures,
+
+00:26:05.446 --> 00:26:09.560
+instantaneously Bob's system has collapsed to one thing.
+
+00:26:09.560 --> 00:26:10.440
+Something happens at a distance.
+
+00:26:10.440 --> 00:26:14.995
+My guess is that the most vocal conclusions about how should we understand violation
+
+00:26:14.995 --> 00:26:23.137
+of Bell inequalities is these non-local headlines, probably because it's an obvious solution
+
+00:26:23.137 --> 00:26:29.631
+to how to beat the CHSH game that comes to mind, but also because collapse is very ingrained
+
+00:26:29.631 --> 00:26:32.809
+in the way we're teaching quantum mechanics.
+
+00:26:32.809 --> 00:26:38.320
+It's in every textbook. When there's a measurement, there's a collapse of the wave function,
+
+00:26:38.320 --> 00:26:42.868
+and then that collapse also affects entangled systems, and therefore it has an effect
+
+00:26:42.868 --> 00:26:48.383
+on remote systems. And so non-locality is ingrained in current textbooks via these collapse models.
+
+00:26:48.383 --> 00:26:53.925
+I wouldn't even dare to say models, because usually they take the textbook way of presenting collapses.
+
+00:26:53.925 --> 00:26:57.742
+It presents it, but it does not really try to study it.
+
+00:26:57.742 --> 00:27:00.140
+Yes, it's just a tool, basically.
+
+00:27:00.140 --> 00:27:03.686
+Yeah, exactly. So we don't exactly know if it's a rule of subjective betting,
+
+00:27:03.686 --> 00:27:07.780
+that we should do as if you're an observer and then you've collapsed the system,
+
+00:27:07.780 --> 00:27:11.100
+or you should take it seriously. Is it really a collapse happening in reality?
+
+00:27:11.100 --> 00:27:16.700
+And the literature ramifies. There's this most objectivist program which says,
+
+00:27:16.700 --> 00:27:21.440
+"Oh no, collapse is just a tool." But then obviously you run into these non-realist ontologies
+
+00:27:21.440 --> 00:27:28.040
+where a theory is just a tool for you, but what are you in physical reality?
+
+00:27:28.040 --> 00:27:31.311
+And there's also this realist collapse, objective collapse models,
+
+00:27:31.311 --> 00:27:34.620
+which are also presented. They bite the bullet on non-locality.
+
+00:27:34.620 --> 00:27:38.240
+They even declare it's physical. So at least they save realism,
+
+00:27:38.240 --> 00:27:41.960
+but they have to accommodate this non-locality.
+
+00:27:41.960 --> 00:27:42.820
+Yes.
+
+00:27:42.820 --> 00:27:47.960
+Let's not get there for now, 'cause I think we have something else to present.
+
+00:27:47.960 --> 00:27:52.060
+But I want to go back to the idea that because non-locality in collapse has been ingrained,
+
+00:27:52.060 --> 00:27:56.111
+I think this also contributes to the reason why, if you ask physicists,
+
+00:27:56.111 --> 00:27:58.529
+what's the lesson of the 2022 Nobel Prize?
+
+00:27:58.529 --> 00:28:01.592
+"Oh, it's because of the non-locality of physics."
+
+00:28:01.592 --> 00:28:02.627
+Right.
+
+00:28:02.627 --> 00:28:08.040
+This collapse in our textbook mechanism has influenced this meme,
+
+00:28:08.040 --> 00:28:12.600
+this idea. But I want to pause here because it's a good point to say that at this stage,
+
+00:28:12.600 --> 00:28:18.024
+when we study how on Earth Alice and Bob with their crystals manage to get 85% winning
+
+00:28:18.024 --> 00:28:24.320
+rate, this question also sets the table well to other rival explanations to collapse.
+
+00:28:24.320 --> 00:28:29.566
+One of them, which has acquired quite a bit of attention recently,
+
+00:28:29.566 --> 00:28:38.240
+is superdeterminism. Basically it leverages a true fact, but it leverages it in a way
+
+00:28:38.240 --> 00:28:43.500
+that becomes extremely annoying for a sound philosophy of physics.
+
+00:28:43.500 --> 00:28:49.018
+So what is the true fact? The fact that when Alice and Bob are initially located on Earth,
+
+00:28:49.018 --> 00:28:54.356
+there's actually a process that's happening on Mercury to prepare the question sheet
+
+00:28:54.356 --> 00:28:58.020
+for Alice. This question sheet has not been created ex nihilo.
+
+00:28:58.020 --> 00:29:01.460
+It has been created by some physical process.
+
+00:29:01.460 --> 00:29:06.383
+And there's also, similarly, a physical process happening on Bob's moon of Jupiter.
+
+00:29:06.383 --> 00:29:09.440
+And then the point that the superdeterminists make is that, well,
+
+00:29:09.440 --> 00:29:14.780
+if you go sufficiently far back in time, all of these space-time points,
+
+00:29:14.780 --> 00:29:18.666
+so Alice and Bob initially sharing randomness or strategies,
+
+00:29:18.666 --> 00:29:24.500
+the preparation of Alice's question sheet, preparation of Bob's sheet,
+
+00:29:24.500 --> 00:29:28.210
+initially, if you go sufficiently back in time, they have a common space-time point.
+
+00:29:28.210 --> 00:29:34.690
+At least in principle, some mechanism sufficiently far in space-time in the past is responsible
+
+00:29:34.690 --> 00:29:40.189
+for three things: it's responsible for the questions that will be picked on Alice's side,
+
+00:29:40.189 --> 00:29:45.506
+the questions that will be picked on Bob's side, and the way Alice and Bob are organizing
+
+00:29:45.506 --> 00:29:47.562
+themselves in order to fulfill the game.
+
+00:29:47.562 --> 00:29:49.922
+Completely goes against the notion of free will.
+
+00:29:49.922 --> 00:29:52.020
+It goes against the notion of free will.
+
+00:29:52.020 --> 00:29:56.538
+So we're all controlled by this deterministic process at the root of the universe,
+
+00:29:56.538 --> 00:29:57.038
+basically.
+
+00:29:57.038 --> 00:30:01.877
+Yes, everything spans from that. But that's not the better argument,
+
+00:30:01.877 --> 00:30:07.193
+because also in a usually deterministic worldview, the question of free will still arises.
+
+00:30:07.193 --> 00:30:11.930
+We often hear that the uppercut for the superdeterministic program is the question of
+
+00:30:11.930 --> 00:30:14.615
+free will. And then you're like, well, the Schrödinger equation,
+
+00:30:14.615 --> 00:30:20.917
+or whatever is your worldview, is also incompatible with a true free will.
+
+00:30:20.917 --> 00:30:23.999
+So I don't think that pointing to free will solves the problem.
+
+00:30:23.999 --> 00:30:30.160
+Think of it in a scientific way. It would be a conspiratorial worldview of the way systems
+
+00:30:30.160 --> 00:30:34.806
+and physics is organized. So before going into the microphysics of how this could operate
+
+00:30:34.806 --> 00:30:39.220
+physically, I think it's worth going back to what a superdeterministic universe would
+
+00:30:39.220 --> 00:30:42.920
+mean for Alice and Bob. When they're preparing their strategies,
+
+00:30:42.920 --> 00:30:50.420
+they already know the questions, or they know a variable which informs them of what the
+
+00:30:50.420 --> 00:30:55.540
+questions would be. And so that's why they can coordinate themselves in a way that they
+
+00:30:55.540 --> 00:30:59.890
+achieve a higher win rate, right? Because they know that question number seven will contain
+
+00:30:59.890 --> 00:31:02.624
+a zero, so on question number seven, "I'm going to output zero,
+
+00:31:02.624 --> 00:31:03.602
+you're going to output zero."
+
+00:31:03.602 --> 00:31:05.540
+But why they wouldn't take it hundreds?
+
+00:31:05.540 --> 00:31:09.700
+That's in fact one of the problems that the superdeterminist program faces,
+
+00:31:09.700 --> 00:31:13.113
+is that there's so many ways to vary their models.
+
+00:31:13.113 --> 00:31:13.613
+Yeah.
+
+00:31:13.613 --> 00:31:19.140
+And you could vary in so many ways that, how do you actually get to our physics?
+
+00:31:19.140 --> 00:31:21.268
+Yes, that's one of the big problems.
+
+00:31:21.268 --> 00:31:26.306
+Yeah. But one argument that I made in my book chapter here, which I like,
+
+00:31:26.306 --> 00:31:30.841
+is that it's not even worth going back backwards entire, like this variable,
+
+00:31:30.841 --> 00:31:35.607
+what would it be. What I like to think is, let's suppose we're making a deal that in
+
+00:31:35.607 --> 00:31:38.491
+2027 we're going to do another Bell experiment, a CHSH test,
+
+00:31:38.491 --> 00:31:42.572
+with some particles that we're going to be preparing on the very same day,
+
+00:31:42.572 --> 00:31:45.413
+because we have to prepare their entanglement and so on.
+
+00:31:45.413 --> 00:31:49.705
+And let's post right now that the question sheet on Alice's side,
+
+00:31:49.705 --> 00:31:57.671
+therefore on Mercury, is going to be a question sheet made of 365 questions,
+
+00:31:57.671 --> 00:32:05.376
+zeros or ones, which correspond to the parity of the number of social media posts on
+
+00:32:05.376 --> 00:32:07.827
+each given day of 2022.
+
+00:32:07.827 --> 00:32:08.820
+Okay.
+
+00:32:08.820 --> 00:32:15.800
+So in 2022, on January 1st, there was a big number of social media posts.
+
+00:32:15.800 --> 00:32:18.298
+Take the parity: is that an even number or an odd number?
+
+00:32:18.298 --> 00:32:21.502
+If it's an even number, then the question on Alice's side will be zero.
+
+00:32:21.502 --> 00:32:25.623
+And if it's an odd number, then the question on Alice's side for round number one will
+
+00:32:25.623 --> 00:32:29.624
+be one. And because I said the list contains 365 questions, it's perfect,
+
+00:32:29.624 --> 00:32:31.680
+because there's 365 days into it.
+
+00:32:31.680 --> 00:32:32.360
+Yeah, perfect.
+
+00:32:32.360 --> 00:32:36.004
+There you go. So I'm generating the questions publicly in advance.
+
+00:32:36.004 --> 00:32:39.848
+I'm telling you, in 2027, the experiment will have available data.
+
+00:32:39.848 --> 00:32:45.236
+It's going to be based on the parity of the social media posts of 2022,
+
+00:32:45.236 --> 00:32:51.826
+and on Bob's side, it's going to be the parity of the closing values of the S&P 500.
+
+00:32:51.826 --> 00:32:53.275
+Yeah, the stock market.
+
+00:32:53.275 --> 00:32:58.470
+In 2023. Technically, I'm giving all the arguments to the superdeterministic program,
+
+00:32:58.470 --> 00:33:01.445
+because I'm telling them, here they are.
+
+00:33:01.445 --> 00:33:07.351
+But here's the twist: how do entangled particles, why would they care about these closing
+
+00:33:07.351 --> 00:33:13.073
+values of the S&P 500? Why would they care about the parity of tweets of 2022?
+
+00:33:13.073 --> 00:33:18.332
+If you're serious about superdeterminism, you're coming up with a model that inside each
+
+00:33:18.332 --> 00:33:24.464
+particle, because the question that will be asked on Alice's wing has to do with the
+
+00:33:24.464 --> 00:33:32.403
+number of tweets and so on, so much needs to be ingrained into the particle that it becomes
+
+00:33:32.403 --> 00:33:33.460
+absolutely unreasonable.
+
+00:33:33.460 --> 00:33:35.560
+Sort of rule out superdeterminism.
+
+00:33:35.560 --> 00:33:40.480
+Not that I'm ruling it out. Some have tried to rule out on the basis of making measurements,
+
+00:33:40.480 --> 00:33:45.482
+or based on fit, but they will never rule out superdeterminism by making measurements,
+
+00:33:45.482 --> 00:33:49.718
+because the superdeterminist can always go and say, "Oh no, but your choice was..."
+
+00:33:49.718 --> 00:33:51.948
+Yeah.
+
+00:33:51.948 --> 00:33:54.383
+So it cannot be a logical nor an empirical argument.
+
+00:33:54.383 --> 00:33:58.914
+It has to be a philosophical argument, the type of munitions we have against superdeterminism.
+
+00:33:58.914 --> 00:34:02.290
+And it's worth stressing, because there's a ton of physicists that are confused about
+
+00:34:02.290 --> 00:34:05.787
+that, and they think that somehow they can measure cosmic rays to have the questions
+
+00:34:05.787 --> 00:34:07.945
+on Alice's side, and that will rule out superdeterminism.
+
+00:34:07.945 --> 00:34:14.513
+But no, just go back far in time. They will come up with this heavy story of why this
+
+00:34:14.513 --> 00:34:16.631
+cosmic ray was aligned with Bob's.
+
+00:34:16.631 --> 00:34:18.042
+Any other explanations?
+
+00:34:18.042 --> 00:34:24.707
+Some others have pointed out to retrocausal models.
+
+00:34:24.707 --> 00:34:32.635
+I like it because it's all genuine, true attempts to making sense of beating the three-quarter ceiling.
+
+00:34:32.635 --> 00:34:38.655
+How do particles do it? And the retrocausal program says maybe when they coordinate the
+
+00:34:38.655 --> 00:34:42.142
+particles, they exchange some bits of information or some instructions,
+
+00:34:42.142 --> 00:34:46.739
+and then once Alice gets her question, it's hard to see the mechanism,
+
+00:34:46.739 --> 00:34:54.456
+but she somehow signals back to her previous self on Earth, changes what is being coordinated,
+
+00:34:54.456 --> 00:34:58.598
+how it's being coordinated, and that in turn affects her response.
+
+00:34:58.598 --> 00:35:01.140
+So she can kind of steer her response.
+
+00:35:01.140 --> 00:35:06.173
+So she has a form of time machine, basically, where she's able to go back.
+
+00:35:06.173 --> 00:35:11.084
+Yes. No precise mechanism. Extremely problematic for tons of reasons.
+
+00:35:11.084 --> 00:35:15.467
+Give me a model, please, of how this could operate, and why does it only operate in the
+
+00:35:15.467 --> 00:35:20.800
+Bell setting? So it's a list of criticisms, and I'm just putting some forth.
+
+00:35:20.800 --> 00:35:24.661
+Maybe an expert on retrocausal models would tell me that, of my criticisms,
+
+00:35:24.661 --> 00:35:26.682
+this one has been answered in 2017.
+
+00:35:26.682 --> 00:35:34.894
+And at this stage, I think it's a good point to say that the common thread between no-signaling
+
+00:35:34.894 --> 00:35:40.103
+strategies, superdeterministic strategies and retrocausal strategies is that they all
+
+00:35:40.103 --> 00:35:49.040
+care for a classical world. What they're all in the business of doing is to insist on
+
+00:35:49.040 --> 00:35:54.955
+the physics in which Alice and Bob are coordinating their strategies.
+
+00:35:54.955 --> 00:35:58.720
+When they exchange pieces of information and instruction sets,
+
+00:35:58.720 --> 00:36:01.665
+classical pieces of information, classical instruction sets,
+
+00:36:01.665 --> 00:36:06.417
+that kind of mechanism should be the thing that governs the laws of nature,
+
+00:36:06.417 --> 00:36:07.074
+right?
+
+00:36:07.074 --> 00:36:14.303
+Yes. So they're trying to explain quantum mechanics with classical pieces,
+
+00:36:14.303 --> 00:36:15.851
+classical Lego blocks.
+
+00:36:15.851 --> 00:36:21.200
+Yes. Classical variables, classical instructions, at the extent that they're so much
+
+00:36:21.200 --> 00:36:26.352
+willing to insist on that. I think usually it's not done purposefully.
+
+00:36:26.352 --> 00:36:31.028
+That's the worldview in which we are. It must be explained by a classical lambda.
+
+00:36:31.028 --> 00:36:33.560
+Lambda is the typical variable used in Bell literature.
+
+00:36:33.560 --> 00:36:36.992
+It's the hidden variable that is the coordination between Alice and Bob.
+
+00:36:36.992 --> 00:36:39.812
+Obviously, lambda has to be a number, right?
+
+00:36:39.812 --> 00:36:42.569
+It has to fulfill a classical probability distribution.
+
+00:36:42.569 --> 00:36:44.883
+By classical, I just mean a probability distribution.
+
+00:36:44.883 --> 00:36:48.590
+Lambda could not have quantum effects. Why on Earth?
+
+00:36:48.590 --> 00:36:53.753
+So it's always trying to build, with classical Lego blocks, quantum mechanics.
+
+00:36:53.753 --> 00:37:01.024
+But this is promised to fail. Why would we have invented quantum theory if it's to say
+
+00:37:01.024 --> 00:37:05.179
+that at the end of the day, what we want is a classical theory that is underlying quantum theory?
+
+00:37:05.179 --> 00:37:08.906
+I think that's the common counterargument to this whole program,
+
+00:37:08.906 --> 00:37:12.320
+and the reason why this program is misconceived.
+
+00:37:12.320 --> 00:37:20.380
+It is an attempt to explain the quantum effects with classical information processing,
+
+00:37:20.380 --> 00:37:21.544
+classical variables.
+
+00:37:21.544 --> 00:37:26.135
+Right, yes. So what's the alternative?
+
+00:37:26.135 --> 00:37:29.340
+Here we go. Well, the alternative is to turn the tables.
+
+00:37:29.340 --> 00:37:37.480
+Because ever since we found out that quantum theory has far superior explanatory power,
+
+00:37:37.480 --> 00:37:42.266
+solve problems of the atoms, problems of nuclear physics.
+
+00:37:42.266 --> 00:37:47.976
+It was even tested as the backbone of society's modern technology.
+
+00:37:47.976 --> 00:37:55.202
+As soon as we adopt this idea that quantum theory has superseded classical theories,
+
+00:37:55.202 --> 00:38:03.183
+then the game is as follows: to try to make sense of the classical with an underlying
+
+00:38:03.183 --> 00:38:05.754
+quantum ontology, quantum Lego blocks.
+
+00:38:05.754 --> 00:38:09.204
+Because the classical emerges from the quantum.
+
+00:38:09.204 --> 00:38:12.484
+Correct. It's not the other way around.
+
+00:38:12.484 --> 00:38:18.726
+Yes. In a way, classical is part of the superset of quantum.
+
+00:38:18.726 --> 00:38:24.019
+You can do classical things within a quantum world.
+
+00:38:24.019 --> 00:38:28.617
+Normal classical bits, zero, one, can be replicated by qubits.
+
+00:38:28.617 --> 00:38:30.314
+Correct.
+
+00:38:30.314 --> 00:38:33.817
+But not the other way around, right?
+
+00:38:33.817 --> 00:38:39.476
+So you can simulate classicality with quantum systems, but not the other way around.
+
+00:38:39.476 --> 00:38:44.981
+It's good that you put this remark, but for example, if what you care about is quantum
+
+00:38:44.981 --> 00:38:50.365
+computing, quantum algorithms, the very fact that we can, with pen and paper,
+
+00:38:50.365 --> 00:38:52.179
+compute, say, Grover's algorithm, right?
+
+00:38:52.179 --> 00:38:53.992
+That's true, yes.
+
+00:38:53.992 --> 00:38:57.413
+We are classically simulating what a quantum computer would do.
+
+00:38:57.413 --> 00:39:01.446
+And the typical results, which in a way are still left open:
+
+00:39:01.446 --> 00:39:06.575
+we expect a gap. If you run the quantum computer on its own,
+
+00:39:06.575 --> 00:39:12.506
+not trying to be simulated classically, it's going to go faster than you trying to simulate
+
+00:39:12.506 --> 00:39:13.193
+it classically.
+
+00:39:13.193 --> 00:39:13.693
+Yes.
+
+00:39:13.693 --> 00:39:19.000
+So we should not throw away all the tools of classical simulation for quantum theory.
+
+00:39:19.000 --> 00:39:23.710
+That's not what I'm after, but it's more an ontological statement I'm making:
+
+00:39:23.710 --> 00:39:29.340
+that if your worldview is that quantum theory should be implemented by subroutines that
+
+00:39:29.340 --> 00:39:31.894
+are fundamentally classical, information that is classical, well,
+
+00:39:31.894 --> 00:39:35.000
+why did we come up with quantum theory in the first place?
+
+00:39:35.000 --> 00:39:40.840
+So there's a very rich program. It's the program roughly known as decoherence,
+
+00:39:40.840 --> 00:39:45.240
+that aims to explain the emergence of classicality from quantum mechanics,
+
+00:39:45.240 --> 00:39:50.173
+quantum theory. And some people study decoherence maybe in a tradition that is more aligned
+
+00:39:50.173 --> 00:39:55.118
+with the shut up and calculate tradition, which is, they will invoke things that,
+
+00:39:55.118 --> 00:40:01.838
+for example, when a system decoheres, its density matrix loses its off-diagonal elements,
+
+00:40:01.838 --> 00:40:08.671
+and so on. But some other people are more interested in the process by which these diagonal
+
+00:40:08.671 --> 00:40:12.400
+elements are erased. And they're not erased by magic.
+
+00:40:12.400 --> 00:40:16.360
+They're erased because the system has been decohered.
+
+00:40:16.360 --> 00:40:21.352
+Decohered, for maybe a broad audience, just means losing its quantum properties,
+
+00:40:21.352 --> 00:40:29.000
+in a way, and becoming effectively classically random, just a classical random distribution.
+
+00:40:29.000 --> 00:40:33.911
+And the shut up and calculate tradition is sort of this approach that's often made in
+
+00:40:33.911 --> 00:40:40.200
+physics, and especially in quantum mechanics, where instead of trying to explain the
+
+00:40:40.200 --> 00:40:44.133
+theory, or specifically the results, we just focus on the mathematics.
+
+00:40:44.133 --> 00:40:47.360
+They seem to work out, and we don't care about the underlying explanation.
+
+00:40:47.360 --> 00:40:47.860
+Correct.
+
+00:40:47.860 --> 00:40:51.320
+That's a core problem, because science is all about explanation,
+
+00:40:51.320 --> 00:40:51.820
+right?
+
+00:40:51.820 --> 00:40:56.486
+Exactly. And so the non-shut up and calculate account of decoherence is going to involve,
+
+00:40:56.486 --> 00:41:00.495
+I'm going to name a few of our giants there, but coming from Everett,
+
+00:41:00.495 --> 00:41:04.295
+and then Zeh and Zurek, Gell-Mann, Hartle, Saunders, Deutsch,
+
+00:41:04.295 --> 00:41:12.275
+Wallace. They've developed very compelling mechanisms by which quantum theory in and
+
+00:41:12.275 --> 00:41:17.366
+of itself, with its Schrödinger equation type of dynamics, unitary evolution,
+
+00:41:17.366 --> 00:41:22.520
+without imposing any measurement collapse thing, because this could also be invoked as
+
+00:41:22.520 --> 00:41:26.834
+kind of a rabbit out of a hat to get into classicality, but if you take just pure quantum
+
+00:41:26.834 --> 00:41:32.520
+mechanics, you're going to get effectively classical records emerging out of the picture.
+
+00:41:32.520 --> 00:41:36.901
+So this decoherence, the process by which the density matrix will lose its diagonal elements,
+
+00:41:36.901 --> 00:41:41.856
+is not by fiat. It's because it couples to nearby degrees of freedom.
+
+00:41:41.856 --> 00:41:45.520
+Because guess what, that's what decoherence is also in the laboratory.
+
+00:41:45.520 --> 00:41:50.470
+It's not a magical process. It's because other systems near your quantum system start
+
+00:41:50.470 --> 00:41:52.090
+to interact with it.
+
+00:41:52.090 --> 00:41:53.305
+They get entangled.
+
+00:41:53.305 --> 00:41:58.853
+They get entangled, exactly. And therefore, if you want to look at a description of your
+
+00:41:58.853 --> 00:42:04.012
+system, what you were calling your quantum system, which is still a quantum system,
+
+00:42:04.012 --> 00:42:08.492
+well, because of entanglement, it's going to lose its off-diagonal matrix,
+
+00:42:08.492 --> 00:42:12.040
+but the whole thing remains a pure quantum state, and so on.
+
+00:42:12.040 --> 00:42:18.100
+So that would be an account of decoherence and the emergence of the classical that is
+
+00:42:18.100 --> 00:42:22.776
+basically in line with unitary Schrödinger equation-type quantum theory.
+
+00:42:22.776 --> 00:42:28.184
+I guess that's the program we're after. If we want to explain Bell inequalities,
+
+00:42:28.184 --> 00:42:35.425
+we have to make sense of classicality from the quantum, and not make sense of the quantum
+
+00:42:35.425 --> 00:42:36.238
+from classicality.
+
+00:42:36.238 --> 00:42:44.177
+What's then the explanation for how Bob and Alice are able to achieve the 85% win rate,
+
+00:42:44.177 --> 00:42:50.060
+if not through superdeterminism, Copenhagen, retrocausal models?
+
+00:42:50.060 --> 00:42:55.980
+Thank you, you're the perfect anchor. But I was queuing towards going to the Schrödinger
+
+00:42:55.980 --> 00:43:01.320
+versus Heisenberg picture, because it relates to what I like to think of,
+
+00:43:01.320 --> 00:43:02.320
+the solution.
+
+00:43:02.320 --> 00:43:06.440
+So there are two ways of expressing the theory of quantum mechanics.
+
+00:43:06.440 --> 00:43:09.922
+There's the Schrödinger approach, and then there's the Heisenberg approach,
+
+00:43:09.922 --> 00:43:19.520
+two quantum scientists of the 20th century, and both lead to the same mathematical predictions.
+
+00:43:19.520 --> 00:43:23.060
+But the explanation, the way of doing the mathematics, differs quite a bit.
+
+00:43:23.060 --> 00:43:29.442
+I'm backtracking just a tiny bit, because I want to say that many advocates of Everettian
+
+00:43:29.442 --> 00:43:35.195
+quantum mechanics, that means quantum mechanics where only unitary evolution is accounted
+
+00:43:35.195 --> 00:43:41.620
+for, have remarked that the way I frame this, "Alice and Bob play the CHSH game,
+
+00:43:41.620 --> 00:43:46.647
+they must answer one outcome," is kind of evaded by an Everettian worldview,
+
+00:43:46.647 --> 00:43:52.548
+where they might say, "Oh, because the outcome of Alice is the fruit of a quantum measurement,
+
+00:43:52.548 --> 00:43:57.362
+the quantum measurement splits Alice into two." And therefore I'm basically using maybe
+
+00:43:57.362 --> 00:44:04.695
+the wrong... It's a true theorem, yes, but the assumptions coming into your theorem are
+
+00:44:04.695 --> 00:44:07.545
+not qualifying Everettian quantum mechanics.
+
+00:44:07.545 --> 00:44:14.420
+And maybe most of the message that we've been reading in the Everett literature on Bell
+
+00:44:14.420 --> 00:44:19.540
+is that Bell is relatively uninteresting, because it does not accommodate for multiple
+
+00:44:19.540 --> 00:44:27.300
+outcomes, say. But they don't usually do the work of explaining to us how the coexistence
+
+00:44:27.300 --> 00:44:31.350
+of multiple outcomes can account locally for a Bell violation.
+
+00:44:31.350 --> 00:44:36.740
+And this is where the Heisenberg picture comes into play, because it's going to play
+
+00:44:36.740 --> 00:44:42.815
+a key role in explaining unitary evolution slash Everettian quantum mechanics.
+
+00:44:42.815 --> 00:44:46.351
+I think that's the right logic.
+
+00:44:46.351 --> 00:44:52.680
+Before we go to Heisenberg versus Schrödinger, let us discuss the measurement problem,
+
+00:44:52.680 --> 00:44:58.087
+because the measurement problem has been orders of magnitude more studied in the Schrödinger
+
+00:44:58.087 --> 00:45:04.648
+picture than in the Heisenberg picture. So still keep in mind this Schrödinger picture framework.
+
+00:45:04.648 --> 00:45:11.868
+The measurement problem is a problem between two dynamical rules that are taught to us
+
+00:45:11.868 --> 00:45:18.631
+in a textbook. We spoke of the collapse in textbooks, but there's rule number one,
+
+00:45:18.631 --> 00:45:22.780
+which is, what's quantum theory, basically?
+
+00:45:22.780 --> 00:45:30.707
+We describe systems with some mathematical formalism that is a tentative description
+
+00:45:30.707 --> 00:45:36.669
+of reality, and this state evolves in time according to laws of motion.
+
+00:45:36.669 --> 00:45:41.471
+Again, analogous of F equals ma in classical mechanics is basically the Schrödinger equation
+
+00:45:41.471 --> 00:45:46.239
+in quantum theory. It's a differential equation that tells you,
+
+00:45:46.239 --> 00:45:52.091
+if my wave function is like this at time zero, then it's going to evolve like that at
+
+00:45:52.091 --> 00:45:58.020
+time one. And the Schrödinger equation is deterministic, meaning that if you know the
+
+00:45:58.020 --> 00:46:02.856
+state at time zero, you know what's going to be the final state.
+
+00:46:02.856 --> 00:46:03.600
+Yes.
+
+00:46:03.600 --> 00:46:04.716
+It's linear.
+
+00:46:04.716 --> 00:46:05.460
+Yes, linear.
+
+00:46:05.460 --> 00:46:08.729
+Reversible, in principle, just like if you have the state at time one,
+
+00:46:08.729 --> 00:46:11.650
+you can go back to the state at time zero.
+
+00:46:11.650 --> 00:46:18.372
+It's local, because whatever affects your wave function is only depending on the nearby
+
+00:46:18.372 --> 00:46:21.188
+systems or the potentials that are affecting it.
+
+00:46:21.188 --> 00:46:26.889
+And then there's rule number two. So the basic textbook says,
+
+00:46:26.889 --> 00:46:32.420
+in all contexts except in measurements, the equation applies.
+
+00:46:32.420 --> 00:46:37.380
+And then the textbook says, but in a measurement, it's a radically different rule that applies.
+
+00:46:37.380 --> 00:46:42.918
+It's one that is discontinuous, irreversible, non-local, and stochastic,
+
+00:46:42.918 --> 00:46:44.905
+instead of being non-probabilistic.
+
+00:46:44.905 --> 00:46:48.484
+That was the other thing I was looking for.
+
+00:46:48.484 --> 00:46:51.335
+It's suddenly stochastic. The question is why?
+
+00:46:51.335 --> 00:46:56.330
+Is there something in our consciousness that causes the wave function,
+
+00:46:56.330 --> 00:47:00.607
+the Schrödinger equation, to suddenly no longer apply the same way?
+
+00:47:00.607 --> 00:47:02.127
+It invites a lot of questions.
+
+00:47:02.127 --> 00:47:05.494
+One part of the problem is the clash between these two dynamical rules,
+
+00:47:05.494 --> 00:47:10.595
+or these two rules, and the other part of the problem is that we don't have a precise
+
+00:47:10.595 --> 00:47:16.820
+criterion of what a measurement is. If at least we had a theory where we have a very
+
+00:47:16.820 --> 00:47:22.477
+precise criterion for what's a measurement, and that would postulate,
+
+00:47:22.477 --> 00:47:26.633
+perhaps have proto-explanations as for why there's this boundary,
+
+00:47:26.633 --> 00:47:31.487
+then maybe we could make more peace with this clash.
+
+00:47:31.487 --> 00:47:33.976
+But it's not the case. A measurement is not defined.
+
+00:47:33.976 --> 00:47:39.653
+And as you correctly mentioned, I thought measurement apparatus were also made of atoms.
+
+00:47:39.653 --> 00:47:40.153
+Yeah.
+
+00:47:40.153 --> 00:47:42.480
+And that therefore they should also obey quantum mechanics.
+
+00:47:42.480 --> 00:47:44.775
+Exactly. And that they should also obey the Schrödinger equation.
+
+00:47:44.775 --> 00:47:48.163
+And this is where Everett's brilliant idea came up.
+
+00:47:48.163 --> 00:47:54.519
+I want to right away say that Everett's idea is not to declare that in a measurement
+
+00:47:54.519 --> 00:47:57.121
+many worlds happen and the observer splits.
+
+00:47:57.121 --> 00:48:01.900
+That is not the assumption. Everett was puzzled by the problem we named,
+
+00:48:01.900 --> 00:48:07.292
+this clash of dynamical rules, this undefined boundary of what counts as a measurement,
+
+00:48:07.292 --> 00:48:14.713
+and he said, let's study, just for fun, what would happen if we only apply rule number one.
+
+00:48:14.713 --> 00:48:15.213
+Yes.
+
+00:48:15.213 --> 00:48:16.780
+Schrödinger equation, unitary evolution.
+
+00:48:16.780 --> 00:48:20.605
+Everything is deterministic, everything is reversible, the universal wave function,
+
+00:48:20.605 --> 00:48:25.087
+nothing is stochastic. He did indeed call this theory the theory of the universal wave function.
+
+00:48:25.087 --> 00:48:27.171
+He did not call it the many worlds interpretation.
+
+00:48:27.171 --> 00:48:27.671
+Yes.
+
+00:48:27.671 --> 00:48:30.153
+I think his choice of title is a better title.
+
+00:48:30.153 --> 00:48:34.895
+So many worlds is the interpretation that there are parallel universes.
+
+00:48:34.895 --> 00:48:40.464
+It's a very rough way of saying it, but sort of an analogy.
+
+00:48:40.464 --> 00:48:46.492
+But many worlds came, I believe, 20 years or something after Hugh Everett put this paper out.
+
+00:48:46.492 --> 00:48:50.947
+I think it was 1957, and he was just really focused on applying,
+
+00:48:50.947 --> 00:48:53.767
+regardless of whether it's an observer or not.
+
+00:48:53.767 --> 00:48:57.382
+And the branching was, I think, brought about by Bryce DeWitt.
+
+00:48:57.382 --> 00:49:03.515
+I think he brought forward many worlds. But you don't need to believe many worlds in
+
+00:49:03.515 --> 00:49:05.409
+order to agree with Everett's good remarks.
+
+00:49:05.409 --> 00:49:12.285
+Yes. I would just add the clarification that Everett's published work of 1957 is sadly
+
+00:49:12.285 --> 00:49:18.411
+an amputated work. So he has a paper in 1957, it's called...
+
+00:49:18.411 --> 00:49:25.216
+well, it speaks of relative states. This was sufficiently within the trend of the epoch,
+
+00:49:25.216 --> 00:49:31.013
+to speak of relative states, because you could save subjectivist program of relative
+
+00:49:31.013 --> 00:49:37.975
+on mean the system is, and that. But it's sadly missing the point of Everett's full work.
+
+00:49:37.975 --> 00:49:43.685
+Everett's full work has to be read in what was published in 1973 by Bryce DeWitt and
+
+00:49:43.685 --> 00:49:49.244
+Neill Graham, and is titled The Many Worlds Interpretation of Quantum Theory.
+
+00:49:49.244 --> 00:49:53.240
+Yeah, that's the name of the book.
+
+00:49:53.240 --> 00:49:59.067
+You open this book, and the first huge chapter is Everett's original PhD thesis,
+
+00:49:59.067 --> 00:50:00.800
+which was completed in '56.
+
+00:50:00.800 --> 00:50:02.533
+Oh, okay, that makes sense.
+
+00:50:02.533 --> 00:50:09.104
+And it's a long thesis, 137 pages, much longer than the published version of 1957,
+
+00:50:09.104 --> 00:50:13.532
+much more into the details of how it works, why it works.
+
+00:50:13.532 --> 00:50:17.658
+And that was titled The Theory of the Universal Wave Function.
+
+00:50:17.658 --> 00:50:18.158
+Okay.
+
+00:50:18.158 --> 00:50:19.147
+Not the 1957 paper.
+
+00:50:19.147 --> 00:50:19.742
+Right, okay.
+
+00:50:19.742 --> 00:50:23.948
+These are little historical remarks, but I think it helps recast the focus,
+
+00:50:23.948 --> 00:50:27.633
+because the focus is not to declare many worlds.
+
+00:50:27.633 --> 00:50:33.148
+I like to say that, but honestly, if my lecturer in quantum mechanics one would have
+
+00:50:33.148 --> 00:50:37.096
+said, "So when there's a measurement, the state does not collapse,
+
+00:50:37.096 --> 00:50:41.162
+but the universe splits," I would have gone, "I don't want to buy that either.
+
+00:50:41.162 --> 00:50:47.242
+Why would I buy 'the universe splits' as a better explanation than 'this wave function
+
+00:50:47.242 --> 00:50:52.069
+collapses'?" If that was a dichotomy, I think I would have sided with the wave function
+
+00:50:52.069 --> 00:50:58.510
+collapse worldview. But I insist that this is just pop science bad representation of
+
+00:50:58.510 --> 00:50:59.224
+Everett's theory.
+
+00:50:59.224 --> 00:51:03.184
+Everett's theory, finally going to get there, is to say, we have those two rules.
+
+00:51:03.184 --> 00:51:08.846
+And I strongly encourage history chapter one of his Theory of the Universal Wave Function,
+
+00:51:08.846 --> 00:51:11.685
+available in The Many Worlds Interpretation by DeWitt and Graham.
+
+00:51:11.685 --> 00:51:19.406
+He says that there's these two rules, let's look at what happens if we only apply rule
+
+00:51:19.406 --> 00:51:26.034
+number one. Very nice question. And he was probably not the first to ask this question.
+
+00:51:26.034 --> 00:51:27.947
+There's evidence that Schrödinger thought about that.
+
+00:51:27.947 --> 00:51:30.080
+Yes, applying his equation all the way through.
+
+00:51:30.080 --> 00:51:34.400
+There's actually a quote where he says that he thought it was,
+
+00:51:34.400 --> 00:51:40.739
+I think, apparently ridiculous to apply rule one at certain points and rule two at other points.
+
+00:51:40.739 --> 00:51:48.112
+Everett was probably the first one who realized that applying rule one all the way through
+
+00:51:48.112 --> 00:51:49.360
+is not contradictory.
+
+00:51:49.360 --> 00:51:51.440
+Yeah, it's elegant and self-consistent.
+
+00:51:51.440 --> 00:51:55.671
+So let's do it, just quickly, so we kind of go through this solution to the measurement
+
+00:51:55.671 --> 00:51:57.867
+problem by Everett.
+
+00:51:57.867 --> 00:52:00.370
+So how did he apply just rule one, right?
+
+00:52:00.370 --> 00:52:04.665
+He said, okay, we have a quantum system we care to measure, say a spin.
+
+00:52:04.665 --> 00:52:07.280
+That's a typical system, especially back in the '50s.
+
+00:52:07.280 --> 00:52:11.960
+A silver atom has some spin. You can prepare it spinning one way,
+
+00:52:11.960 --> 00:52:15.944
+spinning another way, and when you throw it in a magnetic field,
+
+00:52:15.944 --> 00:52:20.523
+if it's spinning, say, clockwise, it's going to go up, and if it's spinning counterclockwise,
+
+00:52:20.523 --> 00:52:24.889
+it's going to go down, in the inhomogeneous magnetic field.
+
+00:52:24.889 --> 00:52:30.221
+This setup is known as a Stern-Gerlach measurement apparatus.
+
+00:52:30.221 --> 00:52:36.624
+And what happens: if you spin it clockwise, it goes up, and then you have a detector
+
+00:52:36.624 --> 00:52:42.835
+that is going to be hit by the trajectory of the atom going upwards.
+
+00:52:42.835 --> 00:52:48.090
+The detector is made of atoms. So we're going to have to apply quantum theory to the
+
+00:52:48.090 --> 00:52:50.000
+first atom of the detector.
+
+00:52:50.000 --> 00:52:52.673
+Yes.
+
+00:52:52.673 --> 00:52:57.053
+So Everett also had this nice idea that you don't need to resolve the partial differential
+
+00:52:57.053 --> 00:53:00.365
+equations to have an exact solution to tell what's going to happen.
+
+00:53:00.365 --> 00:53:06.528
+You can kind of use bras and kets in a coarse-grained way, which is getting you the right
+
+00:53:06.528 --> 00:53:08.582
+story without solving the precise microphysics.
+
+00:53:08.582 --> 00:53:13.698
+So the idea is that, well, if the atom is going upwards, just before it hits the detector,
+
+00:53:13.698 --> 00:53:17.173
+the first atom of the detector is unexcited, but a second after,
+
+00:53:17.173 --> 00:53:22.372
+or a fraction of a second after, the first atom is going to be excited.
+
+00:53:22.372 --> 00:53:29.788
+And meanwhile, note that the atoms that are building the detector on the downward path
+
+00:53:29.788 --> 00:53:34.365
+are unexcited. So if you are to characterize everything quantum mechanically,
+
+00:53:34.365 --> 00:53:40.075
+not just the silver atom, but also the atoms in the detector that is up there,
+
+00:53:40.075 --> 00:53:46.009
+the detector that is down there, well, you have this nice state where the atom was spinning
+
+00:53:46.009 --> 00:53:50.906
+clockwise, it went upwards, and it has excited the first atom of the upward detector,
+
+00:53:50.906 --> 00:53:52.834
+left the downward detector unchanged.
+
+00:53:52.834 --> 00:53:58.091
+And then you keep advancing time, and there's a cascade reaction in the atoms of the
+
+00:53:58.091 --> 00:54:02.340
+upward detector, to the point that it couples to green light.
+
+00:54:02.340 --> 00:54:07.900
+And then this green light eventually reaches your retina, but light and retinas and optic
+
+00:54:07.900 --> 00:54:10.100
+nerves are also quantum mechanical systems.
+
+00:54:10.100 --> 00:54:13.854
+So Everett said, "Now I'm not reaching the observer, I'm still...
+
+00:54:13.854 --> 00:54:18.920
+Guess what? I'm still going to use quantum mechanics to study what happens to the observer.
+
+00:54:18.920 --> 00:54:23.980
+I'm not going to retreat into, 'And then some magic unicorn happens.'" No,
+
+00:54:23.980 --> 00:54:27.140
+no, no. Let's bite the bullet, carry through.
+
+00:54:27.140 --> 00:54:30.980
+And you read, well, if the atom spins counterclockwise, well,
+
+00:54:30.980 --> 00:54:35.774
+then, the big chain reaction, eventually the wave function, or the way we're describing
+
+00:54:35.774 --> 00:54:39.260
+quantum mechanically the collection of atoms that is composing an observer,
+
+00:54:39.260 --> 00:54:43.140
+is going to be in a state that has seen green light.
+
+00:54:43.140 --> 00:54:47.220
+It gets entangled with that state. And so progressively you get a chain of entanglements
+
+00:54:47.220 --> 00:54:52.780
+that grows until it progressively becomes a separate branch.
+
+00:54:52.780 --> 00:54:56.429
+You're slightly ahead of my story. Because right now I said,
+
+00:54:56.429 --> 00:55:01.300
+what if the atom spins clockwise? I'm only studying the clockwise case.
+
+00:55:01.300 --> 00:55:04.747
+And if you only study the clockwise case, technically there's no entanglement,
+
+00:55:04.747 --> 00:55:08.920
+because everything can factor out. And then we could do the counterclockwise case,
+
+00:55:08.920 --> 00:55:11.460
+and then we study what happens. And while the atom will go downwards,
+
+00:55:11.460 --> 00:55:15.040
+it will hit the downward detector, but not the upward detector,
+
+00:55:15.040 --> 00:55:19.100
+and it will be coupled to a red light. And you and I will see red light,
+
+00:55:19.100 --> 00:55:24.500
+and we'll be in a state where our body, especially our degrees of freedom in our brains,
+
+00:55:24.500 --> 00:55:27.860
+are compatible with the fact that we've recorded red light.
+
+00:55:27.860 --> 00:55:28.420
+Right.
+
+00:55:28.420 --> 00:55:32.340
+And entanglement comes in when you say, "Oh, well, quantum mechanical systems can be
+
+00:55:32.340 --> 00:55:34.792
+not only spinning clockwise or counterclockwise.
+
+00:55:34.792 --> 00:55:39.620
+They can be in a state that they're spinning clockwise plus spinning counterclockwise."
+
+00:55:39.620 --> 00:55:42.380
+Yes, this is just a superposition of quantum systems.
+
+00:55:42.380 --> 00:55:49.493
+And it's obviously an irreducible element of the theory that's required to explain much
+
+00:55:49.493 --> 00:55:51.676
+of the phenomena we have in quantum theory.
+
+00:55:51.676 --> 00:55:56.100
+So we prepare this atom spinning clockwise plus spinning counterclockwise and see what happens.
+
+00:55:56.100 --> 00:56:02.475
+And you were right to bring up linearity earlier, because by linearity of the Schrödinger
+
+00:56:02.475 --> 00:56:07.553
+equation, what we have is that if you have a solution to what happens when it spins clockwise...
+
+00:56:07.553 --> 00:56:08.053
+Right.
+
+00:56:08.053 --> 00:56:11.666
+And you have a solution to what happens when it spins counterclockwise,
+
+00:56:11.666 --> 00:56:16.580
+well, when you're adding those two initial conditions, the atom is spinning clockwise
+
+00:56:16.580 --> 00:56:21.615
+plus it's spinning counterclockwise, then the solution to the Schrödinger equation is
+
+00:56:21.615 --> 00:56:25.700
+just that you have to carry on each of these trajectories in your terms.
+
+00:56:25.700 --> 00:56:26.900
+Yeah, separately.
+
+00:56:26.900 --> 00:56:30.320
+So this is where you start getting into a huge entangled state,
+
+00:56:30.320 --> 00:56:35.300
+because, as I said, Everett was in the business of applying physics to the whole thing,
+
+00:56:35.300 --> 00:56:37.852
+not just to the little thing we call the silver atom.
+
+00:56:37.852 --> 00:56:41.202
+And so the quantum state of the whole thing evolves into, roughly speaking,
+
+00:56:41.202 --> 00:56:45.620
+because I'm going to use the past verb tense to make the story simpler,
+
+00:56:45.620 --> 00:56:51.753
+but it evolves into: the atom was spinning clockwise, it went upwards,
+
+00:56:51.753 --> 00:56:56.825
+it hit the upward detector atoms but not the downward detector atoms,
+
+00:56:56.825 --> 00:57:03.140
+it emitted green light but not red light, and Charles saw green light and he didn't see
+
+00:57:03.140 --> 00:57:04.020
+red light...
+
+00:57:04.020 --> 00:57:04.520
+Yes.
+
+00:57:04.520 --> 00:57:09.900
+Plus the other case: it went downwards, it hit the down detector,
+
+00:57:09.900 --> 00:57:13.195
+not the up detector, it emitted red light, not green light, and Charles saw red light,
+
+00:57:13.195 --> 00:57:14.079
+not green light.
+
+00:57:14.079 --> 00:57:14.579
+Yes.
+
+00:57:14.579 --> 00:57:19.424
+And this is an entangled state, because these two terms cannot be factored,
+
+00:57:19.424 --> 00:57:24.252
+one for each system. And if we look at the progression of these two terms,
+
+00:57:24.252 --> 00:57:29.281
+we have a branching structure. For example, initially, before my retina saw light,
+
+00:57:29.281 --> 00:57:33.828
+I was still a Charles in an "I haven't seen any light" state,
+
+00:57:33.828 --> 00:57:39.512
+and as soon as the two terms are propagating in time, well, then I branch into a Charles
+
+00:57:39.512 --> 00:57:43.826
+sees green light and a Charles sees red light, in a different term of the wave function.
+
+00:57:43.826 --> 00:57:47.877
+Right. So now we have two Charleses, one that saw the green light,
+
+00:57:47.877 --> 00:57:53.705
+one that saw the red light, and eventually that entire element is going to keep growing,
+
+00:57:53.705 --> 00:57:56.514
+of course, until it takes up the whole universe.
+
+00:57:56.514 --> 00:57:59.620
+Yeah, because not only Charles is the witness of this measurement.
+
+00:57:59.620 --> 00:58:02.786
+And I think that's a very important lesson, is that we're not putting the observer at
+
+00:58:02.786 --> 00:58:03.940
+the center of anything here.
+
+00:58:03.940 --> 00:58:06.180
+Right, we're just one other recording device.
+
+00:58:06.180 --> 00:58:12.809
+Yes. But as many of the luminaries of this studying the emergence of the classicality
+
+00:58:12.809 --> 00:58:17.371
+program have pointed out, all of these witnesses, like the photon fields,
+
+00:58:17.371 --> 00:58:21.740
+is going to be also carrying information about the green light that was emitted.
+
+00:58:21.740 --> 00:58:27.417
+And therefore, what turns out happening is that these two terms of the wave function,
+
+00:58:27.417 --> 00:58:33.551
+for all practical purposes, have no chance to re-interact together.
+
+00:58:33.551 --> 00:58:37.574
+Because to have two terms of the wave function re-interact together,
+
+00:58:37.574 --> 00:58:41.209
+you need to find a way to put them back into a common state.
+
+00:58:41.209 --> 00:58:41.709
+Yes.
+
+00:58:41.709 --> 00:58:45.180
+But now there's so many witnesses that have witnessed the outcome is up,
+
+00:58:45.180 --> 00:58:48.260
+and one of the new developments we can deduct them down.
+
+00:58:48.260 --> 00:58:53.131
+There's no chance of re-interfering that into a quantum experiment to produce a sharp outcome.
+
+00:58:53.131 --> 00:58:56.547
+Unlike what would happen for a person inside a quantum computer,
+
+00:58:56.547 --> 00:59:00.025
+who would be perfectly shielded from this environmental interaction.
+
+00:59:00.025 --> 00:59:05.149
+It will evolve into a collection of persons, or states, for the quantum computer,
+
+00:59:05.149 --> 00:59:08.707
+and the idea of a quantum computer is to keep those coherent,
+
+00:59:08.707 --> 00:59:12.848
+shielded from the environment, so that they can re-interfere back and produce a common state.
+
+00:59:12.848 --> 00:59:13.348
+Yes.
+
+00:59:13.348 --> 00:59:16.955
+It is only explainable with the various terms of the wave function,
+
+00:59:16.955 --> 00:59:20.220
+the various worlds. Now here are these two worlds.
+
+00:59:20.220 --> 00:59:26.200
+They're separated, and so for all practical purposes, forget the other ones.
+
+00:59:26.200 --> 00:59:31.994
+Yeah, because the entanglement, as it grows, starts growing more exponentially,
+
+00:59:31.994 --> 00:59:34.696
+because more and more particles get entangled with it.
+
+00:59:34.696 --> 00:59:38.651
+And so if you were to try to come back to the initial state,
+
+00:59:38.651 --> 00:59:43.220
+it gets harder and harder, because you have to put them back in the original states,
+
+00:59:43.220 --> 00:59:48.040
+which becomes exponentially harder as you get more and more particles,
+
+00:59:48.040 --> 00:59:50.954
+and it takes a lot of the particles, and it just gets worse and worse.
+
+00:59:50.954 --> 00:59:57.000
+But putting it all back to the initial state is one way of creating interference.
+
+00:59:57.000 --> 00:59:58.384
+Yes.
+
+00:59:58.384 --> 01:00:02.738
+But another valid way of calling it interference is to put it into the same state.
+
+01:00:02.738 --> 01:00:03.238
+Yes.
+
+01:00:03.238 --> 01:00:05.604
+But since they're so different on so many degrees of freedom,
+
+01:00:05.604 --> 01:00:08.313
+it's for all practical purposes impossible to do so.
+
+01:00:08.313 --> 01:00:14.134
+And I believe this is the point where even today prominent physicists are still confused,
+
+01:00:14.134 --> 01:00:19.277
+is that they still take Schrödinger's reductio ad absurdum argument seriously.
+
+01:00:19.277 --> 01:00:24.163
+So suppose, I'm no historian, I haven't studied these letters,
+
+01:00:24.163 --> 01:00:29.157
+but suppose Schrödinger went as far as to consider the fact that if he applies his equation
+
+01:00:29.157 --> 01:00:35.960
+all the way through, you would get to an observer in a superposition of states.
+
+01:00:35.960 --> 01:00:42.916
+I think the very legit idea here is to say, "Oh, but that's nonsense."
+
+01:00:42.916 --> 01:00:44.402
+Yeah.
+
+01:00:44.402 --> 01:00:47.986
+Because we only observe one outcome, right?
+
+01:00:47.986 --> 01:00:53.073
+We never observe some form of superposition of cat is dead and alive simultaneously.
+
+01:00:53.073 --> 01:00:56.593
+So we never observe red and green light simultaneously, in my example.
+
+01:00:56.593 --> 01:00:59.696
+So that's nonsense, and therefore Everett's program cannot hold.
+
+01:00:59.696 --> 01:01:00.196
+Yes.
+
+01:01:00.196 --> 01:01:03.765
+But then I think you know the answer. What did Everett say?
+
+01:01:03.765 --> 01:01:07.320
+I don't know what specifically Everett said here, but it's not because you don't see
+
+01:01:07.320 --> 01:01:11.568
+the other outcome that it's not true. Well, the mathematical terms are there,
+
+01:01:11.568 --> 01:01:13.400
+so you need to take them literally.
+
+01:01:13.400 --> 01:01:16.340
+Yeah, that's an important piece of the explanation.
+
+01:01:16.340 --> 01:01:19.300
+And I think another one is also: study your whole structure.
+
+01:01:19.300 --> 01:01:23.800
+I have these two states with many witnesses of the green light,
+
+01:01:23.800 --> 01:01:28.400
+"I saw green light," da-da-da-da-da, plus many witnesses of the red light,
+
+01:01:28.400 --> 01:01:36.600
+"I saw red light." Nowhere in this structure there is a Charles who sees both lights.
+
+01:01:36.600 --> 01:01:41.028
+There's only a Charles who sees green light, and elsewhere there's a Charles who sees
+
+01:01:41.028 --> 01:01:45.618
+red light. But nowhere we have this thing we were worried about,
+
+01:01:45.618 --> 01:01:48.703
+which was that we're going to observe a superposition.
+
+01:01:48.703 --> 01:01:49.853
+No, we don't.
+
+01:01:49.853 --> 01:01:50.353
+Yeah.
+
+01:01:50.353 --> 01:01:56.944
+We only observe one outcome. And plus, we can cash out many of the features of the collapse.
+
+01:01:56.944 --> 01:02:01.336
+For example, if we re-measure our quantum system, well, the Charles who has measured
+
+01:02:01.336 --> 01:02:05.840
+green light... So for example, I still have access to my silver atom and I re-measure it.
+
+01:02:05.840 --> 01:02:10.612
+Well, then, because I'm in that term, I'm going to re-measure that the atom was spinning clockwise.
+
+01:02:10.612 --> 01:02:11.112
+Yes.
+
+01:02:11.112 --> 01:02:13.529
+And so we have the illusion of a collapse.
+
+01:02:13.529 --> 01:02:14.988
+You're entangled.
+
+01:02:14.988 --> 01:02:16.375
+Yeah, well, we have a collapse.
+
+01:02:16.375 --> 01:02:16.875
+Yes.
+
+01:02:16.875 --> 01:02:20.304
+And in the other branch of the wave function, well, then I'm going to re-measure that
+
+01:02:20.304 --> 01:02:21.168
+it's spinning counterclockwise.
+
+01:02:21.168 --> 01:02:21.744
+Yes.
+
+01:02:21.744 --> 01:02:24.960
+And that's why we also have intersubjective agreement in the multiple observers.
+
+01:02:24.960 --> 01:02:28.635
+Because if you were also sitting next to me, if I see green light,
+
+01:02:28.635 --> 01:02:30.706
+you'll also see green light, because we got entangled together.
+
+01:02:30.706 --> 01:02:34.772
+But that's written in your theory. So it's a very important objection,
+
+01:02:34.772 --> 01:02:40.711
+"But we don't see two outcomes, so this is ridiculous." But then the beauty is that we
+
+01:02:40.711 --> 01:02:45.162
+used the same theory, namely quantum mechanics in the fully unitary regime,
+
+01:02:45.162 --> 01:02:46.306
+to answer that.
+
+01:02:46.306 --> 01:02:51.663
+It's a beautiful story. But in the early days of these debates on Everett,
+
+01:02:51.663 --> 01:02:57.928
+I don't want to dare to claim who it was, but at some point somebody said,
+
+01:02:57.928 --> 01:03:02.619
+"But this precise thing, we don't feel branching, we don't feel multiple outcomes." And
+
+01:03:02.619 --> 01:03:10.922
+the argument that was made was, well, Newton's theory, enlightened also with heliocentrism,
+
+01:03:10.922 --> 01:03:17.440
+says that the Earth is a spinning ball, and we have a valid concern:
+
+01:03:17.440 --> 01:03:21.451
+hold on, if it was a spinning ball, we would feel it, right?
+
+01:03:21.451 --> 01:03:23.303
+We would feel the ball spinning.
+
+01:03:23.303 --> 01:03:23.920
+Yeah.
+
+01:03:23.920 --> 01:03:29.543
+Very valid point. And the answer is not to declare, "You will not feel it." It is to calculate.
+
+01:03:29.543 --> 01:03:32.762
+Hold on, let me take your objection seriously.
+
+01:03:32.762 --> 01:03:40.120
+You calculate, and according to Newton's laws and the velocity of one turn per day of
+
+01:03:40.120 --> 01:03:44.632
+the Earth and the radius of the Earth, you realize that, well,
+
+01:03:44.632 --> 01:03:47.333
+for your own little life, you would not feel it.
+
+01:03:47.333 --> 01:03:47.833
+Yes.
+
+01:03:47.833 --> 01:03:51.813
+But by the way, thanks for pointing it out, because we have Coriolis forces and so on.
+
+01:03:51.813 --> 01:03:55.547
+And in fact, it's a very valid point, and we learn stuff from this.
+
+01:03:55.547 --> 01:03:56.047
+Yes.
+
+01:03:56.047 --> 01:03:59.091
+But it's not an uppercut. In fact, it survives this test.
+
+01:03:59.091 --> 01:03:59.591
+Yes.
+
+01:03:59.591 --> 01:04:03.586
+And many things here happen too in quantum theory, where we don't feel branching.
+
+01:04:03.586 --> 01:04:09.883
+But then the most interesting parts of these emergence of quasi-classical regimes are
+
+01:04:09.883 --> 01:04:14.931
+when they're in fact quasi-classical, namely, we don't send orthogonal states to orthogonal
+
+01:04:14.931 --> 01:04:20.139
+states, but we let a little bit of fuzzy quantumness in the way the two terms slowly
+
+01:04:20.139 --> 01:04:23.903
+separate, and we observe weak quantum effects.
+
+01:04:23.903 --> 01:04:28.008
+And it gives rise to a classical reality, which is even more compelling,
+
+01:04:28.008 --> 01:04:33.568
+because it's basically exactly like our own, because it gives rise to some emergent classical structures.
+
+01:04:33.568 --> 01:04:39.470
+But if you would look at places in your emergent structures where they're sort of shielded
+
+01:04:39.470 --> 01:04:44.295
+from this vastly entangling, many witnesses of the measurement outcomes,
+
+01:04:44.295 --> 01:04:47.074
+you would see some form of quantum effects.
+
+01:04:47.074 --> 01:04:50.091
+And guess what, this is the world we live in.
+
+01:04:50.091 --> 01:04:54.736
+If you start looking at very small structures, we have weak quantum effects.
+
+01:04:54.736 --> 01:04:59.195
+But it's not because... and that's another misconception of quantum theory.
+
+01:04:59.195 --> 01:05:02.113
+It's not because quantum theory only applies to the small.
+
+01:05:02.113 --> 01:05:06.754
+It applies to everything. It's just that these characteristically quantum effects of
+
+01:05:06.754 --> 01:05:11.472
+interference are not going to be observed once massive witnesses have entangled.
+
+01:05:11.472 --> 01:05:15.360
+Yes, but they're still observable at a small scale.
+
+01:05:15.360 --> 01:05:22.800
+Tie back to our original Bell, Bob and Alice, what is the explanation then for how they're
+
+01:05:22.800 --> 01:05:26.142
+able to get to the 85 percent?
+
+01:05:26.142 --> 01:05:33.002
+In quantum theory, as we said earlier, these entangled systems are defined such that
+
+01:05:33.002 --> 01:05:39.280
+they have one common wave function for two particles, and these two particles could actually
+
+01:05:39.280 --> 01:05:44.763
+be remote. And so if you look at what's the branching structure that gives rise to that:
+
+01:05:44.763 --> 01:05:50.594
+if Alice and Bob are sharing an entangled state, say 00 plus 11,
+
+01:05:50.594 --> 01:05:56.711
+what happens is that when Alice would measure, this whole state would evolve into:
+
+01:05:56.711 --> 01:06:04.230
+Alice's system is zero, Bob's system is zero, and Alice measured that her system is zero,
+
+01:06:04.230 --> 01:06:10.252
+plus Alice's system is one, Bob's system is one, and Alice measured that her system is one.
+
+01:06:10.252 --> 01:06:14.740
+And then we have these two sort of worlds generating.
+
+01:06:14.740 --> 01:06:16.800
+So they get entangled with the measurements.
+
+01:06:16.800 --> 01:06:22.320
+She gets entangled with the measurement, but she also gets entangled with Bob's particle.
+
+01:06:22.320 --> 01:06:23.440
+Right, yeah.
+
+01:06:23.440 --> 01:06:28.560
+And so if you jump in Alice's shoes, and you're like, "I'm Alice who saw one,
+
+01:06:28.560 --> 01:06:29.200
+outcome one."
+
+01:06:29.200 --> 01:06:30.200
+Yes.
+
+01:06:30.200 --> 01:06:35.922
+"And for a strange reason, I'm in the same branch as Bob's particle,
+
+01:06:35.922 --> 01:06:38.440
+which will be in state one."
+
+01:06:38.440 --> 01:06:40.440
+Yes, yes. Okay.
+
+01:06:40.440 --> 01:06:46.215
+And so this is where the nature of entanglement in the Schrödinger picture portrays a
+
+01:06:46.215 --> 01:06:51.640
+somewhat misleading account of these branching effects, that may in fact look non-local.
+
+01:06:51.640 --> 01:06:57.070
+Again, it's not a non-locality of literally having an action there,
+
+01:06:57.070 --> 01:07:03.820
+but it's strange that Alice, who sees one, right away is in the world with Bob's particle
+
+01:07:03.820 --> 01:07:10.220
+being one. And suppose that Bob would also be measuring, Bob one would also be in the story.
+
+01:07:10.220 --> 01:07:15.120
+And so Alice one and Bob one would be right away identified across space.
+
+01:07:15.120 --> 01:07:17.380
+There we go. Crash course on Heisenberg quantum mechanics.
+
+01:07:17.380 --> 01:07:22.880
+So quantum theory was discovered twice, first by Heisenberg and then by Schrödinger.
+
+01:07:22.880 --> 01:07:27.699
+Heisenberg's story was a story of: we're going to have our physical quantities we care
+
+01:07:27.699 --> 01:07:31.420
+about, and we're going to promote them to matrices.
+
+01:07:31.420 --> 01:07:36.520
+So things like spin of something, which was just a discrete structure in a classical
+
+01:07:36.520 --> 01:07:44.136
+theory, now is a matrix. Things like position is also going to be encoded as a very,
+
+01:07:44.136 --> 01:07:47.720
+very large matrix, infinite-dimensional operator-valued.
+
+01:07:47.720 --> 01:07:50.140
+I don't want to dive into the math, there's no point for it.
+
+01:07:50.140 --> 01:07:56.280
+But in short, it's a story of: we describe physical objects as time-evolving matrices.
+
+01:07:56.280 --> 01:08:01.285
+And Schrödinger came up with his wave mechanics account, which was very different.
+
+01:08:01.285 --> 01:08:06.389
+Things are waves, or wave functions, and they evolve in time according to such and such properties.
+
+01:08:06.389 --> 01:08:12.836
+Now, the work of John von Neumann was huge, because he managed to build the mathematical
+
+01:08:12.836 --> 01:08:21.310
+arena, okay, he was not alone, but to build a mathematical arena that could kind of unify
+
+01:08:21.310 --> 01:08:26.138
+those two theories together, with these so-called structures of Hilbert spaces,
+
+01:08:26.138 --> 01:08:30.520
+and bounded operators, and vectors in Hilbert spaces.
+
+01:08:30.520 --> 01:08:35.791
+And the short story is that a calculation in quantum mechanics looks like that,
+
+01:08:35.791 --> 01:08:42.172
+where you have a state vector here. For the viewer, this would be a ket.
+
+01:08:42.172 --> 01:08:48.289
+This would be a bra. It's confusing. So these are the wave function thing.
+
+01:08:48.289 --> 01:08:53.569
+And in the middle, there's a bunch of matrices, and then you have also evolution operators
+
+01:08:53.569 --> 01:08:57.960
+in the middle. So you have a state vector, evolution operator,
+
+01:08:57.960 --> 01:09:00.360
+matrix, evolution operator, state vector.
+
+01:09:00.360 --> 01:09:05.560
+And then the Schrödinger view says, "Oh, the evolution operators,
+
+01:09:05.560 --> 01:09:08.493
+the unitary evolutions, they should apply to the state vectors,
+
+01:09:08.493 --> 01:09:11.901
+to these wave functions." And the Heisenberg picture view is to say,
+
+01:09:11.901 --> 01:09:15.580
+"Oh no, we should evolve the matrices in the middle." And typically,
+
+01:09:15.580 --> 01:09:21.044
+because all calculations in quantum theory have this form, we realize that it doesn't
+
+01:09:21.044 --> 01:09:25.971
+really matter. If what you're after is to compute a number, you can have it the way you run.
+
+01:09:25.971 --> 01:09:28.714
+You can have the unitary operators acting this way or that way,
+
+01:09:28.714 --> 01:09:31.489
+but you're going to get the same number, because this calculation here,
+
+01:09:31.489 --> 01:09:35.180
+this sandwich I'm making up with my hands, at the end of the day,
+
+01:09:35.180 --> 01:09:38.540
+it's a number. And so von Neumann declared the two theories to be equivalent.
+
+01:09:38.540 --> 01:09:45.504
+But as I like to point out in my latest chapter in the book by Alyssa Ney,
+
+01:09:45.504 --> 01:09:50.943
+edited by... the book is titled Local Quantum Mechanics, Oxford University Press,
+
+01:09:50.943 --> 01:09:52.840
+just released last month.
+
+01:09:52.840 --> 01:09:53.560
+Buy it.
+
+01:09:53.560 --> 01:09:59.610
+It's a good book, yeah. That argument that von Neumann made,
+
+01:09:59.610 --> 01:10:05.720
+and that the physics community took for granted, is an instrumentalist argument.
+
+01:10:05.720 --> 01:10:11.192
+It is, if what you care about is predictions of measurement outcomes,
+
+01:10:11.192 --> 01:10:11.864
+the numbers...
+
+01:10:11.864 --> 01:10:17.093
+The numbers, they could be committed both ways, but the explanatory power is not the same.
+
+01:10:17.093 --> 01:10:20.467
+So, power, yes, but also structure. There's another way we could...
+
+01:10:20.467 --> 01:10:26.973
+So for a realist, we're in the business of saying, well, physics is not just about calculating predictions.
+
+01:10:26.973 --> 01:10:32.424
+It's of course nice to calculate predictions, but physics is in the business of trying
+
+01:10:32.424 --> 01:10:36.456
+to figure out how the world works. And we're aware that all our work is guesswork,
+
+01:10:36.456 --> 01:10:40.040
+it's conjectural, but we're going to stress test our ideas, we're going to back them
+
+01:10:40.040 --> 01:10:44.942
+against the wall. However, if you come up with a theory and we say "the state of the
+
+01:10:44.942 --> 01:10:48.694
+system is," what we mean is that the state of the system is.
+
+01:10:48.694 --> 01:10:53.808
+It's a conjecture about how the system is out there, independent of our preferences and
+
+01:10:53.808 --> 01:10:54.373
+our opinions.
+
+01:10:54.373 --> 01:10:59.213
+So if you're a realist, then you say, hold on, that gives us two different stories.
+
+01:10:59.213 --> 01:11:05.385
+The Schrödinger story is that we have a ket, a state vector or a wave function,
+
+01:11:05.385 --> 01:11:08.740
+it's called by different names, that is evolving in time.
+
+01:11:08.740 --> 01:11:14.507
+And the Heisenberg story is that we have a bunch of matrices evolving in time.
+
+01:11:14.507 --> 01:11:19.300
+Now, we could declare these two theories equivalent even for a realist,
+
+01:11:19.300 --> 01:11:25.395
+if we would have what the mathematicians would call an isomorphism between the two structures.
+
+01:11:25.395 --> 01:11:29.864
+The interesting part is when you start declaring isomorphism between structures that
+
+01:11:29.864 --> 01:11:33.416
+prima facie do not look like they're the same.
+
+01:11:33.416 --> 01:11:42.787
+Suppose I have the natural numbers, 1, 2, 3, 4, 5, 6, and I have two copies of them,
+
+01:11:42.787 --> 01:11:49.103
+plus I add a zero. Plus I tell you that one copy is kind of the negative sign of the
+
+01:11:49.103 --> 01:11:53.122
+other copy. But it's really like two sets of natural numbers going this way,
+
+01:11:53.122 --> 01:11:57.080
+and one of them has some negative signs, so that the arithmetic has changed,
+
+01:11:57.080 --> 01:11:59.080
+and I prescribe you the arithmetic in the precise way.
+
+01:11:59.080 --> 01:12:02.620
+I don't want to go into the details, because we're going to be wasting time.
+
+01:12:02.620 --> 01:12:06.576
+But then someone could realize, hey, hold on, we could have the integers,
+
+01:12:06.576 --> 01:12:10.255
+which goes all the way plus infinity to minus infinity.
+
+01:12:10.255 --> 01:12:13.570
+So one, two, three, four, five, and then we have zero, minus one,
+
+01:12:13.570 --> 01:12:17.906
+minus two, minus... And one could prove that, oh, well, the two structures are isomorphic.
+
+01:12:17.906 --> 01:12:21.935
+Because I came up with two sort of stories of telling you, but one of them,
+
+01:12:21.935 --> 01:12:27.100
+I was kind of hiding the fact that I had negative numbers, the other one I was making explicit.
+
+01:12:27.100 --> 01:12:32.409
+But who cares, because we have a one-to-one map: for every number in theory one,
+
+01:12:32.409 --> 01:12:35.664
+there's a corresponding number in theory two, and vice versa.
+
+01:12:35.664 --> 01:12:40.341
+And plus, that's just a bijection so far, but the isomorphism also preserves the structures.
+
+01:12:40.341 --> 01:12:45.580
+So if I have addition in one theory, and also have a counterpart of the addition in the
+
+01:12:45.580 --> 01:12:49.809
+second theory. That's why you go like, "Oh, it's the same thing." And a realist would
+
+01:12:49.809 --> 01:12:53.315
+have been convinced that the Heisenberg picture and the Schrödinger picture are equivalent,
+
+01:12:53.315 --> 01:12:58.655
+also for a realist, if you would have such a one-to-one map,
+
+01:12:58.655 --> 01:13:02.323
+bijective map and isomorphic, that also preserves the structures,
+
+01:13:02.323 --> 01:13:05.567
+like time evolution and what happens when we...
+
+01:13:05.567 --> 01:13:08.877
+and so on. But there's no such map.
+
+01:13:08.877 --> 01:13:15.960
+So the general account is that if you give me the Heisenberg picture description of the
+
+01:13:15.960 --> 01:13:21.651
+system, it corresponds to a unique Schrödinger picture description of the system,
+
+01:13:21.651 --> 01:13:26.720
+so there's a unique wave function, ket. But not the other way around.
+
+01:13:26.720 --> 01:13:31.260
+If you only specify the wave function of the system, the state vector of the system,
+
+01:13:31.260 --> 01:13:35.676
+the Schrödinger picture description of the system, there are many possible Heisenberg
+
+01:13:35.676 --> 01:13:38.700
+picture states that correspond to it.
+
+01:13:38.700 --> 01:13:46.036
+Basically, there's more information captured in the Heisenberg system than the Schrödinger
+
+01:13:46.036 --> 01:13:50.084
+system, which means that one is basically richer, the other lesser.
+
+01:13:50.084 --> 01:13:53.498
+So you can only do things one way, not the other way, basically.
+
+01:13:53.498 --> 01:13:56.284
+So I'm aware that some experts listening here might say, "Well,
+
+01:13:56.284 --> 01:14:00.590
+the true account of the Schrödinger picture is not just the time-evolved state.
+
+01:14:00.590 --> 01:14:04.880
+It's also the dynamical operators," these U's I've put in the middle,
+
+01:14:04.880 --> 01:14:08.460
+"alongside the initial algebra of observables," these matrices in the middle.
+
+01:14:08.460 --> 01:14:15.476
+But then, sure, of course, because you're giving all the ingredients of quantum theory.
+
+01:14:15.476 --> 01:14:22.698
+But no one declares that the state in the Schrödinger picture is this thing that is enriched
+
+01:14:22.698 --> 01:14:27.341
+with a part of the evolution operators, but not all of it, because you still want locality.
+
+01:14:27.341 --> 01:14:32.626
+So you don't want that your description of Alice's system depends on whatever Bob is doing.
+
+01:14:32.626 --> 01:14:38.466
+I said no one, modulo the fact that the work of Mordecai Waegell at Chapman University
+
+01:14:38.466 --> 01:14:41.443
+is kind of taking seriously these locality structures.
+
+01:14:41.443 --> 01:14:46.664
+You can have them, and he's developing Schrödinger picture versions of what it would
+
+01:14:46.664 --> 01:14:51.380
+be like. But he would also agree that the objects he's calling states are nothing like
+
+01:14:51.380 --> 01:14:54.964
+the usual Schrödinger state. So we have this many-to-one ontology,
+
+01:14:54.964 --> 01:14:57.159
+so why would we work with more structures?
+
+01:14:57.159 --> 01:15:01.441
+Yeah, of course, if we're still in the shut up and calculate framework,
+
+01:15:01.441 --> 01:15:04.220
+it doesn't make a difference, the better.
+
+01:15:04.220 --> 01:15:09.113
+I want to crank up numbers. But if we're in the business of trying to explain the world,
+
+01:15:09.113 --> 01:15:11.540
+we want to take what works best.
+
+01:15:11.540 --> 01:15:19.087
+Yes. And it turns out that the Heisenberg picture descriptions provide a fully local
+
+01:15:19.087 --> 01:15:26.044
+account of local systems. At least to me, was news when I read the work of David Deutsch
+
+01:15:26.044 --> 01:15:31.316
+and Patrick Hayden, published in 2000, worked out in 1999, where they spell out what
+
+01:15:31.316 --> 01:15:35.780
+Heisenberg picture quantum theory looks like for quantum computation.
+
+01:15:35.780 --> 01:15:39.544
+And in short, it provides what looks like the impossible.
+
+01:15:39.544 --> 01:15:42.152
+It provides a way to describe entangled systems.
+
+01:15:42.152 --> 01:15:45.120
+So an entangled pair of qubits: you have a qubit, I have a qubit,
+
+01:15:45.120 --> 01:15:48.511
+my qubit has its own descriptor. They had to call it by another name,
+
+01:15:48.511 --> 01:15:53.409
+but really it's a state. But if you use the word state, people load it and associate
+
+01:15:53.409 --> 01:15:57.346
+it with Schrödinger, so they call it a descriptor.
+
+01:15:57.346 --> 01:16:01.791
+And my descriptor remains unchanged if you play with your system,
+
+01:16:01.791 --> 01:16:03.897
+which is this locality aspect.
+
+01:16:03.897 --> 01:16:04.397
+Yes.
+
+01:16:04.397 --> 01:16:08.071
+Schrödinger picture descriptions can sometimes use the so-called reduced density matrices,
+
+01:16:08.071 --> 01:16:11.860
+and they have this property: the reduced density matrix of a system is unchanged when
+
+01:16:11.860 --> 01:16:17.038
+somebody else plays with his system. But the reduced density matrices are too thin a description.
+
+01:16:17.038 --> 01:16:23.393
+If we put both of our reduced density matrices together, it's a way of describing systems
+
+01:16:23.393 --> 01:16:26.946
+in the Schrödinger picture, but that omits too much important information,
+
+01:16:26.946 --> 01:16:31.828
+because the collection of two reduced density matrices cannot get back the whole system
+
+01:16:31.828 --> 01:16:34.551
+when they're entangled. Whereas descriptors have that property.
+
+01:16:34.551 --> 01:16:37.376
+So not only are they local, like the reduced density matrices,
+
+01:16:37.376 --> 01:16:41.907
+but if you put them back together, you can recover the whole Schrödinger entangled state.
+
+01:16:41.907 --> 01:16:46.244
+Or, if you're an advocate of the Heisenberg picture, you don't care so much about recovering
+
+01:16:46.244 --> 01:16:49.876
+the Schrödinger state, but it permits to cash out the distributions of any measurements
+
+01:16:49.876 --> 01:16:52.218
+that might be performed on the joint system.
+
+01:16:52.218 --> 01:16:58.796
+We have to carry out the calculations of what happens to these crystals when Alice measures
+
+01:16:58.796 --> 01:17:03.244
+and when Bob measures. There's a lot to recover there, because when Alice will measure
+
+01:17:03.244 --> 01:17:13.496
+her system, she will be affected by the system in a way that Alice's descriptor will
+
+01:17:13.496 --> 01:17:22.825
+evolve into a sum of two entities. This was developed by Sam Kuipers and David Deutsch
+
+01:17:22.825 --> 01:17:29.386
+in 2021. They basically recovered the basics of Everett's analysis in the Heisenberg
+
+01:17:29.386 --> 01:17:33.965
+picture for descriptors. So whenever with Everett we realized that we had a sum of two
+
+01:17:33.965 --> 01:17:37.106
+state vectors, and that these two state vectors no longer interact with each other,
+
+01:17:37.106 --> 01:17:40.366
+they become autonomous, and they have a Charles who sees green light and a Charles who
+
+01:17:40.366 --> 01:17:44.860
+sees red light, well, what's the story with descriptors, with Heisenberg picture descriptors?
+
+01:17:44.860 --> 01:17:53.000
+And here it is, roughly speaking: you have an Alice evolving into Alice sees zero,
+
+01:17:53.000 --> 01:17:58.465
+plus, literally a plus... therefore there's something else to capture.
+
+01:17:58.465 --> 01:18:01.386
+Everett's idea, where we don't need to declare that only one exists.
+
+01:18:01.386 --> 01:18:05.335
+We make peace with the fact that ascribing to is pretending that there's something bigger,
+
+01:18:05.335 --> 01:18:08.113
+and we're only a substructure of that something bigger.
+
+01:18:08.113 --> 01:18:11.487
+So I'm Alice who sees zero, there's Alice who sees one.
+
+01:18:11.487 --> 01:18:16.700
+If we were to compute probabilities at that moment, we would compute that Alice obtains
+
+01:18:16.700 --> 01:18:20.407
+zero with probability a half, Alice obtains one with probability a half.
+
+01:18:20.407 --> 01:18:23.895
+But really, we don't care so much about priorities at that stage.
+
+01:18:23.895 --> 01:18:26.606
+We carry on. We have two outgoing Alices.
+
+01:18:26.606 --> 01:18:29.776
+They don't see each other, and it's fully local.
+
+01:18:29.776 --> 01:18:36.201
+So we don't have this awkward thing where the state was described by something that also
+
+01:18:36.201 --> 01:18:40.673
+depended on Bob. Now we have only Alice's local descriptor spreading into two entities,
+
+01:18:40.673 --> 01:18:41.420
+autonomous entities.
+
+01:18:41.420 --> 01:18:46.332
+Right. So instead of having the faster than light communication or something,
+
+01:18:46.332 --> 01:18:52.380
+Alice just gets entangled with the descriptor, and that's how the puzzle is answered.
+
+01:18:52.380 --> 01:18:58.300
+Well, not yet. We haven't got to the 85, but we're getting there.
+
+01:18:58.300 --> 01:19:05.717
+It was a long detour. We were discussing the CHSH game maybe 30 minutes ago,
+
+01:19:05.717 --> 01:19:10.204
+but it was a long detour to explain the measurement problem correctly,
+
+01:19:10.204 --> 01:19:12.997
+the value of jumping into the Heisenberg picture description,
+
+01:19:12.997 --> 01:19:15.056
+and now we're finally going to cash it out.
+
+01:19:15.056 --> 01:19:20.115
+The first thing to mention is that splitting of Alice is purely local.
+
+01:19:20.115 --> 01:19:26.004
+Alice splits into two entities because her local descriptor splits into two entities.
+
+01:19:26.004 --> 01:19:32.273
+And when Bob measures his crystal, he will likewise locally split into two Bobs,
+
+01:19:32.273 --> 01:19:37.460
+Bob who sees zero, Bob who sees one. And those branches are not tied,
+
+01:19:37.460 --> 01:19:39.060
+they're not identified yet.
+
+01:19:39.060 --> 01:19:45.460
+What happens there is, this is my Alices, this is my Bobs.
+
+01:19:45.460 --> 01:19:50.277
+Alice saw zero, Bob saw zero, in the Schrödinger picture, already tied.
+
+01:19:50.277 --> 01:19:54.479
+Yes. And so we kind of know that when they're going to compare their results,
+
+01:19:54.479 --> 01:19:57.260
+Alice who sees zero is going to meet with a Bob who sees zero,
+
+01:19:57.260 --> 01:20:00.260
+and Alice who sees one is going to meet with a Bob who sees one.
+
+01:20:00.260 --> 01:20:04.485
+But in the Heisenberg picture so far, it's just local entities.
+
+01:20:04.485 --> 01:20:10.820
+Of course, because we still have a deterministic theory, we can compute what would happen
+
+01:20:10.820 --> 01:20:16.378
+if they then compare their notes. And we would find that Alice who sees zero meets with
+
+01:20:16.378 --> 01:20:20.593
+a Bob who sees zero with 85% divided by two probability, Alice who sees one will meet
+
+01:20:20.593 --> 01:20:23.849
+with the Bob who sees one with 85% divided by two probability,
+
+01:20:23.849 --> 01:20:26.660
+and the mismatches with 15% probability.
+
+01:20:26.660 --> 01:20:35.000
+But that's kind of going too fast. What matters is, and that's an idea as old as Don
+
+01:20:35.000 --> 01:20:41.140
+Page and Frank Tipler, is the idea that there's an interesting mechanism coming up here.
+
+01:20:41.140 --> 01:20:44.698
+Sorry, I just said that Don Page and Frank Tipler are old.
+
+01:20:44.698 --> 01:20:55.460
+As old as their work. So Don Page was studying the comparison interaction in the EPR setting.
+
+01:20:55.460 --> 01:20:59.040
+Tipler raised it up for the Bell scenario, but he was studying in the Schrödinger picture,
+
+01:20:59.040 --> 01:21:03.900
+so could not cash out as sharp an idea as what we're coming up here.
+
+01:21:03.900 --> 01:21:09.836
+And also, Deutsch and Hayden studied the Bell scenario, and they were after localizing
+
+01:21:09.836 --> 01:21:14.004
+the information flow, but they correctly identified, I believe that would be section
+
+01:21:14.004 --> 01:21:21.911
+four of their paper, that a Bell inequality violation is only done once Alice and Bob
+
+01:21:21.911 --> 01:21:25.190
+come back together. And so that's crucial.
+
+01:21:25.190 --> 01:21:28.948
+And you might say, well, what is the change?
+
+01:21:28.948 --> 01:21:32.879
+Well, it changes the fact that now, since we have multiple Alices,
+
+01:21:32.879 --> 01:21:38.249
+one who sees zero, one who sees one, multiple Bobs, one who sees zero and one who sees
+
+01:21:38.249 --> 01:21:43.093
+none, it's no longer clear how this is going to generate four joint records,
+
+01:21:43.093 --> 01:21:50.088
+the 00 record, 01, 10 and 11 record. In a single world orthodoxy,
+
+01:21:50.088 --> 01:21:54.316
+if there's only a single world, I have Alice who sees zero here and Bob who sees one
+
+01:21:54.316 --> 01:21:55.284
+here, there's only one answer.
+
+01:21:55.284 --> 01:21:55.784
+Yes.
+
+01:21:55.784 --> 01:21:59.874
+When they're going to join their results, it's going to be zero and one.
+
+01:21:59.874 --> 01:22:04.320
+Nothing can happen. But since we're in a quantum orthodoxy...
+
+01:22:04.320 --> 01:22:06.949
+Yeah. We have multiple Alices, multiple Bobs.
+
+01:22:06.949 --> 01:22:09.920
+Then you might say, "Oh, there's freedom here."
+
+01:22:09.920 --> 01:22:18.160
+Yes. Even though it's 50, Alice 0, Alice 1, 50-50, if the computer property is there,
+
+01:22:18.160 --> 01:22:19.496
+and same with Bob.
+
+01:22:19.496 --> 01:22:25.058
+The thing is, when we look at the descriptors, they're made of algebraic structures that
+
+01:22:25.058 --> 01:22:31.760
+may interplay, and that's precisely what is ending up happening.
+
+01:22:31.760 --> 01:22:37.970
+So what I calculated in my Explaining Bell Locally paper, which is basically the technical
+
+01:22:37.970 --> 01:22:44.260
+version of this book chapter, is that we need to calculate what happens to a joint record.
+
+01:22:44.260 --> 01:22:47.660
+A Charlie in the middle is a four-level system.
+
+01:22:47.660 --> 01:22:53.422
+He's back on Earth, and he's waiting to write down the communication of Alice and waiting
+
+01:22:53.422 --> 01:22:58.151
+to write down the communication of Bob into one single localized record that will be
+
+01:22:58.151 --> 01:22:59.320
+the joint record.
+
+01:22:59.320 --> 01:23:03.400
+And what are we going to apply as a theory for that Charlie?
+
+01:23:03.400 --> 01:23:07.540
+Are we going to apply A, our pet theory of what classical theory should be like,
+
+01:23:07.540 --> 01:23:10.640
+or what classical information processing should be like?
+
+01:23:10.640 --> 01:23:12.400
+Or are we going to apply B, quantum theory?
+
+01:23:12.400 --> 01:23:17.700
+Because the name of the game is to explain the classical with quantum theory.
+
+01:23:17.700 --> 01:23:20.620
+Obviously B. But this is where intuitions can go wrong.
+
+01:23:20.620 --> 01:23:22.080
+Because we might say, "Oh no, that changes nothing.
+
+01:23:22.080 --> 01:23:26.963
+Let's just do a shortcut and say that Charlie's record is going to be an element in the
+
+01:23:26.963 --> 01:23:35.638
+set 00, 01, 10, 11." Well, sorry, but sets 00 comma 01 comma 10 comma 11 are discrete
+
+01:23:35.638 --> 01:23:38.029
+structures, which are very alien to quantum theory.
+
+01:23:38.029 --> 01:23:38.529
+Yes.
+
+01:23:38.529 --> 01:23:42.450
+What you want to do is to apply quantum mechanics to Charlie.
+
+01:23:42.450 --> 01:23:47.208
+And so what happens is, when he processes Alice's outcome...
+
+01:23:47.208 --> 01:23:47.708
+Yes.
+
+01:23:47.708 --> 01:23:50.687
+He also locally splits into two instances.
+
+01:23:50.687 --> 01:23:51.187
+Yes.
+
+01:23:51.187 --> 01:23:56.338
+Charlie who sees Alice with zero and Charlie who sees Alice with one.
+
+01:23:56.338 --> 01:23:56.838
+Right.
+
+01:23:56.838 --> 01:23:58.609
+These measures are still 50-50.
+
+01:23:58.609 --> 01:23:59.109
+Yes.
+
+01:23:59.109 --> 01:24:05.482
+But then, when he processes Bob, each of these sub-measures splits again,
+
+01:24:05.482 --> 01:24:12.137
+and the split is non-trivial. Charlie who saw Alice zero now splits 35,
+
+01:24:12.137 --> 01:24:24.248
+no, 42.5, 8.5. Charlie is going to see Alice who saw zero and Bob who saw zero.
+
+01:24:24.248 --> 01:24:25.040
+Yes.
+
+01:24:25.040 --> 01:24:31.124
+And the 8.5 is going to be Charlie saw Alice who saw zero and Bob saw one,
+
+01:24:31.124 --> 01:24:34.960
+the mismatch. And similarly for the other Charlie.
+
+01:24:34.960 --> 01:24:40.987
+And so we have four emerging Charlies with exactly the right weights of the CHSH distribution.
+
+01:24:40.987 --> 01:24:50.356
+Really, the whole point of this exercise is to then show that you can have this 85% while
+
+01:24:50.356 --> 01:24:56.200
+not having faster than light communication, while not requiring retrocausal models,
+
+01:24:56.200 --> 01:25:01.938
+and while having a fully local explanation, which is very, very powerful.
+
+01:25:01.938 --> 01:25:05.493
+And I would like to add, without wishful thinking either.
+
+01:25:05.493 --> 01:25:12.192
+It's not just "it would be nice if we could have that." We also have that by studying
+
+01:25:12.192 --> 01:25:15.310
+unitary quantum theory in the Heisenberg picture.
+
+01:25:15.310 --> 01:25:18.485
+So I think it's important, because unlike the superdeterministic program,
+
+01:25:18.485 --> 01:25:19.784
+say, who's trying to...
+
+01:25:19.784 --> 01:25:22.056
+Yeah, we're not making crazy things about...
+
+01:25:22.056 --> 01:25:24.278
+And be willing to reconsider huge hypotheses.
+
+01:25:24.278 --> 01:25:28.762
+Yes, I'm sympathetic to that, but bold conjectures are kind of hard to come by,
+
+01:25:28.762 --> 01:25:36.480
+to be good. And here it looks like I'm positing this radical story where Alice splits,
+
+01:25:36.480 --> 01:25:39.369
+and somehow the way she meets with Bob is unintuitive.
+
+01:25:39.369 --> 01:25:43.380
+And, "How did you come up with this?" Well, calculate it.
+
+01:25:43.380 --> 01:25:46.355
+Yeah, it's literally the math.
+
+01:25:46.355 --> 01:25:51.191
+Exactly. If you calculate it in the Heisenberg picture of unitary quantum theory.
+
+01:25:51.191 --> 01:25:54.296
+So I think that's also the important thing to mention.
+
+01:25:54.296 --> 01:25:57.312
+Yeah, it's not just wanting to save the program with a local story.
+
+01:25:57.312 --> 01:25:59.790
+It's a local story that follows from quantum mechanics.
+
+01:25:59.790 --> 01:26:01.960
+Yeah, it's all rooted in the mathematics.
+
+01:26:01.960 --> 01:26:05.143
+There's two remarks I'd like to make, if I could.
+
+01:26:05.143 --> 01:26:05.790
+Let's go.
+
+01:26:05.790 --> 01:26:13.528
+One of them is about relativity. I said that Alice who sees zero is not yet identified
+
+01:26:13.528 --> 01:26:19.408
+with Bob who sees zero. Could I be more precise?
+
+01:26:19.408 --> 01:26:19.996
+Yes.
+
+01:26:19.996 --> 01:26:26.738
+It seems like it's unavoidable that the Alice who sees zero is going to meet with the
+
+01:26:26.738 --> 01:26:31.836
+Bob after Alice has measured and after Bob has measured.
+
+01:26:31.836 --> 01:26:38.270
+We call this a hyper sheet of space. It's a sheet of space in space-time,
+
+01:26:38.270 --> 01:26:40.620
+okay? Hypersurface, it's usually called.
+
+01:26:40.620 --> 01:26:45.040
+Time goes this way. But now I'm after both measurement interactions.
+
+01:26:45.040 --> 01:26:50.787
+It seems like an absolute that Alice who sees zero is going to meet up,
+
+01:26:50.787 --> 01:26:55.874
+with sub-measure 85%, with Bob who sees zero.
+
+01:26:55.874 --> 01:27:03.804
+But it's not an absolute. It's not an absolute, because the Bob who sees zero and the
+
+01:27:03.804 --> 01:27:09.162
+Bob who sees one, we said it's hard, but in principle they can unmeasure.
+
+01:27:09.162 --> 01:27:14.740
+If they're able to run after all the witnesses of the measurement interaction,
+
+01:27:14.740 --> 01:27:22.709
+they can untangle, reproduce the crystal's state, change the way they turn their crystal
+
+01:27:22.709 --> 01:27:29.301
+before measuring, and re-measure. And that would basically screw Alice's bet.
+
+01:27:29.301 --> 01:27:29.851
+Yes.
+
+01:27:29.851 --> 01:27:32.433
+Because then she would meet with a different Bob.
+
+01:27:32.433 --> 01:27:38.088
+For example, we could arrange the twisting of the crystals such that it's sure that she
+
+01:27:38.088 --> 01:27:43.568
+meets with Bob 1. So Alice 0 meets with Bob 1 if this unmeasurement is performed,
+
+01:27:43.568 --> 01:27:44.240
+and re-twisting.
+
+01:27:44.240 --> 01:27:50.789
+And I think an analogy I like is that it's exactly similar to the traveling twins.
+
+01:27:50.789 --> 01:27:54.120
+A listener might say, "Oh, the traveling twins are already counterintuitive,
+
+01:27:54.120 --> 01:28:00.768
+but I'm going to put another layer of counterintuitiveness." The typical scenario is
+
+01:28:00.768 --> 01:28:04.656
+that we have Charlie and Dalton, I'm changing names.
+
+01:28:04.656 --> 01:28:10.604
+They're twins. Charlie stays on Earth. Dalton goes on a big voyage in the galaxy.
+
+01:28:10.604 --> 01:28:15.500
+And while he's far away, one could ask, suppose they eventually reunite,
+
+01:28:15.500 --> 01:28:20.432
+who will be the younger? And you might remember from your relativity courses,
+
+01:28:20.432 --> 01:28:25.046
+or some of the good YouTube videos you might have watched, that the traveler is going
+
+01:28:25.046 --> 01:28:28.240
+to be the younger, and that's super counterintuitive.
+
+01:28:28.240 --> 01:28:35.280
+That's true if we assume the continuation of the story, which is that Dalton comes back
+
+01:28:35.280 --> 01:28:39.501
+to Earth and Charlie doesn't move. But that was not my question.
+
+01:28:39.501 --> 01:28:44.080
+My question was, Charlie stayed on Earth, Dalton went on a voyage,
+
+01:28:44.080 --> 01:28:47.280
+and while he was far away, I asked the question.
+
+01:28:47.280 --> 01:28:47.780
+Yeah.
+
+01:28:47.780 --> 01:28:52.293
+But suppose that I make a twist. A different continuation of the story is such that Charlie,
+
+01:28:52.293 --> 01:28:58.189
+because he's waited so long on Earth, now has access to way more powerful means of transportation.
+
+01:28:58.189 --> 01:28:58.689
+Yeah.
+
+01:28:58.689 --> 01:29:02.476
+And he goes to a different galaxy and comes back, by the time...
+
+01:29:02.476 --> 01:29:07.316
+compute your speed of light limits. But suppose he's able to reach far closer the frontier
+
+01:29:07.316 --> 01:29:11.380
+of the speed of light, compared to the means of transportation given to Dalton.
+
+01:29:11.380 --> 01:29:15.920
+When they reunite, Charlie will be the younger, because he will be considered the traveler
+
+01:29:15.920 --> 01:29:19.856
+with respect to Dalton, which almost looks stationary in his poor little trip around
+
+01:29:19.856 --> 01:29:23.312
+the galaxy. So the continuation of the story matters.
+
+01:29:23.312 --> 01:29:27.468
+And this is precisely why we cannot declare whose twin is going to be the younger when
+
+01:29:27.468 --> 01:29:31.565
+they reunite, until we have an actual implementation of this reunion.
+
+01:29:31.565 --> 01:29:39.111
+Same thing here. Alice zero meets with Bob zero if we continue the story as it is expected.
+
+01:29:39.111 --> 01:29:44.040
+But if Bob unmeasures, twists the crystal and re-measures, the continuation may change.
+
+01:29:44.040 --> 01:29:48.140
+I think you mentioned a second thing you wanted to mention.
+
+01:29:48.140 --> 01:29:54.320
+I think it's important, because at that stage, I hope every competent physicist would
+
+01:29:54.320 --> 01:29:59.600
+be extremely critical of the account I've given, saying, "Charles,
+
+01:29:59.600 --> 01:30:06.219
+that's kind of nice, but there's one thing we know." Where this uneven skewing of the
+
+01:30:06.219 --> 01:30:12.588
+measures, when Alice meets, or Charlie, when he processes Bob's signal,
+
+01:30:12.588 --> 01:30:16.852
+starts splitting like 42.5 and 8.5, that looks like a quantum effect.
+
+01:30:16.852 --> 01:30:21.464
+And maybe most people will be willing to think that after measurement,
+
+01:30:21.464 --> 01:30:26.038
+we can keep a quantum ontology like Everett did, by having many worlds,
+
+01:30:26.038 --> 01:30:30.988
+and, okay, fine. But typically, once we reach measurement, and many,
+
+01:30:30.988 --> 01:30:34.836
+many records, no more quantum effects happen.
+
+01:30:34.836 --> 01:30:35.336
+Yes.
+
+01:30:35.336 --> 01:30:43.686
+So how dare I pretend that this uneven skewing of the media part of the work?
+
+01:30:43.686 --> 01:30:54.000
+Great question. Good criticism. In my Explaining Bell Locally paper,
+
+01:30:54.000 --> 01:31:01.360
+the second last section is titled Classicality, because I have this precise case to answer.
+
+01:31:01.360 --> 01:31:09.096
+And the answer is, when you're playing the CHSH game, do not mess with the crystals while
+
+01:31:09.096 --> 01:31:12.061
+they are on their way to Mercury and Jupiter.
+
+01:31:12.061 --> 01:31:15.163
+They're extremely precious. They need to remain shielded and quantum,
+
+01:31:15.163 --> 01:31:16.155
+otherwise you're ruining...
+
+01:31:16.155 --> 01:31:16.655
+Yes.
+
+01:31:16.655 --> 01:31:20.240
+That is well known. This is what people will, in the common language,
+
+01:31:20.240 --> 01:31:23.929
+say: "Oh, it's a quantum system, it needs to remain quantum." Sure.
+
+01:31:23.929 --> 01:31:26.762
+But after Alice's measurement, we don't care.
+
+01:31:26.762 --> 01:31:28.786
+There's so many witnesses.
+
+01:31:28.786 --> 01:31:30.560
+Yeah.
+
+01:31:30.560 --> 01:31:37.930
+And so I modeled many witnesses after Alice's measurement, in the way that there could
+
+01:31:37.930 --> 01:31:42.945
+be an environmental system that also interacts and keeps measuring Alice,
+
+01:31:42.945 --> 01:31:48.060
+so that Alice is effectively evolving into a decohered state,
+
+01:31:48.060 --> 01:31:52.668
+with many witnesses. And you model this with quantum theory.
+
+01:31:52.668 --> 01:31:56.053
+Of course, if you would compute the reduced density matrices,
+
+01:31:56.053 --> 01:31:59.867
+you would get this usual story we've been discussing.
+
+01:31:59.867 --> 01:32:04.143
+But you model this not as "this magic happens, a system becomes decohered,
+
+01:32:04.143 --> 01:32:07.416
+and therefore classical." No, no, no. We're after explaining classicality,
+
+01:32:07.416 --> 01:32:14.320
+not positing it. Well, what I said is in a way true, but don't take classicality as being fundamental.
+
+01:32:14.320 --> 01:32:22.330
+So the descriptor of Alice inherits many structures that is kind of a sign of having
+
+01:32:22.330 --> 01:32:26.427
+interacted with many degrees of freedom of their environment.
+
+01:32:26.427 --> 01:32:32.560
+So I'm modeling this classicality, and yet this skewed branching,
+
+01:32:32.560 --> 01:32:38.524
+rebranching of Charlie, still works. So it answers the case.
+
+01:32:38.524 --> 01:32:45.269
+I think the big lesson here is, I've insisted on that already,
+
+01:32:45.269 --> 01:32:46.955
+but it's quantum theory.
+
+01:32:46.955 --> 01:32:47.455
+Yes.
+
+01:32:47.455 --> 01:32:50.469
+Not necessarily the quantum theory we're all used to work with.
+
+01:32:50.469 --> 01:32:53.991
+It's the Heisenberg picture. We're not chained.
+
+01:32:53.991 --> 01:32:59.920
+And every time there's something like comparing notes, you have to think,
+
+01:32:59.920 --> 01:33:01.688
+"Oh, how is that done physically?"
+
+01:33:01.688 --> 01:33:04.931
+Yes, it's part of quantum theory. Of course.
+
+01:33:04.931 --> 01:33:08.817
+Whenever we write notes, it doesn't come out from thin air.
+
+01:33:08.817 --> 01:33:09.916
+Yes.
+
+01:33:09.916 --> 01:33:15.004
+We're actually taking a pen and writing it down, and that's a physical process.
+
+01:33:15.004 --> 01:33:18.720
+And also, a little reaction to your account, which is amazing.
+
+01:33:18.720 --> 01:33:23.591
+Wherever you use the word entanglement, you could have used also local splitting of Alice
+
+01:33:23.591 --> 01:33:27.026
+into two entities, and then same for Bob.
+
+01:33:27.026 --> 01:33:30.674
+And then Charlie locally splits when he processes Alice's input first,
+
+01:33:30.674 --> 01:33:36.551
+she splits into two, and then each of those sub-versions splits again into two as he's
+
+01:33:36.551 --> 01:33:40.905
+acquiring the signal by Bob. Because sometimes entanglement,
+
+01:33:40.905 --> 01:33:45.580
+especially for a non-expert, may sound like a link.
+
+01:33:45.580 --> 01:33:48.960
+Yeah. Entanglement still exists in the Heisenberg picture, of course,
+
+01:33:48.960 --> 01:33:54.320
+but it does not have the definition of having one single state for two objects,
+
+01:33:54.320 --> 01:34:01.397
+because Heisenberg picture quantum theory is able to literally have fully local and complete
+
+01:34:01.397 --> 01:34:05.705
+description of individual systems. So entanglement typically means,
+
+01:34:05.705 --> 01:34:14.270
+in the Heisenberg picture, that if systems A and B are entangled and you only have access
+
+01:34:14.270 --> 01:34:20.720
+to system A, you won't be able to produce a sharp outcome with deterministic,
+
+01:34:20.720 --> 01:34:23.940
+"I will only see zero," outgoing branch.
+
+01:34:23.940 --> 01:34:24.860
+Right.
+
+01:34:24.860 --> 01:34:31.064
+And same for the other one. But if I put them back together and I make them play with
+
+01:34:31.064 --> 01:34:35.138
+them, then I could produce a sharp outcome for the joint systems.
+
+01:34:35.138 --> 01:34:38.620
+Well, thank you very much, Charles. This was a pleasure.
+
+01:34:38.620 --> 01:34:42.940
+We'll have to do a second episode to tackle everything else that we have planned for today.
+
+01:34:42.940 --> 01:34:45.226
+But thank you so much for your time. This was great.
+
+01:34:45.226 --> 01:34:48.332
+It was a true pleasure. Thank you, Maxime, for this fascinating conversation.
+
+01:34:48.332 --> 01:34:54.647
+And if you want more, have a look at Bold Conjectures, Volume 2,
+
+01:34:54.647 --> 01:34:58.380
+edited by Logan Chipkin. It's a fun collection of essays.
+
+01:34:58.380 --> 01:35:04.005
+I had the great honor to write pieces with Sam Kuipers, Chiara Marletto,
+
+01:35:04.005 --> 01:35:07.334
+Vlatko Vedral, David Wallace, Julian Barbour, and many more,
+
+01:35:07.334 --> 01:35:11.420
+Maria Violaris, Simone Rijavec. Many nice, interesting thinkers in this volume,
+
+01:35:11.420 --> 01:35:14.437
+and it's written for an accessible readership.
+
+01:35:14.437 --> 01:35:19.500
+You're truly at the edge of physics if you read this book.
+
+01:35:19.500 --> 01:35:23.563
+Literally, without mathematics. We want to distill the ideas.
+
+01:35:23.563 --> 01:35:25.458
+Yeah, exactly. And this is your copy.
+
+01:35:25.458 --> 01:35:26.584
+Thank you so much.
+
+01:35:26.584 --> 01:35:30.576
+Awesome. Well, see you back soon.

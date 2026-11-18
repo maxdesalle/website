@@ -1,0 +1,1408 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.602
+Hey Arjun.
+
+00:00:00.602 --> 00:00:01.102
+Maxime.
+
+00:00:01.102 --> 00:00:06.647
+It's good to have you here. I guess as a first question, what brought you into Zcash?
+
+00:00:06.647 --> 00:00:09.177
+Well, I was interested in cryptocurrencies, specifically Bitcoin,
+
+00:00:09.177 --> 00:00:13.920
+for ideological reasons, right? I read Austrian economics and I was like,
+
+00:00:13.920 --> 00:00:18.400
+okay, the state shouldn't have control of the money supply and shouldn't arbitrarily,
+
+00:00:18.400 --> 00:00:23.760
+on a whim, be able to inflate the money supply, because what it basically does is reward
+
+00:00:23.760 --> 00:00:29.280
+insiders and the people who are closest to the source of that new money generation,
+
+00:00:29.280 --> 00:00:33.600
+money printing. And I was like, okay, but then what's the alternative,
+
+00:00:33.600 --> 00:00:39.984
+right? And then I just discovered Bitcoin around COVID, or a little after that,
+
+00:00:39.984 --> 00:00:45.511
+and I just went down the rabbit hole, and then Bitcoin just made sense,
+
+00:00:45.511 --> 00:00:48.560
+right? It's this perfect alternative to fiat money.
+
+00:00:48.560 --> 00:00:54.067
+Sooner rather than later I realized it's not private, which is a huge flaw.
+
+00:00:54.067 --> 00:00:59.600
+Essentially, if I'm making a bank transfer to you, it's more private than using Bitcoin,
+
+00:00:59.600 --> 00:01:04.193
+right? Or if I'm using my credit card, sure, I'm giving information to the credit card
+
+00:01:04.193 --> 00:01:08.135
+company and the state, but I'm not leaking it to everybody else in the world,
+
+00:01:08.135 --> 00:01:14.320
+right? And AI is just leading to all these data hacks, and data hacks are more and more
+
+00:01:14.320 --> 00:01:16.594
+common, so eventually that data is also leaked.
+
+00:01:16.594 --> 00:01:20.535
+So the problem was just, if the data exists, it can be used against you.
+
+00:01:20.535 --> 00:01:24.027
+People think, oh, but I've not done anything wrong, why do I need privacy?
+
+00:01:24.027 --> 00:01:27.760
+People don't realize that that definition of legal is so broad,
+
+00:01:27.760 --> 00:01:31.792
+they can pretty much find anything with any person and they can use it against you and
+
+00:01:31.792 --> 00:01:33.436
+be like, okay, this is wrong.
+
+00:01:33.436 --> 00:01:39.000
+So eventually I got into Zcash because a bunch of friends were talking about it.
+
+00:01:39.000 --> 00:01:41.970
+Started looking into it. I was like, okay, it's just Bitcoin:
+
+00:01:41.970 --> 00:01:47.093
+perfect fair distribution, only 21 million ever, and it just adds encryption and zero-knowledge
+
+00:01:47.093 --> 00:01:50.912
+proofs to make it private. So I was like, this is just a better alternative.
+
+00:01:50.912 --> 00:01:55.244
+Then I heard about its plans to scale and go post-quantum, and I was like,
+
+00:01:55.244 --> 00:01:59.666
+okay, this just makes sense. Bitcoin's sort of ossifying and we have this alternative,
+
+00:01:59.666 --> 00:02:04.120
+and it really aims to be money. Bitcoin aimed to be money before,
+
+00:02:04.120 --> 00:02:09.069
+but they kind of gave up on that, and now the meme is digital store of value or digital gold.
+
+00:02:09.069 --> 00:02:12.303
+But what I really care about is just the future of money.
+
+00:02:12.303 --> 00:02:17.605
+Right. So you're more into the idea of Zcash becoming actual electronic cash as opposed
+
+00:02:17.605 --> 00:02:24.562
+to becoming a store of value. I mean, I guess those are all basically also linked.
+
+00:02:24.562 --> 00:02:27.580
+Right, they don't have to be two separate things, right?
+
+00:02:27.580 --> 00:02:31.680
+People think those are two separate things because fiat money is just inflated at a whim.
+
+00:02:31.680 --> 00:02:35.500
+It's not really at a whim, but the governments can do it when they have to pay off debt.
+
+00:02:35.500 --> 00:02:41.980
+But you can have a store of value that also serves as a medium of exchange long-term.
+
+00:02:41.980 --> 00:02:47.905
+Yeah, yeah, yeah. Coming back to the privacy part, where does AI fit into that?
+
+00:02:47.905 --> 00:02:50.320
+Yeah, AI is just accelerating surveillance, right?
+
+00:02:50.320 --> 00:02:53.060
+So obviously I'm a huge fan of AI, I use it every day.
+
+00:02:53.060 --> 00:02:57.189
+It's an amazing tool, but it's in the hands of everybody, which is great,
+
+00:02:57.189 --> 00:03:02.636
+but it's nation states. Nation states are already using it to just automate surveillance,
+
+00:03:02.636 --> 00:03:08.300
+right? Earlier you had to use manual labor to go through heaps of data,
+
+00:03:08.300 --> 00:03:12.198
+and there would literally be a person going through all this data and trying to figure
+
+00:03:12.198 --> 00:03:17.300
+out how they can catch you. But now you just have AI just flagging transactions,
+
+00:03:17.300 --> 00:03:23.682
+Flock cameras in the US, right? So I think AI just accelerates the need for privacy in
+
+00:03:23.682 --> 00:03:27.200
+financial transactions and privacy everywhere else as well.
+
+00:03:27.200 --> 00:03:32.596
+I agree with that. I think what we've also started to notice with Bitcoin,
+
+00:03:32.596 --> 00:03:37.029
+for example, is you have these platforms like Arkham, for example,
+
+00:03:37.029 --> 00:03:42.670
+which make it available to anyone to trace you, and anyone, however badly intentioned,
+
+00:03:42.670 --> 00:03:46.700
+to surveil people and to track every movement of Bitcoin.
+
+00:03:46.700 --> 00:03:52.387
+I think it's Ray Dalio who said that as a result, central banks are never actually going
+
+00:03:52.387 --> 00:03:56.402
+to adopt Bitcoin, because for geopolitical reasons they obviously cannot allow others
+
+00:03:56.402 --> 00:04:02.380
+to see their moves. And so it doesn't make sense to me that Zcash would fit in as both
+
+00:04:02.380 --> 00:04:07.140
+a very good store of value, but also as a very good peer-to-peer cash mechanism.
+
+00:04:07.140 --> 00:04:10.420
+How do you think we're going to get to Zcash becoming money?
+
+00:04:10.420 --> 00:04:14.168
+Because it's one thing to be an asset that people buy and sell,
+
+00:04:14.168 --> 00:04:19.060
+sort of like they've done with crypto and Bitcoin specifically for a very long time now.
+
+00:04:19.060 --> 00:04:24.420
+It's another to actually go and get the network effects required to be used in practice.
+
+00:04:24.420 --> 00:04:25.780
+Where do you see that going?
+
+00:04:25.780 --> 00:04:28.740
+Yeah, I think it starts with being a store of value, right?
+
+00:04:28.740 --> 00:04:33.400
+You become money by first becoming something that people don't want to give out very easily.
+
+00:04:33.400 --> 00:04:37.167
+People just want to hold on to it. And the network effect of money is such that,
+
+00:04:37.167 --> 00:04:42.016
+before money, you had barter. So if I wanted shoes, if you're a shoemaker,
+
+00:04:42.016 --> 00:04:45.780
+I have apples, I want to trade my apples for your shoes.
+
+00:04:45.780 --> 00:04:49.414
+Maybe you don't want apples. So I look for this other alternative that serves as this
+
+00:04:49.414 --> 00:04:54.370
+medium of exchange, and then eventually that alternative becomes common because it has
+
+00:04:54.370 --> 00:04:59.879
+certain properties. So Zcash, I think it does have the strongest properties of money,
+
+00:04:59.879 --> 00:05:04.500
+at least for the sovereign individual type of money that I'm interested in.
+
+00:05:04.500 --> 00:05:07.100
+It might not be the easiest to use, but that's getting fixed.
+
+00:05:07.100 --> 00:05:09.544
+Actually, I would argue it's easier than banks, right?
+
+00:05:09.544 --> 00:05:13.222
+It's just people need to access it. Banks is so frustrating,
+
+00:05:13.222 --> 00:05:17.393
+man. You just have money stuck there for days and weeks, and people don't even care.
+
+00:05:17.393 --> 00:05:18.980
+People just take that for granted, right?
+
+00:05:18.980 --> 00:05:21.277
+It's like, okay, this is how the banking system works.
+
+00:05:21.277 --> 00:05:25.020
+Yeah, that's your money, but the bank now owns it, and it's not actually your money.
+
+00:05:25.020 --> 00:05:27.807
+So Zcash is already easier to use than banks, right?
+
+00:05:27.807 --> 00:05:30.348
+If I download advisor and I just send it to your shoe without us,
+
+00:05:30.348 --> 00:05:33.043
+you receive it in seconds and you're able to spend it as well.
+
+00:05:33.043 --> 00:05:37.678
+And you can already use it as money today, where if people want USDC or people on Bitcoin,
+
+00:05:37.678 --> 00:05:40.122
+you can just pay them in whatever currency they desire.
+
+00:05:40.122 --> 00:05:44.688
+A lot of people I know are already using it as money.
+
+00:05:44.688 --> 00:05:48.742
+To get to everybody accepting Zcash, it really becoming and replacing the US dollar,
+
+00:05:48.742 --> 00:05:54.839
+right, which is in my mind the goal. Being top three cryptocurrencies or replacing Bitcoin
+
+00:05:54.839 --> 00:06:00.140
+at the top, that's not really inspiring to me than just becoming money and then becoming
+
+00:06:00.140 --> 00:06:02.247
+the free medium of exchange that people can use.
+
+00:06:02.247 --> 00:06:05.960
+Because there's so many things that depend on money, because it's a substrate for civilization
+
+00:06:05.960 --> 00:06:10.785
+itself, right? It's a coordination tool, and if that base layer is not free,
+
+00:06:10.785 --> 00:06:13.707
+it affects the higher-level layers, like science, philosophy,
+
+00:06:13.707 --> 00:06:17.829
+morality, right? So many things just depend on money, because governments can fund wars
+
+00:06:17.829 --> 00:06:21.319
+by just printing money. Once you kind of fix money at the base layer,
+
+00:06:21.319 --> 00:06:24.911
+there's a lot of things at the top that also accelerate and become better.
+
+00:06:24.911 --> 00:06:28.687
+Yeah, yeah, yeah. Hayek really talks about this in a very good way.
+
+00:06:28.687 --> 00:06:32.521
+I think the way to rephrase it is that money is intertwined with every decision you make,
+
+00:06:32.521 --> 00:06:36.250
+whether, as I said, whether it's morality, whatever it is, there's always an economic
+
+00:06:36.250 --> 00:06:43.000
+end to it. And then that base layer right now is both captured at the supply level,
+
+00:06:43.000 --> 00:06:49.640
+where you're completely in the hands of the government, but also it's captured at the
+
+00:06:49.640 --> 00:06:52.040
+privacy level, where you're getting surveilled.
+
+00:06:52.040 --> 00:06:56.888
+Bitcoin was sort of the proof of concept, so to say, to prove the fact that you could
+
+00:06:56.888 --> 00:06:58.999
+get a fixed supply, decentralization and stuff.
+
+00:06:58.999 --> 00:07:06.040
+But Bitcoin walked so that Zcash could run, and Zcash for the final evolution of Bitcoin there.
+
+00:07:06.040 --> 00:07:10.556
+The banking system is just so bad. You make a transaction, it takes five days,
+
+00:07:10.556 --> 00:07:13.520
+they rip you off on the fees, on the yields.
+
+00:07:13.520 --> 00:07:18.000
+It's quite impressive that crypto is already a better UX, especially with passkeys and stuff.
+
+00:07:18.000 --> 00:07:20.331
+Yeah. If you try to withdraw a bunch of cash, they'll ask you all sorts of questions,
+
+00:07:20.331 --> 00:07:24.580
+even if it's your money you deposited. It's terrible, right?
+
+00:07:24.580 --> 00:07:26.580
+Yeah. It's your property and they're making it difficult.
+
+00:07:26.580 --> 00:07:29.740
+You mentioned the sovereign individual. Where does that fit into the Zcash thesis?
+
+00:07:29.740 --> 00:07:32.680
+I mean, it's obviously very aligned, but yeah.
+
+00:07:32.680 --> 00:07:36.288
+Yeah, I think the sovereign individual thesis is the Zcash thesis,
+
+00:07:36.288 --> 00:07:43.200
+at least for me. You want to own your money yourself and you want to hold it privately
+
+00:07:43.200 --> 00:07:46.420
+and transact privately. My transaction is none of anybody else's business,
+
+00:07:46.420 --> 00:07:51.926
+unless I want to disclose it to them. People are traveling to other countries just to
+
+00:07:51.926 --> 00:07:55.540
+take therapies because that's banned in their country.
+
+00:07:55.540 --> 00:07:59.420
+So they're like, okay, going to Honduras, for example, and getting full-time gene therapy
+
+00:07:59.420 --> 00:08:04.135
+or something like that. And then there's so many things that are just never funded because
+
+00:08:04.135 --> 00:08:09.560
+people are afraid of what other people will say, or it's just looked down upon.
+
+00:08:09.560 --> 00:08:11.320
+So many dissident ideas, right?
+
+00:08:11.320 --> 00:08:15.320
+Even in science, you'll see they would not share their ideas with the general public
+
+00:08:15.320 --> 00:08:19.760
+for a long time. They just go through those ideas in their head.
+
+00:08:19.760 --> 00:08:23.820
+Even Charles Darwin, he didn't publish his discovery until he realized somebody else
+
+00:08:23.820 --> 00:08:28.212
+came up with it at the same time, and he was like, "Okay, now I've got to publish." So
+
+00:08:28.212 --> 00:08:30.980
+now it's like, I'm kind of more free to do it.
+
+00:08:30.980 --> 00:08:33.040
+Creativity also begins with privacy, right?
+
+00:08:33.040 --> 00:08:36.385
+So if every action is watched or every financial transaction is watched,
+
+00:08:36.385 --> 00:08:40.200
+you're just going to be super hyper-aware and you're not going to be your true self.
+
+00:08:40.200 --> 00:08:44.344
+Yeah, it's actually impressive how a lot of the discoveries in science,
+
+00:08:44.344 --> 00:08:52.186
+for example, in the Middle Ages and the Renaissance, were discoveries that were so exceptionally
+
+00:08:52.186 --> 00:08:56.887
+controversial that the discoverers waited, in Darwin's case,
+
+00:08:56.887 --> 00:09:02.827
+I think it's like 20 years. In Copernicus's case, I think it was also something like
+
+00:09:02.827 --> 00:09:06.138
+20, 30 years, and he only published them on his deathbed, actually,
+
+00:09:06.138 --> 00:09:09.473
+as far as I know. Newton had something like this as well.
+
+00:09:09.473 --> 00:09:15.016
+We benefit daily from the fact that these people were able to publish their work in the end.
+
+00:09:15.016 --> 00:09:20.546
+Today, there are a ton of people that are not able to do so because of fear of repercussion.
+
+00:09:20.546 --> 00:09:24.020
+So I guess that brings us really to the argument of privacy.
+
+00:09:24.020 --> 00:09:27.540
+How do you relate, then, the need for privacy to morality?
+
+00:09:27.540 --> 00:09:29.615
+How does that enable greater morality?
+
+00:09:29.615 --> 00:09:35.175
+Yeah, just on your thread earlier, you said there's so many people that were controversial
+
+00:09:35.175 --> 00:09:38.015
+then, but now their idea is a consensus.
+
+00:09:38.015 --> 00:09:43.017
+And then how many people exist today where they're too afraid to share their ideas,
+
+00:09:43.017 --> 00:09:46.220
+but they're too controversial? They're going to be consensus for tomorrow,
+
+00:09:46.220 --> 00:09:51.780
+right? And we should never assume that we are infallible and we've reached this perfect
+
+00:09:51.780 --> 00:09:57.012
+knowledge in all areas. It's a very optimistic stance to think we can be wrong about
+
+00:09:57.012 --> 00:10:01.000
+everything and we can make progress, and we can be even better than what we are currently,
+
+00:10:01.000 --> 00:10:03.420
+even though we live in the greatest of times, right?
+
+00:10:03.420 --> 00:10:06.089
+Yes, but so many things can be even better.
+
+00:10:06.089 --> 00:10:09.958
+So I guess that's how it kind of ties into morality, where you kind of start with,
+
+00:10:09.958 --> 00:10:13.940
+okay, we're fallible. The only way to make progress is by correcting errors,
+
+00:10:13.940 --> 00:10:16.890
+rightly. So it's not taken immediately, right?
+
+00:10:16.890 --> 00:10:22.542
+People don't immediately accept the new ideas, because you have good reason to believe
+
+00:10:22.542 --> 00:10:26.782
+the previous ideas, there's some truth in them, because it's worked so far.
+
+00:10:26.782 --> 00:10:31.807
+There's good rules of thumb. You could be making so much more progress on the margin.
+
+00:10:31.807 --> 00:10:34.980
+Privacy, I think, just enables those discoveries to happen.
+
+00:10:34.980 --> 00:10:38.447
+America was founded on privacy, right? The Founding Fathers,
+
+00:10:38.447 --> 00:10:42.660
+they just wrote anonymous letters. So that's how new discoveries are made.
+
+00:10:42.660 --> 00:10:47.300
+You want the person to be abstracted away from the ideas, and people to just judge the ideas.
+
+00:10:47.300 --> 00:10:52.136
+Yeah, that makes sense. It's actually crazy how bad we would be doing if it were not
+
+00:10:52.136 --> 00:10:56.034
+for privacy. Coming back, then, to the Founding Fathers, as you said,
+
+00:10:56.034 --> 00:10:58.340
+it's literally baked into the United States.
+
+00:10:58.340 --> 00:11:02.233
+It's the Bill of Rights, it's free speech, it's all these things.
+
+00:11:02.233 --> 00:11:06.847
+It's a core element of freedom. As you said, you can't have this free exploration of
+
+00:11:06.847 --> 00:11:10.409
+ideas that are sometimes going to be very, very controversial without that privacy.
+
+00:11:10.409 --> 00:11:14.521
+And we see it every day with these topics, as I said, in bio,
+
+00:11:14.521 --> 00:11:18.957
+and I don't know, IQ and all these things that are very, very controversial,
+
+00:11:18.957 --> 00:11:27.070
+and where there's a fundamental lack of progress due to how taboo and how controversial
+
+00:11:27.070 --> 00:11:31.150
+those subjects are, which is really quite sad.
+
+00:11:31.150 --> 00:11:36.682
+Circling back, then, to morality, how do you feel that comes into play here?
+
+00:11:36.682 --> 00:11:39.766
+My assumption has always been that greater wealth enables greater morality,
+
+00:11:39.766 --> 00:11:44.020
+because you have more choices, and so you have more freedom to do,
+
+00:11:44.020 --> 00:11:45.420
+you know, the right thing, quote unquote.
+
+00:11:45.420 --> 00:11:46.620
+How do you feel about that?
+
+00:11:46.620 --> 00:11:50.692
+Yeah, I think David Deutsch's definition of wealth is it's a repertoire of physical transformations
+
+00:11:50.692 --> 00:11:56.057
+we can cause, right? But morality constrains those physical transformations,
+
+00:11:56.057 --> 00:11:59.418
+because there are potentially infinite transformations we can cause,
+
+00:11:59.418 --> 00:12:03.100
+but we're not going to cause all of them, because our time is limited.
+
+00:12:03.100 --> 00:12:09.460
+And even if it was infinite, right, we would still have the problem of what to do next.
+
+00:12:09.460 --> 00:12:15.351
+And that's, I think, the role of morality in that: what action should I take next that
+
+00:12:15.351 --> 00:12:19.620
+is correct? So I think wealth and morality are deeply connected.
+
+00:12:19.620 --> 00:12:21.900
+You just have infinite choices in front of you.
+
+00:12:21.900 --> 00:12:23.167
+What are you gonna choose?
+
+00:12:23.167 --> 00:12:27.616
+Yeah. Coming back to Zcash now, where do you see this going in,
+
+00:12:27.616 --> 00:12:30.985
+I guess, five, ten years? What's the vision down the line?
+
+00:12:30.985 --> 00:12:35.711
+Yeah, it's hard to predict the growth of knowledge, but it's different if you're trying
+
+00:12:35.711 --> 00:12:39.498
+to make it happen. So I think my goal, and people have talked to,
+
+00:12:39.498 --> 00:12:43.855
+the end state of Zcash and of crypto and money is just be unstoppable private money.
+
+00:12:43.855 --> 00:12:49.522
+So if we are the currency that more than a billion people use to transact in,
+
+00:12:49.522 --> 00:12:54.193
+that for me would be a win, not replacing Bitcoin.
+
+00:12:54.193 --> 00:13:00.146
+Those are just wins along the way, but the end state would be just becoming money.
+
+00:13:00.146 --> 00:13:05.860
+Yeah, yeah, yeah, right. And I think the beautiful part of Zcash is you don't even need
+
+00:13:05.860 --> 00:13:12.160
+to necessarily become the number one currency to be able to already be usable,
+
+00:13:12.160 --> 00:13:15.502
+compared to, for example, the US dollar, where you need basically everyone to be using
+
+00:13:15.502 --> 00:13:18.116
+the US dollar, or other currencies like USDC or whatever.
+
+00:13:18.116 --> 00:13:23.570
+With Zcash, with the ability to swap for other currencies, it's already usable today.
+
+00:13:23.570 --> 00:13:26.280
+You just need one cryptocurrency to be used.
+
+00:13:26.280 --> 00:13:29.748
+Where you want to actually be purchasing something or buying something,
+
+00:13:29.748 --> 00:13:33.587
+you just swap Zcash for it and you're good to go.
+
+00:13:33.587 --> 00:13:38.622
+So it's this really versatile currency with this isomorphism where you can swap any currency
+
+00:13:38.622 --> 00:13:42.240
+for another. It feels a lot like, obviously, way better if we get there.
+
+00:13:42.240 --> 00:13:45.678
+There's no need for Zcash to become the number one currency.
+
+00:13:45.678 --> 00:13:47.400
+It already works great now.
+
+00:13:47.400 --> 00:13:52.411
+Yeah. You do want people to accept Zcash just because you do leak privacy when you go
+
+00:13:52.411 --> 00:13:56.280
+to USDC, right? So that still exists. But you can already use it as money today,
+
+00:13:56.280 --> 00:14:01.055
+which is pretty awesome. And every time you kind of pay somebody in ZEC,
+
+00:14:01.055 --> 00:14:04.857
+they can't see it, right? So maybe they go on the block explorer and they're like,
+
+00:14:04.857 --> 00:14:08.036
+where'd this money come from? And so they learn about Zcash that way,
+
+00:14:08.036 --> 00:14:13.286
+right? And they're like, okay, maybe next time you pay me, I'll accept Zcash.
+
+00:14:13.286 --> 00:14:17.979
+Yeah, yeah, yeah, exactly. The roadmap for Zcash, at least in my eyes,
+
+00:14:17.979 --> 00:14:22.026
+right now is pretty clear. It's Tachyon, quantum resistance,
+
+00:14:22.026 --> 00:14:26.016
+and just speeding up the whole chain with Zakura and other initiatives.
+
+00:14:26.016 --> 00:14:30.006
+What's your view of the Zcash roadmap for the next couple of years?
+
+00:14:30.006 --> 00:14:34.324
+Yeah, I think the important things are going post-quantum, since that seems to be a threat,
+
+00:14:34.324 --> 00:14:39.340
+right? So going fully post-quantum, not just having a quantum-recoverable pool.
+
+00:14:39.340 --> 00:14:43.000
+You just want every address, every transaction to be post-quantum.
+
+00:14:43.000 --> 00:14:45.987
+And scale is important, right? If you want to have a billion people using it,
+
+00:14:45.987 --> 00:14:50.293
+you need to be able to have the infrastructure for it, and right now no cryptocurrency
+
+00:14:50.293 --> 00:14:55.770
+really does. If a billion people try to use Bitcoin, it wouldn't work.
+
+00:14:55.770 --> 00:15:01.184
+We should dramatically improve TPS, just exponentially, and then also make the UX,
+
+00:15:01.184 --> 00:15:05.592
+it's already pretty good, but just far easier, right?
+
+00:15:05.592 --> 00:15:10.853
+You really want it to feel like you're using a card at a grocery store or something.
+
+00:15:10.853 --> 00:15:16.187
+Yeah, yeah, that makes sense. How do you feel about the transparent pool in Zcash?
+
+00:15:16.187 --> 00:15:19.838
+Do you think that we should keep it? Should it go away?
+
+00:15:19.838 --> 00:15:20.859
+Where's your head?
+
+00:15:20.859 --> 00:15:24.653
+I think I keep going back and forth on this, but I think it's fine for optionality.
+
+00:15:24.653 --> 00:15:29.160
+I know you have a viewing key with the shielded pool, but right now,
+
+00:15:29.160 --> 00:15:33.627
+just for access, it just allows for the integrations, right?
+
+00:15:33.627 --> 00:15:38.175
+If you want to use NEAR Intents, you kind of want NEAR's address to be public.
+
+00:15:38.175 --> 00:15:43.468
+They could use the viewing key, again, but the world's heading into this whole surveillance thing.
+
+00:15:43.468 --> 00:15:49.916
+It's so normalized that's hard to break in unless you have sort of this layer that lets
+
+00:15:49.916 --> 00:15:52.596
+you kind of integrate with them easier, right?
+
+00:15:52.596 --> 00:15:57.130
+And you do want to integrate with these traditional people so you can onboard more people
+
+00:15:57.130 --> 00:15:59.729
+and eventually just make the shielded pool normal, right?
+
+00:15:59.729 --> 00:16:01.988
+The shielded pool has grown exponentially also.
+
+00:16:01.988 --> 00:16:05.876
+Hopefully it just keeps growing and we go to like 90 or 100.
+
+00:16:05.876 --> 00:16:09.728
+Yeah, that makes sense. How do you feel about, for example, the dev fund?
+
+00:16:09.728 --> 00:16:11.421
+Where's your head on that subject?
+
+00:16:11.421 --> 00:16:15.647
+Yeah, I mean, you had a great article on it, which sparked a lot of debates,
+
+00:16:15.647 --> 00:16:20.920
+so props to you on that. I'm mostly with you that we should discontinue the dev fund entirely.
+
+00:16:20.920 --> 00:16:26.653
+I don't think we need to be super urgent about it, although the conversation is,
+
+00:16:26.653 --> 00:16:28.840
+I think it's the right time to have a conversation.
+
+00:16:28.840 --> 00:16:31.851
+It automatically expires in two years, I believe, right?
+
+00:16:31.851 --> 00:16:32.520
+And so—
+
+00:16:32.520 --> 00:16:33.800
+The inflows end in two years.
+
+00:16:33.800 --> 00:16:39.480
+Right. We could just let it expire. Just do nothing, let it expire.
+
+00:16:39.480 --> 00:16:42.520
+Because it's been, I think it's just been two cycles where it's been renewed,
+
+00:16:42.520 --> 00:16:46.520
+two or three. And this time we could just, we've started the project,
+
+00:16:46.520 --> 00:16:48.746
+even though private donors have funded it as well.
+
+00:16:48.746 --> 00:16:51.960
+And all the arguments you made in your post were pretty good,
+
+00:16:51.960 --> 00:16:55.038
+although I disagree with calling it a tax, since it's a voluntary system.
+
+00:16:55.038 --> 00:16:57.463
+I won't head back. I agree with that.
+
+00:16:57.463 --> 00:17:02.152
+Yeah, yeah, yeah, that makes sense. But maybe explain your current understanding,
+
+00:17:02.152 --> 00:17:06.288
+and after all the discussions of the community, where do you stand now?
+
+00:17:06.288 --> 00:17:11.871
+I think I'm still pretty convinced by my position, but I think there's a rough consensus
+
+00:17:11.871 --> 00:17:14.581
+around the fact that retroactive grants should stay.
+
+00:17:14.581 --> 00:17:20.868
+And I feel like retroactive grants are probably the least bad part of the dev fund,
+
+00:17:20.868 --> 00:17:24.900
+just because it's retroactive. You can see the work beforehand.
+
+00:17:24.900 --> 00:17:27.260
+It's coinholder-voted. I guess I'm okay with it.
+
+00:17:27.260 --> 00:17:32.178
+Where I feel more strongly is ZCG, just because they have so much funding,
+
+00:17:32.178 --> 00:17:38.593
+coinholders are not represented. In February this year, there was a coinholder vote against
+
+00:17:38.593 --> 00:17:43.000
+ZSAs, and ZSAs were rejected with, I think it was like 99%.
+
+00:17:43.000 --> 00:17:49.017
+Voters voted 99% against something, and then ZCG is, with their money,
+
+00:17:49.017 --> 00:17:53.840
+still allocating capital to ZSAs. There's clearly a problem there.
+
+00:17:53.840 --> 00:17:57.834
+And then when you add in the fact that ZCG is elected by ZCAP,
+
+00:17:57.834 --> 00:18:01.448
+ZCAP, which you can join by being active on the forum, for example,
+
+00:18:01.448 --> 00:18:01.948
+or—
+
+00:18:01.948 --> 00:18:04.040
+Or receiving a grant from ZCG.
+
+00:18:04.040 --> 00:18:08.480
+Or receiving a grant from ZCG. These mechanisms are really, really terrible.
+
+00:18:08.480 --> 00:18:12.351
+Obviously, if we let this continue, things are going to go very bad.
+
+00:18:12.351 --> 00:18:16.962
+Either someone is going to Sybil attack ZCAP and just join with a ton of accounts and
+
+00:18:16.962 --> 00:18:20.806
+then vote in the next people on ZCG and steal a lot of money,
+
+00:18:20.806 --> 00:18:22.660
+or something else is going to happen, I don't know.
+
+00:18:22.660 --> 00:18:27.396
+But you have to assume that two, three years down the line, when ZEC is hopefully at
+
+00:18:27.396 --> 00:18:31.300
+a much higher price, this is going to attract a lot of nefarious people.
+
+00:18:31.300 --> 00:18:34.480
+And so I think it would be good to lock it down now.
+
+00:18:34.480 --> 00:18:37.900
+I would be fine with even just making it coinholder-accountable.
+
+00:18:37.900 --> 00:18:43.623
+Just make the elections have coinholder voting, and then coinholders can decide,
+
+00:18:43.623 --> 00:18:46.420
+because in the end, it's their money. Their money is being spent.
+
+00:18:46.420 --> 00:18:47.420
+They should have the choice.
+
+00:18:47.420 --> 00:18:50.420
+Yeah. I think I agree.
+
+00:18:50.420 --> 00:18:54.140
+Yeah. So let's then circle back to Deutsch, and to David Deutsch's work.
+
+00:18:54.140 --> 00:18:56.780
+How do you tie his work into Zcash?
+
+00:18:56.780 --> 00:19:01.380
+I think there was a tweet from him saying that privacy is part of creativity.
+
+00:19:01.380 --> 00:19:06.800
+So as I was talking about, you can't have freedom or creativity without privacy.
+
+00:19:06.800 --> 00:19:10.346
+Any new thought that you have exists in your mind.
+
+00:19:10.346 --> 00:19:14.439
+Nobody else can access it immediately, and then you choose to put it on paper and to
+
+00:19:14.439 --> 00:19:19.242
+share it with other people. So yeah, I don't know if, this is obviously not putting words
+
+00:19:19.242 --> 00:19:21.720
+into David's mouth. He's never talked about Zcash.
+
+00:19:21.720 --> 00:19:26.207
+He just replied to one Tachyon tweet, just making a funny joke about it.
+
+00:19:26.207 --> 00:19:29.736
+I don't remember the joke, but he was just like, I don't know if it'll ever arrive,
+
+00:19:29.736 --> 00:19:33.600
+or something related to Tachyon. There's so many aspects to this work.
+
+00:19:33.600 --> 00:19:37.700
+The main thing that I've learned is just be optimistic, and problems are soluble.
+
+00:19:37.700 --> 00:19:41.060
+You always want the good people fighting against the enemies of civilization,
+
+00:19:41.060 --> 00:19:43.760
+and I think Zcash is a good tool to do that.
+
+00:19:43.760 --> 00:19:48.995
+Yeah, that makes sense. I think it's really at the core of the Popperian philosophy of
+
+00:19:48.995 --> 00:19:53.815
+conjecture, refutation. If you know that this conjecture will lead you to be persecuted
+
+00:19:53.815 --> 00:19:57.548
+or attacked, well, you're simply going to self-censor and never make that conjecture
+
+00:19:57.548 --> 00:20:00.840
+in the first place, and that really limits progress as a whole.
+
+00:20:00.840 --> 00:20:04.012
+You never see the unseen, like the things that never happen,
+
+00:20:04.012 --> 00:20:04.512
+right?
+
+00:20:04.512 --> 00:20:05.012
+Right.
+
+00:20:05.012 --> 00:20:06.400
+You never know about the unseen things.
+
+00:20:06.400 --> 00:20:11.018
+Yeah, that makes sense. How do you see Zcash growing in the next few years,
+
+00:20:11.018 --> 00:20:14.949
+right? People have tried through various ways to grow Zcash,
+
+00:20:14.949 --> 00:20:19.303
+focus on certain audiences and stuff. Who do you think is the target audience right now
+
+00:20:19.303 --> 00:20:20.080
+for Zcash?
+
+00:20:20.080 --> 00:20:23.404
+I think right now, if you're long AI, you're already long Zcash,
+
+00:20:23.404 --> 00:20:28.188
+right? It's AI-resistant money. But also, if you think the world's headed into this communist
+
+00:20:28.188 --> 00:20:32.765
+state type thing, especially in America and Europe, you're already seeing all these taxes
+
+00:20:32.765 --> 00:20:37.580
+being levied, or capital controls. You're just going to want some insurance against that.
+
+00:20:37.580 --> 00:20:41.405
+Yeah, yeah. The term that I really like for Zcash is communism insurance,
+
+00:20:41.405 --> 00:20:42.200
+right?
+
+00:20:42.200 --> 00:20:45.400
+So the people who want communism insurance, Zcash is for you.
+
+00:20:45.400 --> 00:20:48.260
+But more generally, I think it's for everybody, right?
+
+00:20:48.260 --> 00:20:53.180
+Because money is for everybody. And then you want people to own their own money and use
+
+00:20:53.180 --> 00:20:56.920
+it however they like, as long as they're not hurting anybody.
+
+00:20:56.920 --> 00:21:01.521
+And there's ways to cash that. You don't need any transaction to be public.
+
+00:21:01.521 --> 00:21:05.711
+I think first it would really appeal to the freedom-loving crowd,
+
+00:21:05.711 --> 00:21:10.960
+maybe the people in America who own guns, people like gold, just their own,
+
+00:21:10.960 --> 00:21:16.154
+really being able to own yourself. And eventually that sort of hopefully spreads to everybody else.
+
+00:21:16.154 --> 00:21:21.260
+That makes sense. Coming back to Bitcoin, I think one of the big problems with Bitcoin
+
+00:21:21.260 --> 00:21:25.260
+in the last few years has been capture, right?
+
+00:21:25.260 --> 00:21:28.833
+There's essentially been this institutional capture of Bitcoin,
+
+00:21:28.833 --> 00:21:34.282
+where it lost a lot of its ethos and, frankly, became uninteresting.
+
+00:21:34.282 --> 00:21:39.570
+How do we avoid this? How do we make sure that that doesn't happen with Zcash?
+
+00:21:39.570 --> 00:21:43.920
+Obviously, there were Bitcoiners, and I think there still are,
+
+00:21:43.920 --> 00:21:48.662
+who really cared about the cypherpunk ideals, and that's the only reason they were in
+
+00:21:48.662 --> 00:21:49.208
+it for.
+
+00:21:49.208 --> 00:21:53.887
+The thing about regulatory capture is, since it is a free market,
+
+00:21:53.887 --> 00:21:57.787
+anybody can really come in. There's nobody stopping Saylor from buying coins.
+
+00:21:57.787 --> 00:22:01.100
+From Saylor, that could even happen to Zcash, right?
+
+00:22:01.100 --> 00:22:05.104
+You can have a Saylor for Zcash. People just come in and buy and try to regulate these things.
+
+00:22:05.104 --> 00:22:08.520
+They're already seeing ETFs, which I think is fine.
+
+00:22:08.520 --> 00:22:13.479
+But as long as you have a base group of people, the core group,
+
+00:22:13.479 --> 00:22:18.229
+the core developers, engineers, and the core community, cares about freedom,
+
+00:22:18.229 --> 00:22:22.282
+does not want to, you're talking about removing transparent,
+
+00:22:22.282 --> 00:22:26.478
+right? We could also remove shielded. That's technically possible,
+
+00:22:26.478 --> 00:22:33.029
+but it's never going to happen. And Bitcoiners take pride in being trackable.
+
+00:22:33.029 --> 00:22:37.020
+If you go to the Bitcoin Twitter page, it does say trackable digital gold or something.
+
+00:22:37.020 --> 00:22:38.300
+Oh wow, that's crazy.
+
+00:22:38.300 --> 00:22:44.945
+Yeah. So if you have this core community that really, the project really exists because
+
+00:22:44.945 --> 00:22:48.827
+there was this giant flaw in Bitcoin, I don't really see shielded ever disappearing,
+
+00:22:48.827 --> 00:22:52.852
+right? So as long as we have this freedom crowd that really believes in the project and
+
+00:22:52.852 --> 00:22:56.471
+is behind the project. I think the coinholders, I don't know who the coinholders are,
+
+00:22:56.471 --> 00:23:00.129
+right? There's so many, but a few of my friends I've talked to,
+
+00:23:00.129 --> 00:23:05.344
+they really care about this. But there could be others; who knows what they're in it for.
+
+00:23:05.344 --> 00:23:08.991
+That makes sense. I think at a certain level it's really a cultural problem.
+
+00:23:08.991 --> 00:23:14.220
+The way it happened with Bitcoin is you got all these civil wars in Bitcoin in the early
+
+00:23:14.220 --> 00:23:19.726
+days, and then a lot of the early adopters got rich, and then they stopped caring.
+
+00:23:19.726 --> 00:23:25.380
+I think one of the really nice things about Zcash is that if it succeeds,
+
+00:23:25.380 --> 00:23:28.503
+it doesn't actually even matter whether there's institutionalization,
+
+00:23:28.503 --> 00:23:31.605
+because the shielded pool will be there.
+
+00:23:31.605 --> 00:23:37.485
+And that will probably ensure that in the long run, these institutions like BlackRock
+
+00:23:37.485 --> 00:23:41.692
+and stuff will probably stay away from Zcash, just due to the regulatory pressure.
+
+00:23:41.692 --> 00:23:46.576
+And I guess that leads me to the subject of how do you feel governments are going to
+
+00:23:46.576 --> 00:23:50.620
+view Zcash and interact with it in the next few years?
+
+00:23:50.620 --> 00:23:55.260
+There's been the war on crypto the past few years.
+
+00:23:55.260 --> 00:24:01.500
+Are we going to go to a war on privacy if we get President AOC tomorrow?
+
+00:24:01.500 --> 00:24:06.426
+I'm sure there will be, in a way that will increase the demand for Zcash,
+
+00:24:06.426 --> 00:24:08.340
+because, again, it's communism insurance.
+
+00:24:08.340 --> 00:24:13.777
+Yeah, I definitely foresee that happening with all governments,
+
+00:24:13.777 --> 00:24:18.380
+not just America. Maybe Milei is an exception, but even there,
+
+00:24:18.380 --> 00:24:21.664
+the incentives are just in a way that you want to surveil people,
+
+00:24:21.664 --> 00:24:25.395
+right? You want to know what's happening so you can control them.
+
+00:24:25.395 --> 00:24:29.870
+That's definitely something we should be thinking about, and that's really why it's important
+
+00:24:29.870 --> 00:24:32.136
+to onboard as many people now as possible, right?
+
+00:24:32.136 --> 00:24:35.584
+If you have a billion people using this, and if it's normal,
+
+00:24:35.584 --> 00:24:38.475
+you can't shut it down. Sure, you can delist it off of exchanges,
+
+00:24:38.475 --> 00:24:42.100
+but a billion holders, right? I'll just buy it from you or somebody else.
+
+00:24:42.100 --> 00:24:50.481
+So that's why we should just be doing everything we can to sort of memetically onboard
+
+00:24:50.481 --> 00:24:52.044
+as many people as possible.
+
+00:24:52.044 --> 00:24:56.652
+The current administration seems kind of okay in the US, at least,
+
+00:24:56.652 --> 00:25:00.102
+because the president's launching meme coins, which is awesome.
+
+00:25:00.102 --> 00:25:05.642
+But that could change very soon. And right now we're also pretty small for them to really care.
+
+00:25:05.642 --> 00:25:11.702
+We've already grown quite a lot since the last two years, and I expect that to be happening.
+
+00:25:11.702 --> 00:25:16.790
+And so once you reach sort of the threshold and people start noticing you,
+
+00:25:16.790 --> 00:25:20.234
+that's really when you just want to be unstoppable, right?
+
+00:25:20.234 --> 00:25:25.668
+Yeah, that makes sense. As you said, the government's cracking down on privacy demonstrates
+
+00:25:25.668 --> 00:25:29.548
+the need for privacy. It's quite ironic.
+
+00:25:29.548 --> 00:25:35.514
+Speaking of Bitcoin, where do you see Bitcoin going, then, with Zcash doing so well,
+
+00:25:35.514 --> 00:25:38.567
+having selected privacy narrative, having quantum resistance,
+
+00:25:38.567 --> 00:25:43.142
+having the scalability? What is Bitcoin becoming in that world?
+
+00:25:43.142 --> 00:25:49.152
+I don't really know. You had that shielded Bitcoin paper recently that a lot of people
+
+00:25:49.152 --> 00:25:53.441
+were talking about, and a lot of people asked me about it, and I was pretty sure that's
+
+00:25:53.441 --> 00:25:58.140
+never going to happen. If it ever happens, it's probably going to be after Zcash passes
+
+00:25:58.140 --> 00:26:01.505
+Bitcoin and they realize, oh, we kind of need privacy.
+
+00:26:01.505 --> 00:26:05.272
+But you've already seen them kind of struggle with post-quantum plans,
+
+00:26:05.272 --> 00:26:07.756
+and really a path to being post-quantum.
+
+00:26:07.756 --> 00:26:11.807
+As far as I know, there's not really any plans to scale.
+
+00:26:11.807 --> 00:26:15.435
+They're fine just being at 3 TPS or whatever they are right now,
+
+00:26:15.435 --> 00:26:18.117
+10 TPS maybe. It can't be money that way.
+
+00:26:18.117 --> 00:26:21.428
+Just in that sense, Zcash is already a superior money, right?
+
+00:26:21.428 --> 00:26:26.033
+But maybe just trying to be like gold. But it's also not gold,
+
+00:26:26.033 --> 00:26:30.999
+because gold's private. Although you have the problem with transporting gold across physical distances.
+
+00:26:30.999 --> 00:26:34.452
+You can't really do that, because if you try to take it to an airport,
+
+00:26:34.452 --> 00:26:36.772
+they'll be like, okay, gotta go through customs and stuff.
+
+00:26:36.772 --> 00:26:40.780
+But with Zcash, you can just use it as digital gold as well as money.
+
+00:26:40.780 --> 00:26:43.925
+So I don't really know where Bitcoin goes from here.
+
+00:26:43.925 --> 00:26:48.700
+Yeah, and you can see it with a lot of Bitcoiners getting really upset the Zcash price
+
+00:26:48.700 --> 00:26:50.884
+is going up, and everybody's just calling it a pump and dump.
+
+00:26:50.884 --> 00:26:54.513
+And they've been calling it a pump and dump since it was like 80,
+
+00:26:54.513 --> 00:26:58.719
+right? I'm like, when will it stop, guys?
+
+00:26:58.719 --> 00:27:03.260
+Yeah, maybe there's a certain threshold where, and there probably will be a certain threshold,
+
+00:27:03.260 --> 00:27:06.826
+but they do get in, and then it's just e-cash from there.
+
+00:27:06.826 --> 00:27:10.163
+Yeah, we can stay solvent longer than they can cope.
+
+00:27:10.163 --> 00:27:14.184
+I guess then, coming back to gold, do you have any thoughts about the future of gold?
+
+00:27:14.184 --> 00:27:19.402
+People have sort of laughed at me in the past for saying that gold is basically going
+
+00:27:19.402 --> 00:27:22.558
+to be very soon irrelevant with mining asteroids and stuff.
+
+00:27:22.558 --> 00:27:25.361
+Do you think that this is where we're going?
+
+00:27:25.361 --> 00:27:27.929
+Is anybody planning to mine an asteroid anytime soon?
+
+00:27:27.929 --> 00:27:31.340
+I mean, I think there's at least one company that I know of.
+
+00:27:31.340 --> 00:27:33.780
+I think they're AstroForge, I think they're called.
+
+00:27:33.780 --> 00:27:35.940
+Eventually, Elon is just going to send rockets to Astro.
+
+00:27:35.940 --> 00:27:37.940
+Yeah, eventually. It probably does happen.
+
+00:27:37.940 --> 00:27:39.940
+Yeah. And then it's like—
+
+00:27:39.940 --> 00:27:41.440
+What replaces gold then?
+
+00:27:41.440 --> 00:27:42.940
+Yeah. Might actually be Zcash.
+
+00:27:42.940 --> 00:27:46.576
+Might actually be Zcash, because it's just intergalactic scalable money,
+
+00:27:46.576 --> 00:27:49.460
+right? You can just keep adding words to it.
+
+00:27:49.460 --> 00:27:50.460
+Thermodynamic.
+
+00:27:50.460 --> 00:27:54.889
+Yeah, yeah, yeah. But if that happens, then same thing that happened to cowrie shells
+
+00:27:54.889 --> 00:27:59.320
+back in the day, the supply getting inflated because somebody brought it from a different
+
+00:27:59.320 --> 00:28:00.840
+island, that would probably happen to gold as well.
+
+00:28:00.840 --> 00:28:03.507
+Yeah. I'm super optimistic about space exploration, right?
+
+00:28:03.507 --> 00:28:08.420
+These things, just keeping on making progress as a species and ascending to the next
+
+00:28:08.420 --> 00:28:13.294
+thing, I think it's important. And a lot of people kind of become pessimistic about AI
+
+00:28:13.294 --> 00:28:15.400
+taking over and AI doing everything else.
+
+00:28:15.400 --> 00:28:18.030
+I think there will always be a special role for humans.
+
+00:28:18.030 --> 00:28:20.980
+We might become something else, I'm fine with that, but we're just people at the end
+
+00:28:20.980 --> 00:28:24.920
+of the day, right? And we can create knowledge about anything that exists.
+
+00:28:24.920 --> 00:28:28.139
+So yeah, I'm super optimistic, and it's a great time to be alive,
+
+00:28:28.139 --> 00:28:32.627
+and Zcash could be a little part of that future, of the grand future that we're dreaming about.
+
+00:28:32.627 --> 00:28:37.920
+Yeah, yeah, yeah, that makes sense. What's one thing that's currently overlooked or underrated
+
+00:28:37.920 --> 00:28:43.122
+or missed in Zcash that you feel should have more attention?
+
+00:28:43.122 --> 00:28:47.480
+I think Tachyon definitely gets a lot of hype, just as it should,
+
+00:28:47.480 --> 00:28:51.901
+although what Sean Bowe's team and Dev's team were doing with Zakura,
+
+00:28:51.901 --> 00:28:56.200
+the new Zcash node, is also really exponentially speeding things up,
+
+00:28:56.200 --> 00:29:00.720
+right? So the user experience is already way better.
+
+00:29:00.720 --> 00:29:03.120
+Highly recommend people check out Zakura.
+
+00:29:03.120 --> 00:29:08.440
+They've been posting super technical posts on their X page, which I can't say I understand
+
+00:29:08.440 --> 00:29:11.775
+all of, but I think what's happening with Zakura is important.
+
+00:29:11.775 --> 00:29:15.598
+You just need another node to, it's also good, decentralize it.
+
+00:29:15.598 --> 00:29:19.187
+What you guys are doing at Cypherpunk with mining is pretty good too.
+
+00:29:19.187 --> 00:29:21.302
+I think you're pointing at Zakura nodes?
+
+00:29:21.302 --> 00:29:23.418
+Yes. Yeah, yeah, so we're running Zakura.
+
+00:29:23.418 --> 00:29:25.386
+Yeah, let's go, let's kill the chain.
+
+00:29:25.386 --> 00:29:30.742
+Just one more question. With regards to, Bitcoin has sort of had this ethos of,
+
+00:29:30.742 --> 00:29:34.360
+let's sort of stop progress, let's be very, very conservative.
+
+00:29:34.360 --> 00:29:37.991
+Obviously Tachyon is a very, very, very ambitious scaling plan.
+
+00:29:37.991 --> 00:29:41.888
+It really completely rethinks the way we think of blockchains.
+
+00:29:41.888 --> 00:29:46.916
+Same for Zakura on the node side. Do you feel like there will be a point where,
+
+00:29:46.916 --> 00:29:50.783
+I guess I'm sort of interested in knowing when you feel that would be the case,
+
+00:29:50.783 --> 00:29:54.996
+we'll need to be at a stage where it makes sense to say, well,
+
+00:29:54.996 --> 00:29:59.815
+let's start freezing more and more of the code base and let's just slow down?
+
+00:29:59.815 --> 00:30:02.944
+I think it depends on if there's any existential problems, right?
+
+00:30:02.944 --> 00:30:06.550
+When I talk to Sean about this, kind of the exact thing you're asking about,
+
+00:30:06.550 --> 00:30:11.876
+he thinks quantum is the last major cryptographic problem, and he doesn't think any of
+
+00:30:11.876 --> 00:30:15.480
+the other ones are serious. But we can't predict, we can't—
+
+00:30:15.480 --> 00:30:16.425
+Yeah, you don't know.
+
+00:30:16.425 --> 00:30:20.929
+So I think we kind of have to be just dynamic and adapting to it.
+
+00:30:20.929 --> 00:30:24.107
+Yeah. Obviously, as it becomes more and more important to the world,
+
+00:30:24.107 --> 00:30:28.836
+there will be more and more people aligned, right, to make those decisions and to adapt
+
+00:30:28.836 --> 00:30:30.373
+it to the future, right?
+
+00:30:30.373 --> 00:30:35.800
+You can definitely coordinate without things like ZCG, or even retroactive grants,
+
+00:30:35.800 --> 00:30:38.236
+really. Yeah, that's a different discussion, right?
+
+00:30:38.236 --> 00:30:41.413
+I think you can kind of individually fund these things.
+
+00:30:41.413 --> 00:30:45.116
+But yeah, we need to adapt if there's another quantum-type threat,
+
+00:30:45.116 --> 00:30:48.812
+right, which I don't foresee, other people don't foresee, but who knows.
+
+00:30:48.812 --> 00:30:51.965
+Agreed, agreed. Yeah, thank you so much for your time.
+
+00:30:51.965 --> 00:30:53.965
+Yeah.
